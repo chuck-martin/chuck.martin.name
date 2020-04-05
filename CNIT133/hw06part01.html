@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CNIT 133 Homework 6 - Part 1</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+<script type="text/JavaScript">
+<!--
+
+
+function goHere(formName)
+{
+  var dest = formName.goToHere.options[formName.goToHere.selectedIndex].value;
+  window.location = dest;
+}
+
+//-->
+</script>
+</head>
+
+<body>
+<form>
+  <p>
+    <select name="goToHere">
+	  <option value="http://www.google.com/">Google</option>
+	  <option value="http://www.yahoo.com/">Yahoo</option>
+	  <option value="http://www.intuit.com/">Intuit</option>
+	  <option value="http://www.quickbooks.com/">QuickBooks</option>
+    </select>
+    <input type="button" name="go" value="Go" onClick="goHere(this.form)" />
+  </p>
+</form>
+<form>
+  <p> Select an item from the list below to go to that location.<br />
+    <select name="goToHere" onchange="goHere(this.form)">
+      <option value="">Choose Destination</option>
+	  <option value="http://www.youtube.com/">YouTube</option>
+	  <option value="http://www.colbertnation.com/">Colbert Nation</option>
+    </select>
+    </p>
+</form>
+</body>
+</html>

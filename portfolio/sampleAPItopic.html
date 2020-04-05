@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sample API Topic</title>
+<link href="../main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>Sample API Topic</h1>
+<p>Working through Tom Johnson's <a href="http://idratherbewriting.com/learnapidoc/">Learn API Doc tutorial</a>, an early page describes how to <a href="http://idratherbewriting.com/learnapidoc/docapis_postman.html">create a request for a REST endpoint</a>. I got the inspiration that API docs are typically reference topics, so I thought I'd try to create a topic for this endpoint before I learned how to do it &quot;properly.&quot; Part of the little epiphany was that an endpoint seems to be analogous to a function or a method, and then the keys are just parameters for the function/method. This is what I came up with:</p>
+<h2>API</h2>
+  <p><a href="https://simple-weather.p.mashape.com" target="_blank">https://simple-weather.p.mashape.com</a></p>
+
+  <h3>Endpoint</h3>
+  <p><code><strong>weather</strong></code></p>
+<p>Returns current basic weather information for the defined longitude      and latitude. The two parameter values together define a unique point on the      Earth's surface.</p>
+<p>Supported return types: text/plain</p>
+
+<h3>Parameters</h3>
+<p><code>lat</code></p>
+<p>Required. Defines a latitude value. Latitude is a measurement of      distance north or south from Earth's equator. </p>
+<p>Valid values: Whole numbers in the range -90.0 to 90.0.</p>
+
+<p><code>lng</code></p>
+<p>Required. Defines a longitude value. Longitude is a measurement of      distance east or west from a point known as the meridian, which is      in Greenwich, England.</p>
+<p>Valid values: Whole numbers in the range -180.0 to 180.0.</p>
+
+<h3>Limitations</h3>
+<p>Only certain ranges of latitude and longitude values are supported      by this endpoint. Values out of the valid ranges or values that are      not supported (typically, values that equate to points over the      ocean and far away from weather reporting stations) will return an <em>Unsupported </em>response.</p>
+
+<h3>Example</h3>
+<p>The latitude and longitude coordinates for Santa Clara, California      are lat: 37.3710062 and lng: -122.0375935.</p>
+<p><a href="https://simple-weather.p.mashape.com/weather?lat=37.3710062&amp;lng=-122.0375935" target="_blank">https://simple-weather.p.mashape.com/weather?lat=37.3710062&amp;lng=-122.0375935</a></p>
+</body>
+</html>

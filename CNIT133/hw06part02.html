@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CNIT 133 Homework 6 - Part 2</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+
+ var stateAbbrs = new Array("AL", "AK", "AZ", "AR", "CA", "CO");
+ var stateNames = new Array("Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado");
+ var stateCaps = new Array("Montgomery", "Juneau", "Phoenix", "Little Rock", "Sacramento", "Denver");
+ var statePops = new Array("4,369,862", "619,500", "4,778,332", "2,551,373", "3,145,121", "4,056,133");
+ 
+function isValidState(testValue)
+{
+  for ( var i = 0; i < stateAbbrs.length; i++ )
+  {
+    if ( testValue.toLowerCase() == stateAbbrs[i].toLowerCase() )
+	{
+	  return i;
+	}
+  }
+  for ( var i = 0; i < stateNames.length; i++ )
+  {
+    if ( testValue.toLowerCase() == stateNames[i].toLowerCase() )
+	{
+	  return i;
+	}
+  }
+  i++
+  return i;
+}
+
+function popStateValues(formName)
+{
+  var index = isValidState(formName.stateInput.value);
+  if ( index  < 7 )
+  {
+    formName.stateAbbr.value = stateAbbrs[index];
+	formName.stateName.value = stateNames[index];
+	formName.stateCapital.value = stateCaps[index];
+	formName.statePop.value = statePops[index];
+  }
+  else
+  {
+    alert("You did not enter a valid state name or abbreviation. Try again.");
+	clearFields();
+  }
+}
+ 
+function clearFields()
+{
+  document.states.stateInput.value = "";
+  document.states.stateAbbr.value = "";
+  document.states.stateName.value = "";
+  document.states.stateCapital.value = "";
+  document.states.statePop.value = "";
+}
+
+</script>
+
+</head>
+
+<body onload="clearFields()">
+<form id="states" name="states">
+  <p>Enter a state name or abbreviation: 
+    <input type="text" name="stateInput" />
+    <input type="button" name="stateInfo" value="State Info" onClick="popStateValues(this.form)" />
+</p>
+  <p>State Abbr
+    <input type="text" name="stateAbbr" />
+</p>
+  <p>State Name
+    <input type="text" name="stateName" />
+  </p>
+  <p>Capital
+    <input type="text" name="stateCapital" />
+  </p>
+  <p>Population
+    <input type="text" name="statePop" />
+  </p>
+  <p>
+    <input type="button" name="Submit" value="Clear Fields" onClick="clearFields()" />
+  </p>
+</form>
+</body>
+</html>

@@ -1,0 +1,2573 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+
+<WebWorksHelpIX version="4.0">
+ <g t="A" o="002">
+  <i t="Absolute/Temporary Overstock">
+   <j l="166#wp1073856" />
+  </i>
+  <i t="Absolute/Temporary Shortage">
+   <j l="166#wp1074475" />
+  </i>
+  <i t="Actions field">
+   <i t="Sandbox page">
+    <j l="124#wp1085057" />
+   </i>
+   <i t="Tasks list">
+    <j l="37#wp1053086" />
+    <j l="110#wp1083760" />
+   </i>
+  </i>
+  <i t="Actual">
+   <j l="82#wp1046500" />
+   <j l="82#wp1046518" />
+   <j l="83#wp1046642" />
+   <j l="83#wp1046650" />
+  </i>
+  <i t="advisory services">
+   <j l="2#wp1047197" />
+  </i>
+  <i t="advisory tools">
+   <j l="17" />
+  </i>
+  <i t="alert category">
+   <j l="150#wp1067211" />
+  </i>
+  <i t="Alert Condition field">
+   <i t="Event Alert page">
+    <j l="48#wp1062943" />
+   </i>
+   <i t="Impact Alert page">
+    <j l="48#wp1062943" />
+   </i>
+  </i>
+  <i t="Alert ID field">
+   <i t="Event Alert list">
+    <j l="45#wp1061289" />
+   </i>
+   <i t="Impact Alert list">
+    <j l="45#wp1061289" />
+   </i>
+  </i>
+  <i t="Alert Status field">
+   <i t="Event Alert page">
+    <j l="48#wp1062853" />
+   </i>
+   <i t="Impact Alert page">
+    <j l="48#wp1062853" />
+   </i>
+  </i>
+  <i t="Alert Summary pane">
+   <j l="48#wp1063277" />
+  </i>
+  <i t="Alert Summary Report">
+   <j l="200#wp1061860" />
+  </i>
+  <i t="alert summary reports">
+   <i t="creating">
+    <j l="129" />
+   </i>
+  </i>
+  <i t="Alert Type field">
+   <i t="Alert Summary report definition page">
+    <j l="129#wp1061894" />
+   </i>
+   <i t="Alert Summary Report page">
+    <j l="200#wp1068498" />
+   </i>
+   <i t="Impact Nodes list">
+    <j l="78#wp1045549" />
+   </i>
+  </i>
+  <i t="alerts">
+   <j l="19#wp1046351" />
+   <j l="149#wp1057474" />
+   <i t="about subscriptions">
+    <j l="137" />
+   </i>
+   <i t="adding resolvers to">
+    <j l="69" />
+   </i>
+   <i t="archiving">
+    <j l="51" />
+   </i>
+   <i t="categories">
+    <j l="159#wp1067256" />
+   </i>
+   <i t="category">
+    <j l="150#wp1067211" />
+   </i>
+   <i t="claiming">
+    <j l="48#wp1063078" />
+    <j l="53" />
+   </i>
+   <i t="closing">
+    <j l="48#wp1063082" />
+    <j l="59" />
+   </i>
+   <i t="concept of">
+    <j l="4" />
+   </i>
+   <i t="creating manual">
+    <j l="75" />
+   </i>
+   <i t="details">
+    <j l="47" />
+   </i>
+   <i t="Escalation attribute">
+    <j l="150#wp1067214" />
+   </i>
+   <i t="forwarding">
+    <j l="48#wp1063143" />
+    <j l="55" />
+   </i>
+   <i t="management">
+    <j l="2#wp1047197" />
+   </i>
+   <i t="manual">
+    <j l="74" />
+   </i>
+   <i t="pending close of">
+    <j l="58" />
+   </i>
+   <i t="recommending action for">
+    <j l="56" />
+   </i>
+   <i t="removing resolvers from">
+    <j l="70" />
+   </i>
+   <i t="resolvers attribute">
+    <j l="150#wp1067213" />
+   </i>
+   <i t="sending notification about">
+    <j l="73" />
+   </i>
+   <i t="solving">
+    <j l="48#wp1063093" />
+    <i t="Solve">
+     <j l="57" />
+    </i>
+   </i>
+   <i t="subscribing to">
+    <j l="23#wp1046367" />
+   </i>
+   <i t="subscription to">
+    <j l="137" />
+   </i>
+   <i t="Threshold attribute">
+    <j l="150#wp1067212" />
+   </i>
+   <i t="unarchiving">
+    <j l="52" />
+   </i>
+   <i t="updating information">
+    <j l="76" />
+   </i>
+   <i t="viewing">
+    <j l="46" />
+   </i>
+   <i t="viewing resolvers of">
+    <j l="68" />
+   </i>
+  </i>
+  <i t="Allow Alternate Location">
+   <j l="192#wp1068551" />
+   <j l="193#wp1068781" />
+  </i>
+  <i t="Allow alternate locations">
+   <j l="95#wp1087698" />
+  </i>
+  <i t="Allow alternate suppliers">
+   <j l="95#wp1087722" />
+  </i>
+  <i t="Allow substitutions">
+   <j l="95#wp1087721" />
+  </i>
+  <i t="Alternate Resolvers field">
+   <i t="manual alert page">
+    <j l="75#wp1065204" />
+   </i>
+  </i>
+  <i t="analysis">
+   <j l="149#wp1057474" />
+   <i t="using sandboxes for">
+    <j l="84#wp1061222" />
+   </i>
+  </i>
+  <i t="Analysis tab">
+   <j l="85#wp1095393" />
+  </i>
+  <i t="analytics">
+   <j l="2#wp1047197" />
+   <j l="20" />
+  </i>
+  <i t="Assign Permissions page">
+   <j l="173#wp1068935" />
+   <j l="174#wp1069131" />
+  </i>
+  <i t="attachments">
+   <i t="adding">
+    <j l="66" />
+   </i>
+   <i t="deleting">
+    <j l="67" />
+   </i>
+   <i t="viewing">
+    <j l="65" />
+   </i>
+  </i>
+  <i t="Attachments tab">
+   <j l="50#wp1063018" />
+   <j l="65#wp1064133" />
+   <j l="66#wp1064183" />
+   <j l="67#wp1064220" />
+  </i>
+  <i t="attributes">
+   <i t="Event Alert">
+    <j l="155" />
+   </i>
+   <i t="Impact Alerts">
+    <j l="163" />
+   </i>
+  </i>
+ </g>
+ <g t="B" o="002">
+  <i t="Baseline Inventory Level">
+   <j l="166#wp1073836" />
+  </i>
+  <i t="Beginning Inventory">
+   <j l="50#wp1063004" />
+   <j l="80#wp1045236" />
+  </i>
+  <i t="bill of materials">
+   <i t="viewing">
+    <j l="62" />
+   </i>
+   <i t="viewing for inventory item">
+    <j l="82" />
+   </i>
+  </i>
+  <i t="BOM">
+   <i t="viewing for inventory item">
+    <j l="82" />
+   </i>
+  </i>
+  <i t="Bucket start date field">
+   <i t="Inventory Detail report definition page">
+    <j l="130#wp1062607" />
+   </i>
+   <i t="Inventory Summary report definition page">
+    <j l="133#wp1063389" />
+   </i>
+   <i t="PO vs. Forecast report definition page">
+    <j l="131#wp1063283" />
+   </i>
+  </i>
+  <i t="Bucket Start Date field">
+   <i t="Inventory Detail Report page">
+    <j l="201#wp1068550" />
+   </i>
+   <i t="Inventory Summary Report page">
+    <j l="204#wp1068833" />
+   </i>
+   <i t="PO vs. Forecast Report page">
+    <j l="202#wp1068649" />
+   </i>
+  </i>
+  <i t="buckets">
+   <i t="changing in Supply/Demand view">
+    <j l="61" />
+   </i>
+   <i t="viewing supply/demand">
+    <j l="60" />
+   </i>
+  </i>
+  <i t="Business Admin">
+   <j l="26#wp1046652" />
+   <j l="40#wp1058842" />
+   <j l="209#wp1039133" />
+  </i>
+  <i t="Business Administrator">
+   <j l="211#wp1047147" />
+  </i>
+  <i t="business events">
+   <j l="40#wp1058842" />
+  </i>
+  <i t="business goals">
+   <i t="defining">
+    <j l="96" />
+   </i>
+  </i>
+  <i t="Business Goals field">
+   <i t="Edit Problem Configuration Template page">
+    <j l="192#wp1068558" />
+    <j l="193#wp1068787" />
+   </i>
+  </i>
+  <i t="business objectives">
+   <j l="20#wp1046354" />
+  </i>
+  <i t="business process server">
+   <j l="25#wp1038440" />
+  </i>
+  <i t="Business User">
+   <j l="26#wp1046636" />
+   <j l="32#wp1040633" />
+   <j l="211#wp1053902" />
+   <j l="209#wp1039124" />
+  </i>
+  <i t="Buyer Codes tab">
+   <j l="185#wp1067607" />
+   <j l="187#wp1068562" />
+  </i>
+ </g>
+ <g t="C" o="002">
+  <i t="Capacity Constraints">
+   <j l="192#wp1068580" />
+   <j l="193#wp1068801" />
+  </i>
+  <i t="Capacity Constraints field">
+   <i t="Configuration tab">
+    <j l="97#wp1093409" />
+   </i>
+  </i>
+  <i t="categories">
+   <i t="Demand Alert">
+    <j l="153" />
+   </i>
+   <i t="Event Alert">
+    <j l="151" />
+   </i>
+  </i>
+  <i t="Category field">
+   <i t="Alert Summary report definition page">
+    <j l="129#wp1061898" />
+   </i>
+   <i t="Alert Summary Report page">
+    <j l="200#wp1068440" />
+   </i>
+  </i>
+  <i t="Claim Alert">
+   <j l="48#wp1063078" />
+  </i>
+  <i t="Claimed field">
+   <i t="Sandbox page">
+    <j l="124#wp1085051" />
+   </i>
+   <i t="Tasks list">
+    <j l="110#wp1083755" />
+   </i>
+  </i>
+  <i t="Close Alert">
+   <j l="48#wp1063082" />
+  </i>
+  <i t="collaboration">
+   <j l="20#wp1046356" />
+   <i t="concept of">
+    <j l="9" />
+   </i>
+  </i>
+  <i t="Collaboration Requests">
+   <j l="38" />
+  </i>
+  <i t="Collaborative field">
+   <i t="Sandboxes list">
+    <j l="39#wp1053201" />
+    <j l="85#wp1095452" />
+   </i>
+  </i>
+  <i t="Collaborative Notes">
+   <i t="about">
+    <j l="99" />
+   </i>
+   <i t="adding">
+    <j l="101" />
+   </i>
+   <i t="viewing">
+    <j l="100" />
+   </i>
+  </i>
+  <i t="Comment field">
+   <i t="manual alert page">
+    <j l="75#wp1065220" />
+   </i>
+   <i t="update tab">
+    <j l="76#wp1065437" />
+   </i>
+  </i>
+  <i t="components">
+   <j l="80#wp1045662" />
+  </i>
+  <i t="Condition field">
+   <i t="Event Alert list">
+    <j l="36#wp1053030" />
+    <j l="45#wp1062678" />
+   </i>
+   <i t="Impact Alert list">
+    <j l="35#wp1043599" />
+    <j l="45#wp1062678" />
+   </i>
+   <i t="Impact Nodes list">
+    <j l="78#wp1045555" />
+   </i>
+   <i t="manual alert page">
+    <j l="75#wp1065021" />
+   </i>
+   <i t="update tab">
+    <j l="76#wp1065392" />
+   </i>
+  </i>
+  <i t="configuration summary">
+   <i t="viewing">
+    <j l="90#wp1093515" />
+   </i>
+  </i>
+  <i t="Configuration Template Name field">
+   <i t="Edit Problem Configuration Template page">
+    <j l="192#wp1068539" />
+    <j l="193#wp1068770" />
+   </i>
+  </i>
+  <i t="Confirm Password field">
+   <i t="Profile page">
+    <j l="147#wp1063355" />
+   </i>
+  </i>
+  <i t="constraints">
+   <j l="20#wp1046354" />
+   <i t="defining">
+    <j l="97" />
+   </i>
+  </i>
+  <i t="Constraints field">
+   <i t="Edit Problem Configuration Template page">
+    <j l="192#wp1068567" />
+    <j l="193#wp1068791" />
+   </i>
+  </i>
+  <i t="consumption">
+   <j l="205" />
+  </i>
+  <i t="cost">
+   <j l="106#wp1095019" />
+  </i>
+  <i t="Cost">
+   <j l="192#wp1068560" />
+   <j l="193#wp1068789" />
+  </i>
+  <i t="Cost field">
+   <i t="Configuration tab">
+    <j l="96#wp1093286" />
+   </i>
+   <i t="Sandbox page">
+    <j l="85#wp1095659" />
+   </i>
+  </i>
+  <i t="Create Scheduled Report page">
+   <j l="196#wp1068287" />
+  </i>
+  <i t="Created field">
+   <i t="Sandbox page">
+    <j l="85#wp1095678" />
+   </i>
+  </i>
+  <i t="creating">
+   <i t="Item Groups">
+    <j l="181" />
+   </i>
+   <i t="Node Groups">
+    <j l="185" />
+   </i>
+   <i t="privileges">
+    <j l="173" />
+   </i>
+   <i t="problem configuration templates">
+    <j l="192" />
+   </i>
+   <i t="roles">
+    <j l="177" />
+   </i>
+   <i t="scheduled reports">
+    <j l="196" />
+   </i>
+   <i t="users">
+    <j l="212" />
+   </i>
+  </i>
+  <i t="CSR tab">
+   <j l="185#wp1067634" />
+   <j l="187#wp1068474" />
+  </i>
+  <i t="Current Resolver field">
+   <i t="Event Alert list">
+    <j l="45#wp1061323" />
+   </i>
+   <i t="Event Alert page">
+    <j l="48#wp1062969" />
+   </i>
+   <i t="Impact Alert list">
+    <j l="45#wp1061323" />
+   </i>
+   <i t="Impact Alert page">
+    <j l="48#wp1062969" />
+   </i>
+  </i>
+  <i t="Customer field">
+   <i t="manual alert page">
+    <j l="75#wp1065192" />
+   </i>
+   <i t="update tab">
+    <j l="76#wp1065409" />
+   </i>
+  </i>
+ </g>
+ <g t="D" o="002">
+  <i t="data acquisition components">
+   <j l="25#wp1038443" />
+  </i>
+  <i t="database">
+   <j l="25#wp1038446" />
+  </i>
+  <i t="Default Function field">
+   <i t="Edit User Profile page">
+    <j l="211#wp1047151" />
+   </i>
+   <i t="Profile page">
+    <j l="147#wp1063331" />
+   </i>
+  </i>
+  <i t="default user ID">
+   <j l="27#wp1039740" />
+  </i>
+  <i t="definition">
+   <j l="162" />
+  </i>
+  <i t="definitions">
+   <i t="creating Event Alert">
+    <j l="159" />
+   </i>
+   <i t="creating Impact Alert">
+    <j l="169" />
+   </i>
+   <i t="deleting Event Alert">
+    <j l="161" />
+   </i>
+   <i t="deleting Impact Alert">
+    <j l="171" />
+   </i>
+   <i t="editing Event Alert">
+    <j l="160" />
+   </i>
+   <i t="editing Impact Alert">
+    <j l="170" />
+   </i>
+  </i>
+  <i t="deleting">
+   <i t="Impact Alert definitions">
+    <j l="171" />
+   </i>
+   <i t="Item Groups">
+    <j l="183" />
+   </i>
+   <i t="Node Groups">
+    <j l="188" />
+   </i>
+   <i t="privileges">
+    <j l="175" />
+   </i>
+   <i t="problem configuration templates">
+    <j l="194" />
+   </i>
+   <i t="roles">
+    <j l="179" />
+   </i>
+   <i t="scheduled reports">
+    <j l="199" />
+   </i>
+   <i t="users">
+    <j l="214" />
+   </i>
+  </i>
+  <i t="demand">
+   <j l="50#wp1063003" />
+   <i t="tracking">
+    <j l="81#wp1045848" />
+   </i>
+  </i>
+  <i t="Demand">
+   <j l="192#wp1068571" />
+   <j l="193#wp1068795" />
+  </i>
+  <i t="Demand Alert">
+   <i t="categories">
+    <j l="153" />
+   </i>
+  </i>
+  <i t="Demand field">
+   <i t="Configuration tab">
+    <j l="97#wp1093390" />
+   </i>
+  </i>
+  <i t="demand node consumption configuration">
+   <j l="206" />
+   <i t="editing">
+    <j l="206" />
+   </i>
+  </i>
+  <i t="Dependent Demand">
+   <j l="60#wp1063869" />
+   <j l="82#wp1046518" />
+   <j l="83#wp1046650" />
+  </i>
+  <i t="Description field">
+   <i t="Edit Problem Configuration Template page">
+    <j l="192#wp1068543" />
+    <j l="193#wp1068774" />
+   </i>
+   <i t="New Sandbox dialog box">
+    <j l="86#wp1086114" />
+   </i>
+   <i t="Sandbox page">
+    <j l="85#wp1095635" />
+    <j l="124#wp1085031" />
+   </i>
+   <i t="Sandboxes list">
+    <j l="85#wp1095444" />
+   </i>
+   <i t="Tasks list">
+    <j l="37#wp1053072" />
+    <j l="110#wp1083743" />
+   </i>
+  </i>
+  <i t="Direction field">
+   <i t="Sales Forecast Consumption page">
+    <j l="206#wp1067605" />
+   </i>
+  </i>
+  <i t="disabling">
+   <i t="scheduled reports">
+    <j l="198" />
+   </i>
+  </i>
+ </g>
+ <g t="E" o="002">
+  <i t="Edit Function page">
+   <j l="217#wp1051676" />
+   <j l="218#wp1051728" />
+  </i>
+  <i t="Edit Item Group page">
+   <j l="181#wp1067228" />
+   <j l="182#wp1067309" />
+  </i>
+  <i t="Edit Node Group page">
+   <j l="185#wp1067549" />
+   <j l="187#wp1068547" />
+  </i>
+  <i t="Edit Problem Configuration Template page">
+   <j l="192#wp1068477" />
+   <j l="193#wp1068856" />
+  </i>
+  <i t="Edit Resolution Configuration page">
+   <j l="190#wp1067738" />
+  </i>
+  <i t="Edit Role page">
+   <j l="177#wp1069413" />
+   <j l="178#wp1069771" />
+  </i>
+  <i t="editing">
+   <j l="206" />
+   <i t="Item Groups">
+    <j l="182" />
+   </i>
+   <i t="Node Groups">
+    <j l="187" />
+   </i>
+   <i t="privileges">
+    <j l="174" />
+   </i>
+   <i t="problem configuration templates">
+    <j l="193" />
+   </i>
+   <i t="Resolution Process Definitions">
+    <j l="190" />
+   </i>
+   <i t="roles">
+    <j l="178" />
+   </i>
+   <i t="scheduled reports">
+    <j l="197" />
+   </i>
+   <i t="user details">
+    <j l="213" />
+   </i>
+  </i>
+  <i t="Email Address field">
+   <i t="Edit User Profile page">
+    <j l="211#wp1047159" />
+   </i>
+   <i t="Profile page">
+    <j l="147#wp1063339" />
+   </i>
+  </i>
+  <i t="enabling">
+   <i t="scheduled reports">
+    <j l="198" />
+   </i>
+  </i>
+  <i t="Ending Inventory">
+   <j l="50#wp1063007" />
+   <j l="80#wp1045239" />
+  </i>
+  <i t="ERP system">
+   <i t="last updated time">
+    <j l="82#wp1046386" />
+   </i>
+  </i>
+  <i t="escalation">
+   <j l="158" />
+   <i t="Impact Alerts">
+    <j l="167" />
+   </i>
+  </i>
+  <i t="Escalation">
+   <j l="150#wp1067214" />
+  </i>
+  <i t="Escalation Interval field">
+   <i t="Edit Resolution Configuration page">
+    <j l="190#wp1067838" />
+   </i>
+   <i t="manual alert page">
+    <j l="75#wp1065216" />
+   </i>
+   <i t="New Sandbox dialog box">
+    <j l="86#wp1086118" />
+   </i>
+   <i t="Sandbox page">
+    <j l="85#wp1095717" />
+   </i>
+  </i>
+  <i t="Escalation Roles field">
+   <i t="manual alert page">
+    <j l="75#wp1065212" />
+   </i>
+  </i>
+  <i t="Escalation Time field">
+   <i t="Event Alert list">
+    <j l="45#wp1061329" />
+   </i>
+   <i t="Event Alert page">
+    <j l="48#wp1062886" />
+   </i>
+   <i t="Impact Alert list">
+    <j l="45#wp1061329" />
+   </i>
+   <i t="Impact Alert page">
+    <j l="48#wp1062886" />
+   </i>
+   <i t="Sandbox page">
+    <j l="124#wp1085078" />
+   </i>
+   <i t="Tasks list">
+    <j l="37#wp1053101" />
+    <j l="110#wp1083779" />
+   </i>
+  </i>
+  <i t="Event Alerts">
+   <j l="36" />
+   <j l="40#wp1058842" />
+   <i t="about">
+    <j l="42" />
+   </i>
+   <i t="Alert Summary pane">
+    <j l="48#wp1063277" />
+   </i>
+   <i t="attributes">
+    <j l="155" />
+   </i>
+   <i t="categories">
+    <j l="151" />
+   </i>
+   <i t="closing">
+    <j l="48#wp1063082" />
+   </i>
+   <i t="concept of">
+    <j l="5" />
+   </i>
+   <i t="condition of">
+    <j l="49" />
+   </i>
+   <i t="creating definitions">
+    <j l="159" />
+   </i>
+   <i t="definition">
+    <j l="150" />
+   </i>
+   <i t="deleting definitions">
+    <j l="161" />
+   </i>
+   <i t="detail page">
+    <j l="47" />
+   </i>
+   <i t="editing definitions">
+    <j l="160" />
+   </i>
+   <i t="escalation">
+    <j l="158" />
+   </i>
+   <i t="filtering lists of">
+    <j l="44" />
+   </i>
+   <i t="forwarding">
+    <j l="48#wp1063143" />
+   </i>
+   <i t="recently assigned">
+    <j l="32#wp1040633" />
+   </i>
+   <i t="resolvers">
+    <j l="157" />
+   </i>
+   <i t="solving">
+    <j l="48#wp1063093" />
+   </i>
+   <i t="subscribing to">
+    <j l="138" />
+   </i>
+   <i t="thresholds">
+    <j l="156" />
+   </i>
+   <i t="unsubscribing from">
+    <j l="139" />
+   </i>
+   <i t="viewing">
+    <j l="46" />
+   </i>
+   <i t="viewing lists of">
+    <j l="43" />
+   </i>
+  </i>
+  <i t="events">
+   <j l="2#wp1037889" />
+   <i t="resolution tools">
+    <j l="2#wp1042971" />
+   </i>
+  </i>
+  <i t="Execute Resolution Plan">
+   <j l="57#wp1063817" />
+  </i>
+  <i t="execution">
+   <j l="21" />
+  </i>
+  <i t="external events">
+   <j l="42#wp1061499" />
+  </i>
+ </g>
+ <g t="F" o="002">
+  <i t="fill rate">
+   <j l="106#wp1095019" />
+  </i>
+  <i t="Fill Rate">
+   <j l="192#wp1068560" />
+   <j l="193#wp1068789" />
+  </i>
+  <i t="Fill Rate field">
+   <i t="Configuration tab">
+    <j l="96#wp1093286" />
+   </i>
+   <i t="Sandbox page">
+    <j l="85#wp1095647" />
+   </i>
+  </i>
+  <i t="filter list defaults">
+   <j l="145" />
+  </i>
+  <i t="filtering criteria">
+   <j l="33" />
+  </i>
+  <i t="Firm Plan Time Fence">
+   <j l="192#wp1068578" />
+   <j l="193#wp1068797" />
+  </i>
+  <i t="Firm Plan Time Fence field">
+   <i t="Configuration tab">
+    <j l="97#wp1093405" />
+   </i>
+  </i>
+  <i t="forecasts">
+   <j l="3#wp1046192" />
+  </i>
+  <i t="Forward Alert">
+   <j l="48#wp1063143" />
+  </i>
+  <i t="fulfillment issues">
+   <j l="106#wp1095019" />
+  </i>
+  <i t="functions">
+   <j l="215" />
+   <i t="assigning to users">
+    <j l="217" />
+   </i>
+   <i t="removing from users">
+    <j l="218" />
+   </i>
+  </i>
+  <i t="Functions field">
+   <i t="profile page">
+    <j l="147#wp1063327" />
+   </i>
+  </i>
+  <i t="Functions page">
+   <j l="216#wp1051591" />
+  </i>
+ </g>
+ <g t="H" o="002">
+  <i t="Home page">
+   <j l="32#wp1040633" />
+   <i t="configuring">
+    <j l="136" />
+   </i>
+   <i t="items in panes">
+    <j l="136#wp1060817" />
+   </i>
+   <i t="ordering panes on">
+    <j l="136#wp1060809" />
+   </i>
+   <i t="panes to appear on">
+    <j l="136#wp1060799" />
+   </i>
+   <i t="removing panes from">
+    <j l="136#wp1060803" />
+   </i>
+   <i t="size of panes on">
+    <j l="136#wp1060816" />
+   </i>
+  </i>
+  <i t="Horizon End">
+   <j l="166#wp1073807" />
+  </i>
+ </g>
+ <g t="I" o="002">
+  <i t="ID field">
+   <i t="Collaboration Requests list">
+    <j l="38#wp1053134" />
+   </i>
+   <i t="Event Alert list">
+    <j l="36#wp1053006" />
+   </i>
+   <i t="Impact Alert list">
+    <j l="35#wp1043579" />
+   </i>
+   <i t="Sandboxes list">
+    <j l="39#wp1053189" />
+    <j l="85#wp1095436" />
+   </i>
+   <i t="Tasks list">
+    <j l="37#wp1053068" />
+    <j l="110#wp1083739" />
+   </i>
+  </i>
+  <i t="Imbalance Time field">
+   <i t="Impact Alert list">
+    <j l="35#wp1043603" />
+    <j l="45#wp1061333" />
+   </i>
+   <i t="Impact Alert page">
+    <j l="48#wp1062951" />
+   </i>
+   <i t="Impact Nodes list">
+    <j l="78#wp1045559" />
+   </i>
+   <i t="Sandbox page">
+    <j l="85#wp1095643" />
+   </i>
+  </i>
+  <i t="Impact Alerts">
+   <j l="35" />
+   <j l="40#wp1058842" />
+   <j l="84#wp1041244" />
+   <j l="95#wp1087284" />
+   <j l="162" />
+   <i t="about">
+    <j l="41" />
+   </i>
+   <i t="Alert Summary pane">
+    <j l="48#wp1063277" />
+   </i>
+   <i t="attributes">
+    <j l="163" />
+   </i>
+   <i t="closing">
+    <j l="48#wp1063082" />
+   </i>
+   <i t="concept of">
+    <j l="6" />
+   </i>
+   <i t="creating definitions">
+    <j l="169" />
+   </i>
+   <i t="creating sandboxes from">
+    <j l="86#wp1085693" />
+   </i>
+   <i t="deleting definitions">
+    <j l="171" />
+   </i>
+   <i t="detail page">
+    <j l="47" />
+   </i>
+   <i t="editing definitions">
+    <j l="170" />
+   </i>
+   <i t="escalation">
+    <j l="167" />
+   </i>
+   <i t="filtering lists of">
+    <j l="44" />
+   </i>
+   <i t="finding cause of">
+    <j l="48#wp1063077" />
+    <j l="54" />
+   </i>
+   <i t="forwarding">
+    <j l="48#wp1063143" />
+   </i>
+   <i t="options">
+    <j l="166" />
+   </i>
+   <i t="recently assigned">
+    <j l="32#wp1040633" />
+   </i>
+   <i t="resolvers">
+    <j l="165" />
+   </i>
+   <i t="resolving">
+    <j l="189#wp1062929" />
+    <j l="191#wp1068392" />
+   </i>
+   <i t="sandbox configuration template">
+    <j l="168" />
+   </i>
+   <i t="solving">
+    <j l="48#wp1063093" />
+   </i>
+   <i t="subscribing to">
+    <j l="140" />
+   </i>
+   <i t="thresholds">
+    <j l="164" />
+   </i>
+   <i t="unsubscribing from">
+    <j l="141" />
+   </i>
+   <i t="viewing">
+    <j l="46" />
+   </i>
+   <i t="viewing lists of">
+    <j l="43" />
+   </i>
+  </i>
+  <i t="Impact field">
+   <i t="Event Alert list">
+    <j l="36#wp1053026" />
+    <j l="45#wp1062702" />
+   </i>
+   <i t="Event Alert page">
+    <j l="48#wp1062955" />
+   </i>
+  </i>
+  <i t="Impact Nodes">
+   <j l="80#wp1045662" />
+   <j l="84#wp1041244" />
+   <j l="95#wp1087428" />
+   <j l="107#wp1063776" />
+   <j l="162#wp1061228" />
+   <i t="about">
+    <j l="77#wp1045195" />
+   </i>
+   <i t="concept of">
+    <j l="7" />
+   </i>
+   <i t="filtering lists of">
+    <j l="79" />
+   </i>
+   <i t="Impact Alerts and">
+    <j l="41#wp1061466" />
+   </i>
+   <i t="subscribing to">
+    <j l="23#wp1046367" />
+    <j l="143" />
+   </i>
+   <i t="subscriptions">
+    <j l="142" />
+   </i>
+   <i t="unsubscribing from">
+    <j l="144" />
+   </i>
+   <i t="viewing lists of">
+    <j l="78" />
+   </i>
+  </i>
+  <i t="impact statements">
+   <i t="about">
+    <j l="106" />
+   </i>
+  </i>
+  <i t="Include more nodes from supply-chain network">
+   <j l="95#wp1087705" />
+  </i>
+  <i t="Inclusion Strategy field">
+   <i t="Edit Problem Configuration Template page">
+    <j l="192#wp1068547" />
+    <j l="193#wp1068778" />
+   </i>
+  </i>
+  <i t="Inflow">
+   <j l="60#wp1063869" />
+   <j l="82#wp1046500" />
+   <j l="83#wp1046642" />
+  </i>
+  <i t="Inflows">
+   <j l="50#wp1063005" />
+   <j l="80#wp1045237" />
+  </i>
+  <i t="inventory">
+   <j l="3#wp1046192" />
+   <j l="19#wp1046349" />
+   <j l="80#wp1045662" />
+   <i t="issues">
+    <j l="106#wp1095019" />
+   </i>
+   <i t="levels">
+    <j l="50#wp1063003" />
+   </i>
+  </i>
+  <i t="Inventory Detail Report">
+   <j l="201#wp1061949" />
+  </i>
+  <i t="inventory detail reports">
+   <i t="creating">
+    <j l="130" />
+   </i>
+  </i>
+  <i t="inventory item">
+   <i t="substitute for">
+    <j l="82#wp1046177" />
+    <j l="83#wp1046630" />
+   </i>
+   <i t="viewing BOM supply/demand information">
+    <j l="82" />
+   </i>
+   <i t="viewing where used supply/demand information">
+    <j l="83" />
+   </i>
+  </i>
+  <i t="Inventory Summary Report">
+   <j l="204#wp1062858" />
+  </i>
+  <i t="inventory summary reports">
+   <i t="creating">
+    <j l="133" />
+   </i>
+  </i>
+  <i t="Item field">
+   <i t="Inventory Detail report definition page">
+    <j l="130#wp1062576" />
+   </i>
+   <i t="Inventory Detail Report page">
+    <j l="201#wp1068542" />
+   </i>
+   <i t="Inventory Summary report definition page">
+    <j l="133#wp1063369" />
+   </i>
+   <i t="Inventory Summary Report page">
+    <j l="204#wp1068825" />
+   </i>
+   <i t="manual alert page">
+    <j l="75#wp1065031" />
+   </i>
+   <i t="PO vs. Forecast report definition page">
+    <j l="131#wp1063263" />
+   </i>
+   <i t="PO vs. Forecast Report page">
+    <j l="202#wp1068641" />
+   </i>
+   <i t="Related POs report definition page">
+    <j l="132#wp1063105" />
+   </i>
+   <i t="Related POs Report page">
+    <j l="203#wp1068737" />
+   </i>
+  </i>
+  <i t="Item Group page">
+   <j l="181#wp1067226" />
+   <j l="182#wp1067308" />
+   <j l="183#wp1067416" />
+  </i>
+  <i t="Item Groups">
+   <j l="180" />
+   <i t="creating">
+    <j l="181" />
+   </i>
+   <i t="deleting">
+    <j l="183" />
+   </i>
+   <i t="editing">
+    <j l="182" />
+   </i>
+  </i>
+  <i t="Item ID field">
+   <i t="Event Alert list">
+    <j l="36#wp1053018" />
+    <j l="45#wp1061315" />
+   </i>
+   <i t="Impact Alert list">
+    <j l="35#wp1043591" />
+    <j l="45#wp1061315" />
+   </i>
+  </i>
+  <i t="Item Name field">
+   <i t="Event Alert list">
+    <j l="36#wp1053014" />
+    <j l="45#wp1061311" />
+   </i>
+   <i t="Impact Alert list">
+    <j l="35#wp1043587" />
+    <j l="45#wp1061311" />
+   </i>
+  </i>
+  <i t="Items">
+   <j l="159#wp1073070" />
+  </i>
+  <i t="Items field">
+   <i t="Alert Summary report definition page">
+    <j l="129#wp1061999" />
+   </i>
+   <i t="Alert Summary Report page">
+    <j l="200#wp1068444" />
+   </i>
+  </i>
+ </g>
+ <g t="L" o="002">
+  <i t="Last Accessed field">
+   <i t="Sandbox page">
+    <j l="85#wp1095682" />
+   </i>
+   <i t="Sandboxes list">
+    <j l="85#wp1095464" />
+   </i>
+  </i>
+  <i t="Last Evaluated field">
+   <i t="Event Alert page">
+    <j l="48#wp1062965" />
+   </i>
+   <i t="Impact Alert page">
+    <j l="48#wp1062965" />
+   </i>
+  </i>
+  <i t="Level field">
+   <i t="Alert Summary report definition page">
+    <j l="129#wp1061991" />
+   </i>
+   <i t="Event Alert list">
+    <j l="36#wp1053010" />
+    <j l="45#wp1061293" />
+   </i>
+   <i t="Impact Alert list">
+    <j l="35#wp1043583" />
+    <j l="45#wp1061293" />
+   </i>
+   <i t="manual alert page">
+    <j l="75#wp1065014" />
+   </i>
+   <i t="update tab">
+    <j l="76#wp1065385" />
+   </i>
+  </i>
+  <i t="lists">
+   <i t="filtering">
+    <j l="44" />
+   </i>
+   <i t="sorting">
+    <j l="43#wp1060998" />
+   </i>
+   <i t="viewing">
+    <j l="43" />
+   </i>
+  </i>
+  <i t="Location field">
+   <i t="Event Alert list">
+    <j l="36#wp1053022" />
+    <j l="45#wp1061319" />
+   </i>
+   <i t="Event Alert page">
+    <j l="48#wp1062872" />
+   </i>
+   <i t="Impact Alert list">
+    <j l="35#wp1043595" />
+    <j l="45#wp1061319" />
+   </i>
+   <i t="Impact Alert page">
+    <j l="48#wp1062872" />
+   </i>
+   <i t="manual alert page">
+    <j l="75#wp1065027" />
+   </i>
+  </i>
+  <i t="Locations">
+   <j l="159#wp1073070" />
+  </i>
+  <i t="Lot Sizing">
+   <j l="192#wp1068693" />
+   <j l="193#wp1068802" />
+  </i>
+  <i t="Lot Sizing field">
+   <i t="Configuration tab">
+    <j l="97#wp1093413" />
+   </i>
+  </i>
+ </g>
+ <g t="M" o="002">
+  <i t="manual alerts">
+   <i t="creating">
+    <j l="75" />
+   </i>
+  </i>
+  <i t="Manufacturing Order">
+   <j l="82#wp1046500" />
+   <j l="83#wp1046642" />
+  </i>
+  <i t="manufacturing orders">
+   <j l="19#wp1046349" />
+  </i>
+  <i t="Mark Closed">
+   <j l="59#wp1063601" />
+   <j l="48#wp1063083" />
+  </i>
+  <i t="Mark Closed and Ignore Execution Actions">
+   <j l="59#wp1064248" />
+   <j l="48#wp1063092" />
+  </i>
+  <i t="Mark Closed and Ignore Time Buckets">
+   <j l="59#wp1063609" />
+   <j l="48#wp1063091" />
+  </i>
+  <i t="Mark Closed and Ignore With Time Limit">
+   <j l="59#wp1063605" />
+   <j l="48#wp1063085" />
+  </i>
+  <i t="Material Groups tab">
+   <j l="185#wp1067620" />
+   <j l="187#wp1068475" />
+  </i>
+  <i t="Material Network view">
+   <j l="80#wp1045240" />
+  </i>
+  <i t="MO">
+   <j l="60#wp1063869" />
+  </i>
+  <i t="My Task field">
+   <i t="Sandbox page">
+    <j l="124#wp1085041" />
+   </i>
+   <i t="Tasks list">
+    <j l="37#wp1053076" />
+   </i>
+  </i>
+ </g>
+ <g t="N" o="002">
+  <i t="Name field">
+   <i t="Edit User Profile page">
+    <j l="211#wp1047135" />
+   </i>
+   <i t="Profile page">
+    <j l="147#wp1063323" />
+   </i>
+   <i t="Resolution Process page">
+    <j l="123#wp1084849" />
+   </i>
+   <i t="Sandboxes list">
+    <j l="39#wp1053197" />
+    <j l="85#wp1095440" />
+   </i>
+  </i>
+  <i t="Need Action field">
+   <i t="Event Alert list">
+    <j l="45#wp1061307" />
+   </i>
+   <i t="Event Alert page">
+    <j l="48#wp1062860" />
+   </i>
+   <i t="Impact Alert list">
+    <j l="45#wp1061307" />
+   </i>
+   <i t="Impact Alert page">
+    <j l="48#wp1062860" />
+   </i>
+  </i>
+  <i t="New Password field">
+   <i t="Edit User Profile page">
+    <j l="211#wp1047167" />
+   </i>
+   <i t="Profile page">
+    <j l="147#wp1063351" />
+   </i>
+  </i>
+  <i t="No. of Buckets Backward field">
+   <i t="Sales Forecast Consumption page">
+    <j l="206#wp1067615" />
+   </i>
+  </i>
+  <i t="No. of Buckets Forward field">
+   <i t="Sales Forecast Consumption page">
+    <j l="206#wp1067611" />
+   </i>
+  </i>
+  <i t="Node field">
+   <i t="Impact Nodes list">
+    <j l="78#wp1045539" />
+   </i>
+  </i>
+  <i t="Node Group page">
+   <j l="185#wp1067512" />
+   <j l="186#wp1068405" />
+   <j l="187#wp1068543" />
+   <j l="188#wp1068623" />
+  </i>
+  <i t="Node Groups">
+   <j l="173#wp1068779" />
+   <j l="184" />
+   <i t="creating">
+    <j l="185" />
+   </i>
+   <i t="deleting">
+    <j l="188" />
+   </i>
+   <i t="editing">
+    <j l="187" />
+   </i>
+   <i t="viewing nodes">
+    <j l="186" />
+   </i>
+  </i>
+  <i t="Node view">
+   <j l="80#wp1045990" />
+  </i>
+  <i t="Nodes field">
+   <i t="Collaboration Requests list">
+    <j l="38#wp1053150" />
+   </i>
+   <i t="Resolution Process page">
+    <j l="123#wp1084854" />
+   </i>
+   <i t="Sandboxes list">
+    <j l="39#wp1053193" />
+   </i>
+  </i>
+  <i t="Nodes tab">
+   <j l="185#wp1067572" />
+   <j l="187#wp1068462" />
+  </i>
+  <i t="notes">
+   <i t="adding">
+    <j l="64" />
+   </i>
+   <i t="reading">
+    <j l="63" />
+   </i>
+  </i>
+  <i t="Notes field">
+   <i t="Sandbox page">
+    <j l="124#wp1085088" />
+   </i>
+   <i t="Tasks list">
+    <j l="110#wp1083798" />
+   </i>
+  </i>
+  <i t="Notes tab">
+   <j l="50#wp1063011" />
+   <j l="63#wp1064009" />
+   <j l="64#wp1064043" />
+  </i>
+  <i t="Notification tab">
+   <j l="50#wp1065293" />
+   <j l="73#wp1064628" />
+  </i>
+  <i t="notifications">
+   <i t="sending">
+    <j l="73" />
+   </i>
+  </i>
+  <i t="Number of Buckets field">
+   <j l="61#wp1063945" />
+  </i>
+  <i t="Number of buckets to show field">
+   <i t="Inventory Detail report definition page">
+    <j l="130#wp1062614" />
+   </i>
+   <i t="Inventory Summary report definition page">
+    <j l="133#wp1063396" />
+   </i>
+   <i t="PO vs. Forecast report definition page">
+    <j l="131#wp1063290" />
+   </i>
+  </i>
+  <i t="Number of Buckets to show field">
+   <i t="Inventory Detail Report page">
+    <j l="201#wp1068555" />
+   </i>
+   <i t="Inventory Summary Report page">
+    <j l="204#wp1068838" />
+   </i>
+   <i t="PO vs. Forecast Report page">
+    <j l="202#wp1068654" />
+   </i>
+  </i>
+ </g>
+ <g t="O" o="002">
+  <i t="Old Password field">
+   <i t="Edit User Profile page">
+    <j l="211#wp1049230" />
+   </i>
+   <i t="Profile page">
+    <j l="147#wp1063347" />
+   </i>
+  </i>
+  <i t="options">
+   <i t="Impact Alert">
+    <j l="166" />
+   </i>
+  </i>
+  <i t="Order Types">
+   <j l="192#wp1068572" />
+   <j l="193#wp1068796" />
+  </i>
+  <i t="Order Types field">
+   <i t="Configuration tab">
+    <j l="97#wp1093396" />
+   </i>
+  </i>
+  <i t="orders">
+   <j l="2#wp1037889" />
+   <j l="3#wp1046192" />
+  </i>
+  <i t="Organization field">
+   <i t="Edit User Profile page">
+    <j l="211#wp1047155" />
+   </i>
+   <i t="Profile page">
+    <j l="147#wp1063335" />
+   </i>
+  </i>
+  <i t="Outflow">
+   <j l="60#wp1063869" />
+   <j l="82#wp1046518" />
+   <j l="83#wp1046650" />
+  </i>
+  <i t="Outflows">
+   <j l="50#wp1063006" />
+   <j l="80#wp1045238" />
+  </i>
+  <i t="overstock">
+   <j l="60#wp1063826" />
+   <j l="149#wp1057474" />
+   <j l="162#wp1061228" />
+  </i>
+  <i t="Overstock">
+   <j l="164#wp1073663" />
+  </i>
+  <i t="overstock condition">
+   <j l="40#wp1058842" />
+  </i>
+  <i t="Owner field">
+   <i t="Sandbox page">
+    <j l="85#wp1095694" />
+   </i>
+  </i>
+ </g>
+ <g t="P" o="002">
+  <i t="Participants field">
+   <i t="Sandbox page">
+    <j l="85#wp1095706" />
+   </i>
+  </i>
+  <i t="Partner/Location field">
+   <i t="Alert Summary report definition page">
+    <j l="129#wp1061995" />
+   </i>
+   <i t="Alert Summary Report page">
+    <j l="200#wp1068448" />
+   </i>
+   <i t="Inventory Detail report definition page">
+    <j l="130#wp1062586" />
+   </i>
+   <i t="Inventory Detail Report page">
+    <j l="201#wp1068546" />
+   </i>
+   <i t="Inventory Summary report definition page">
+    <j l="133#wp1063476" />
+   </i>
+   <i t="Inventory Summary Report page">
+    <j l="204#wp1068829" />
+   </i>
+   <i t="PO vs. Forecast report definition page">
+    <j l="131#wp1063273" />
+   </i>
+   <i t="PO vs. Forecast Report page">
+    <j l="202#wp1068645" />
+   </i>
+   <i t="Related POs report definition page">
+    <j l="132#wp1063115" />
+   </i>
+   <i t="Related POs Report page">
+    <j l="203#wp1068741" />
+   </i>
+  </i>
+  <i t="password">
+   <j l="27#wp1039740" />
+  </i>
+  <i t="Pending Close">
+   <j l="48#wp1063081" />
+   <j l="58" />
+  </i>
+  <i t="performance metrics">
+   <j l="106#wp1095019" />
+  </i>
+  <i t="Performers field">
+   <i t="Sandbox page">
+    <j l="124#wp1085036" />
+   </i>
+   <i t="Tasks list">
+    <j l="110#wp1083747" />
+   </i>
+  </i>
+  <i t="permissions">
+   <j l="173#wp1068949" />
+   <j l="174#wp1069132" />
+  </i>
+  <i t="personalization">
+   <j l="23" />
+   <j l="135" />
+  </i>
+  <i t="Phone Number field">
+   <i t="Edit User Profile page">
+    <j l="211#wp1047163" />
+   </i>
+   <i t="Profile page">
+    <j l="147#wp1063343" />
+   </i>
+  </i>
+  <i t="Plan">
+   <j l="82#wp1046500" />
+   <j l="82#wp1046518" />
+   <j l="83#wp1046642" />
+   <j l="83#wp1046650" />
+  </i>
+  <i t="Plan Executed field">
+   <i t="Sandbox page">
+    <j l="85#wp1095690" />
+   </i>
+  </i>
+  <i t="Plan Generated field">
+   <i t="Sandbox page">
+    <j l="85#wp1095686" />
+   </i>
+  </i>
+  <i t="Planner Codes tab">
+   <j l="185#wp1067610" />
+   <j l="187#wp1068473" />
+  </i>
+  <i t="PO">
+   <j l="60#wp1063869" />
+  </i>
+  <i t="PO vs. Forecast Report">
+   <j l="202#wp1062074" />
+  </i>
+  <i t="PO vs. forecast reports">
+   <i t="creating">
+    <j l="131" />
+   </i>
+  </i>
+  <i t="PO/CMPO/MO IDs field">
+   <i t="manual alert page">
+    <j l="75#wp1065200" />
+   </i>
+   <i t="update tab">
+    <j l="76#wp1065417" />
+   </i>
+  </i>
+  <i t="privileges">
+   <j l="172#wp1061999" />
+   <i t="creating">
+    <j l="173" />
+   </i>
+   <i t="deleting">
+    <j l="175" />
+   </i>
+   <i t="editing">
+    <j l="174" />
+   </i>
+  </i>
+  <i t="Privileges page">
+   <j l="173#wp1068980" />
+   <j l="174#wp1069089" />
+   <j l="175#wp1069161" />
+  </i>
+  <i t="Problem Configuration Template">
+   <i t="selecting">
+    <j l="91" />
+   </i>
+  </i>
+  <i t="problem configuration templates">
+   <j l="191#wp1068392" />
+   <i t="creating">
+    <j l="192" />
+   </i>
+   <i t="deleting">
+    <j l="194" />
+   </i>
+   <i t="editing">
+    <j l="193" />
+   </i>
+  </i>
+  <i t="Problem Configuration Templates page">
+   <j l="192#wp1068440" />
+   <j l="193#wp1068755" />
+   <j l="194#wp1068933" />
+  </i>
+  <i t="problem resolution">
+   <j l="2#wp1047197" />
+  </i>
+  <i t="problem resolution tools">
+   <j l="15" />
+  </i>
+  <i t="Process ID field">
+   <i t="Tasks list">
+    <j l="37#wp1053109" />
+    <j l="110#wp1083787" />
+   </i>
+  </i>
+  <i t="Process Owner field">
+   <i t="Tasks list">
+    <j l="110#wp1083794" />
+   </i>
+  </i>
+  <i t="production issues">
+   <j l="106#wp1095019" />
+  </i>
+  <i t="profile">
+   <i t="about">
+    <j l="147" />
+   </i>
+   <i t="changing">
+    <j l="147#wp1062427" />
+   </i>
+  </i>
+  <i t="profit">
+   <j l="106#wp1095019" />
+  </i>
+  <i t="Profit">
+   <j l="192#wp1068560" />
+   <j l="193#wp1068789" />
+  </i>
+  <i t="Profit field">
+   <i t="Configuration tab">
+    <j l="96#wp1093286" />
+   </i>
+   <i t="Sandbox page">
+    <j l="85#wp1095655" />
+   </i>
+  </i>
+  <i t="Purchase Lead Time">
+   <j l="192#wp1068584" />
+   <j l="193#wp1068803" />
+  </i>
+  <i t="Purchase Lead Time field">
+   <i t="Configuration tab">
+    <j l="97#wp1093417" />
+   </i>
+  </i>
+  <i t="Purchase Order">
+   <j l="82#wp1046500" />
+   <j l="83#wp1046642" />
+  </i>
+  <i t="purchase orders">
+   <j l="16#wp1047001" />
+   <j l="19#wp1046349" />
+  </i>
+ </g>
+ <g t="R" o="002">
+  <i t="Recomm. Action field">
+   <i t="Event Alert list">
+    <j l="45#wp1061345" />
+   </i>
+  </i>
+  <i t="Recommend Action">
+   <j l="48#wp1063079" />
+   <j l="56" />
+  </i>
+  <i t="Recommended Action field">
+   <i t="Event Alert page">
+    <j l="48#wp1062975" />
+   </i>
+   <i t="Impact Alert page">
+    <j l="48#wp1062975" />
+   </i>
+  </i>
+  <i t="reconciliation">
+   <j l="205" />
+  </i>
+  <i t="records">
+   <i t="viewing all">
+    <j l="34" />
+   </i>
+  </i>
+  <i t="Related POs Report">
+   <j l="203#wp1068702" />
+  </i>
+  <i t="related POs reports">
+   <i t="creating">
+    <j l="132" />
+   </i>
+  </i>
+  <i t="Report Schedules page">
+   <j l="196#wp1069020" />
+   <j l="197#wp1068952" />
+   <j l="198#wp1069132" />
+   <j l="199#wp1069081" />
+  </i>
+  <i t="reports">
+   <j l="2#wp1037889" />
+   <j l="22" />
+   <i t="about">
+    <j l="125" />
+   </i>
+   <i t="creating alert summary">
+    <j l="129" />
+   </i>
+   <i t="creating inventory detail">
+    <j l="130" />
+   </i>
+   <i t="creating inventory summary">
+    <j l="133" />
+   </i>
+   <i t="creating PO vs. forecast">
+    <j l="131" />
+   </i>
+   <i t="creating related POs">
+    <j l="132" />
+   </i>
+   <i t="exporting">
+    <j l="134" />
+   </i>
+   <i t="on-demand">
+    <j l="128" />
+   </i>
+   <i t="scheduled">
+    <j l="126" />
+    <j l="195" />
+   </i>
+   <i t="subscriptions to scheduled">
+    <j l="146" />
+   </i>
+   <i t="viewing scheduled">
+    <j l="127" />
+   </i>
+  </i>
+  <i t="Requested By field">
+   <i t="Collaboration Requests list">
+    <j l="38#wp1053158" />
+   </i>
+  </i>
+  <i t="Required Completion field">
+   <i t="Sandbox page">
+    <j l="124#wp1085083" />
+   </i>
+   <i t="Tasks list">
+    <j l="37#wp1053105" />
+    <j l="110#wp1083783" />
+   </i>
+  </i>
+  <i t="Resolution">
+   <j l="82#wp1046500" />
+   <j l="82#wp1046518" />
+   <j l="83#wp1046642" />
+   <j l="83#wp1046650" />
+  </i>
+  <i t="Resolution Configuration page">
+   <j l="190#wp1067746" />
+  </i>
+  <i t="Resolution field">
+   <i t="Alert Summary Report page">
+    <j l="200#wp1068476" />
+   </i>
+  </i>
+  <i t="Resolution Horizon">
+   <j l="192#wp1068570" />
+   <j l="193#wp1068794" />
+  </i>
+  <i t="Resolution Horizon field">
+   <i t="Configuration tab">
+    <j l="97#wp1093385" />
+   </i>
+  </i>
+  <i t="Resolution Plans">
+   <j l="102" />
+   <i t="concept of">
+    <j l="10" />
+   </i>
+   <i t="defining">
+    <j l="92" />
+   </i>
+   <i t="evaluating">
+    <j l="104" />
+   </i>
+   <i t="executing">
+    <j l="105" />
+   </i>
+   <i t="generating">
+    <j l="103" />
+   </i>
+  </i>
+  <i t="Resolution Process Definitions">
+   <j l="189#wp1062929" />
+   <i t="editing">
+    <j l="190" />
+   </i>
+  </i>
+  <i t="Resolution Task Definitions">
+   <j l="189#wp1062929" />
+  </i>
+  <i t="resolution tasks">
+   <j l="21#wp1046361" />
+  </i>
+  <i t="Resolution Time Fence">
+   <j l="192#wp1068587" />
+   <j l="193#wp1068804" />
+  </i>
+  <i t="Resolution Time Fence field">
+   <i t="Configuration tab">
+    <j l="97#wp1093423" />
+   </i>
+  </i>
+  <i t="Resolver field">
+   <i t="Alert Summary report definition page">
+    <j l="129#wp1061975" />
+   </i>
+   <i t="Alert Summary Report page">
+    <j l="200#wp1068472" />
+   </i>
+  </i>
+  <i t="resolvers">
+   <j l="157" />
+   <i t="adding">
+    <j l="69" />
+   </i>
+   <i t="Impact Alert">
+    <j l="165" />
+   </i>
+   <i t="removing">
+    <j l="70" />
+   </i>
+   <i t="viewing">
+    <j l="68" />
+   </i>
+  </i>
+  <i t="Resolvers">
+   <j l="150#wp1067213" />
+  </i>
+  <i t="Resolvers tab">
+   <j l="50#wp1063023" />
+   <j l="68#wp1064400" />
+   <j l="69#wp1064437" />
+   <j l="70#wp1064462" />
+  </i>
+  <i t="revenue">
+   <j l="106#wp1095019" />
+  </i>
+  <i t="Revenue">
+   <j l="192#wp1068560" />
+   <j l="193#wp1068789" />
+   <i t="Sandbox page">
+    <j l="85#wp1095651" />
+   </i>
+  </i>
+  <i t="Revenue field">
+   <i t="Configuration tab">
+    <j l="96#wp1093286" />
+   </i>
+  </i>
+  <i t="roles">
+   <j l="176" />
+   <i t="creating">
+    <j l="177" />
+   </i>
+   <i t="deleting">
+    <j l="179" />
+   </i>
+   <i t="editing">
+    <j l="178" />
+   </i>
+  </i>
+  <i t="Roles page">
+   <j l="177#wp1069379" />
+   <j l="178#wp1069764" />
+   <j l="179#wp1069945" />
+  </i>
+  <i t="Root Cause">
+   <j l="48#wp1063077" />
+   <j l="54" />
+  </i>
+ </g>
+ <g t="S" o="002">
+  <i t="Sales Demand">
+   <j l="60#wp1063869" />
+   <j l="82#wp1046518" />
+   <j l="83#wp1046650" />
+  </i>
+  <i t="Sales Forecast Consumption page">
+   <j l="206#wp1067506" />
+  </i>
+  <i t="sales forecasts">
+   <j l="50#wp1063003" />
+  </i>
+  <i t="Sales Order ID field">
+   <i t="manual alert page">
+    <j l="75#wp1065196" />
+   </i>
+   <i t="update tab">
+    <j l="76#wp1065413" />
+   </i>
+  </i>
+  <i t="sales orders">
+   <j l="16#wp1047001" />
+   <j l="19#wp1046349" />
+  </i>
+  <i t="sandbox configuration template">
+   <j l="168" />
+  </i>
+  <i t="Sandbox ID field">
+   <i t="Collaboration Requests list">
+    <j l="38#wp1053142" />
+   </i>
+   <i t="Resolution Process page">
+    <j l="123#wp1084859" />
+   </i>
+  </i>
+  <i t="Sandbox Name field">
+   <i t="Collaboration Requests list">
+    <j l="38#wp1053146" />
+   </i>
+   <i t="New Sandbox dialog box">
+    <j l="86#wp1086110" />
+   </i>
+   <i t="Resolution Process page">
+    <j l="123#wp1084864" />
+   </i>
+  </i>
+  <i t="Sandbox Type field">
+   <i t="Sandbox page">
+    <j l="85#wp1095674" />
+   </i>
+  </i>
+  <i t="sandboxes">
+   <j l="20#wp1046354" />
+   <j l="39" />
+   <j l="191#wp1068392" />
+   <i t="about">
+    <j l="84#wp1041244" />
+   </i>
+   <i t="comparing">
+    <j l="98" />
+   </i>
+   <i t="concept of">
+    <j l="8" />
+   </i>
+   <i t="configuring">
+    <j l="90" />
+   </i>
+   <i t="copying">
+    <j l="87" />
+   </i>
+   <i t="creating">
+    <j l="86" />
+   </i>
+   <i t="deleting">
+    <j l="89" />
+   </i>
+   <i t="forwarding">
+    <j l="88" />
+   </i>
+   <i t="recently assigned">
+    <j l="32#wp1040633" />
+   </i>
+   <i t="scope">
+    <j l="95#wp1087284" />
+   </i>
+   <i t="supply/demand view">
+    <j l="107" />
+   </i>
+   <i t="viewing">
+    <j l="85" />
+   </i>
+   <i t="viewing configuration summary of">
+    <j l="90#wp1093515" />
+   </i>
+   <i t="viewing details">
+    <j l="85#wp1086583" />
+   </i>
+   <i t="where used">
+    <j l="95#wp1087284" />
+   </i>
+  </i>
+  <i t="Sandboxes field">
+   <i t="Impact Alert list">
+    <j l="45#wp1061337" />
+   </i>
+  </i>
+  <i t="scheduled reports">
+   <j l="195" />
+   <i t="creating">
+    <j l="196" />
+   </i>
+   <i t="deleting">
+    <j l="199" />
+   </i>
+   <i t="editing">
+    <j l="197" />
+   </i>
+   <i t="enabling/disabling">
+    <j l="198" />
+   </i>
+   <i t="subscriptions to">
+    <j l="146" />
+   </i>
+   <i t="viewing">
+    <j l="127" />
+   </i>
+  </i>
+  <i t="scope">
+   <i t="defining">
+    <j l="95" />
+   </i>
+  </i>
+  <i t="Scope Node(s)">
+   <i t="Sandboxes list">
+    <j l="85#wp1095448" />
+   </i>
+  </i>
+  <i t="search list defaults">
+   <j l="145" />
+  </i>
+  <i t="Select panes to display and arrange sequence">
+   <j l="136#wp1060798" />
+  </i>
+  <i t="shortage">
+   <j l="60#wp1063826" />
+   <j l="149#wp1057474" />
+   <j l="162#wp1061228" />
+  </i>
+  <i t="Shortage">
+   <j l="164#wp1073664" />
+  </i>
+  <i t="shortage condition">
+   <j l="40#wp1058842" />
+  </i>
+  <i t="Skip Approval field">
+   <i t="Edit Resolution Configuration page">
+    <j l="190#wp1067834" />
+   </i>
+  </i>
+  <i t="solutions">
+   <i t="comparing">
+    <j l="20#wp1046354" />
+   </i>
+   <i t="evaluating">
+    <j l="20#wp1046354" />
+   </i>
+  </i>
+  <i t="Solve">
+   <j l="48#wp1063093" />
+  </i>
+  <i t="sorting lists">
+   <j l="43#wp1060998" />
+  </i>
+  <i t="Starting Date field">
+   <j l="61#wp1063946" />
+  </i>
+  <i t="Status field">
+   <i t="Alert Summary report definition page">
+    <j l="129#wp1061987" />
+   </i>
+   <i t="Alert Summary Report page">
+    <j l="200#wp1068459" />
+   </i>
+   <i t="Collaboration Requests list">
+    <j l="38#wp1053154" />
+   </i>
+   <i t="Event Alert list">
+    <j l="45#wp1061300" />
+   </i>
+   <i t="Impact Alert list">
+    <j l="45#wp1061300" />
+   </i>
+   <i t="Impact Nodes list">
+    <j l="78#wp1045543" />
+   </i>
+   <i t="Related POs report definition page">
+    <j l="132#wp1063132" />
+   </i>
+   <i t="Related POs Report page">
+    <j l="203#wp1068749" />
+   </i>
+   <i t="Resolution Process page">
+    <j l="123#wp1084874" />
+   </i>
+   <i t="Sandbox page">
+    <j l="85#wp1095663" />
+    <j l="124#wp1085070" />
+   </i>
+   <i t="Sandboxes list">
+    <j l="39#wp1053209" />
+    <j l="85#wp1095456" />
+   </i>
+   <i t="Tasks list">
+    <j l="37#wp1053094" />
+    <j l="110#wp1083772" />
+   </i>
+  </i>
+  <i t="Subject field">
+   <i t="Collaboration Requests list">
+    <j l="38#wp1053138" />
+   </i>
+  </i>
+  <i t="Supplier field">
+   <i t="Related POs report definition page">
+    <j l="132#wp1063125" />
+   </i>
+   <i t="Related POs Report page">
+    <j l="203#wp1068745" />
+   </i>
+  </i>
+  <i t="Supplier view">
+   <j l="80#wp1045989" />
+  </i>
+  <i t="supply">
+   <i t="tracking">
+    <j l="81#wp1045848" />
+   </i>
+  </i>
+  <i t="Supply Alert">
+   <i t="categories">
+    <j l="152" />
+   </i>
+  </i>
+  <i t="Supply Demand tab">
+   <j l="50#wp1063002" />
+  </i>
+  <i t="Supply Demand view">
+   <j l="50#wp1063003" />
+   <j l="80#wp1045662" />
+  </i>
+  <i t="supply networks">
+   <i t="about">
+    <j l="80" />
+   </i>
+  </i>
+  <i t="supply/demand buckets">
+   <i t="viewing">
+    <j l="60" />
+   </i>
+  </i>
+  <i t="supply/demand matching">
+   <j l="16" />
+  </i>
+  <i t="supply/demand mismatch">
+   <j l="60#wp1063826" />
+  </i>
+  <i t="Supply/Demand tab">
+   <j l="60#wp1063857" />
+   <j l="61#wp1063916" />
+   <j l="107#wp1063776" />
+  </i>
+  <i t="supply/demand view">
+   <i t="sandboxes">
+    <j l="107" />
+   </i>
+  </i>
+  <i t="Supply/Demand view">
+   <i t="changing buckets for">
+    <j l="61" />
+   </i>
+  </i>
+  <i t="support">
+   <j l="30" />
+  </i>
+  <i t="system events">
+   <j l="32#wp1040633" />
+  </i>
+ </g>
+ <g t="T" o="002">
+  <i t="TAC server">
+   <j l="25#wp1038437" />
+  </i>
+  <i t="Task field">
+   <i t="Edit Resolution Configuration page">
+    <j l="190#wp1067824" />
+   </i>
+  </i>
+  <i t="Task ID field">
+   <i t="Sandbox page">
+    <j l="124#wp1085026" />
+   </i>
+  </i>
+  <i t="tasks">
+   <j l="37" />
+   <i t="adding to sandboxes">
+    <j l="93" />
+   </i>
+   <i t="editing in sandboxes">
+    <j l="94" />
+   </i>
+   <i t="recently assigned">
+    <j l="32#wp1040633" />
+   </i>
+  </i>
+  <i t="Tech Administrator">
+   <j l="211#wp1049187" />
+  </i>
+  <i t="Technical Admin">
+   <j l="26#wp1038629" />
+   <j l="209#wp1040074" />
+  </i>
+  <i t="technical support">
+   <j l="30" />
+  </i>
+  <i t="templates">
+   <i t="problem configuration">
+    <j l="191#wp1068392" />
+   </i>
+  </i>
+  <i t="thresholds">
+   <j l="156" />
+   <i t="Impact Alert">
+    <j l="164" />
+   </i>
+  </i>
+  <i t="Thresholds">
+   <j l="150#wp1067212" />
+  </i>
+  <i t="time buckets">
+   <i t="changing">
+    <j l="82#wp1046200" />
+    <j l="83#wp1046634" />
+   </i>
+   <i t="changing in Supply/Demand view">
+    <j l="61" />
+   </i>
+   <i t="viewing supply/demand">
+    <j l="60" />
+   </i>
+  </i>
+  <i t="Time created end date field">
+   <i t="Alert Summary report definition page">
+    <j l="129#wp1061979" />
+   </i>
+   <i t="Related POs report definition page">
+    <j l="132#wp1063143" />
+   </i>
+  </i>
+  <i t="Time Created field">
+   <i t="Event Alert list">
+    <j l="36#wp1053034" />
+    <j l="45#wp1062732" />
+   </i>
+   <i t="Event Alert page">
+    <j l="48#wp1062947" />
+   </i>
+   <i t="Impact Alert list">
+    <j l="45#wp1062732" />
+   </i>
+   <i t="Impact Alert page">
+    <j l="48#wp1062947" />
+   </i>
+   <i t="Resolution Process page">
+    <j l="123#wp1084869" />
+   </i>
+   <i t="Sandboxes list">
+    <j l="39#wp1053205" />
+   </i>
+  </i>
+  <i t="Time created start date field">
+   <i t="Alert Summary report definition page">
+    <j l="129#wp1061983" />
+   </i>
+   <i t="Related POs report definition page">
+    <j l="132#wp1063136" />
+   </i>
+  </i>
+  <i t="Time Created Start/End Date field">
+   <i t="Alert Summary Report page">
+    <j l="200#wp1068467" />
+   </i>
+   <i t="Related POs Report page">
+    <j l="203#wp1068756" />
+   </i>
+  </i>
+  <i t="Time Out field">
+   <i t="Collaboration Requests list">
+    <j l="38#wp1053162" />
+   </i>
+  </i>
+  <i t="Timogen Adaptive Controller">
+   <i t="architecture">
+    <j l="25" />
+   </i>
+   <i t="concepts">
+    <j l="3#wp1046192" />
+   </i>
+   <i t="features">
+    <j l="12" />
+   </i>
+   <i t="functions">
+    <j l="18" />
+   </i>
+   <i t="workflow">
+    <j l="24" />
+   </i>
+  </i>
+  <i t="Timogen User ID field">
+   <i t="Edit User Profile page">
+    <j l="211#wp1047131" />
+   </i>
+  </i>
+  <i t="Transfer In">
+   <j l="82#wp1046500" />
+   <j l="83#wp1046642" />
+  </i>
+  <i t="transfer orders">
+   <j l="19#wp1046349" />
+  </i>
+  <i t="Transfer Out">
+   <j l="60#wp1063869" />
+   <j l="82#wp1046518" />
+   <j l="83#wp1046650" />
+  </i>
+  <i t="TransferIn">
+   <j l="60#wp1063869" />
+  </i>
+  <i t="Triggering Node field">
+   <i t="Sandbox page">
+    <j l="85#wp1095639" />
+   </i>
+  </i>
+  <i t="Type field">
+   <i t="Edit Resolution Configuration page">
+    <j l="190#wp1067828" />
+   </i>
+   <i t="New Sandbox dialog box">
+    <j l="86#wp1086123" />
+   </i>
+   <i t="Sandbox page">
+    <j l="124#wp1085046" />
+   </i>
+   <i t="Sandboxes list">
+    <j l="85#wp1095589" />
+   </i>
+   <i t="Tasks list">
+    <j l="37#wp1053080" />
+    <j l="110#wp1083751" />
+   </i>
+  </i>
+ </g>
+ <g t="U" o="002">
+  <i t="unplanned situations">
+   <j l="40#wp1058842" />
+  </i>
+  <i t="Update tab">
+   <j l="50#wp1065267" />
+  </i>
+  <i t="user ID">
+   <i t="default">
+    <j l="27#wp1039740" />
+   </i>
+  </i>
+  <i t="User ID field">
+   <i t="Profile page">
+    <j l="147#wp1063319" />
+   </i>
+  </i>
+  <i t="user management">
+   <j l="208#wp1040871" />
+  </i>
+  <i t="user profile">
+   <i t="about">
+    <j l="147" />
+   </i>
+   <i t="changing">
+    <j l="147#wp1062427" />
+   </i>
+  </i>
+  <i t="users">
+   <j l="209" />
+   <i t="assigning functions to">
+    <j l="217" />
+   </i>
+   <i t="creating">
+    <j l="212" />
+   </i>
+   <i t="deleting">
+    <j l="214" />
+   </i>
+   <i t="details">
+    <j l="211" />
+   </i>
+   <i t="editing details">
+    <j l="213" />
+   </i>
+   <i t="removing functions from">
+    <j l="218" />
+   </i>
+   <i t="viewing lists of">
+    <j l="210" />
+   </i>
+  </i>
+  <i t="Users page">
+   <j l="210#wp1051384" />
+  </i>
+ </g>
+ <g t="V" o="002">
+  <i t="viewer information">
+   <i t="viewing">
+    <j l="71" />
+   </i>
+  </i>
+  <i t="viewers">
+   <i t="adding">
+    <j l="72" />
+   </i>
+  </i>
+  <i t="Viewers field">
+   <i t="manual alert page">
+    <j l="75#wp1065208" />
+   </i>
+  </i>
+  <i t="Viewers tab">
+   <j l="50#wp1063027" />
+   <j l="71#wp1064544" />
+   <j l="72#wp1064579" />
+  </i>
+  <i t="viewing">
+   <i t="alerts">
+    <j l="46" />
+   </i>
+   <i t="Node Group nodes">
+    <j l="186" />
+   </i>
+  </i>
+  <i t="Visibility tab">
+   <j l="40#wp1061065" />
+  </i>
+ </g>
+ <g t="W" o="002">
+  <i t="web server">
+   <j l="25#wp1038434" />
+  </i>
+ </g>
+</WebWorksHelpIX>

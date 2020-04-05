@@ -1,0 +1,17 @@
+/* @charset "UTF-8"; */
+/* CSS Document */
+
+body, p, td, li, td {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:small;
+}
+table, td, th {
+	border: 1px solid black;
+}
+td {
+	text-align:center;
+}
+thead {
+	font-weight:bold;
+}
+	

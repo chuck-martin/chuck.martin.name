@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>QuickBooks Compatibility Overview</title>
+	<meta name="role" content="AGADMIN, AGQBADMIN">
+	<meta name="partner" content="" />
+	<meta name="product" content="" />
+	<meta name="language" content="en" />
+	<meta name="country" content="us" />
+	<meta name="index" content="" />
+	<link rel="stylesheet" type="text/css" href="help_w3c_biztro.css" />
+	
+<script src="body.js"></script>
+</head>
+
+<body style="margin : 3px;">
+<div class="topictitle">QuickBooks Compatibility Overview</div>
+
+<p>For security reasons, there is no direct connection to QuickBooks on your computer.  This system does not directly make changes to your data on your computer.  Instead, the Accounting area provides QuickBooks compatibility through QuickBooks IIF (Information Interchange Format) files.  </p>
+
+<h2>About IIF Files</h2>
+
+<p>QuickBooks creates IIF files when you export data from your QuickBooks system.  Those files are then used by this system to import that same data.  Going the other way, this system creates IIF files to export data that you can then use to import that same data into your QuickBooks system.</p>
+
+<p>When you use your QuickBooks system to prepare a file for export, you tell it what data to include.  This system will accept IIF files containing your:</p>
+<ul>
+  <li>Customer List</li>
+  <li>Employee List</li>
+  <li>Chart of Accounts</li>
+  <li>Credit Terms</li>
+</ul>
+
+<p>QuickBooks IIF files are in a standardized format that identifies what type of data is included.  If you export data from your QuickBooks system that is not importable into this system, those records will be simply ignored when you attempt the import.</p>
+
+<p>When you use this system to prepare data for export, you can tell it what data to include.  This system will generate IIF files containing your:</p>
+<ul>
+  <li>Customer List</li>
+  <li>Employee List</li>
+  <li>Expense Reports</li>
+</ul>
+
+<p>These IIF files are in the standardized format that QuickBooks recognizes.  To load this data into your QuickBooks system, you must instruct QuickBooks to import your saved, export IIF file.</p>
+
+<h2>Incremental Changes</h2>
+
+<p>Each Export File is an incremental change file.  It includes information about only your data changes since the last time you created an Export File.  If you create one Export File at the end of the day and create another the next day at Noon, the second file will only contain that morning&#39;s changes.  Thus your Export Files must all be installed into your QuickBooks system, one after another, in the order they were created.</p>
+
+<p>But what happens if something happens to last night&#39;s Export File before you get it installed into your QuickBooks?  Creating a new Export File will only get you the mornings changes, not yesterday&#39;s.</p>
+
+<p>This is what Re-Export is for.  This system keeps a copy of every Export File you generate. (These have the same encryption security as the rest of your data, are encrypted during transmission, and are only decrypted as they are saved on your hard drive.)  When you open Re-Export you will see a list of every Export you have done.  From here you can select any previous Export File you need and get a copy of it.  </p>
+
+<p>As a worst case, suppose your computer completely dies and you don&#39;t have a current backup.  You can restore your system with whatever backup you do have, and then recover all of the exportable data from this system by simply re-exporting all of the files you need and re-importing them into your QuickBooks.</p>
+
+<h2>Related Topics</h2>
+
+<p><a href="Account_About_Hub_en_US.htm">About the Accounting area</a></p>
+
+
+</body>
+</html>

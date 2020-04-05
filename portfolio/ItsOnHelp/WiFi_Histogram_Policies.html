@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>WiFi Histogram Policies</title>
+<link rel="stylesheet" type="text/css" href="itsonhelptopic.css" ctype="topic" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+/*]]>*/
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8">
+</script>
+<meta name="generator" content="Adobe RoboHelp 10" />
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+        var strUrl = document.location.href;
+        var bc = 0;
+        var n = strUrl.toLowerCase().indexOf("bc-");
+        if(n != -1)
+        {
+                document.location.href = strUrl.substring(0, n);
+                bc = strUrl.substring(n+3);
+        }
+
+        if (window.addTocInfo)
+        {
+        addTocInfo("Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting\nWiFi Policies\nWiFi Histogram Policies");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(0);
+
+        
+        document.write("<p style=\"text-align:left\"> ");
+AddMasterBreadcrumbs("index.htm", "", "&gt;", "Home", "Service_Design_Center_Help.htm");
+document.write("<a href=\"Policies_Service_Entitlement_Data_Session_WiFi_Behavior_and_Voice_Accounting.html\">Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting<\/a> &gt; <a href=\"WiFi_Policies.html\">WiFi Policies<\/a> &gt; WiFi Histogram Policies<\/p>");
+
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+        {
+        setTimeout("setRelStartPage('index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+        }
+}
+
+if (window.addEventListener){  
+        window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+        window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(0);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]>
+</script><script type="text/javascript" src="ehlpdhtm.js">
+</script>
+<h1>WiFi Histogram Policies</h1>
+<p>A device may come within range of WiFi networks frequently, and device users may not know the benefits of connecting to WiFi instead of the cellular network. This policy collects data about how often a device is within range of specific SSIDs. This data can be used to prompt users to connect to WiFi networks that they are frequently in range of.&#160;</p>
+<p>This policy contains only settings, no policy events.&#160;</p>
+<table>
+<tbody>
+<tr>
+<th>Setting</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>Scan for WiFi networks every ...</td>
+<td>How often the device checks to see what SSIDs are within range. Select from 5, 10, 30, 30 (default), or 60 minutes.</td>
+</tr>
+<tr>
+<td>Keep data for ... days</td>
+<td>How old the SSID data has to be before it is discarded. Select from 5 (default), 10, 15, 20, 30, 60, or 90 days.</td>
+</tr>
+</tbody>
+</table>
+<p>Signal strength of an SSID must be at a minimum level to be recorded. This is to "weed out" weak signals.&#160;</p>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]>
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CNIT 133 Homework 5 - Part 4</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+</head>
+
+<script type="text/javascript">
+
+function SquareOfAsterisks (x)
+{
+  for ( var h = 1; h <= x; h++ )
+  {
+    document.write("<p>");
+	for ( var w = 1; w <= x; w++ )
+	{
+	  document.write("*&nbsp;");
+	}
+	document.write("<br />");
+  }
+  document.write("</p>");
+  document.close();
+}
+
+
+</script>
+
+<body>
+<form id="drawSquare" name="drawSquare" method="post" action="">
+  <label>Enter a number for the size of the square side
+  <input type="text" name="size" id="size" />
+  </label>
+  <label>
+  <input type="submit" name="draw" id="draw" value="Draw Square" onclick="SquareOfAsterisks(document.drawSquare.size.value)" />
+  </label>
+</form>
+</body>
+</html>

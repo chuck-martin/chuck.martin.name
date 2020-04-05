@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Homework 3, Part 3</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+  var emp = new Array(3)
+  var empHours = new Array(3)
+  var empRate = new Array(3)
+  var index;
+  for (index = 0; index <= 2; index++) {
+    emp[index] = index;
+    empHours[index] = parseInt(prompt("Enter the number of hours for Employee " + (emp[index] + 1)));
+	empRate[index] = parseInt(prompt("Enter the hourly rate for Employee " + (emp[index] + 1)));
+  }
+  
+  function calcPay(hours, rate) {
+    var pay;
+	if (hours <= 40) {
+	  pay = hours * rate;
+	  } else {
+	  pay = (40 * rate) + ((hours - 40) * (rate * 1.5));
+	  }
+	return pay;
+  }
+</script>
+</head>
+
+<body>
+
+<script type="text/javascript">
+document.write("<table border='1'><tr><th width='100'>Employee</th><th width='100'>Hours</th><th width='100'>Hourly Rate</th><th width='150'>GrossPay</th></tr>");
+for  (index = 0; index <= 2; index++) {
+  document.write("<tr><td>" + (emp[index] + 1) + "</td><td>" + empHours[index] + "</td><td>" + empRate[index] +"<td>" + calcPay(empHours[index], empRate[index]).toFixed(2) + "</td></tr>");
+}
+document.write("</table");
+</script>
+
+</body>
+</html>

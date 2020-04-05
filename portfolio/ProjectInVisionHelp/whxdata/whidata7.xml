@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<indexdata>
+<key name="Requirements" >
+  <topic name="About Requirements" url="About_the_Requirements_Module.htm" />
+  <topic name="Creating Requirements" url="Creating_Requirements.htm" />
+  <topic name="Deleting Requirements" url="Deleting_Requirements.htm" />
+  <topic name="Editing Requirements" url="Editing_Requirements.htm" />
+  <topic name="Requirements Detail Form" url="Requirements_Detail_Form.htm" />
+  <key name="About" >
+    <topic name="About Requirements" url="About_the_Requirements_Module.htm" />
+  </key>
+  <key name="Adding to Timesheets" >
+    <topic name="Adding Assignments to Timesheets" url="Adding_Assignments_to_Timesheets.htm" />
+  </key>
+  <key name="Applying workflows" >
+    <topic name="Applying Workflows" url="Applying_Workflows.htm" />
+  </key>
+  <key name="Copying between Projects" >
+    <topic name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+  </key>
+  <key name="Copying within Projects" >
+    <topic name="Copying Records Within Projects" url="Copying_Records_Within_Projects.htm" />
+  </key>
+  <key name="Creating" >
+    <topic name="Creating Requirements" url="Creating_Requirements.htm" />
+  </key>
+  <key name="Deleting" >
+    <topic name="Deleting Requirements" url="Deleting_Requirements.htm" />
+  </key>
+  <key name="Detail form" >
+    <topic name="Requirements Detail Form" url="Requirements_Detail_Form.htm" />
+  </key>
+  <key name="Editing" >
+    <topic name="Editing Requirements" url="Editing_Requirements.htm" />
+  </key>
+  <key name="Moving between Projects" >
+    <topic name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+  </key>
+  <key name="Moving within Projects" >
+    <topic name="Copying Records Within Projects" url="Copying_Records_Within_Projects.htm" />
+  </key>
+  <key name="Resource" >
+    <topic name="About Resource Plans" url="About_Resource_Plans.htm" />
+  </key>
+  <key name="Viewing assigned" >
+    <topic name="Viewing Assignments" url="Viewing_Assignments.htm" />
+  </key>
+</key>
+<key name="Resolution" >
+  <topic name="Defects Detail Form" url="Defects_Detail_Form.htm" />
+  <topic name="Issues Detail Form" url="Issues_Detail_Form.htm" />
+</key>
+<key name="Resource" >
+  <key name="Analysis Reports" >
+    <topic name="About Resource Plans" url="About_Resource_Plans.htm" />
+  </key>
+  <key name="Availability" >
+    <topic name="About Resource Plans" url="About_Resource_Plans.htm" />
+  </key>
+</key>
+<key name="Resource Actual Cost Source" >
+  <topic name="Project Options" url="Project_Options.htm" />
+</key>
+<key name="Resource Administration" >
+  <topic name="About Resource Administration" url="admin_About_Resource_Administration.htm" />
+  <key name="About" >
+    <topic name="About Resource Administration" url="admin_About_Resource_Administration.htm" />
+  </key>
+</key>
+<key name="Resource Assignments" >
+  <topic name="Viewing Resource Assignments" url="Viewing_Resource_Assignments.htm" />
+  <key name="Viewing" >
+    <topic name="Viewing Resource Assignments" url="Viewing_Resource_Assignments.htm" />
+  </key>
+</key>
+<key name="Resource Baseline Cost Source" >
+  <topic name="Project Options" url="Project_Options.htm" />
+</key>
+<key name="Resource Billing Rate Source" >
+  <topic name="Project Options" url="Project_Options.htm" />
+</key>
+<key name="Resource Cost Rate Source" >
+  <topic name="Project Options" url="Project_Options.htm" />
+</key>
+<key name="Resource Costing" >
+  <topic name="About Resource Costing" url="About_Resource_Costing.htm" />
+  <key name="Project Schedule files and" >
+    <topic name="About Resource Costing" url="About_Resource_Costing.htm" />
+  </key>
+</key>
+<key name="Resource Current Cost Source" >
+  <topic name="Project Options" url="Project_Options.htm" />
+</key>
+<key name="Resource Logins" >
+  <topic name="Creating Resource Logins" url="admin_Creating_Resource_Logins.htm" />
+</key>
+<key name="Resource Plan" >
+  <key name="Costing" >
+    <topic name="About Resource Plans" url="About_Resource_Plans.htm" />
+  </key>
+</key>
+<key name="Resource Plans" >
+  <topic name="About Resource Plans" url="About_Resource_Plans.htm" />
+  <topic name="Creating Resource Plans" url="Creating_Resource_Plans.htm" />
+  <topic name="Editing Resource Plans" url="Editing_Resource_Plans.htm" />
+  <topic name="Updating Resource Plans" url="Updating_Resource_Plans.htm" />
+  <key name="About" >
+    <topic name="About Resource Plans" url="About_Resource_Plans.htm" />
+  </key>
+  <key name="Creating" >
+    <topic name="Creating Resource Plans" url="Creating_Resource_Plans.htm" />
+  </key>
+  <key name="Editing" >
+    <topic name="Editing Resource Plans" url="Editing_Resource_Plans.htm" />
+  </key>
+  <key name="Updating" >
+    <topic name="Updating Resource Plans" url="Updating_Resource_Plans.htm" />
+  </key>
+</key>
+<key name="Resource Sheet" >
+  <topic name="About Project Resources" url="About_Project_Teams.htm" />
+</key>
+<key name="Resources" >
+  <topic name="About Resources" url="About_the_Resources_Module.htm" />
+  <topic name="Analyzing Resource Availability for Projects" url="Analyzing_Resource_Availability_for_Projects.htm" />
+  <topic name="Assigning Projects to Resources" url="Assigning_Projects_to_Resources.htm" />
+  <topic name="Assigning Resources to Projects" url="Assigning_Resources_to_Projects.htm" />
+  <topic name="Assigning Resources to Tasks" url="Assigning_Resources_to_Tasks.htm" />
+  <topic name="Assigning Resources to Workgroups" url="admin_Assigning_Resources_to_Workgroups.htm" />
+  <topic name="Assigning Workgroups to Resources" url="admin_Assigning_Workgroups_to_Resources.htm" />
+  <topic name="Changing Resource Logins and Passwords" url="admin_Changing_Resource_Logins_and_Passwords.htm" />
+  <topic name="Creating Generic Resources" url="Creating_Generic_Resources.htm" />
+  <topic name="Creating Resources" url="Creating_Resources.htm" />
+  <topic name="Deleting Resources" url="Deleting_Resources.htm" />
+  <topic name="Editing Resources" url="Editing_Resources.htm" />
+  <topic name="Removing Resources from Projects" url="Removing_Resources_from_Projects.htm" />
+  <topic name="Removing Resources from Workgroups" url="admin_Removing_Resources_from_Workgroups.htm" />
+  <topic name="Removing Workgroups from Resources" url="admin_Removing_Workgroups_from_Resources.htm" />
+  <topic name="Replacing Project Resources" url="Replacing_Project_Resources.htm" />
+  <topic name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+  <topic name="Setting Resource User Categories" url="admin_Setting_Resource_User_Categories.htm" />
+  <topic name="Viewing Resource Details" url="admin_Viewing_Resource_Details.htm" />
+  <key name="About" >
+    <topic name="About Resources" url="About_the_Resources_Module.htm" />
+  </key>
+  <key name="Adding to Projects" >
+    <topic name="Assigning Resources to Projects" url="Assigning_Resources_to_Projects.htm" />
+  </key>
+  <key name="Analyzing availability" >
+    <topic name="Analyzing Resource Availability for Projects" url="Analyzing_Resource_Availability_for_Projects.htm" />
+  </key>
+  <key name="Approving Documents" >
+    <topic name="Adding Approvers to Documents" url="Adding_Approvers_to_Documents.htm" />
+  </key>
+  <key name="Assigning to Tasks" >
+    <topic name="Assigning Resources to Tasks" url="Assigning_Resources_to_Tasks.htm" />
+  </key>
+  <key name="Assigning to Workgroups" >
+    <topic name="Assigning Resources to Workgroups" url="admin_Assigning_Resources_to_Workgroups.htm" />
+  </key>
+  <key name="Assigning Workgroups to" >
+    <topic name="Assigning Workgroups to Resources" url="admin_Assigning_Workgroups_to_Resources.htm" />
+  </key>
+  <key name="Assignments" >
+    <topic name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+  </key>
+  <key name="Assinging to Projects" >
+    <topic name="Assigning Projects to Resources" url="Assigning_Projects_to_Resources.htm" />
+  </key>
+  <key name="Availability" >
+    <topic name="Editing Availability" url="Editing_Availability.htm" />
+    <topic name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+  </key>
+  <key name="Changing Logins of" >
+    <topic name="Changing Resource Logins and Passwords" url="admin_Changing_Resource_Logins_and_Passwords.htm" />
+  </key>
+  <key name="Changing Passwords of" >
+    <topic name="Changing Resource Logins and Passwords" url="admin_Changing_Resource_Logins_and_Passwords.htm" />
+  </key>
+  <key name="Contact information" >
+    <topic name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+  </key>
+  <key name="Copying Records and" >
+    <topic name="Copying Records" url="Copying_Records.htm" />
+  </key>
+  <key name="Costing" >
+    <topic name="Managing Project Costs" url="Managing_Project_Costs.htm" />
+  </key>
+  <key name="Creating" >
+    <topic name="Creating Resources" url="Creating_Resources.htm" />
+  </key>
+  <key name="Creating Generic" >
+    <topic name="Creating Generic Resources" url="Creating_Generic_Resources.htm" />
+  </key>
+  <key name="Creating Logins for" >
+    <topic name="Creating Resource Logins" url="admin_Creating_Resource_Logins.htm" />
+  </key>
+  <key name="Deleting" >
+    <topic name="Deleting Resources" url="Deleting_Resources.htm" />
+  </key>
+  <key name="Detail form" >
+    <topic name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+  </key>
+  <key name="Editing" >
+    <topic name="Editing Resources" url="Editing_Resources.htm" />
+  </key>
+  <key name="Logged in" >
+    <topic name="Administrative Reports" url="Administrative_Reports.htm" />
+  </key>
+  <key name="Maintaining information" >
+    <topic name="About Resource Administration" url="admin_About_Resource_Administration.htm" />
+  </key>
+  <key name="Making inactive" >
+    <topic name="Deleting Resources" url="Deleting_Resources.htm" />
+  </key>
+  <key name="Managing" >
+    <topic name="About Resource Plans" url="About_Resource_Plans.htm" />
+  </key>
+  <key name="Non-Project Activities and" >
+    <topic name="Editing Availability" url="Editing_Availability.htm" />
+  </key>
+  <key name="Project" >
+    <topic name="About Project Teams" url="About_Project_Teams.htm" />
+  </key>
+  <key name="Projects and" >
+    <topic name="Projects Detail Form" url="Projects_Detail_Form.htm" />
+  </key>
+  <key name="Reassigning" >
+    <topic name="Replacing Project Resources" url="Replacing_Project_Resources.htm" />
+  </key>
+  <key name="Removing from Projects" >
+    <topic name="Removing Resources from Projects" url="Removing_Resources_from_Projects.htm" />
+  </key>
+  <key name="Removing from Workgroups" >
+    <topic name="Removing Resources from Workgroups" url="admin_Removing_Resources_from_Workgroups.htm" />
+  </key>
+  <key name="Removing Workgroups from" >
+    <topic name="Removing Workgroups from Resources" url="admin_Removing_Workgroups_from_Resources.htm" />
+  </key>
+  <key name="Replacing on Projects" >
+    <topic name="Replacing Project Resources" url="Replacing_Project_Resources.htm" />
+  </key>
+  <key name="Required for Projects" >
+    <topic name="About Resource Plans" url="About_Resource_Plans.htm" />
+  </key>
+  <key name="Skills" >
+    <topic name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+  </key>
+  <key name="User Categories and" >
+    <topic name="Setting Resource User Categories" url="admin_Setting_Resource_User_Categories.htm" />
+  </key>
+  <key name="Viewing details" >
+    <topic name="Viewing Resource Details" url="admin_Viewing_Resource_Details.htm" />
+  </key>
+</key>
+<key name="Responsible" >
+  <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+</key>
+<key name="ResRollupTo" >
+  <topic name="Advanced Filters" url="Advanced_Filters.htm" />
+</key>
+<key name="Retiring" >
+  <key name="Items in Pull-down lists" >
+    <topic name="Retiring Pull-down List Items" url="admin_Retiring_Pull-down_List_Items.htm" />
+  </key>
+</key>
+<key name="Revising" >
+  <key name="Rejected Timesheets" >
+    <topic name="Revising Rejected Timesheets" url="Revising_Rejected_Timesheets.htm" />
+  </key>
+</key>
+<key name="Revision Date" >
+  <topic name="Documents Detail Form" url="Documents_Detail_Form.htm" />
+</key>
+
+</indexdata>

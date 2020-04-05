@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-comment" content="" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>ProductMediaTab</title>
+<link rel="StyleSheet" href="itsonhelptopic.css" type="text/css" />
+</head>
+
+<body>
+<h2 id="PlanSettings-mediatabMediaTab"><a id="MediaTab" name="MediaTab"></a>Media 
+ Tab</h2>
+<p>The Media tab is where you associate any imagery, graphics, or other 
+ media with the product, other than a product icon. A product must have 
+ a media asset, specifically, a graphic file associated with it in this 
+ tab so when it is <a href="#">made a featured product</a>, the graphic 
+ is what's displayed as a banner.</p>
+<h3 id="PlanSettings-ImageSettings"><a id="MediaTab-ImageSettings" name="MediaTab-ImageSettings"></a>Image 
+ Settings</h3>
+<table >
+	<tr>
+		<th>Setting</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<td><strong>Media URL</strong></td>
+		<td>The pathname to the asset file.</td>
+	</tr>
+	<tr>
+		<td><strong>Type</strong></td>
+		<td><p>There are 3 ways that images are used when they are associated 
+		 with a product.</p>
+		<ul>
+			<li>Banner Image - A banner image is used when you want to 
+			 <a hqid="288835" href="#">feature a product</a>.</li>
+			<li>Product Icon - A product icon is typically a smaller, simpler 
+			 image, often easily recognizable to represent a popular app 
+			 (Facebook, Spotify), product, or product type. It is used 
+			 in many places, both before and after purchases, including: 
+			 
+			<ul>
+				<li>Product list views 
+				<ul>
+					<li>In the catalog</li>
+					<li>On the MyPlans page</li>
+					<li>On product history pages</li>
+				</ul></li>
+				<li>Product detail views 
+				<ul>
+					<li>In the catalog</li>
+					<li>From the MyPlans page</li>
+					<li>From product history pages</li>
+				</ul></li>
+			</ul></li>
+			<li>Product Image - A product image is a larger image displayed 
+			 only at the top of product detail pages. In general, you want 
+			 product images that are wider, rather than taller, so you 
+			 can fit more descriptive content on a product details page, 
+			 as the following example illustrates:<br />
+			<img alt="" src="http://dzf8vqv24eqhg.cloudfront.net/userfiles/1949/3014/ckfinder/images/product_image_demo.png" 
+				 style="border-width: 1px; border-style: solid;" width="295" 
+				 height="202" border="1" /></li>
+		</ul>
+		<p>Images help to visually identify a product. You can use the 
+		 same image for more than one product. For example, you could use 
+		 the same image for all products of one type, such as all data 
+		 plans.</p>
+		<p>The following two illustrations show the difference between 
+		 a product detail page with a product image and one without:</p>
+		<table >
+			<tr>
+				<td><figure><img alt="" src="http://dzf8vqv24eqhg.cloudfront.net/userfiles/1949/3014/ckfinder/images/ProductDetails_StretchGoal_Image%2BIcon.png" 
+								 style="border-width: 1px; border-style: solid;" 
+								 width="169" height="300" border="1" /> 
+				 <figcaption>A product details page with both a product 
+				 image and an icon.</figcaption> </figure> </td>
+				<td><figure><img alt="" src="http://dzf8vqv24eqhg.cloudfront.net/userfiles/1949/3014/ckfinder/images/ProductDetails-Icon.png" 
+								 style="border-width: 1px; border-style: solid;" 
+								 width="169" height="300" border="1" /> 
+				 <figcaption>A product details page with just an icon.</figcaption> 
+				 </figure> </td>
+			</tr>
+		</table>
+		<p>Image files can be in most common formats, but your customers 
+		 will get the best experience if you upload and use files in the 
+		 Scalable Vector Graphics (SVG) format. If you use common bitmapped 
+		 formats such as .GIF, .JPG, or .PNG, scaling to display in the 
+		 correct size of customer devices could distort the image. {{tag.Product 
+		 Name}} creates correctly sized .PNG files as needed from a single 
+		 uploaded .SVG file, then caches the created files for fast future 
+		 performance.</p>
+		<ol>
+			<li>Click <strong>Select/Upload Image</strong>.</li>
+			<li>Select or upload an image file. 
+			<ul>
+				<li>To select an image in the asset library, click its 
+				 name.</li>
+				<li>To upload a new image file, click <strong>Upload new 
+				 asset</strong>, select a file, and click <strong>Open</strong>.</li>
+			</ul></li>
+		</ol></td>
+	</tr>
+	<tr>
+		<td><strong>Locale</strong></td>
+		<td><p>The language and location (<a class="hq-tip" href="id=gl-locale">locale</a>) 
+		 identifier for the image.</p>
+		<p>Customers can set a language and location (<a class="hq-tip" 
+														 href="id=gl-locale">locale</a>) 
+		 for their devices. The image that appears on customer devices 
+		 depends on both the locale defined for the image and the locale 
+		 defined on the device, as follows:</p>
+		<ul>
+			<li>If you define an image with a locale that matches the device's 
+			 locale, that image will be displayed.</li>
+			<li>If you do not define an image with a locale that matches 
+			 the device's locale, then 
+			<ul>
+				<li>if you defined an image for the default system locale, 
+				 that image will be displayed, or</li>
+				<li>if you did not define an image for the default system 
+				 image locale, no image will be shown (except for the Product 
+				 Icon type, where a default grayscale self-care app icon 
+				 will be shown when no image has been defined for the product 
+				 icon default locale).</li>
+			</ul></li>
+		</ul>
+		<p>See&#160;<a hqid="288888" href="#">Translated Content</a> for 
+		 more information about locales and the system default locale.</p>
+		<div class="info">
+			<span><span><strong>Best Practice</strong>: You should add 
+			 images with locales other than your default system locale 
+			 only after you define your default locale images.</span></span>
+		</div></td>
+	</tr>
+	<tr>
+		<td><strong>Media Title</strong></td>
+		<td>The text you enter in the Media Title field becomes the content 
+		 of the title tag in the store presentation.</td>
+	</tr>
+	<tr>
+		<td><strong>Key</strong></td>
+		<td><p>Required. A unique identifier within the product. If you 
+		 add a media asset and give it the same Key value as an existing 
+		 media asset associated with the product, the existing media asset 
+		 will be replaced with the new one.</p>
+		<p>A well-named key can provide extra, useful information or meta-information 
+		 about the image, such as &quot;front&quot; or &quot;back.&quot;</p></td>
+	</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<indexdata>
+<key name="Risks" >
+  <topic name="About Risks" url="About_the_Risks_Module.htm" />
+  <topic name="Creating Risks" url="Creating_Risks.htm" />
+  <topic name="Deleting Risks" url="Deleting_Risks.htm" />
+  <topic name="Editing Risks" url="Editing_Risks.htm" />
+  <topic name="Risks Detail Form" url="Risks_Detail_Form.htm" />
+  <key name="About" >
+    <topic name="About Risks" url="About_the_Risks_Module.htm" />
+  </key>
+  <key name="Adding to Timesheets" >
+    <topic name="Adding Assignments to Timesheets" url="Adding_Assignments_to_Timesheets.htm" />
+  </key>
+  <key name="Applying workflows" >
+    <topic name="Applying Workflows" url="Applying_Workflows.htm" />
+  </key>
+  <key name="Copying between Projects" >
+    <topic name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+  </key>
+  <key name="Copying within Projects" >
+    <topic name="Copying Records Within Projects" url="Copying_Records_Within_Projects.htm" />
+  </key>
+  <key name="Creating" >
+    <topic name="Creating Risks" url="Creating_Risks.htm" />
+  </key>
+  <key name="Deleting" >
+    <topic name="Deleting Risks" url="Deleting_Risks.htm" />
+  </key>
+  <key name="Detail form" >
+    <topic name="Risks Detail Form" url="Risks_Detail_Form.htm" />
+  </key>
+  <key name="Editing" >
+    <topic name="Editing Risks" url="Editing_Risks.htm" />
+  </key>
+  <key name="Moving between Projects" >
+    <topic name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+  </key>
+  <key name="Moving within Projects" >
+    <topic name="Copying Records Within Projects" url="Copying_Records_Within_Projects.htm" />
+  </key>
+  <key name="Viewing assigned" >
+    <topic name="Viewing Assignments" url="Viewing_Assignments.htm" />
+  </key>
+</key>
+<key name="Scale" >
+  <topic name="Creating Resource Plans" url="Creating_Resource_Plans.htm" />
+  <topic name="Editing Resource Plans" url="Editing_Resource_Plans.htm" />
+</key>
+<key name="Schedule" >
+  <key name="Resources" >
+    <topic name="Editing Availability" url="Editing_Availability.htm" />
+  </key>
+</key>
+<key name="Scheudling" >
+  <topic name="About Tasks" url="About_the_Tasks_Module.htm" />
+</key>
+<key name="Scoping" >
+  <topic name="About Requirements" url="About_the_Requirements_Module.htm" />
+</key>
+<key name="Scorecard" >
+  <topic name="Understanding the Project Scorecard" url="Project_Scorecard.htm" />
+</key>
+<key name="Search" >
+  <topic name="Finding Information" url="Finding_Information.htm" />
+</key>
+<key name="Search settings" >
+  <key name="Configuring" >
+    <topic name="Configuring Search Settings" url="Configuring_Search_Settings.htm" />
+  </key>
+</key>
+<key name="Searching" >
+  <topic name="About Searching" url="About_Searching.htm" />
+  <topic name="Changing Search Settings" url="Configuring_Search_Settings.htm" />
+  <key name="About" >
+    <topic name="About Searching" url="About_Searching.htm" />
+  </key>
+  <key name="Configuring settings for" >
+    <topic name="Configuring Search Settings" url="Configuring_Search_Settings.htm" />
+  </key>
+</key>
+<key name="Security" >
+  <key name="Internet Explorer and" >
+    <topic name="Configuring Internet Explorer" url="Configuring_Internet_Explorer.htm" />
+  </key>
+</key>
+<key name="Security zone" >
+  <topic name="Configuring Internet Explorer" url="Configuring_Internet_Explorer.htm" />
+</key>
+<key name="Selecting" >
+  <key name="Groups of Projects" >
+    <topic name="Selecting Groups of Projects" url="Selecting_Groups_of_Projects.htm" />
+  </key>
+  <key name="Hierarchies" >
+    <topic name="Selecting Hierarchies" url="Selecting_Hierarchies.htm" />
+  </key>
+  <key name="Multiple Project or Groups" >
+    <topic name="Selecting Multiple Projects or Groups" url="Selecting_Multiple_Projects_or_Groups.htm" />
+  </key>
+  <key name="Projects" >
+    <topic name="Selecting Projects" url="Selecting_Projects.htm" />
+  </key>
+  <key name="Single Projects" >
+    <topic name="Selecting Single Projects" url="Selecting_Single_Projects.htm" />
+  </key>
+</key>
+<key name="Selector" >
+  <topic name="About the Selector" url="About_the_Selector.htm" />
+  <topic name="Finding Information" url="Finding_Information.htm" />
+  <topic name="Selecting Groups of Projects" url="Selecting_Groups_of_Projects.htm" />
+  <topic name="Selecting Hierarchies" url="Selecting_Hierarchies.htm" />
+  <topic name="Selecting Multiple Projects or Groups" url="Selecting_Multiple_Projects_or_Groups.htm" />
+  <topic name="Selecting Projects" url="Selecting_Projects.htm" />
+  <topic name="Selecting Single Projects" url="Selecting_Single_Projects.htm" />
+  <topic name="Selector Basics" url="Selector_Basics.htm" />
+  <topic name="Viewing the Selector" url="Viewing_the_Selector.htm" />
+  <key name="About" >
+    <topic name="About the Selector" url="About_the_Selector.htm" />
+  </key>
+  <key name="Basics" >
+    <topic name="Selector Basics" url="Selector_Basics.htm" />
+  </key>
+  <key name="Viewing" >
+    <topic name="Viewing the Selector" url="Viewing_the_Selector.htm" />
+  </key>
+</key>
+<key name="Sending" >
+  <key name="Alerts" >
+    <topic name="Sending Alerts" url="Sending_Alerts.htm" />
+  </key>
+  <key name="Email" >
+    <topic name="Sending Alerts" url="Sending_Alerts.htm" />
+  </key>
+  <key name="Messages" >
+    <topic name="Sending Alerts" url="Sending_Alerts.htm" />
+  </key>
+</key>
+<key name="Skills" >
+  <topic name="Creating Generic Resources" url="Creating_Generic_Resources.htm" />
+  <topic name="Editing Skills" url="Editing_Skills.htm" />
+  <topic name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+  <key name="Adding" >
+    <topic name="Editing Skills" url="Editing_Skills.htm" />
+  </key>
+  <key name="Deleting" >
+    <topic name="Editing Skills" url="Editing_Skills.htm" />
+  </key>
+  <key name="Editing" >
+    <topic name="Editing Skills" url="Editing_Skills.htm" />
+  </key>
+</key>
+<key name="Sorting" >
+  <topic name="About Sorting" url="About_Sorting.htm" />
+  <key name="About" >
+    <topic name="About Sorting" url="About_Sorting.htm" />
+  </key>
+  <key name="Quick" >
+    <topic name="Quick Sorts" url="Quick_Sorts.htm" />
+  </key>
+</key>
+<key name="Sounds Like" >
+  <topic name="Finding Information" url="Finding_Information.htm" />
+  <topic name="Quick Filters" url="Quick_Filters.htm" />
+</key>
+<key name="SSL" >
+  <topic name="Configuring Internet Explorer" url="Configuring_Internet_Explorer.htm" />
+</key>
+<key name="Starts With" >
+  <topic name="Finding Information" url="Finding_Information.htm" />
+  <topic name="Quick Filters" url="Quick_Filters.htm" />
+</key>
+<key name="Status" >
+  <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+</key>
+<key name="Status History" >
+  <topic name="Status History" url="Status_History.htm" />
+  <key name="Viewing" >
+    <topic name="Status History" url="Status_History.htm" />
+  </key>
+</key>
+<key name="Status Revised" >
+  <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+</key>
+<key name="Statuses" >
+  <key name="Order of" >
+    <topic name="About Workflows" url="About_Workflows.htm" />
+  </key>
+  <key name="Viewing history of" >
+    <topic name="Status History" url="Status_History.htm" />
+  </key>
+</key>
+<key name="Submitted By" >
+  <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+</key>
+<key name="Submitting" >
+  <key name="Timesheets for approval" >
+    <topic name="Submitting Timesheets for Approval" url="Submitting_Timesheets_for_Approval.htm" />
+  </key>
+</key>
+<key name="Summary page" >
+  <key name="Copying Records and" >
+    <topic name="Copying Records" url="Copying_Records.htm" />
+  </key>
+</key>
+<key name="Suppport" >
+  <topic name="About Project InVision International" url="About_Project_InVision_International.htm" />
+</key>
+<key name="Synchronization" >
+  <topic name="About Project Schedule Files" url="About_Project_Schedule_Files.htm" />
+  <topic name="Synchronization" url="Synchronization.htm" />
+</key>
+<key name="System-generated Alerts" >
+  <topic name="Alerts" url="About_Alerts.htm" />
+</key>
+<key name="System Administrator" >
+  <topic name="About Administration" url="admin_About_Administration.htm" />
+</key>
+<key name="Task Code" >
+  <topic name="About Tasks" url="About_the_Tasks_Module.htm" />
+</key>
+<key name="Task Name" >
+  <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+</key>
+<key name="Tasks" >
+  <topic name="About Tasks" url="About_the_Tasks_Module.htm" />
+  <topic name="Assigning Resources to Tasks" url="Assigning_Resources_to_Tasks.htm" />
+  <topic name="Creating Tasks in Project InVision" url="Creating_Tasks.htm" />
+  <topic name="Deleting Tasks" url="Deleting_Tasks.htm" />
+  <topic name="Editing Tasks" url="Editing_Tasks.htm" />
+  <topic name="Tasks Detail Form" url="Tasks_Detail_Form.htm" />
+  <key name="About" >
+    <topic name="About Tasks" url="About_the_Tasks_Module.htm" />
+  </key>
+  <key name="Adding to Timesheets" >
+    <topic name="Adding Assignments to Timesheets" url="Adding_Assignments_to_Timesheets.htm" />
+  </key>
+  <key name="And Work Hours" >
+    <topic name="About Tasks" url="About_the_Tasks_Module.htm" />
+  </key>
+  <key name="Creating" >
+    <topic name="Creating Tasks in Project InVision" url="Creating_Tasks.htm" />
+  </key>
+  <key name="Deleting" >
+    <topic name="Deleting Tasks" url="Deleting_Tasks.htm" />
+  </key>
+  <key name="Detail form" >
+    <topic name="Tasks Detail Form" url="Tasks_Detail_Form.htm" />
+  </key>
+  <key name="Editing" >
+    <topic name="Editing Tasks" url="Editing_Tasks.htm" />
+  </key>
+  <key name="Marking as Key Deliverables" >
+    <topic name="Marking Tasks as Key Deliverables" url="Marking_Tasks_as_Key_Deliverables.htm" />
+  </key>
+  <key name="Viewing assigned" >
+    <topic name="Viewing Assignments" url="Viewing_Assignments.htm" />
+  </key>
+  <key name="With Project Schedule files" >
+    <topic name="About Tasks" url="About_the_Tasks_Module.htm" />
+  </key>
+</key>
+<key name="Tasks list" >
+  <topic name="About Projects" url="About_the_Projects_Module.htm" />
+</key>
+<key name="Team" >
+  <topic name="About Project Resources" url="About_Project_Teams.htm" />
+</key>
+<key name="Teams" >
+  <topic name="About Workgroups" url="About_Workgroups.htm" />
+  <key name="Project" >
+    <topic name="Assigning Projects to Resources" url="Assigning_Projects_to_Resources.htm" />
+  </key>
+  <key name="Removing Resources from" >
+    <topic name="Removing Resources from Projects" url="Removing_Resources_from_Projects.htm" />
+  </key>
+</key>
+<key name="Technical support" >
+  <topic name="About Project InVision International" url="About_Project_InVision_International.htm" />
+</key>
+<key name="Telephone numbers" >
+  <topic name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+</key>
+<key name="Templates" >
+  <topic name="About Templates" url="admin_About_Templates.htm" />
+  <topic name="Adding Document Files" url="Adding_Document_Files.htm" />
+  <topic name="Applying Templates" url="Applying_Project_Templates.htm" />
+  <topic name="Changing Template Order" url="admin_Changing_Template_Order.htm" />
+  <topic name="Creating Document Files from Templates" url="Creating_Document_Files_from_Templates.htm" />
+  <topic name="Creating Templates" url="admin_Creating_Templates.htm" />
+  <topic name="Deleting Templates" url="admin_Deleting_Templates.htm" />
+  <topic name="Documents Detail Form" url="Documents_Detail_Form.htm" />
+  <topic name="Editing Template Information" url="admin_Editing_Template_Information.htm" />
+  <topic name="Editing Templates" url="admin_Editing_Templates.htm" />
+  <key name="About" >
+    <topic name="About Templates" url="admin_About_Templates.htm" />
+  </key>
+  <key name="Applying" >
+    <topic name="Applying Templates" url="Applying_Project_Templates.htm" />
+  </key>
+  <key name="Changing order of" >
+    <topic name="Changing Template Order" url="admin_Changing_Template_Order.htm" />
+  </key>
+  <key name="Creating" >
+    <topic name="Creating Templates" url="admin_Creating_Templates.htm" />
+  </key>
+  <key name="Creating document files from" >
+    <topic name="Creating Document Files from Templates" url="Creating_Document_Files_from_Templates.htm" />
+  </key>
+  <key name="Deleting" >
+    <topic name="Deleting Templates" url="admin_Deleting_Templates.htm" />
+  </key>
+  <key name="Document records and" >
+    <topic name="Creating Document Records" url="Creating_Document_Records.htm" />
+  </key>
+  <key name="Editing" >
+    <topic name="Editing Templates" url="admin_Editing_Templates.htm" />
+  </key>
+  <key name="Editing information" >
+    <topic name="Editing Template Information" url="admin_Editing_Template_Information.htm" />
+  </key>
+</key>
+<key name="Temporary Internet files" >
+  <topic name="Configuring Internet Explorer" url="Configuring_Internet_Explorer.htm" />
+</key>
+
+</indexdata>

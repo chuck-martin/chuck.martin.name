@@ -1,0 +1,216 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+
+
+<head>
+<title>About Alerts</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHELP by eHelp Corporation - www.ehelp.com">
+<link rel="stylesheet" href="styles_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='styles.css'>");}
+//-->
+</script>
+<style type="text/css">
+<!--
+h3.whs1 { x-condition:Web_Only; }
+ul.whs2 { x-condition:Web_Only; }
+-->
+</style><script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Portfolio Manager\nPortfolio Manager Basics\nAlerts & Email");
+addAvenueInfo("Main","Configuring_Search_Settings.htm","Sending_Alerts.htm");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Project_InVision_User_Guide.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<h1>About Alerts</h1>
+
+<p>Alerts are messages that notify you of events in Project InVision. Many 
+ Alerts are system-generated, meaning that pre-defined system events have 
+ occurred. Other Alerts are Administrator-defined, meaning that the Workgroup 
+ Administrator has set criteria that cause an Alert to be sent. You can 
+ also send ad-hoc Alert messages to other users.</p>
+
+<p>You can send Alerts to other Project InVision resources, send email 
+ to anyone with a valid email address, or both.</p>
+
+<p>An icon appears next to the Alerts link at the top of the page when you receive 
+  a new Alert. If an Alert is received in association with a Project InVision 
+  item, the Alert will contain a link to details of that item.</p>
+
+<h2>System-Generated Alerts</h2>
+
+
+<table cellspacing=0 width=100% border=1>
+
+<tr bgcolor=#CCCCCC>
+<td width=24% align=center><span style="font-weight: bold;"><B>Alert</B></span></td>
+<td width=30% align=center><span style="font-weight: bold;"><B>Criteria</B></span></td>
+<td width=45% align=center><span style="font-weight: bold;"><B>Sent to</B></span></td>
+</tr>
+
+<tr>
+<td valign=top>Project Assignment</td>
+<td valign=top>Upon save of Define Project Team form</td>
+<td valign=top>Resource(s) assigned to Project record</td></tr>
+
+<tr>
+<td valign=top>Change Request Assignment</td>
+<td valign=top>Upon save of Changes record</td>
+    <td valign=top>Resource identified as &#8220;Responsible&#8221; on record</td>
+  </tr>
+
+<tr>
+<td valign=top>Defect Assignment</td>
+<td valign=top>Upon save of Defects record</td>
+    <td valign=top>Resource identified as &#8220;Responsible&#8221; on record</td>
+  </tr>
+
+<tr>
+<td valign=top>Issue Assignment</td>
+<td valign=top>Upon save of Issues record</td>
+    <td valign=top>Resource identified as &#8220;Responsible&#8221; on record</td>
+  </tr>
+
+<tr>
+<td valign=top>Risk Assignment</td>
+<td valign=top>Upon save of Risks record</td>
+    <td valign=top>Resource identified as &#8220;Responsible&#8221; on record</td>
+  </tr>
+
+<tr>
+<td valign=top>Task Assignment</td>
+<td valign=top>Upon save of Tasks record or synchronization of project schedule file</td>
+<td valign=top>Resource(s) identified on Task record</td></tr>
+
+<tr>
+<td valign=top>Schedule Synchronization Complete</td>
+<td valign=top>Upon complete synchronization of project schedule file</td>
+<td valign=top>User who performed Check In of project schedule file</td></tr>
+
+<tr>
+<td valign=top>Synchronization Failed</td>
+<td valign=top>Upon failure of project schedule file synchronization</td>
+<td valign=top>User who performed Check In of project schedule file</td></tr>
+
+<tr>
+<td valign=top>Resource Synchronization Complete</td>
+<td valign=top>Upon complete synchronization of assigned Resources with project schedule file</td>
+<td valign=top>User who performed Check In of project schedule file</td></tr>
+
+<tr>
+<td valign=top>Unmatched Resources</td>
+<td valign=top>Upon completion of synchronization, when unmatched 
+ Resources exist</td>
+<td valign=top>User who performed Check In of Project schedule</td></tr>
+
+<tr>
+<td valign=top>Timesheet Approval</td>
+<td valign=top>Upon submittal of approval of Timesheet entries 
+ by Manager</td>
+<td valign=top>Resource who submitted Timesheet</td></tr>
+
+<tr>
+<td valign=top>Rejected Timesheet</td>
+<td valign=top>Upon rejected items being submitted by Manager</td>
+<td valign=top>Resource who submitted Timesheet</td></tr>
+
+<tr>
+<td valign=top>Document Approval</td>
+<td valign=top>Upon Approval of Document by assigned Manager</td>
+    <td valign=top>Resource who is &#8220;Author&#8221; of the document record</td>
+  </tr>
+
+<tr>
+<td valign=top>Force Check In</td>
+<td valign=top>Upon Force Check In by the Workgroup Administrator</td>
+<td valign=top>Resource identified as the individual who 
+ last Checked Out the associated file</td></tr>
+
+<tr>
+<td valign=top>Document Signoff Required</td>
+<td valign=top>Upon change of Document Status to status requiring 
+ signoff</td>
+<td valign=top>Resource(s) whose signoff is required</td></tr>
+</table>
+
+<h2>Administrator-Defined Alerts </h2>
+
+<p>Workgroup Administrators can create their own set of Alerts, specifying 
+ the threshold that activates the Alert, the content of the message that 
+ is sent and to who, and the transmission mode (via email, Project InVision 
+ Alerts, or both).</p>
+
+<h3 class="whs1">See also</h3>
+
+<ul class="whs2">
+	
+	<li><a href="Sending_Alerts.htm">Sending 
+ Alerts</a></li>
+	
+	<li><a href="Viewing_Alerts.htm">Viewing 
+ Alerts</a></li>
+	
+	<li><a href="Deleting_Alerts.htm">Deleting 
+ Alerts</a></li>
+</ul>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

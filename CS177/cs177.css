@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {font-family:Verdana, Geneva, sans-serif;
+}
+
+p, td {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:small;
+}
+
+td {
+	text-align:left;
+	vertical-align:top;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CNIT 133 Homework 7 - Part 3</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+
+
+function splitPhoneNo()
+{
+  var wholephoneno = prompt("Enter a phone number in the format (###) ###-####", "");
+
+  var processedphoneno = new Array(2)
+
+  var temp1 = wholephoneno.split("(");
+
+  var temp2 = temp1[1].split(")");
+
+  processedphoneno[0] = temp2[0];
+
+  var temp3 = temp2[1].split(" ");
+
+  processedphoneno[1] = temp3[1];
+
+  document.phonenumber.areacode.value = processedphoneno[0];
+  document.phonenumber.phoneno.value = processedphoneno[1];
+}
+
+
+function clearFields()
+{
+  document.phonenumber.areacode.value = "";
+  document.phonenumber.phoneno.value = "";
+}
+
+</script>
+
+</head>
+
+<body onload="clearFields();splitPhoneNo()" >
+<form id="phonenumber" name="phonenumber" action="">
+  Area Code:
+  <input name="areacode" type="text" size="6" />
+Phone Number:
+<input name="phoneno" type="text" size="12" />
+</form>
+</body>
+</html>

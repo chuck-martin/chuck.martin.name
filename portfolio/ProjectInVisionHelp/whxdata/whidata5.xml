@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<indexdata>
+<key name="Non-editable Fields" >
+  <topic name="About Detail Forms" url="About_Detail_Forms.htm" />
+</key>
+<key name="Non-Project Activities" >
+  <topic name="Editing Availability" url="Editing_Availability.htm" />
+  <key name="Viewing" >
+    <topic name="Viewing Assignments" url="Viewing_Assignments.htm" />
+  </key>
+</key>
+<key name="Not" >
+  <topic name="Finding Information" url="Finding_Information.htm" />
+  <topic name="Quick Filters" url="Quick_Filters.htm" />
+</key>
+<key name="Notes" >
+  <topic name="Adding Notes to Timesheet Assignments" url="Adding_Notes_to_Timesheet_Assignments.htm" />
+  <key name="Adding to Timesheets" >
+    <topic name="Adding Notes to Timesheet Assignments" url="Adding_Notes_to_Timesheet_Assignments.htm" />
+  </key>
+</key>
+<key name="NT authentication" >
+  <topic name="Changing Your Password" url="Changing_Your_Password.htm" />
+</key>
+<key name="Operators" >
+  <topic name="Advanced Filters" url="Advanced_Filters.htm" />
+</key>
+<key name="options" >
+  <key name="In Pull-down lists" >
+    <topic name="About Pull-down Lists" url="admin_About_Pull-down_Lists.htm" />
+  </key>
+  <key name="Project" >
+    <topic name="Project Options" url="Project_Options.htm" />
+  </key>
+</key>
+<key name="Organization" >
+  <key name="Of information" >
+    <topic name="About Views" url="About_Views.htm" />
+  </key>
+</key>
+<key name="Outline" >
+  <topic name="About the Selector" url="About_the_Selector.htm" />
+</key>
+<key name="Password" >
+  <topic name="Logging In" url="Logging_In.htm" />
+</key>
+<key name="Passwords" >
+  <topic name="About Resource Administration" url="admin_About_Resource_Administration.htm" />
+  <topic name="Changing Your Password" url="Changing_Your_Password.htm" />
+  <topic name="Creating Resource Logins" url="admin_Creating_Resource_Logins.htm" />
+  <key name="Changing" >
+    <topic name="Changing Your Password" url="Changing_Your_Password.htm" />
+  </key>
+  <key name="Changing Resource" >
+    <topic name="Changing Resource Logins and Passwords" url="admin_Changing_Resource_Logins_and_Passwords.htm" />
+  </key>
+</key>
+<key name="People" >
+  <topic name="About Resources" url="About_the_Resources_Module.htm" />
+</key>
+<key name="Phone" >
+  <topic name="Editing Contact Information" url="Editing_Contact_Information.htm" />
+</key>
+<key name="Phone numbers" >
+  <key name="Project Invistion International" >
+    <topic name="About Project InVision International" url="About_Project_InVision_International.htm" />
+  </key>
+</key>
+<key name="Portal layouts" >
+  <key name="Changing" >
+    <topic name="Changing Portal Layouts" url="Changing_Portal_Layouts.htm" />
+  </key>
+</key>
+<key name="Portals" >
+  <topic name="About Portals" url="About_Portals.htm" />
+  <topic name="Changing Portal Layouts" url="Changing_Portal_Layouts.htm" />
+  <topic name="Changing Portal View Options" url="Changing_Portal_View_Options.htm" />
+  <key name="About" >
+    <topic name="About Portals" url="About_Portals.htm" />
+  </key>
+  <key name="Changing layouts" >
+    <topic name="Changing Portal Layouts" url="Changing_Portal_Layouts.htm" />
+  </key>
+  <key name="Changing view options" >
+    <topic name="Changing Portal View Options" url="Changing_Portal_View_Options.htm" />
+  </key>
+  <key name="Compared to Dashboard" >
+    <topic name="About Portals" url="About_Portals.htm" />
+  </key>
+</key>
+<key name="Portfolio Manager" >
+  <topic name="About Portfolio Manager" url="About_Portfolio_Manager.htm" />
+  <topic name="Portfolio Manager Basics" url="Portfolio_Manager_Basics.htm" />
+  <key name="About" >
+    <topic name="About Portfolio Manager" url="About_Portfolio_Manager.htm" />
+  </key>
+  <key name="Basics" >
+    <topic name="Portfolio Manager Basics" url="Portfolio_Manager_Basics.htm" />
+  </key>
+  <key name="Logging in to" >
+    <topic name="Logging In" url="Logging_In.htm" />
+  </key>
+  <key name="Working in" >
+    <topic name="About Portfolio Manager" url="About_Portfolio_Manager.htm" />
+  </key>
+</key>
+<key name="Primary Workgroup" >
+  <topic name="Creating Resources" url="admin_Creating_Resources.htm" />
+</key>
+<key name="Printing" >
+  <topic name="Printing" url="Printing.htm" />
+  <topic name="Printing Dashboard Views" url="Printing_Dashboard_Views.htm" />
+  <topic name="Printing Project InVision Reports" url="Printing_Reports.htm" />
+  <topic name="Printing Timesheets" url="Printing_Timesheets.htm" />
+  <key name="Dashboard Views" >
+    <topic name="Printing Dashboard Views" url="Printing_Dashboard_Views.htm" />
+  </key>
+  <key name="Reports" >
+    <topic name="Printing Reports" url="Printing_Reports.htm" />
+  </key>
+  <key name="Timesheets" >
+    <topic name="Printing Timesheets" url="Printing_Timesheets.htm" />
+  </key>
+</key>
+<key name="Priority" >
+  <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+</key>
+<key name="Problems" >
+  <key name="Tracking development" >
+    <topic name="Creating Defects" url="Creating_Defects.htm" />
+  </key>
+</key>
+<key name="Processes" >
+  <topic name="About Workflows" url="About_Workflows.htm" />
+</key>
+<key name="Profile" >
+  <key name="Availability" >
+    <topic name="Editing Availability" url="Editing_Availability.htm" />
+  </key>
+</key>
+<key name="Project" >
+  <topic name="Projects Detail Form" url="Projects_Detail_Form.htm" />
+  <key name="Analyzing Resource availability" >
+    <topic name="Analyzing Resource Availability for Projects" url="Analyzing_Resource_Availability_for_Projects.htm" />
+  </key>
+  <key name="Cost" >
+    <topic name="About Resource Costing" url="About_Resource_Costing.htm" />
+  </key>
+  <key name="Implementation" >
+    <topic name="About Risks" url="About_the_Risks_Module.htm" />
+  </key>
+  <key name="Information" >
+    <topic name="Projects Detail Form" url="Projects_Detail_Form.htm" />
+  </key>
+  <key name="Resources" >
+    <topic name="About Project Teams" url="About_Project_Teams.htm" />
+  </key>
+  <key name="Workgroup membership and" >
+    <topic name="Assigning Workgroups to Resources" url="admin_Assigning_Workgroups_to_Resources.htm" />
+  </key>
+</key>
+<key name="Project costs" >
+  <key name="Managing" >
+    <topic name="Managing Project Costs" url="Managing_Project_Costs.htm" />
+  </key>
+</key>
+<key name="Project Indicator" >
+  <topic name="Project Indicator" url="Project_Indicator.htm" />
+  <topic name="Selecting Projects" url="Selecting_Projects.htm" />
+</key>
+<key name="Project InVision" >
+  <topic name="About Project InVision International" url="About_Project_InVision_International.htm" />
+  <topic name="Adding Project InVision to Your Favorites" url="Adding_Project_InVision_to_your_Favorites.htm" />
+  <topic name="Configuring Project InVision" url="Configuring_Project_InVision.htm" />
+  <topic name="Project InVision Basics" url="About_Project_InVision.htm" />
+  <topic name="What's New in Project InVision 6" url="Whats_New_in_Project_InVision_6.htm" />
+  <key name="Adding to Favorites" >
+    <topic name="Adding Project InVision to your Favorites" url="Adding_Project_InVision_to_your_Favorites.htm" />
+  </key>
+  <key name="Basics" >
+    <topic name="Project InVision Basics" url="About_Project_InVision.htm" />
+  </key>
+  <key name="Company information" >
+    <topic name="About Project InVision International" url="About_Project_InVision_International.htm" />
+  </key>
+  <key name="Configuring" >
+    <topic name="Configuring Project InVision" url="Configuring_Project_InVision.htm" />
+  </key>
+  <key name="Logging in" >
+    <topic name="Logging In" url="Logging_In.htm" />
+  </key>
+  <key name="Logging out" >
+    <topic name="Logging Out" url="Logging_Out.htm" />
+  </key>
+  <key name="Users" >
+    <topic name="About Resources" url="About_the_Resources_Module.htm" />
+  </key>
+  <key name="Viewing version" >
+    <topic name="Using Project InVision Online Help" url="Getting_Help.htm" />
+  </key>
+  <key name="What's new" >
+    <topic name="What's New in Project InVision 6" url="Whats_New_in_Project_InVision_6.htm" />
+  </key>
+</key>
+<key name="Project Management" >
+  <key name="Using Templates" >
+    <topic name="About Templates" url="admin_About_Templates.htm" />
+  </key>
+</key>
+<key name="Project Plan" >
+  <key name="Risks and" >
+    <topic name="About Risks" url="About_the_Risks_Module.htm" />
+  </key>
+</key>
+<key name="Project records" >
+  <key name="Project schedule files and" >
+    <topic name="About Project Schedule Files" url="About_Project_Schedule_Files.htm" />
+  </key>
+</key>
+<key name="Project schedule files" >
+  <topic name="About Project Schedule Files" url="About_Project_Schedule_Files.htm" />
+  <topic name="Checking In Project Schedule Files" url="Checking_In_Project_Schedule_Files.htm" />
+  <topic name="Checking Out Project Schedule Files" url="Checking_Out_Project_Schedule_Files.htm" />
+  <topic name="Keeping Project Schedule File Versions" url="Keeping_Project_Schedule_File_Versions.htm" />
+  <topic name="Synchronization" url="Synchronization.htm" />
+  <topic name="Viewing Project Schedule File Versions" url="Viewing_Project_Schedule_File_Versions.htm" />
+  <key name="About" >
+    <topic name="About Project Schedule Files" url="About_Project_Schedule_Files.htm" />
+  </key>
+  <key name="Checking in" >
+    <topic name="Checking In Project Schedule Files" url="Checking_In_Project_Schedule_Files.htm" />
+  </key>
+  <key name="Checking out" >
+    <topic name="Checking Out Project Schedule Files" url="Checking_Out_Project_Schedule_Files.htm" />
+  </key>
+  <key name="Clearing associations" >
+    <topic name="Clearing Associations" url="admin_Clearing_Associations.htm" />
+  </key>
+  <key name="Conventions with" >
+    <topic name="Project Schedule File Conventions" url="Project_Scheudle_File_Conventions.htm" />
+  </key>
+  <key name="Copying Projects and" >
+    <topic name="Copying Projects Between Workgroups" url="Copying_Projects_Between_Workgroups.htm" />
+  </key>
+  <key name="Keeping versions of" >
+    <topic name="Keeping Project Schedule File Versions" url="Keeping_Project_Schedule_File_Versions.htm" />
+  </key>
+  <key name="Managing project costs with" >
+    <topic name="Managing Project Costs" url="Managing_Project_Costs.htm" />
+  </key>
+  <key name="Resource Costing and" >
+    <topic name="About Resource Costing" url="About_Resource_Costing.htm" />
+  </key>
+  <key name="Synchronization with Projects" >
+    <topic name="Synchronization" url="Synchronization.htm" />
+  </key>
+  <key name="Tasks and" >
+    <topic name="About Tasks" url="About_the_Tasks_Module.htm" />
+    <topic name="Creating Tasks" url="Creating_Tasks.htm" />
+  </key>
+  <key name="Timesheets and" >
+    <topic name="About Time Tracking" url="About_Time_Tracking.htm" />
+  </key>
+  <key name="Versions in Projects" >
+    <topic name="Projects Detail Form" url="Projects_Detail_Form.htm" />
+  </key>
+  <key name="Viewing" >
+    <topic name="Viewing Project Schedule Files" url="Viewing_Project_Schedule_Files.htm" />
+  </key>
+  <key name="Viewing versions of" >
+    <topic name="Viewing Project Schedule File Versions" url="Viewing_Project_Schedule_File_Versions.htm" />
+  </key>
+</key>
+<key name="Project Scheudle files" >
+  <key name="With Projects" >
+    <topic name="About Projects" url="About_the_Projects_Module.htm" />
+  </key>
+</key>
+<key name="Project Scorecard" >
+  <topic name="Understanding the Project Scorecard" url="Project_Scorecard.htm" />
+</key>
+<key name="Project Selection" >
+  <key name="Configuring" >
+    <topic name="Configuring Project Selection" url="Configuring_Project_Selection.htm" />
+  </key>
+</key>
+<key name="Project team" >
+  <key name="Defining" >
+    <topic name="Assigning Projects to Resources" url="Assigning_Projects_to_Resources.htm" />
+  </key>
+</key>
+<key name="Project Teams" >
+  <topic name="About Project Teams" url="About_Project_Teams.htm" />
+  <key name="About" >
+    <topic name="About Project Teams" url="About_Project_Teams.htm" />
+  </key>
+  <key name="Resource availability for" >
+    <topic name="Analyzing Resource Availability for Projects" url="Analyzing_Resource_Availability_for_Projects.htm" />
+  </key>
+</key>
+
+</indexdata>

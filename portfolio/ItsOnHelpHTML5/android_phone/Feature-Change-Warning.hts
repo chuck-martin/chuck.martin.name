@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-comment" content="" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>Feature-Change-Warning</title>
+<link rel="StyleSheet" href="itsonhelptopic.css" type="text/css" />
+</head>
+
+<body>
+<div class="warning">
+	<p>You can make changes to network features and eCommerce policies 
+	 when they are in Draft mode (not published to the ItsOn server or 
+	 to any embedded-client devices), in Test mode (when the network feature 
+	 or eCommerce policy is pushed to embedded-client devices that you're 
+	 using for testing) and in Published mode (when the network feature 
+	 is already pushed to the ItsOn server and to the embedded-client devices 
+	 of your customers or the eCommerce policy is made available to be 
+	 added to products). Changes to network features are immediate, and 
+	 are published to the ItsOn server immediately and to embedded-client 
+	 devices as soon as they &quot;check in&quot; with the network (typically 
+	 within 24 hours, or when the device is reset), or, when a network 
+	 feature is moved from Draft to Test status, published to test devices 
+	 immediately. Changes to eCommerce policies do not affect subscribers 
+	 that already have subscriptions to products based on those eCommerce 
+	 policies.</p>
+	<p>Exception: Once a bucket ID, rating group, or entitlement code has 
+	 been added to a network feature or eCommerce policy, it cannot be 
+	 deleted. It can only be <a hqid="317180" href="#">exchanged</a>, and 
+	 only until the network feature or eCommerce policy has been published. 
+	 Once a network feature or eCommerce policy has been published, the 
+	 bucket ID, rating group, or entitlement code in the network feature 
+	 or eCommerce policy can no longer be changed.</p>
+</div>
+</body>
+</html>

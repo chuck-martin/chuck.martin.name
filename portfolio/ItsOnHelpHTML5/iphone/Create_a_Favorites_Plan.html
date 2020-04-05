@@ -1,0 +1,321 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>ItsOn Help Sample</title>
+<link rel="Stylesheet" href="template/iPhone_Layout/mobile.css" type="text/css" />
+ <link rel="StyleSheet" href="itsonhelptopic.css" type="text/css" /><script type="text/javascript" language="JavaScript">//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]></script><style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+<script type="text/javascript" src="template/scripts/constants.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/utils.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhver.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/settings.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadcsh.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/showhidecontrols.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/pageloader.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/searchfield.js" language="JavaScript1.2"></script>
+<script type="text/javascript" language="JavaScript1.2">
+gRootRelPath = ".";
+gCommonRootRelPath = "..";
+</script>
+<script type="text/javascript" language="JavaScript1.2">
+gTopicId = "3.0_2";
+</script>
+</head>
+
+<body>
+<script type="text/javascript" src="ehlpdhtm.js"></script>
+
+
+
+<div class="searchholder">
+	<table class="searchholdertable">
+		<tr>
+			<td class="home"><a href="home.htm"><img src="template/iPhone_Layout/home_default.png" alt="" style=" border:none; width:100%; max-width:59px;" border="0" /></a></td>
+			<td class="searchfield"><div class="wSearchField">
+				<input id="searchBox" class="wSearchField" type="search" data-placeholder="-Search-" onkeydown="searchHelp(event, 'searchBox')" data-search="true" /><a class="wSearchLink" onclick="searchHelp(null, 'searchBox')" href="#"><img src="template/iPhone_Layout/Search.png" alt="" class="wSearchLink" border="0" style="width:100%; max-width:30px" /></a>
+			</div></td>
+		</tr>
+	</table>
+</div>
+<div class="contentholderlight">
+	<div class="optionsholderlight">
+		<table class="optionslight">
+			<tr>
+				<td class="bsback"> 
+				 </td>
+				<td class="home_topic"></td>
+				<td class="bsnext"> 
+				 </td>
+			</tr>
+		</table>
+	</div>
+	<div class="wTopic" id="rh_default_topic_placeholder_id">
+
+
+  <h1>Create a Favorites Plan</h1>
+  <p>Favorites plans, sometimes known as calling circle plans, allow you 
+ to give your customers preferred calling rates to a limited amount of 
+ numbers.&#160;</p>
+  <div class="info">
+	Before you begin, make sure you are familiar with the entire process 
+	 of <a hqid="284774" href="#">creating a basic plan</a>. Much of what 
+	 you do here will build on what you learned there. 
+  </div>
+  <h2>Idea and Planning</h2>
+  <p>In this example scenario, you want to create a plan with the following 
+ characteristics:</p>
+  <ul>
+	<li>Customers can choose&#160;up to three preferred destination numbers.</li>
+	<li>For each of those numbers, customers can call each one for up to 
+	 5 minutes for free.</li>
+	<li>The cumulative amount of time per plan cycle that customers can 
+	 have for these preferred calls is 100 minutes.</li>
+	<li>You want to notify customers during a preferred destination call 
+	 to let them know&#160;when their preferred rate time is running out.</li>
+</ul>
+<p>The specifics of the plan you create, of course, will likely be different.</p>
+<p>The general steps to creating a favorites plan that includes a notification:</p>
+<ol>
+	<li>Create the behavior policy.</li>
+	<li>Create the feature.</li>
+	<li><a hqid="232078" href="#">Test</a> and <a hqid="232067" href="#">publish</a> 
+	 the feature.</li>
+	<li>Create the plan.</li>
+	<li><a hqid="288860" href="#">Promote</a>, <a hqid="288887" href="#">test</a>, 
+	 <a hqid="288799" href="#">approve, and deploy</a> the plan.</li>
+	<li>Create the notification body.</li>
+	<li><a hqid="288838" href="#">Finalize</a> the notification body.</li>
+	<li>Create the notification.</li>
+	<li><a hqid="288860" href="#">Promote</a>, <a hqid="288884" href="#">test</a>, 
+	 <a hqid="288799" href="#">approve, and deploy</a> the notification.</li>
+</ol>
+<p>This tutorial topic will show you&#160;the settings for each step that 
+ you have to enter that will result in a working favorites plan that your 
+ customers can buy.</p>
+<h2>Create the Behavior Policy</h2>
+<p>A service policy for favorites contains a behavior policy in its filter. 
+ So before you can create the feature that contains the service policy 
+ for this plan, you have to <a hqid="265680" href="#">create the behavior 
+ policy</a>. Start by going to the Behavior Policies page.</p>
+<p><img src="images/menu_Policy_Behavior_Policy.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:148px;" border="1" /></p>
+<p>Click <strong>New</strong> to see the Add Behavior Policy dialog box.</p>
+<p><img src="images/dialog_Add_Behavior_Policy_3_favorites_5_minutes.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:423px;" border="1" /></p>
+<p>To start with, we give it a name that will make it easy to find: 3 Favorites 
+ 5 Minutes.</p>
+<p>You can read more details about <a hqid="265687" href="#">behavior policy 
+ settings</a>.&#160;</p>
+<p>Probably the most difficult thing to do is to fill in the <em>Allowable 
+ Phone Number</em> field. What you enter in this field is a regular expression, 
+ sometimes known as a RegEx.</p>
+<p>A regular expression is a construct common in programming that matches 
+ patterns. For our purposes here, we want to keep this as simple as possible. 
+ So we will enter a regular expression that matches any phone number: <code>^[0-9+\(\)#\.\s\/ext-]+$</code></p>
+<p>This regular expression does the job in a very basic form. It doesn't 
+ specify&#160;how many digits a phone number should have or what numbers 
+ are valid for any of the digits. It only verifies that what gets entered 
+ in a favorites field contains only the following:&#160;digits, parentheses, 
+ dashes, plus sign, space, pound sign, asterisk, period, comma, and the 
+ letters e, x, and t. It is beyond this topic to explain how this works, 
+ but there are many, many resources to not only explain regular expressions, 
+ but to provide regular expression recipes for many, many purposes.</p>
+<p>In the <em>Maximum Number of Faves</em>&#160;drop-down 
+ list, select 3, because that's how many favorites we want our customers 
+ to have.</p>
+<div class="warning">
+	When you're planning to use a behavior policy, make sure you are comfortable 
+	 with the number you want to allow. Once you add the behavior to a 
+	 filter and the policy containing the filter is published, the only 
+	 change you can make to this number is to increase it. 
+</div>
+<p>For <em>Behavior Allowed</em>, select all the check boxes. You don't 
+ want to restrict&#160;the actions your customers can take.</p>
+<div class="info">
+	While you want to allow your customers the ability to change their&#160;favorites 
+	 numbers, you don't want them to be able to swap numbers in and out 
+	 at will, &quot;gaming&quot; the system. To prevent this, you will 
+	 typically want to charge a fee for changes. You decide what they will 
+	 be able to do here, and decide how much you will charge elsewhere. 
+	 
+</div>
+<p>Click <strong>Save</strong> and you're done with this part.&#160;</p>
+<h2>Create the Feature</h2>
+<p>As with <a hqid="284774" href="#">creating a basic plan</a>, you first 
+ need to <a hqid="232005" href="#">create a purchasable feature</a> with 
+ a voice service policy. It's the service policy in the feature that gets 
+ used by the plan.</p>
+<p><img alt="" src="images/menu_Policy_Features.png" style=" border-width:1px; border-style:solid; width:100%; max-width:381px;" border="1" />&#160;<img alt="" src="images/menu_Create_New_Feature_Purchasable.png" style=" border-width:1px; border-style:solid; width:100%; max-width:188px;" border="1" />&#160;<img alt="" src="images/dialog_Add_Feature.png" style=" border-width:1px; border-style:solid; width:100%; max-width:475px;" border="1" /></p>
+<p>To make sure we can find the feature, we'll give it a descriptive name: 
+ 3 Favorites 5&#160;Minutes.</p>
+<h3>Set the Feature Priority</h3>
+<p>When you offer a plan such as this, it's very likely that your customers 
+ will also have one or more other voice plans. You want to make sure that 
+ when appropriate, that is, when a customer uses a preferred destination, 
+ that the plan that uses the service policy in this feature is used instead 
+ of a different plan.</p>
+<p>After you click Save in the Add Feature dialog box, make sure you set 
+ a priority&#160;for the feature that's higher than the priority of other 
+ features that have voice service policies. See&#160;<a hqid="232050" href="#">Feature 
+ Settings</a>&#160;for more details about feature priorities.</p>
+<p>Like with the basic plan, we'll <a hqid="232010" href="#">add a voice 
+ policy</a>, in that voice policy, we'll <a hqid="232002" href="#">add 
+ a component</a>, and in that component, we'll <a hqid="232006" href="#">add 
+ a filter</a>. All of these will have the same name as the feature.</p>
+<p>This time, we're going to add a filter criteria.</p>
+<p><img src="images/menu_Add_Criteria_Filter_by_Behavior_Policy.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:423px;" border="1" /></p>
+<p>Once you add the filter, then you add the behavior policy.</p>
+<p><img src="images/dialog_Add_Voice_Filter_add_behavior_policy.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:423px;" border="1" /></p>
+<p>Because there is only one behavior policy, it is added automatically.</p>
+<p><img src="images/dialog_Add_Voice_Filter_3_favorites_5_minutes.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:423px;" border="1" /></p>
+<p>Click <strong>Save</strong>.</p>
+<p>As with the basic plan, we <a hqid="232009" href="#">add a policy event</a>. 
+ At this point, we're done with the feature, so we test and publish it.</p>
+<h2>Create the Plan</h2>
+<p>We start by creating a new plan. The initial steps are the same as in&#160;<a 
+	 hqid="284774" href="#">Create a Basic Plan</a>. We give the plan a 
+ name: 3 Favorites 5 Minutes.</p>
+<p><img src="images/dialog_Add_Plan_3_favorites_5_minutes.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:318px;" border="1" /></p>
+<p>The Per Call Limit setting is the key here. This means that when customers 
+ make a call, the call length is limited by the amount of minutes you define 
+ here.</p>
+<p>When the call limit or plan usage limit is reached, several things can 
+ happen:</p>
+<ul style="font-family: 'Open Sans', Arial, sans-serif; background-color: rgb(249, 249, 249);">
+	<li>When the per-call limit is reached, the call can either end automatically 
+	 or continue. 
+	<ul>
+		<li>If the customer has no fall-back voice plans, the call will 
+		 end automatically.</li>
+		<li>If the customer has at least one fall-back voice plan, the 
+		 call can continue, and will consume voice minutes from the customer's 
+		 voice plans. 
+		<div class="warning">
+			This can happen only when the priority of the feature that 
+			 contains the behavior policy is higher than the priority of 
+			 the feature that contains the voice service policy used in 
+			 the fall-back plans. See&#160;<a hqid="232050" href="#">Feature 
+			 Settings</a>&#160;for more information about setting feature 
+			 priorities. 
+		</div></li>
+		<li>In any of these cases, a preferred destination call can end 
+		 and a customer can initiate a new preferred destination call until 
+		 the preferred destination plan usage limit is reached.&#160;</li>
+	</ul></li>
+	<li>When the plan usage limit is reached, no more favorites calls can 
+	 be made during the current plan cycle. Additional voice calls use 
+	 any voice plans a customer may have.</li>
+</ul>
+<p>In addition to a per-call limit, when you create a plan using a behavior 
+ policy, you also define a total usage limit (see above) for favorites 
+ use. For example, the&#160;<a hqid="265687" href="#">behavior policy settings</a>&#160;allow 
+ you to define the total number of favorites slots. With this setting, 
+ you decide that each slot&#160;allows 5 minutes per call. If you define 
+ a behavior policy with 3 slots and put it in a plan and define&#160;100 
+ minutes of usage, a customer who receives the plan can make as many favorites 
+ calls as they want up to a total of 100 minutes. This total usage limit 
+ helps&#160;curtail abuse.</p>
+<p>You have to at least promote a plan (although you do not have to approve 
+ it) before you can use it in a notification. So go to the Site Updates 
+ &gt; My Changes page and promote the 3 Favorites 5 Minutes plan.</p>
+<h2>Create the Notification Body</h2>
+<p>Notifications have 2 parts: bodies and shells.&#160;</p>
+<p>We start by going to the Notification Bodies page to <a hqid="288791" 
+															 href="#">create 
+ a notification body</a>.</p>
+<p><img src="images/menu_Commerce_Notification_Bodies.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:147px;" border="1" /></p>
+<p>There are several types of notifications. We want to use a Usage notification, 
+ so click on Usage.</p>
+<p><img src="images/menu_Notification_Bodies_Usage.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:214px;" border="1" /></p>
+<p>Click <strong>Add Usage Notification Body</strong>. As we've been doing, 
+ we'll give it the name 3 Favorites 5 Minutes.</p>
+<p><img src="images/dialog_Add_Usage_Notification_Body.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:715px;" border="1" /></p>
+<p>Click <strong>Save</strong>.</p>
+<p>Usage notifications have 3 sections:</p>
+<ul>
+	<li>Description: Which you filled out when you created it.</li>
+	<li>Criteria: The definition of what triggers the notification. There 
+	 are rules, thresholds, and contextual offers.</li>
+	<li>Content: The audio, text and buttons of a notification.</li>
+</ul>
+<h3>Criteria Definition</h3>
+<p>For this plan, we want to add one rule and one threshold in the Criteria 
+ section. The rule is to match the plan, and the threshold defines when 
+ the notification trigger happens.</p>
+<p>Rule setting: Click +Rule, Select <strong>Product - Name</strong>, <strong>is 
+ equal to</strong>, and then click Lookup to select the 3 Favorites 5 Minutes 
+ plan.</p>
+<p>Threshold setting: Click +Add, select <strong>Units Remaining</strong>, 
+ enter 1, and select <strong>Voice Minutes</strong>. For <em>Applies to</em>, 
+ select <strong>Per call allowance</strong>.</p>
+<p>The result of these values is that when a customer is making a call 
+ using this plan, the notification will trigger when there is 1 minute 
+ left in the call.</p>
+<h3>Content Definition</h3>
+<p>Notification content can contain text and sound. Text content appears 
+ on a customer's device screen. Sound content is played through a customer's 
+ device audio output.</p>
+<p>For this plan, we want customers to get the notification while they 
+ are making a call to let them know that their time is running out. Therefore, 
+ textual content isn't useful. But we do want to add audio content.&#160;</p>
+<p>Click <strong>No</strong> for <em>Add text?</em> and <strong>Yes</strong> 
+ for <em>Add audio?</em>, then see&#160;<a hqid="288778" href="#">Add Audio 
+ Translations to a Notification</a>&#160;for instructions.</p>
+<p>Also, click <strong>Yes</strong> for <em>Play when user is on a call?</em> 
+ because that's exactly what you want to happen.</p>
+<p>This is the final setting we want to get the desired notification behavior, 
+ so we just save and <a hqid="288838" href="#">finalize the notification 
+ body</a>.</p>
+<h2>Create the Notification</h2>
+<p>See <a hqid="288792" href="#">Add a Notification</a>.</p>
+<p>We want to add a usage notification and give it the following settings:</p>
+<ul>
+	<li>Name: 3 Favorites 5 minutes.</li>
+	<li>Core Notification: Click Lookup to select the notification body 
+	 we just created.</li>
+</ul>
+<p>Once you save the notification, you have to take it through the same 
+ <a hqid="288860" href="#" style="line-height: 19.6000003814697px;">promote</a><span 
+	 style="line-height: 19.6000003814697px;">, </span><a hqid="288799" 
+															 href="#"><span 
+	 style="line-height: 19.6000003814697px;">app</span><span style="line-height: 19.6000003814697px;">rove, 
+ and deploy</span></a><span style="line-height: 19.6000003814697px;"> process 
+ as any other change, except after you promote it, you should <a hqid="288884" 
+	 href="#">test it</a>&#160;(which is done using <a hqid="288880" href="#">sandboxes</a>) 
+ before you approve and deploy it.&#160;</span></p>
+<p><span style="line-height: 19.6000003814697px;">When the notification 
+ is deployed, it gets pushed to ItsOn Smart Services-powered devices.&#160;</span></p>
+</div>
+	
+</div>
+</body>
+</html>

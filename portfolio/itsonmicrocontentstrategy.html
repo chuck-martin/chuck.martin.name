@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ItsOn Micro-Content Strategy</title>
+<link href="../main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1>ItsOn Micro-Content Strategy</h1>
+<p>One of my first tasks I was given when I began at ItsOn was to review all the UI content for the web application that it was building. In talking to the programmers involved, I found that all the UI content has been externalized (good!), but it was not organized, optimized, or consistent (bad!).</p>
+<p>I found also that the content itself was in a bunch of PHP files. Each file was a PHP associative array, with each element in the array containing a key and a value. The key was what was referenced in the application code, and the value was what was rendered when the application was run.</p>
+<h2>Content Inventory</h2>
+<p>My first step was to do a complete content inventory. All of the application source files were in Git, so I got some Git account credentials and had one of the programmers teach me the Git command I'd need. I identified the PHP files that contained all the UI content, of which there were several, and extracted all the values from all the key-value pairs.</p>
+<h2>Content Analysis</h2>
+<p>The next step was ti figure out what to do with all this content, which was several hundred text strings. I had an idea, and as it turned out, this idea worked. </p>
+<p>I dropped all the text strings into a spreadsheet. And then I did what looking back seems to be drop-dead simple: I sorted the column.</p>
+<p>All of a sudden, issues jumped out at me. Duplication was one. I saw many text strings that were repeated, sometimes more than a half dozen times. That means when a text string was needed by a programmer creating some new feature, that programmer just created a new key-value pair and added it to one of the PHP files, rather than looking to see if that text string existed already.</p>
+<p>I also found many instances of almost-duplicates. That is, text strings that said the same thing, but in a slightly different way. (I also spotted the occasional typo.) And I found many instances of phrases and sentences that were not grammatical or consistent.</p>
+<h2>Content Strategy</h2>
+<p>Once I organized all the content strings, I could start fixing them. I removed all the duplicates. I took the similar ones and made one version. I fixed grammar. I fixed grammatical patterns. All of this is what I call micro-content strategy. Even two-word phrases that go in menus need to be consistent. For example, you might want multi-word menu commands to be verb-noun. So you make that consistent. And that's part of what I did.</p>
+<p>One of the things I made sure I did was to document everything, especially for the key-value pairs that I deleted. Members of the programming team had to go fix code and replace keys that were no longer being used. </p>
+<p>Finally, I developed a short style guide, which I added to the internal Product Documentation wiki. This is what I wrote:</p>
+<h3>UI Text in [ProductName]</h3>
+<p>UI text strings in SDC are stored in PHP files as associative array data in key-value pairs.</p>
+<h4><strong>Keys for UI Text Strings</strong></h4>
+<p>UI text strings are values in key-value pairs stored in external resource files. The resource files are divided into content types, which are further classified by the structure of key content. The three resource files are:</p>
+<ul>
+  <li>forms_locale.php: Strings for widgets that commonly appear in web forms, such as buttons, text fields, radio buttons, lists, labels, and so on, typically what users interact with.</li>
+  <li>messages_locale.php: Messaging, including error, status, and confirmation messages.</li>
+  <li>content_locale.php: Everything else, including text strings for window and dialog box titles.</li>
+</ul>
+<p>There's a 4th file as well: tokens_locale.php. This file contains text tokens that are reused in many text strings. </p>
+<p>Keys should contain a classifier, followed by a hyphen, followed by an optional sub-classifier, followed by a unique identifier that is semantically useful in identifying the content of the value, with all except for the classifier separated by underscores. The classifiers we use:</p>
+<p>In forms_locale.php:</p>
+<ul>
+  <li><code>btn-</code> (The text on a button)</li>
+  <li><code>input-</code> (the label for any text field where users input data)</li>
+  <li><code>label-</code> (the label for widgets where users interact but don't input, such as drop-down lists, etc., as well as labels for groups)</li>
+  <li><code>option-</code> (text for radio button or check box options)</li>
+  <li><code>hlp-</code> (helper text)</li>
+</ul>
+<p>In message_locale.php:</p>
+<ul>
+  <li><code>message-confirm_</code> (letting users know that they have accomplished something)</li>
+  <li><code>message-error_</code> (letting users know of problems)</li>
+  <li><code>message-notify_</code> (letting users know when something requires their attention)</li>
+  <li><code>message-status_</code> (letting users know state)</li>
+</ul>
+<p>In content_locale.php:</p>
+<ul>
+  <li><code>column-</code> (column header text)</li>
+  <li><code>nav-</code> (navigation test, including menus and breadcrumbs)</li>
+  <li><code>title-</code> (text in window and dialog box title bars)</li>
+</ul>
+<p>The identifier should be semantically useful. Like with variable names, identifiers should give a clear cue as to its content (value). </p>
+<h4><strong>Organizing UI Text Strings</strong><strong> </strong></h4>
+<p>In each file, key-value pairs should be grouped by classifier. In each group, key-value pairs should be in alphabetical order by key. This will help programmers find values to reuse or make sure values do not exist when new ones are needed. Organization such as this will better show existing content patterns when new content is needed. </p>
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>WiFi Auto On Policies</title>
+<link rel="stylesheet" type="text/css" href="itsonhelptopic.css" ctype="topic" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+/*]]>*/
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8">
+</script>
+<meta name="generator" content="Adobe RoboHelp 10" />
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+        var strUrl = document.location.href;
+        var bc = 0;
+        var n = strUrl.toLowerCase().indexOf("bc-");
+        if(n != -1)
+        {
+                document.location.href = strUrl.substring(0, n);
+                bc = strUrl.substring(n+3);
+        }
+
+        if (window.addTocInfo)
+        {
+        addTocInfo("Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting\nWiFi Policies\nWiFi Auto On Policies");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(0);
+
+        
+        document.write("<p style=\"text-align:left\"> ");
+AddMasterBreadcrumbs("index.htm", "", "&gt;", "Home", "Service_Design_Center_Help.htm");
+document.write("<a href=\"Policies_Service_Entitlement_Data_Session_WiFi_Behavior_and_Voice_Accounting.html\">Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting<\/a> &gt; <a href=\"WiFi_Policies.html\">WiFi Policies<\/a> &gt; WiFi Auto On Policies<\/p>");
+
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+        {
+        setTimeout("setRelStartPage('index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+        }
+}
+
+if (window.addEventListener){  
+        window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+        window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(0);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]>
+</script><script type="text/javascript" src="ehlpdhtm.js">
+</script>
+<h1>WiFi Auto On Policies</h1>
+<p>WiFi Auto On policies are designed to force a device to use WiFi networks instead of cellular networks whenever possible, even on the device where the user has specifically turned the device WiFi radio off. &#160;WiFi Auto On policy event(s) are evaluated whenever there is a network transition event and whenever any of the selected criteria occur. If the policy event action is Enable and the device WiFi radio is turned off, the device WiFi radio is turned on.</p>
+<p>A WiFi auto on policy has one policy event and one settings section.</p>
+<h3 id="WiFiAutoOnPolicies-WiFiAutoOnPolicyEventCriteria">WiFi Auto On Policy Event Criteria</h3>
+<ul>
+<li>Network Type: The policy event is evaluated whenever the device is in the defined type of network.</li>
+<li>Time of Day: The policy event is evaluated only within the defined times and days.</li>
+<li>Device is Stationary: The policy event is evaluated only when the device is stationary.</li>
+</ul>
+<h3 id="WiFiAutoOnPolicies-WiFiAutoOnSettings">WiFi Auto On Settings</h3>
+<table>
+<tbody>
+<tr>
+<th>Setting</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>If this policy turned WiFi on, leave WiFi on even after policy no longer applies</td>
+<td>Enabled by default. If the device WiFi radio was turned on as a result of the policy event, enabling this setting causes the device WiFi radio to stay on even when the device is in a state where the policy event no longer evaluates to true.</td>
+</tr>
+<tr>
+<td>Save Battery: If WiFi does not connect in...turn WiFi off for...then try again.</td>
+<td>
+<p>Enabled by default. Select 2 values:</p>
+<ul>
+<li>How long the device should try to connect to WiFi if a connection cannot be made. Select from 1 (default), 2, 3, 4, 5 10 15, 30, or 50 minutes.</li>
+<li>If a WiFi connection fails, how long to turn off the WiFi radio before turning it on to try connecting again. Select from 5 (default), 10, 15, or 30 seconds or 1 minute.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]>
+</script>
+</body>
+</html>

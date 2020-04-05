@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-comment" content="" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>DeviceTaskList</title>
+<link rel="StyleSheet" href="itsonhelptopic.css" type="text/css" />
+</head>
+
+<body>
+<ul>
+	<li><a hqid="277892" href="#">Suspend</a> or <a hqid="277893" href="#">unsuspend</a> 
+	 the device</li>
+	<li><a hqid="232054" href="#">Get the device log file</a></li>
+	<li><a hqid="1608199" href="#">Lock</a> or <a hqid="1608200" href="#">unlock</a> 
+	 the device (if supported)</li>
+	<li><a hqid="277891" href="#">View device subscriber history</a></li>
+</ul>
+</body>
+</html>

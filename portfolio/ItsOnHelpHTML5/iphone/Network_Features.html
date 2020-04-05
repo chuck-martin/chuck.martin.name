@@ -1,0 +1,165 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>ItsOn Help Sample</title>
+<link rel="Stylesheet" href="template/iPhone_Layout/mobile.css" type="text/css" />
+ <link rel="StyleSheet" href="itsonhelptopic.css" type="text/css" /><script type="text/javascript" language="JavaScript">//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]></script><style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+<script type="text/javascript" src="template/scripts/constants.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/utils.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhver.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/settings.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadcsh.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/showhidecontrols.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/pageloader.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/searchfield.js" language="JavaScript1.2"></script>
+<script type="text/javascript" language="JavaScript1.2">
+gRootRelPath = ".";
+gCommonRootRelPath = "..";
+</script>
+<script type="text/javascript" language="JavaScript1.2">
+gTopicId = "4";
+</script>
+</head>
+
+<body>
+<script type="text/javascript" src="ehlpdhtm.js"></script>
+
+
+
+<div class="searchholder">
+	<table class="searchholdertable">
+		<tr>
+			<td class="home"><a href="home.htm"><img src="template/iPhone_Layout/home_default.png" alt="" style=" border:none; width:100%; max-width:59px;" border="0" /></a></td>
+			<td class="searchfield"><div class="wSearchField">
+				<input id="searchBox" class="wSearchField" type="search" data-placeholder="-Search-" onkeydown="searchHelp(event, 'searchBox')" data-search="true" /><a class="wSearchLink" onclick="searchHelp(null, 'searchBox')" href="#"><img src="template/iPhone_Layout/Search.png" alt="" class="wSearchLink" border="0" style="width:100%; max-width:30px" /></a>
+			</div></td>
+		</tr>
+	</table>
+</div>
+<div class="contentholderlight">
+	<div class="optionsholderlight">
+		<table class="optionslight">
+			<tr>
+				<td class="bsback"> 
+				 </td>
+				<td class="home_topic"></td>
+				<td class="bsnext"> 
+				 </td>
+			</tr>
+		</table>
+	</div>
+	<div class="wTopic" id="rh_default_topic_placeholder_id">
+
+
+  <h1>Network Features</h1>
+  <p>Network features define how devices interact with your network resources. 
+ Network features contain one or more policies, and these policies can 
+ be <a hqid="232073" href="#">service policies</a> to manage data,&#160;voice, 
+ or messaging, <a hqid="1712746" href="#">entitlement policies</a> to allow 
+ specific functionality, <a hqid="232019" href="#">data session policies</a> 
+ to manage device&#160;data sessions, and&#160;<a hqid="232092" href="#">WiFi 
+ policies</a> to manage interaction with WiFi networks. The network features 
+ you create are sent to embedded-client devices and to the ItsOn server 
+ for policy enforcement. Device and user behavior trigger evaluation of 
+ network features, which then control relevant device-network interaction.</p>
+  <ul>
+	<li>Service policies contain components that combine <a href="#">filters</a> 
+	 and <a hqid="232063" href="#">policy</a> <a hqid="232063" href="#">events</a>. 
+	 Depending on your integration requirements, service polices may require 
+	 bucket IDs or rating groups attached to 
+	 them for <a hqid="317071" href="#">network enforcement</a>.</li>
+	<li>Entitlement policies are associated with entitlement codes and 
+	 can contain one or more components.</li>
+	<li>Data session policies contain a single policy event that gets evaluated 
+	 when network transition events or defined triggers occur.</li>
+	<li>WiFi policies have settings specific to each type of policy, but 
+	 no policy events (except for WiFi Auto On policies).&#160;</li>
+</ul>
+<p>You can use network features to combine different types of policies 
+ to accomplish specific goals. For example, you can use the properly configured 
+ combination of a data service policy and a data session policy to accomplish 
+ the goal of roaming data reduction for devices that connect to your network.</p>
+<p>You begin by defining your network management, device management, and 
+ cost saving goals. Then in Service Design Center, 
+ create a network feature for each goal. Add policies to the network feature, 
+ then configure those policies to match your desired goal.&#160;</p>
+<p>The Network Features page lists the following details for each feature:</p>
+<ul>
+	<li>Feature Name</li>
+	<li>Feature Code</li>
+	<li>Created Date</li>
+	<li>Created By</li>
+	<li>Status (Draft, Testing, Published)</li>
+</ul>
+<h2 id="Features-FeatureStatuses">Network Feature Statuses</h2>
+<p>Network features have three statuses, or modes, that define a workflow 
+ that ends with deploying to the ItsOn server and to live embedded-client 
+ devices: Draft, Testing, and Published. Network features are in Draft 
+ mode when you first create them and configure them. Once you have added 
+ policies to a network feature and configured those policies, you add testing 
+ subscribers, either individually or through subscriber groups. Then move 
+ the network feature to Testing mode, where the network feature is pushed 
+ to the defined, limited set of devices, the subscribers you added, so 
+ you can test and validate the network feature definition. When you are 
+ satisfied that the network feature accomplishes your goal through testing, 
+ you move it to Published mode, and the network feature is pushed to the 
+ ItsOn server and to all of the embedded-client devices on your entire 
+ network. Embedded-client devices receive the network feature when they 
+ next check in with the network, typically within 24 hours.&#160;</p>
+<p>When features are in Testing or Published mode, the subscriber records 
+ on the <a hqid="232017" href="#">Customer Support</a> page reflect the 
+ features that embedded-client devices have received.&#160;</p>
+<h2 id="ServiceDesignCenterGuide-SampleScenarios">Network Feature Sample 
+ Scenarios</h2>
+<p>With today's smart devices wanting to maintain connections to the cellular 
+ network, your costs have increased as more devices maintain those connections 
+ on foreign networks, which are networks that you have roaming agreements 
+ with. In Service Design Center, you can design a policy that will, for 
+ example, prevent data sessions from being opened on roaming, or partner, 
+ networks unless the device's screen is on and an app 
+ attempting network access is in the foreground.&#160;</p>
+<p>Data-hungry processes, such as file downloading and video streaming, 
+ use an ever-increasing amount of your network capacity. While their coverage 
+ does not approach that of your cellular network, publicly available WiFi 
+ networks are extending their reach, and your users are credentialed to 
+ use some of them. In Service Design Center, you can design a policy that 
+ will, for example, recognize when a customer's device is within range 
+ of a WiFi network that it has credentials to use and direct the device 
+ to use the WiFi network rather than the cellular network.&#160;</p>
+</div>
+	
+</div>
+</body>
+</html>

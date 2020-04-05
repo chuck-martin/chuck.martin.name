@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CNIT 133 Homework 6 - Part 3</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+
+var salaries = new Array(0, 0, 0, 0, 0, 0, 0, 0, 0);
+
+function initPage()
+{
+  document.salaries.sales.value = "";
+  document.salaries.twohundred.value = 0;
+  document.salaries.threehundred.value = 0;
+  document.salaries.fourhundred.value = 0;
+  document.salaries.fivehundred.value = 0;
+  document.salaries.sixhundred.value = 0;
+  document.salaries.sevenhundred.value = 0;
+  document.salaries.eighthundred.value = 0;
+  document.salaries.ninehundred.value = 0;
+  document.salaries.onethousand.value = 0;
+}
+
+function processSales(thisForm)
+{
+  var salesAmount = parseInt(thisForm.sales.value);
+  var salary = 200 + (salesAmount * .09);
+  switch (true)
+  {
+    case ( ( salary >= 200 ) && ( salary < 300 ) ):
+	  document.salaries.twohundred.value = ++salaries[0];
+	  break;
+    case ( ( salary >= 300 ) && ( salary < 400 ) ):
+	  document.salaries.threehundred.value = ++salaries[1];
+	  break;
+    case ( ( salary >= 400 ) && ( salary < 500 ) ):
+	  document.salaries.fourhundred.value = ++salaries[2];
+	  break;
+    case ( ( salary >= 500 ) && ( salary < 600 ) ):
+	  document.salaries.fivehundred.value = ++salaries[3];
+	  break;
+    case ( ( salary >= 600 ) && ( salary < 700 ) ):
+	  document.salaries.sixhundred.value = ++salaries[4];
+	  break;
+    case ( ( salary >= 700 ) && ( salary < 800 ) ):
+	  document.salaries.severhundred.value = ++salaries[5];
+	  break;
+    case ( ( salary >= 800 ) && ( salary < 900 ) ):
+	  document.salaries.eighthundred.value = ++salaries[6];
+	  break;
+    case ( ( salary >= 900 ) && ( salary < 1000 ) ):
+	  document.salaries.ninehundred.value = ++salaries[7];
+	  break;
+    case ( salary >= 1000 ):
+	  document.salaries.onethousand.value = ++salaries[8];
+	  break;
+  }
+}
+
+
+
+</script>
+
+</head>
+
+<body onload="initPage()">
+<form id="salaries" name="salaries">
+  <p>Enter total sales for a salesperson:
+    <input name="sales" type="text" size="12" />
+    <input type="button" name="Submit" value="Add" onClick="processSales(this.form)" />
+  </p>
+  <p>Salaries<br />
+  $200-299
+  <input name="twohundred" type="text" size="4" />
+  <br />
+  $300-399
+  <input name="threehundred" type="text" size="4" />
+  <br />
+  $400-499
+  <input name="fourhundred" type="text" size="4" />
+  <br />
+  $500-599
+  <input name="fivehundred" type="text" size="4" />
+  <br />
+  $600-699
+  <input name="sixhundred" type="text" size="4" />
+  <br />
+  $700-799
+  <input name="sevenhundred" type="text" size="4" />
+  <br />
+  $800-899
+  <input name="eighthundred" type="text" size="4" />
+  <br />
+  $900-999
+  <input name="ninehundred" type="text" size="4" />
+  <br />
+  $1000+   
+  <input name="onethousand" type="text" size="4" />
+  </p>
+</form>
+</body>
+</html>

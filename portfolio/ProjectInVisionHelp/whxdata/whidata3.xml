@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<indexdata>
+<key name="Detail Forms" >
+  <topic name="Viewing Detail Forms" url="Viewing_Detail_Forms.htm" />
+  <topic name="Working with Detail Forms" url="About_Detail_Forms.htm" />
+  <key name="About" >
+    <topic name="About Detail Forms" url="About_Detail_Forms.htm" />
+  </key>
+  <key name="Adding Comments to" >
+    <topic name="Adding Comments" url="Adding_Comments.htm" />
+  </key>
+  <key name="Calculated fields" >
+    <topic name="About Detail Forms" url="About_Detail_Forms.htm" />
+  </key>
+  <key name="Collaborations" >
+    <topic name="Collaborations Detail Form" url="Collaborations_Detail_Form.htm" />
+  </key>
+  <key name="Common pages" >
+    <topic name="Detail Form Common Pages" url="Detail_Form_Common_Pages.htm" />
+  </key>
+  <key name="Non-editable fields" >
+    <topic name="About Detail Forms" url="About_Detail_Forms.htm" />
+  </key>
+  <key name="Pull-down lists in" >
+    <topic name="About Pull-down Lists" url="admin_About_Pull-down_Lists.htm" />
+  </key>
+  <key name="Required fields" >
+    <topic name="About Detail Forms" url="About_Detail_Forms.htm" />
+  </key>
+  <key name="Viewing" >
+    <topic name="Viewing Detail Forms" url="Viewing_Detail_Forms.htm" />
+  </key>
+</key>
+<key name="Development" >
+  <key name="Tracking problems with" >
+    <topic name="Creating Defects" url="Creating_Defects.htm" />
+  </key>
+</key>
+<key name="Disable Auto-Post Time" >
+  <topic name="Project Options" url="Project_Options.htm" />
+</key>
+<key name="Disable Auto-Synchronize of Billing Rates" >
+  <topic name="Project Options" url="Project_Options.htm" />
+</key>
+<key name="Disable Auto-Synchronize of Calendar" >
+  <topic name="Project Options" url="Project_Options.htm" />
+</key>
+<key name="Disable Auto-Synchronize of Cost Rate" >
+  <topic name="Project Options" url="Project_Options.htm" />
+</key>
+<key name="Disable Auto-Synchronize of Current Resource Requirements Plan" >
+  <topic name="Project Options" url="Project_Options.htm" />
+</key>
+<key name="Disable Auto-Synchronize of Project Schedule" >
+  <topic name="Project Options" url="Project_Options.htm" />
+</key>
+<key name="Discovery Date" >
+  <topic name="Defects Detail Form" url="Defects_Detail_Form.htm" />
+</key>
+<key name="Discussion messages" >
+  <topic name="Creating Discussion Messages" url="Creating_Discussion_Messages.htm" />
+  <key name="Creating" >
+    <topic name="Creating Discussion Messages" url="Creating_Discussion_Messages.htm" />
+  </key>
+</key>
+<key name="Discussions" >
+  <topic name="About Discussions" url="About_Discussions.htm" />
+  <topic name="Detail Form Common Pages" url="Detail_Form_Common_Pages.htm" />
+  <topic name="Editing Journal Entries" url="Editing_Journal_Entries.htm" />
+  <topic name="Replying Publicly to Discussion Messages" url="Replying_Publicly_to_Discussion_Messages.htm" />
+  <key name="About" >
+    <topic name="About Discussions" url="About_Discussions.htm" />
+  </key>
+  <key name="Private" >
+    <topic name="About Discussions" url="About_Discussions.htm" />
+  </key>
+  <key name="Public" >
+    <topic name="About Discussions" url="About_Discussions.htm" />
+  </key>
+  <key name="Replying privately to messages" >
+    <topic name="Replying Privately to Discussion Messages" url="Replying_Privately_to_Discussion_Messages.htm" />
+  </key>
+  <key name="Replying Publicly to" >
+    <topic name="Replying Publicly to Discussion Messages" url="Replying_Publicly_to_Discussion_Messages.htm" />
+  </key>
+</key>
+<key name="Document files" >
+  <topic name="About Document Files" url="About_Document_Files.htm" />
+  <topic name="Adding Document Files" url="Adding_Document_Files.htm" />
+  <topic name="Checking In Document Files" url="Checking_In_Document_Files.htm" />
+  <topic name="Checking Out Document Files" url="Checking_Out_Document_Files.htm" />
+  <topic name="Creating Document Files from Templates" url="Creating_Document_Files_from_Templates.htm" />
+  <topic name="Viewing Document Files" url="Viewing_Document_Files.htm" />
+  <key name="About" >
+    <topic name="About Document Files" url="About_Document_Files.htm" />
+  </key>
+  <key name="Adding" >
+    <topic name="Adding Document Files" url="Adding_Document_Files.htm" />
+  </key>
+  <key name="Checking in" >
+    <topic name="Checking In Document Files" url="Checking_In_Document_Files.htm" />
+  </key>
+  <key name="Checking out" >
+    <topic name="Checking Out Document Files" url="Checking_Out_Document_Files.htm" />
+  </key>
+  <key name="Creating from templates" >
+    <topic name="Creating Document Files from Templates" url="Creating_Document_Files_from_Templates.htm" />
+  </key>
+  <key name="Viewing" >
+    <topic name="Viewing Document Files" url="Viewing_Document_Files.htm" />
+  </key>
+</key>
+<key name="Document records" >
+  <topic name="About Documents" url="About_the_Documents_Module.htm" />
+  <topic name="Approving Document Records" url="Approving_Document_Records.htm" />
+  <topic name="Creating Document Records" url="Creating_Document_Records.htm" />
+  <topic name="Deleting Document Records" url="Deleting_Document_Records.htm" />
+  <topic name="Editing Document Records" url="Editing_Document_Records.htm" />
+  <key name="Adding files to" >
+    <topic name="Adding Document Files" url="Adding_Document_Files.htm" />
+  </key>
+  <key name="Approving" >
+    <topic name="Approving Document Records" url="Approving_Document_Records.htm" />
+  </key>
+  <key name="Creating" >
+    <topic name="Creating Document Records" url="Creating_Document_Records.htm" />
+  </key>
+  <key name="Deleting" >
+    <topic name="Deleting Document Records" url="Deleting_Document_Records.htm" />
+  </key>
+  <key name="Documents with" >
+    <topic name="Creating Document Records" url="Creating_Document_Records.htm" />
+  </key>
+  <key name="Editing" >
+    <topic name="Editing Document Records" url="Editing_Document_Records.htm" />
+  </key>
+</key>
+<key name="Document versions" >
+  <topic name="Viewing Document Versions" url="Viewing_Document_Versions.htm" />
+  <key name="Keeping" >
+    <topic name="Keeping Document Versions" url="Keeping_Document_Versions.htm" />
+  </key>
+  <key name="Viewing" >
+    <topic name="Viewing Document Versions" url="Viewing_Document_Versions.htm" />
+  </key>
+</key>
+<key name="Documents" >
+  <topic name="Adding Approvers to Documents" url="Adding_Approvers_to_Documents.htm" />
+  <topic name="Editing Document Records" url="Editing_Document_Records.htm" />
+  <topic name="Keeping Document Versions" url="Keeping_Document_Versions.htm" />
+  <key name="About" >
+    <topic name="About Documents" url="About_the_Documents_Module.htm" />
+  </key>
+  <key name="Adding approvers to" >
+    <topic name="Adding Approvers to Documents" url="Adding_Approvers_to_Documents.htm" />
+  </key>
+  <key name="Applying workflows" >
+    <topic name="Applying Workflows" url="Applying_Workflows.htm" />
+  </key>
+  <key name="Copying between Projects" >
+    <topic name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+  </key>
+  <key name="Deleting Document records and" >
+    <topic name="Deleting Document Records" url="Deleting_Document_Records.htm" />
+  </key>
+  <key name="Detail Form" >
+    <topic name="Documents Detail Form" url="Documents_Detail_Form.htm" />
+  </key>
+  <key name="Document records and" >
+    <topic name="Creating Document Records" url="Creating_Document_Records.htm" />
+  </key>
+  <key name="Editing records" >
+    <topic name="Editing Document Records" url="Editing_Document_Records.htm" />
+  </key>
+  <key name="Keeping versions of" >
+    <topic name="Keeping Document Versions" url="Keeping_Document_Versions.htm" />
+  </key>
+  <key name="Moving between Projects" >
+    <topic name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+  </key>
+  <key name="Templates and" >
+    <topic name="Creating Templates" url="admin_Creating_Templates.htm" />
+  </key>
+  <key name="Views" >
+    <topic name="Documents Module Views" url="Documents_Module_Views.htm" />
+  </key>
+</key>
+<key name="Doesn't Contain" >
+  <topic name="Finding Information" url="Finding_Information.htm" />
+  <topic name="Quick Filters" url="Quick_Filters.htm" />
+</key>
+<key name="Doesn't End With" >
+  <topic name="Finding Information" url="Finding_Information.htm" />
+  <topic name="Quick Filters" url="Quick_Filters.htm" />
+</key>
+<key name="Doesn't Start With" >
+  <topic name="Finding Information" url="Finding_Information.htm" />
+  <topic name="Quick Filters" url="Quick_Filters.htm" />
+</key>
+<key name="drop-down lists" >
+  <topic name="About Pull-down Lists" url="admin_About_Pull-down_Lists.htm" />
+</key>
+<key name="Dscussions" >
+  <topic name="Replying Privately to Discussion Messages" url="Replying_Privately_to_Discussion_Messages.htm" />
+</key>
+<key name="Due Date" >
+  <topic name="Documents Detail Form" url="Documents_Detail_Form.htm" />
+</key>
+<key name="Editable" >
+  <topic name="Editing Information" url="Editing_Information.htm" />
+</key>
+<key name="Editing" >
+  <key name="Availability" >
+    <topic name="Editing Availability" url="Editing_Availability.htm" />
+  </key>
+  <key name="Changes" >
+    <topic name="Editing Changes" url="Editing_Changes.htm" />
+  </key>
+  <key name="Comments" >
+    <topic name="Editing Comments" url="Editing_Comments.htm" />
+  </key>
+  <key name="Contact Information" >
+    <topic name="Editing Contact Information" url="Editing_Contact_Information.htm" />
+  </key>
+  <key name="Custom module records" >
+    <topic name="Editing Custom Module Records" url="Editing_Custom_Module_Records.htm" />
+  </key>
+  <key name="Defects" >
+    <topic name="Editing Defects" url="Editing_Defects.htm" />
+  </key>
+  <key name="Document records" >
+    <topic name="Editing Document Records" url="Editing_Document_Records.htm" />
+  </key>
+  <key name="Information" >
+    <topic name="Editing Information" url="Editing_Information.htm" />
+  </key>
+  <key name="Issues" >
+    <topic name="Editing Issues" url="Editing_Issues.htm" />
+  </key>
+  <key name="Journal entries" >
+    <topic name="Editing Journal Entries" url="Editing_Journal_Entries.htm" />
+  </key>
+  <key name="Links" >
+    <topic name="Editing Links" url="Editing_Links.htm" />
+  </key>
+  <key name="Projects" >
+    <topic name="Editing Projects" url="Editing_Projects.htm" />
+  </key>
+  <key name="Pull-down lists" >
+    <topic name="Editing Pull-down List Items" url="admin_Editing_Pull-down_List_Items.htm" />
+  </key>
+  <key name="Requirements" >
+    <topic name="Editing Requirements" url="Editing_Requirements.htm" />
+  </key>
+  <key name="Resource Plans" >
+    <topic name="Editing Resource Plans" url="Editing_Resource_Plans.htm" />
+  </key>
+  <key name="Resources" >
+    <topic name="Editing Resources" url="Editing_Resources.htm" />
+  </key>
+  <key name="Risks" >
+    <topic name="Editing Risks" url="Editing_Risks.htm" />
+  </key>
+  <key name="Skills" >
+    <topic name="Editing Skills" url="Editing_Skills.htm" />
+  </key>
+  <key name="Tasks" >
+    <topic name="Editing Tasks" url="Editing_Tasks.htm" />
+  </key>
+  <key name="Template information" >
+    <topic name="Editing Template Information" url="admin_Editing_Template_Information.htm" />
+  </key>
+  <key name="Templates" >
+    <topic name="Editing Templates" url="admin_Editing_Templates.htm" />
+  </key>
+</key>
+<key name="Email" >
+  <topic name="Editing Contact Information" url="Editing_Contact_Information.htm" />
+  <key name="Sending" >
+    <topic name="Sending Alerts" url="Sending_Alerts.htm" />
+  </key>
+</key>
+<key name="Email addresses" >
+  <topic name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+</key>
+<key name="Ends With" >
+  <topic name="Finding Information" url="Finding_Information.htm" />
+  <topic name="Quick Filters" url="Quick_Filters.htm" />
+</key>
+<key name="Entering" >
+  <key name="Actual Work Hours" >
+    <topic name="Entering Actual Work Hours" url="Entering_Actual_Work_Hours.htm" />
+  </key>
+</key>
+<key name="Evaluation Date" >
+  <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+  <topic name="Defects Detail Form" url="Defects_Detail_Form.htm" />
+</key>
+<key name="Expenses" >
+  <key name="Costing" >
+    <topic name="Managing Project Costs" url="Managing_Project_Costs.htm" />
+  </key>
+</key>
+<key name="Exporting" >
+  <topic name="Exporting" url="Exporting.htm" />
+  <key name="Reports" >
+    <topic name="Exporting Reports" url="Exporting_Reports.htm" />
+  </key>
+</key>
+<key name="Favorites" >
+  <topic name="Adding Project InVision to your Favorites" url="Adding_Project_InVision_to_your_Favorites.htm" />
+</key>
+<key name="Field" >
+  <topic name="Advanced Filters" url="Advanced_Filters.htm" />
+</key>
+<key name="Field names" >
+  <key name="In Reports" >
+    <topic name="About Reports" url="About_Reports.htm" />
+  </key>
+</key>
+<key name="Filter" >
+  <topic name="Navigation Menu" url="Navigation_Menu.htm" />
+</key>
+
+</indexdata>

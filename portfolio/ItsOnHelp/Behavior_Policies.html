@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>Behavior Policies</title>
+<link rel="stylesheet" type="text/css" href="itsonhelptopic.css" ctype="topic" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+/*]]>*/
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+        var strUrl = document.location.href;
+        var bc = 0;
+        var n = strUrl.toLowerCase().indexOf("bc-");
+        if(n != -1)
+        {
+                document.location.href = strUrl.substring(0, n);
+                bc = strUrl.substring(n+3);
+        }
+
+        if (window.addTocInfo)
+        {
+        addTocInfo("Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting\nBehavior Policies");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(0);
+
+        
+        document.write("<p style=\"text-align:left\"> ");
+AddMasterBreadcrumbs("index.htm", "", "&gt;", "Home", "Service_Design_Center_Help.htm");
+document.write("<a href=\"Policies_Service_Entitlement_Data_Session_WiFi_Behavior_and_Voice_Accounting.html\">Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting<\/a> &gt; Behavior Policies<\/p>");
+
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+        {
+        setTimeout("setRelStartPage('index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+        }
+}
+
+if (window.addEventListener){  
+        window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+        window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(0);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]>
+</script><script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2">
+</script>
+<h1>Behavior Policies</h1>
+<p>Behavior policies allow you to design preferred voice destination functionality into your system, functionality often referred to as "favorites" or "calling circles." The basic idea is that you can allow your customers a limited amount of numbers that they can call for free or for a cost lower than your plan offerings. <a hqid="265687" href="#">Behavior policy settings</a> allow you to define what numbers can be called, how many preferred destinations customers can have, and what actions customers can take with their preferred destinations.&#160;</p>
+<p>When&#160;customers receive&#160;a plan with a behavior policy, any destinations they enter persist while they remain a customer, even if they change plans that use behavior policies. So if they change plans, they keep their favorites.</p>
+<p>When customers have both behavior policy plans and plans based on other voice&#160;policies, you usually want to make sure the plan based on the behavior policy is used before the plans based&#160;on&#160;the other voice policies. You do this by setting a higher priority in the eCommerce policy that contains the behavior policy. See&#160;<a hqid="1789991" href="#FeatureSettings-Priority">eCommerce Policy Properties</a> for details about this setting and&#160;<a hqid="286276" href="#">Create a Favorites Plan</a>&#160;for an example on how to configure a behavior policy in a plan.</p>
+<div class="warning">
+<p>Service Design Center allows at most one behavior policy per tenant because making more than one could be confusing to customers. For example, if you have one behavior policy that allows 3 favorites and another that allows 5 and if you have 2 different voice plans with these behavior policies, customers with both plans who want to make changes would not know which one they are changing. So once you <a href="#">add a behavior policy</a>, the ability to add more is disabled.</p>
+<p>In addition, once a behavior policy is created, it cannot be deleted. This is because once a behavior policy is associated with any voice service policy, if it were to be deleted, it could cause issues with that policy, and plans that use that behavior policy would not function correctly anymore.</p>
+</div>
+<h4>See Also</h4>
+<ul>
+<li><a hqid="1808683" href="#">View a Behavior Policy</a></li>
+<li><a hqid="265680" href="#">Add a Behavior Policy</a></li>
+<li><a hqid="269062" href="#">Add a Behavior Policy to a Filter</a></li>
+<li><a hqid="266072" href="#">Edit a Behavior Policy</a></li>
+<li><a hqid="265687" href="#">Behavior Policy Settings</a></li>
+</ul>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]>
+</script>
+</body>
+</html>

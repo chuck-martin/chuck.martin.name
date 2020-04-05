@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Using Access to Create a CSV File</title>
+	<meta name="role" content="ADMIN">
+	<meta name="partner" content="" />
+	<meta name="product" content="" />
+	<meta name="language" content="en" />
+	<meta name="country" content="us" />
+	<meta name="index" content="" />
+	<link rel="stylesheet" type="text/css" href="help_w3c_biztro.css" />
+	
+<script src="body.js"></script>
+</head>
+
+<body style="margin : 3px;">
+<div class="topictitle">Using Access to Create a CSV File</div>
+
+<p>Many database programs, such as Microsoft Access, can import and export CSV files, although usually not as easily as with Microsoft Excel or a similar spreadsheet program.  </p>
+
+<p>You must be careful how you specify the file type in Access. You must specify that Access use a delimited file, with a comma delimiter, and with a text qualifier of the double-quote character.  You must do this both when you import the sample file into Access and when you export your data to a file to be uploaded and imported into this system,</p>
+
+<p>The sample contains a column-header row that briefly identifies the fields, a few sample employee entries, and simple instructions.</p>
+<h2>To create an importable CSV file in Access</h2>
+<ol>
+  <li>Once you have the sample file saved on your local hard disk, start Access and create a blank database.</li>
+  <li>Select an appropriate location to save the database and name it.</li>
+  <li>Select&nbsp;<b>File</b> &#62;&nbsp;<b>Get External Data</b> &#62;&nbsp;<b>Import</b>.</li>
+  <li>In the Import window, specify Files of Type &#34;Text Files (*.txt, *.csv, ...)&#34; and click&nbsp;<b>Import</b>.</li>
+  <li>Choose&nbsp;<b>Delimited</b> format.  Specify a&nbsp;<b>comma</b> delimiter, a text qualifier of the&nbsp;<b>double</b>-<B>quote</b> character, and that the&nbsp;<b>first row</b> contains field names.</li>
+  <li>Specify to save the data in a new table.<br />
+  Do not add a primary key or it will be included when you save your data, which will prevent proper importing.</li>
+  <li>Enter (or cut-and-paste from another application or database) your employee data, following the samples and the column names. </li>
+  <li>When you have entered all your employee data, delete the instructions, the sample entries, and the column captions (if they are in the data).  Make sure that the only rows remaining are one for each employee. </li>
+  <li>Select&nbsp;<b>File</b> &#62;&nbsp;<b>Save As</b> &#62;&nbsp;<b>Export</b> &#62;&nbsp;<b>To an External File or Database</b>.  Specify Save as Type &#34;Text Files (*.txt, *.csv, ...)&#34;.</li>
+  <li>Choose&nbsp;<b>Delimited</b> format.  Specify a&nbsp;<b>comma</b> delimiter, a text qualifier of the&nbsp;<b>double</b>-<B>quote</b> character, and do&nbsp;<b>not</b> include field names in first row.</li>
+  <li>Save the file as a CSV file.  You can now use the Data Import form to select and import this file. </li>
+</ol>
+
+<h2>Related Topics</h2>
+<a href="HRSetup_Data_Import_CSV_in_Depth_en_US.htm">Learn more about Data Import and CSV files</a><br />
+
+</body>
+</html>

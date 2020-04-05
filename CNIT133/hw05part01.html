@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CNIT 133 Homework 5 - Part 1</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+
+// This function was found when I did a search for JavaScript functions
+// that test for numeric value--which don't exist.
+function IsNumeric(sText)
+{
+   var ValidChars = "0123456789.";
+   var IsNumber=true;
+   var Char;
+
+   for (i = 0; i < sText.length && IsNumber == true; i++) 
+      { 
+      Char = sText.charAt(i); 
+      if (ValidChars.indexOf(Char) == -1) 
+         {
+         IsNumber = false;
+         }
+      }
+   return IsNumber;
+}
+
+function calculateArea()
+{
+  rad = document.calcArea.radius.value;
+  if (IsNumeric(rad))
+  {
+    var a = Math.PI * Math.pow(rad, 2);
+	document.calcArea.area.value = a;
+  }
+  else
+  {
+    alert("You did not enter a number.\nPlease enter a number.");
+	document.calcArea.radius.value = "";
+  }
+}
+
+function clearFields()
+{
+  document.calcArea.radius.value = "";
+  document.calcArea.area.value = "";
+}
+
+
+
+</script>
+
+</head>
+
+<body onload="clearFields()">
+<form id="calcArea" name="calcArea" method="post" action="">
+  <p>
+    <label>Enter radius
+      <input type="text" name="redius" id="radius" />
+    </label>
+  </p>
+  <p>
+    <label>
+    <input type="button" name="button" value="Calculate Area" onClick="calculateArea()"/>
+    </label>
+  </p>
+  <p>
+    <label>Area
+    <input type="text" name="area" id="area" />
+    </label>
+  </p>
+</form>
+</body>
+</html>

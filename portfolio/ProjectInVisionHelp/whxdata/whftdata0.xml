@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<ftstdata>
+<topic name="New and Updated Help Files" url="_New_and_Updated_Help_Files.htm" />
+<topic name="_Testing Topic" url="_Testing_Topic.htm" />
+<topic name="About Alerts" url="About_Alerts.htm" />
+<topic name="About Comments" url="About_Comments.htm" />
+<topic name="About Custom Modules" url="About_Custom_Modules.htm" />
+<topic name="About Dashboard" url="About_Dashboard.htm" />
+<topic name="About Detail Forms" url="About_Detail_Forms.htm" />
+<topic name="About Discussions" url="About_Discussions.htm" />
+<topic name="About Document Files" url="About_Document_Files.htm" />
+<topic name="About Filters" url="About_Filters.htm" />
+<topic name="About Grouping" url="About_Grouping.htm" />
+<topic name="About Links" url="About_Links.htm" />
+<topic name="About Portals" url="About_Portals.htm" />
+<topic name="About Portfolio Manager" url="About_Portfolio_Manager.htm" />
+<topic name="About Project InVision" url="About_Project_InVision.htm" />
+<topic name="About Project InVision Applications" url="About_Project_InVision_Applications.htm" />
+<topic name="About Project InVision International" url="About_Project_InVision_International.htm" />
+<topic name="About Project Schedule Files" url="About_Project_Schedule_Files.htm" />
+<topic name="About Project Teams" url="About_Project_Teams.htm" />
+<topic name="About Reports" url="About_Reports.htm" />
+<topic name="About Resource Costing" url="About_Resource_Costing.htm" />
+<topic name="About Resource Plans" url="About_Resource_Plans.htm" />
+<topic name="About Searching" url="About_Searching.htm" />
+<topic name="About Sorting" url="About_Sorting.htm" />
+<topic name="About Templates" url="About_Templates.htm" />
+<topic name="About the Changes Module" url="About_the_Changes_Module.htm" />
+<topic name="About the Collaborations Module" url="About_the_Collaborations_Module.htm" />
+<topic name="About the Defects Module" url="About_the_Defects_Module.htm" />
+<topic name="About the Documents Module" url="About_the_Documents_Module.htm" />
+<topic name="About the Issues Module" url="About_the_Issues_Module.htm" />
+<topic name="About the Journals Module" url="About_the_Journals_Module.htm" />
+<topic name="About the Projects Module" url="About_the_Projects_Module.htm" />
+<topic name="About the Requirements Module" url="About_the_Requirements_Module.htm" />
+<topic name="About the Resources Module" url="About_the_Resources_Module.htm" />
+<topic name="About the Risks Module" url="About_the_Risks_Module.htm" />
+<topic name="About the Selector" url="About_the_Selector.htm" />
+<topic name="About the Tasks Module" url="About_the_Tasks_Module.htm" />
+<topic name="About Time Tracking" url="About_Time_Tracking.htm" />
+<topic name="About Transferring Records" url="About_Transferring_Records.htm" />
+<topic name="About Views" url="About_Views.htm" />
+<topic name="About Workflows" url="About_Workflows.htm" />
+<topic name="About Workgroups" url="About_Workgroups.htm" />
+<topic name="Accessing Dashboard" url="Accessing_Dashboard.htm" />
+<topic name="Accessing Time Tracking" url="Accessing_Time_Tracking.htm" />
+<topic name="Adding Approvers to Documents" url="Adding_Approvers_to_Documents.htm" />
+<topic name="Adding Assignments to Timesheets" url="Adding_Assignments_to_Timesheets.htm" />
+<topic name="Adding Comments" url="Adding_Comments.htm" />
+<topic name="Adding Document Files" url="Adding_Document_Files.htm" />
+<topic name="Adding Links" url="Adding_Links.htm" />
+<topic name="Adding Notes to Timesheet Assignments" url="Adding_Notes_to_Timesheet_Assignments.htm" />
+<topic name="Adding Project InVision to Your Favorites" url="Adding_Project_InVision_to_your_Favorites.htm" />
+<topic name="About Administration" url="admin_About_Administration.htm" />
+<topic name="About Pull-down Lists" url="admin_About_Pull-down_Lists.htm" />
+<topic name="About Resource Administration" url="admin_About_Resource_Administration.htm" />
+<topic name="About Templates" url="admin_About_Templates.htm" />
+<topic name="Adding Pull-down List Items" url="admin_Adding_Pull-down_List_Items.htm" />
+<topic name="Assigning Resources to Workgroups" url="admin_Assigning_Resources_to_Workgroups.htm" />
+<topic name="Assigning Workgroups to Resources" url="admin_Assigning_Workgroups_to_Resources.htm" />
+<topic name="Changing Pull-down List Item Order" url="admin_Changing_Pull-down_List_Item_Order.htm" />
+<topic name="Changing Resource Logins and Passwords" url="admin_Changing_Resource_Logins_and_Passwords.htm" />
+<topic name="Changing Template Order" url="admin_Changing_Template_Order.htm" />
+<topic name="Clearing Associations" url="admin_Clearing_Associations.htm" />
+<topic name="Creating Generic Resources" url="admin_Creating_Generic_Resources.htm" />
+<topic name="Creating Resource Logins" url="admin_Creating_Resource_Logins.htm" />
+<topic name="Creating Resources" url="admin_Creating_Resources.htm" />
+<topic name="Creating Templates" url="admin_Creating_Templates.htm" />
+<topic name="Deleting Pull-down List Items" url="admin_Deleting_Pull-down_List_Items.htm" />
+<topic name="Deleting Resources" url="admin_Deleting_Resources.htm" />
+<topic name="Deleting Templates" url="admin_Deleting_Templates.htm" />
+<topic name="Editing Pull-down List Items" url="admin_Editing_Pull-down_List_Items.htm" />
+<topic name="Editing Resources" url="admin_Editing_Resources.htm" />
+<topic name="Editing Template Information" url="admin_Editing_Template_Information.htm" />
+<topic name="Editing Templates" url="admin_Editing_Templates.htm" />
+<topic name="Forcing Check In" url="admin_Forcing_Check_In.htm" />
+<topic name="Removing Resources from Workgroups" url="admin_Removing_Resources_from_Workgroups.htm" />
+<topic name="Removing Workgroups from Resources" url="admin_Removing_Workgroups_from_Resources.htm" />
+<topic name="Retiring Pull-down List Items" url="admin_Retiring_Pull-down_List_Items.htm" />
+<topic name="Setting Resource User Categories" url="admin_Setting_Resource_User_Categories.htm" />
+<topic name="Viewing Resource Details" url="admin_Viewing_Resource_Details.htm" />
+<topic name="Administrative Reports" url="Administrative_Reports.htm" />
+<topic name="Advanced Filters" url="Advanced_Filters.htm" />
+<topic name="Analyzing Resource Availability for Projects" url="Analyzing_Resource_Availability_for_Projects.htm" />
+<topic name="Appendix A - Field Mapping" url="Appendix_A_Field_Mapping.htm" />
+<topic name="Applying Grouping" url="Applying_Grouping.htm" />
+<topic name="Applying Project Templates" url="Applying_Project_Templates.htm" />
+<topic name="Applying Views" url="Applying_Views.htm" />
+<topic name="Applying Workflows" url="Applying_Workflows.htm" />
+<topic name="Approving Document Records" url="Approving_Document_Records.htm" />
+<topic name="Approving Timesheets" url="Approving_Timesheets.htm" />
+<topic name="Assigning Projects to Resources" url="Assigning_Projects_to_Resources.htm" />
+<topic name="Assigning Resources to Projects" url="Assigning_Resources_to_Projects.htm" />
+<topic name="Assigning Resources to Tasks" url="Assigning_Resources_to_Tasks.htm" />
+<topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+<topic name="Changes Module Reports" url="Changes_Module_Reports.htm" />
+<topic name="Changes Module Views" url="Changes_Module_Views.htm" />
+<topic name="Changing Dashboard Layouts" url="Changing_Dashboard_Layouts.htm" />
+<topic name="Changing Dashboard View Options" url="Changing_Dashboard_View_Options.htm" />
+<topic name="Changing Dashboards" url="Changing_Dashboards.htm" />
+<topic name="Changing Portal Layouts" url="Changing_Portal_Layouts.htm" />
+<topic name="Changing Portal View Options" url="Changing_Portal_View_Options.htm" />
+<topic name="Changing Time Increments" url="Changing_Time_Increments.htm" />
+<topic name="Changing Workgroups" url="Changing_Workgroups.htm" />
+<topic name="Changing Your Password" url="Changing_Your_Password.htm" />
+<topic name="Checking In Document Files" url="Checking_In_Document_Files.htm" />
+<topic name="Checking In Project Schedule Files" url="Checking_In_Project_Schedule_Files.htm" />
+<topic name="Checking Out Document Files" url="Checking_Out_Document_Files.htm" />
+<topic name="Checking Out Project Schedule Files" url="Checking_Out_Project_Schedule_Files.htm" />
+<topic name="Collaborations Detail Form" url="Collaborations_Detail_Form.htm" />
+<topic name="Configuring Internet Explorer" url="Configuring_Internet_Explorer.htm" />
+<topic name="Configuring Project InVision" url="Configuring_Project_InVision.htm" />
+<topic name="Configuring Project Selection" url="Configuring_Project_Selection.htm" />
+<topic name="Configuring Search Settings" url="Configuring_Search_Settings.htm" />
+<topic name="Copying Previous Week Timesheets" url="Copying_Previous_Week_Timesheets.htm" />
+<topic name="Copying Projects Between Workgroups" url="Copying_Projects_Between_Workgroups.htm" />
+<topic name="Copying Records" url="Copying_Records.htm" />
+<topic name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+<topic name="Copying Records Within Projects" url="Copying_Records_Within_Projects.htm" />
+<topic name="Creating Changes" url="Creating_Changes.htm" />
+<topic name="Creating Collaborations" url="Creating_Collaborations.htm" />
+<topic name="Creating Custom Module Records" url="Creating_Custom_Module_Records.htm" />
+<topic name="Creating Defects" url="Creating_Defects.htm" />
+
+</ftstdata>  

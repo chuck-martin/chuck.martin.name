@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CNIT 133 Homework 7 - Part 2</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+
+function countChars(inputstring, inputchar)
+{
+  var charcount = 0;
+  for (var x = 0; x < inputstring.length; x++)
+  {
+    if (inputchar == inputstring.charAt(x))
+	{
+	  charcount++;
+	}
+  }
+  return charcount;
+}
+
+function processInput()
+{
+  var numchars = countChars(document.findchars.enteredtext.value, document.findchars.searchchar.value);
+  if (numchars == 0)
+  {
+    var notfoundstring = "<html><body><p>Search character \"" + document.findchars.searchchar.value + "\" not found in text string.</p></body></html>";
+    var errorwindow = window.open("", "newwindow", "top=200,left=200,width=300,height=200");
+	errorwindow.document.write(notfoundstring);
+	errorwindow.document.close;
+  }
+  else
+  {
+    document.findchars.results.value = "The search character \"" + document.findchars.searchchar.value + "\" was found " + numchars + " times in the entered string.";
+  }
+}
+
+function clearFields()
+{
+  document.findchars.results.value = "";
+  document.findchars.searchchar.value = "";
+  document.findchars.enteredtext.value = "";
+}
+
+</script>
+
+</head>
+
+<body onload="clearFields()">
+<form id="findchars" name="findchars" action="">
+  <p>Enter some text:
+    <textarea name="enteredtext" cols="50" rows="10"></textarea>
+</p>
+  <p>Enter a single character to search for:
+    <input name="searchchar" type="text" size="3" maxlength="1" />
+    <input type="button" name="find" value="Find" onclick="processInput()" />
+  </p>
+  <p>Results:
+    <input name="results" type="text" size="70" />
+  </p>
+</form>
+</body>
+</html>

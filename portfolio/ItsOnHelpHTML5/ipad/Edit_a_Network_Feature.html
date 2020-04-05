@@ -1,0 +1,115 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>ItsOn Help Sample</title>
+<link rel="Stylesheet" href="template/iPad_Layout/mobile.css" type="text/css" />
+ <link rel="stylesheet" type="text/css" href="itsonhelptopic.css" ctype="topic" /><script type="text/javascript" language="JavaScript">//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]></script><style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+<script type="text/javascript" src="template/scripts/constants.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/utils.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhver.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/settings.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadcsh.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/showhidecontrols.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/pageloader.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/searchfield.js" language="JavaScript1.2"></script>
+<script type="text/javascript" language="JavaScript1.2">
+gRootRelPath = ".";
+gCommonRootRelPath = "..";
+</script>
+<script type="text/javascript" language="JavaScript1.2">
+gTopicId = "4.1";
+</script>
+</head>
+
+<body>
+<script type="text/javascript" src="ehlpdhtm.js"></script>
+
+
+
+<div class="contentholder">
+	<div class="searchholder">
+		<table class="searchholdertable">
+			<tr>
+				<td class="home"><a href="home.htm"><img src="template/iPad_Layout/home_default.png" alt="" style=" border:none; width:100%; max-width:59px;" border="0" /></a></td>
+				<td class="searchfield"><div class="wSearchField">
+					<input id="searchBox" class="wSearchField" type="search" data-placeholder="-Search-" onkeydown="searchHelp(event, 'searchBox')" data-search="true" /><a class="wSearchLink" onclick="searchHelp(null, 'searchBox')" href="#"><img src="template/iPad_Layout/Search.png" alt="" class="wSearchLink" border="0" style="width:100%; max-width:30px" /></a> 
+					 
+				</div></td>
+			</tr>
+		</table>
+	</div>
+	<div class="content">
+		<div class="options">
+			<table class="options">
+				<tr>
+					<td class="bsback"> 
+					 </td>
+					<td class="home"></td>
+					<td class="bsnext"> 
+					 </td>
+				</tr>
+			</table>
+		</div>
+		<div class="wTopic" id="rh_default_topic_placeholder_id">
+
+
+   <h1>Edit a Network Feature</h1>
+   <div class="warning">
+    <p>You are allowed to make changes to network features when they are in Draft mode (not published to the ItsOn server or to any embedded-client devices), Test mode (when the existing feature is already pushed to devices that you're using for policy testing) and in Published mode (when the existing feature is already pushed to the ItsOn server and to the embedded-client devices of your customers). Changes to network features are immediate, and are published to the ItsOn server immediately and to embedded-client devices as soon as they "check in" with the network (typically within 24 hours, or when the device is reset), or, when a network feature is moved from Draft to Test status, immediately.</p>
+    <p>Exception: Once a bucket ID, rating group, or entitlement code has been added to a network feature, it cannot be deleted. It can only be <a href="#">changed</a>, and only until the network feature has been published. Once a network feature that uses a bucket ID, rating group, or entitlement code has been published, the bucket ID, rating group, or entitlement code in the network feature can no longer be changed.</p>
+   </div>
+   <p>You can:</p>
+   <ul>
+    <li><a hqid="232032" href="#">Edit network feature properties</a></li>
+    <li><a hqid="232043" href="#">Edit a policy in a network feature</a></li>
+    <li><a hqid="232036" href="#">Edit a data session policy in a network feature</a></li>
+    <li><a hqid="232045" href="#">Edit a WiFi policy in a network feature</a></li>
+    <li><a hqid="232014" href="#">Reorder components or policy events</a></li>
+   </ul>
+   <h2 id="EditaFeature-ConsiderationsWhenEditingPublishedFeatures">Considerations When Editing Published Features</h2>
+   <p>Because they are potentially controlling the behavior of many ItsOn-powered devices, you should be cautious when making changes to published features. If changes are minor, editing an existing feature that is already published could be a reasonable option. If more substantial changes are desired, a different approach might be recommended, one where you create a new feature that replicates the components and policy events from the original, &#160;make the changes you want to the replicated feature, and then take it through your normal draft-test-publish workflow, which may also include testing on a larger number of production devices.</p>
+   <p>In either scenario, one very important consideration is to review and evaluate how all your published features are configured so that there are no policy conflicts.&#160;</p>
+   <h2 id="EditaFeature-ReplicatingaFeature">Replicating a Feature</h2>
+   <p>Replicating a feature is the process of making a new feature starting with the same components and policy events of an existing working feature, one you have already tested and publish and you know is working, so you have a valid starting point to make significant changes.</p>
+   <p>As you take the new feature through the draft, test, and publish process, review the component and feature configuration of the two features carefully to make sure the policies do not conflict.</p>
+   <div class="warning">Make sure you do not enable both features on any device.
+   </div>
+   <p>Once you have migrated all your embedded-client devices to the new feature, you may want to delete the old feature.</p>
+  </div>
+		
+	</div>
+</div>
+</body>
+</html>

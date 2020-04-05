@@ -1,0 +1,179 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>ItsOn Help Sample</title>
+<link rel="Stylesheet" href="template/iPhone_Layout/mobile.css" type="text/css" />
+ <link rel="StyleSheet" href="itsonhelptopic.css" type="text/css" /><script type="text/javascript" language="JavaScript">//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]></script><style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+<script type="text/javascript" src="template/scripts/constants.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/utils.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhver.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/settings.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadcsh.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/showhidecontrols.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/pageloader.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/searchfield.js" language="JavaScript1.2"></script>
+<script type="text/javascript" language="JavaScript1.2">
+gRootRelPath = ".";
+gCommonRootRelPath = "..";
+</script>
+<script type="text/javascript" language="JavaScript1.2">
+gTopicId = "4.2.0_1";
+</script>
+</head>
+
+<body>
+<script type="text/javascript" src="ehlpdhtm.js"></script>
+
+
+
+<div class="searchholder">
+	<table class="searchholdertable">
+		<tr>
+			<td class="home"><a href="home.htm"><img src="template/iPhone_Layout/home_default.png" alt="" style=" border:none; width:100%; max-width:59px;" border="0" /></a></td>
+			<td class="searchfield"><div class="wSearchField">
+				<input id="searchBox" class="wSearchField" type="search" data-placeholder="-Search-" onkeydown="searchHelp(event, 'searchBox')" data-search="true" /><a class="wSearchLink" onclick="searchHelp(null, 'searchBox')" href="#"><img src="template/iPhone_Layout/Search.png" alt="" class="wSearchLink" border="0" style="width:100%; max-width:30px" /></a>
+			</div></td>
+		</tr>
+	</table>
+</div>
+<div class="contentholderlight">
+	<div class="optionsholderlight">
+		<table class="optionslight">
+			<tr>
+				<td class="bsback"> 
+				 </td>
+				<td class="home_topic"></td>
+				<td class="bsnext"> 
+				 </td>
+			</tr>
+		</table>
+	</div>
+	<div class="wTopic" id="rh_default_topic_placeholder_id">
+
+
+  <h1>Priority Scenarios</h1>
+  <p>Understanding how the priority setting in network features and eCommerce 
+ policies directs the ItsOn software to use the correct policy when devices 
+ interact with your network is important for selecting the right priority 
+ in the <a hqid="232050" href="#">network feature</a> and <a hqid="1789991" 
+															 href="#">eCommerce 
+ policy</a> properties. This topic explains why network features and eCommerce 
+ policies have priorities and provides some <a hqid="232049" href="#SampleScenarios">scenarios 
+ showing how priorities work</a>.</p>
+  <p>One very important reason for priorities is for conflict resolution. 
+ Because usage can be attributed to one and only one policy, if a customer 
+ uses a service that matches more than one policy or feature, the use is 
+ attributed to the correct one based on priority settings.</p>
+  <div class="tip">
+	If a device has a choice of plans based on eCommerce policies with 
+	 the same priority, the plan purchased first will be the one used first.
+  </div>
+  <p>To demonstrate how priorities work, you must first establish an ordered 
+ list of priorities. That list could vary depending on a carrier's needs, 
+ but the following list and order is used for the examples in this topic:</p>
+  <ol>
+	<li><span>Carrier</span></li>
+	<li><span>Network Protection</span></li>
+	<li><span>Parental Control</span></li>
+	<li><span>Sponsored</span></li>
+	<li><span>Paid Application</span></li>
+	<li><span>Paid (Default)</span></li>
+	<li>Carrier Backstop</li>
+</ol>
+<p>The important thing to understand is that the order of the list determines 
+ the priority. The higher on the list, the higher the priority. The names 
+ you use do not define priority, but you should use names that help you 
+ remember the priority order. Numbers are added as an aid (the lower the 
+ number, the higher the priority).</p>
+<h2><a name="SampleScenarios" id="SampleScenarios"></a>Sample Scenarios</h2>
+<p>These scenarios illustrate how you use priorities to manage real world 
+ use cases and use the example priority list shown above.</p>
+<h3 id="FeaturePriorityScenarios-Paid(Default)vs.PaidApplication">(6) Paid 
+ (Default) vs. (5) Paid Application</h3>
+<p>A customer has a 100MB data plan. The plan is based on a policy with 
+ (6) Paid (Default) priority. The customer has also purchased a Facebook 
+ plan, which is based on a policy with (5) Paid Application priority. If 
+ the customer then uses Facebook, that use would not be charged against 
+ their 100MB data plan because the Facebook plan uses a higher-priority 
+ policy. &#160;On the other hand, if the Facebook priority was configured 
+ lower than (6) Paid (Default), the 100MB plan would be consumed for Facebook 
+ usage, which is probably not the intention.</p>
+<h3 id="FeaturePriorityScenarios-PlanBundles">Plan Bundles</h3>
+<p>You may offer plans in a bundle where some types of usage could match 
+ one of several plans in the bundle. However, usage can be attributed to 
+ one and only one policy. Policy priority determines which plan is used 
+ first. For example, you have a plan bundle that includes a 100-minute 
+ voice plan that includes international calling and a 10-minute international 
+ calling plan. The international calling plan is based on a policy with 
+ a higher priority than the 100-minute voice plan, so a user's international 
+ calling would consume the minutes from the international calling plan 
+ first. Usage from the 100-minute voice plan for international calling 
+ would not begin until the international calling plan was depleted.</p>
+<h3>Sponsored Plans</h3>
+<p>In your list of priorities, you've defined one, (5) Paid Application, 
+ that you use for the plans your customers purchase. You also allow sponsored 
+ products in your store. That is, products that are paid for by sponsors, 
+ not your customers. You give service eCommerce policies used for sponsored 
+ products a priority of (4) Sponsored. Let's say that there's a major sporting 
+ event in Arizona, and a major athletic apparel company wants to sponsor 
+ data service for all your customers so they can tweet about the event, 
+ post updates to Facebook, photos to Instagram, and so on. You create an 
+ eCommerce policy that allows data access when social media apps are used 
+ within that geographical area and give that feature (4) Sponsored priority. 
+ You make the product that uses that policy available for only a specific 
+ time period around the event. Now, your customers can get this product 
+ for free from your store, and when they are attending the event and posting 
+ updates to Facebook, the priority means that the data usage will come 
+ from the sponsored plan and not their purchased data plan.</p>
+<h3>Carrier Priority</h3>
+<p>You don't want your customers usage to be attributed to their purchased 
+ data plans when they visit your website to pay their bills or to shop 
+ for more plans. So you create a network feature with a filter that defines 
+ your URL and allows access, and you give that feature (1) Carrier priority. 
+ When your customers then access your website from their devices, the usage 
+ never gets charged to any plans that they have purchased.</p>
+<h3>Necessary Connections</h3>
+<p>Necessary connections are when you need to allow devices to make connections 
+ when they don't have existing plans that specifically allow them. For 
+ example, for diagnostic reasons, devices might need to send data to the 
+ ItsOn servers. You would create a network feature that allows those specific 
+ connections and give it the lowest priority, (7) Carrier Backstop in our 
+ example list, so if there are no other plans that the usage can be attributed 
+ to, the usage will still be permitted.</p>
+</div>
+	
+</div>
+</body>
+</html>

@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<indexdata>
+<key name="Time Increments" >
+  <key name="Changing" >
+    <topic name="Changing Time Increments in Time Tracking" url="Changing_Time_Increments.htm" />
+  </key>
+</key>
+<key name="Time Tracking" >
+  <topic name="About Projects" url="About_the_Projects_Module.htm" />
+  <topic name="About Time Tracking" url="About_Time_Tracking.htm" />
+  <topic name="Accessing Time Tracking" url="Accessing_Time_Tracking.htm" />
+  <topic name="Assigning Resources to Tasks" url="Assigning_Resources_to_Tasks.htm" />
+  <topic name="Changing Time Increments" url="Changing_Time_Increments.htm" />
+  <topic name="Viewing and Hiding Panes" url="Showing_and_Hiding_Views.htm" />
+  <key name="About" >
+    <topic name="About Time Tracking" url="About_Time_Tracking.htm" />
+  </key>
+  <key name="Accessing" >
+    <topic name="Accessing Time Tracking" url="Accessing_Time_Tracking.htm" />
+  </key>
+  <key name="Changing time increments in" >
+    <topic name="Changing Time Increments" url="Changing_Time_Increments.htm" />
+  </key>
+  <key name="Entering Actual Work Hours" >
+    <topic name="Entering Actual Work Hours" url="Entering_Actual_Work_Hours.htm" />
+  </key>
+  <key name="Hiding views" >
+    <topic name="Showing and Hiding Views" url="Showing_and_Hiding_Views.htm" />
+  </key>
+  <key name="Logging in to" >
+    <topic name="Logging In" url="Logging_In.htm" />
+  </key>
+  <key name="Showing views" >
+    <topic name="Showing and Hiding Views" url="Showing_and_Hiding_Views.htm" />
+  </key>
+  <key name="Views" >
+    <topic name="Showing and Hiding Views" url="Showing_and_Hiding_Views.htm" />
+  </key>
+</key>
+<key name="Timesheets" >
+  <topic name="About Time Tracking" url="About_Time_Tracking.htm" />
+  <topic name="Adding Assignments to Timesheets" url="Adding_Assignments_to_Timesheets.htm" />
+  <topic name="Adding Notes to Timesheet Assignments" url="Adding_Notes_to_Timesheet_Assignments.htm" />
+  <topic name="Approving Timesheets" url="Approving_Timesheets.htm" />
+  <topic name="Copying Previous Week Timesheets" url="Copying_Previous_Week_Timesheets.htm" />
+  <topic name="Printing Timesheets" url="Printing_Timesheets.htm" />
+  <topic name="Rejecting Timesheets" url="Rejecting_Timesheets.htm" />
+  <topic name="Removing Assignments from Timesheets" url="Removing_Assignments_from_Timesheets.htm" />
+  <topic name="Revising Rejected Timesheets" url="Revising_Rejected_Timesheets.htm" />
+  <topic name="Submitting Timesheets for Approval" url="Submitting_Timesheets_for_Approval.htm" />
+  <topic name="Timesheet Approval Filter By Options" url="Timesheet_Approval_Filter_By_Options.htm" />
+  <key name="Adding Assignments" >
+    <topic name="Adding Assignments to Timesheets" url="Adding_Assignments_to_Timesheets.htm" />
+  </key>
+  <key name="Adding notes to" >
+    <topic name="Adding Notes to Timesheet Assignments" url="Adding_Notes_to_Timesheet_Assignments.htm" />
+  </key>
+  <key name="Approval Filter By Options" >
+    <topic name="Timesheet Approval Filter By Options" url="Timesheet_Approval_Filter_By_Options.htm" />
+  </key>
+  <key name="Approving" >
+    <topic name="Approving Timesheets" url="Approving_Timesheets.htm" />
+  </key>
+  <key name="Copying previous week's" >
+    <topic name="Copying Previous Week Timesheets" url="Copying_Previous_Week_Timesheets.htm" />
+  </key>
+  <key name="Copying Projects and" >
+    <topic name="Copying Projects Between Workgroups" url="Copying_Projects_Between_Workgroups.htm" />
+  </key>
+  <key name="Printing" >
+    <topic name="Printing Timesheets" url="Printing_Timesheets.htm" />
+  </key>
+  <key name="Rejecting" >
+    <topic name="Rejecting Timesheets" url="Rejecting_Timesheets.htm" />
+  </key>
+  <key name="Removing assignments from" >
+    <topic name="Removing Assignments from Timesheets" url="Removing_Assignments_from_Timesheets.htm" />
+  </key>
+  <key name="Revising rejected" >
+    <topic name="Revising Rejected Timesheets" url="Revising_Rejected_Timesheets.htm" />
+  </key>
+  <key name="Submitting for approval" >
+    <topic name="Submitting Timesheets for Approval" url="Submitting_Timesheets_for_Approval.htm" />
+  </key>
+</key>
+<key name="Timesheets view" >
+  <key name="Time Tracking" >
+    <topic name="Showing and Hiding Views" url="Showing_and_Hiding_Views.htm" />
+  </key>
+</key>
+<key name="Toolsbars" >
+  <key name="Configuring" >
+    <topic name="Configuring Project InVision" url="Configuring_Project_InVision.htm" />
+  </key>
+</key>
+<key name="Training" >
+  <topic name="About Project InVision International" url="About_Project_InVision_International.htm" />
+</key>
+<key name="Transfer across Workgroups" >
+  <topic name="Copying Projects Between Workgroups" url="Copying_Projects_Between_Workgroups.htm" />
+</key>
+<key name="Transferring Records" >
+  <key name="About" >
+    <topic name="About Transferring Records" url="About_Transferring_Records.htm" />
+  </key>
+</key>
+<key name="Tree" >
+  <topic name="About the Selector" url="About_the_Selector.htm" />
+</key>
+<key name="Trusted Site" >
+  <key name="Project InVision as" >
+    <topic name="Configuring Internet Explorer" url="Configuring_Internet_Explorer.htm" />
+  </key>
+</key>
+<key name="Type" >
+  <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+  <topic name="Documents Detail Form" url="Documents_Detail_Form.htm" />
+</key>
+<key name="Unread" >
+  <key name="Marking Alerts as" >
+    <topic name="Viewing Alerts" url="Viewing_Alerts.htm" />
+  </key>
+</key>
+<key name="Updating" >
+  <key name="Resource Plans" >
+    <topic name="Updating Resource Plans" url="Updating_Resource_Plans.htm" />
+  </key>
+</key>
+<key name="URL" >
+  <topic name="Adding Links" url="Adding_Links.htm" />
+  <topic name="Adding Project InVision to your Favorites" url="Adding_Project_InVision_to_your_Favorites.htm" />
+  <key name="Editing" >
+    <topic name="Editing Links" url="Editing_Links.htm" />
+  </key>
+  <key name="In links" >
+    <topic name="Detail Form Common Pages" url="Detail_Form_Common_Pages.htm" />
+  </key>
+</key>
+<key name="User Categories" >
+  <key name="Setting for Resources" >
+    <topic name="Setting Resource User Categories" url="admin_Setting_Resource_User_Categories.htm" />
+  </key>
+</key>
+<key name="Users" >
+  <key name="Of Project InVision" >
+    <topic name="About Resources" url="About_the_Resources_Module.htm" />
+  </key>
+</key>
+<key name="Versions" >
+  <key name="Keeping document" >
+    <topic name="Keeping Document Versions" url="Keeping_Document_Versions.htm" />
+  </key>
+  <key name="Keeping project schedule file" >
+    <topic name="Keeping Project Schedule File Versions" url="Keeping_Project_Schedule_File_Versions.htm" />
+  </key>
+  <key name="Projects and" >
+    <topic name="Projects Detail Form" url="Projects_Detail_Form.htm" />
+  </key>
+  <key name="Viewing project schedule file" >
+    <topic name="Viewing Project Schedule File Versions" url="Viewing_Project_Schedule_File_Versions.htm" />
+  </key>
+</key>
+<key name="View" >
+  <topic name="Navigation Menu" url="Navigation_Menu.htm" />
+</key>
+<key name="View options" >
+  <key name="Changing Dashboard" >
+    <topic name="Changing Dashboard View Options" url="Changing_Dashboard_View_Options.htm" />
+  </key>
+  <key name="Changing Portal" >
+    <topic name="Changing Portal View Options" url="Changing_Portal_View_Options.htm" />
+  </key>
+</key>
+<key name="Viewing" >
+  <key name="Alert senders" >
+    <topic name="Viewing Alert Senders" url="Viewing_Alert_Senders.htm" />
+  </key>
+  <key name="Alerts" >
+    <topic name="Viewing Alerts" url="Viewing_Alerts.htm" />
+  </key>
+  <key name="Assignments" >
+    <topic name="Viewing Assignments" url="Viewing_Assignments.htm" />
+  </key>
+  <key name="Detail Forms" >
+    <topic name="Viewing Detail Forms" url="Viewing_Detail_Forms.htm" />
+  </key>
+  <key name="Document files" >
+    <topic name="Viewing Document Files" url="Viewing_Document_Files.htm" />
+  </key>
+  <key name="Document versions" >
+    <topic name="Viewing Document Versions" url="Viewing_Document_Versions.htm" />
+  </key>
+  <key name="Help" >
+    <topic name="Using Project InVision Online Help" url="Getting_Help.htm" />
+  </key>
+  <key name="Information" >
+    <topic name="Viewing Information" url="Viewing_Information.htm" />
+  </key>
+  <key name="Non-Project Activities" >
+    <topic name="Viewing Assignments" url="Viewing_Assignments.htm" />
+  </key>
+  <key name="Project InVision version" >
+    <topic name="Using Project InVision Online Help" url="Getting_Help.htm" />
+  </key>
+  <key name="Project schedule file versions" >
+    <topic name="Viewing Project Schedule File Versions" url="Viewing_Project_Schedule_File_Versions.htm" />
+  </key>
+  <key name="Project schedule files" >
+    <topic name="Viewing Project Schedule Files" url="Viewing_Project_Schedule_Files.htm" />
+  </key>
+  <key name="Reports" >
+    <topic name="Viewing Reports" url="Viewing_Reports.htm" />
+  </key>
+  <key name="Resource Assignments" >
+    <topic name="Viewing Resource Assignments" url="Viewing_Resource_Assignments.htm" />
+  </key>
+  <key name="Resource details" >
+    <topic name="Viewing Resource Details" url="admin_Viewing_Resource_Details.htm" />
+  </key>
+  <key name="Selector" >
+    <topic name="Viewing the Selector" url="Viewing_the_Selector.htm" />
+  </key>
+  <key name="Status History" >
+    <topic name="Status History" url="Status_History.htm" />
+  </key>
+  <key name="Workgroups Help" >
+    <topic name="Using Project InVision Online Help" url="Getting_Help.htm" />
+  </key>
+</key>
+<key name="Views" >
+  <topic name="About Views" url="About_Views.htm" />
+  <topic name="Applying Views" url="Applying_Views.htm" />
+  <key name="About" >
+    <topic name="About Views" url="About_Views.htm" />
+  </key>
+  <key name="Applying" >
+    <topic name="Applying Views" url="Applying_Views.htm" />
+  </key>
+  <key name="Documents" >
+    <topic name="Documents Module Views" url="Documents_Module_Views.htm" />
+  </key>
+  <key name="In Dashboard" >
+    <topic name="About Dashboard" url="About_Dashboard.htm" />
+  </key>
+  <key name="In Portals" >
+    <topic name="About Portals" url="About_Portals.htm" />
+  </key>
+</key>
+<key name="Web address" >
+  <topic name="Adding Links" url="Adding_Links.htm" />
+  <topic name="Adding Project InVision to your Favorites" url="Adding_Project_InVision_to_your_Favorites.htm" />
+  <key name="Editing" >
+    <topic name="Editing Links" url="Editing_Links.htm" />
+  </key>
+</key>
+<key name="Web content zone" >
+  <topic name="Configuring Internet Explorer" url="Configuring_Internet_Explorer.htm" />
+</key>
+<key name="Work" >
+  <key name="Assigned to Resources" >
+    <topic name="About Project Resources" url="About_Project_Teams.htm" />
+  </key>
+</key>
+<key name="Work hours" >
+  <topic name="About Projects" url="About_the_Projects_Module.htm" />
+  <key name="And Tasks" >
+    <topic name="About Tasks" url="About_the_Tasks_Module.htm" />
+  </key>
+  <key name="Approving" >
+    <topic name="Approving Timesheets" url="Approving_Timesheets.htm" />
+  </key>
+  <key name="Entering Actual" >
+    <topic name="Entering Actual Work Hours" url="Entering_Actual_Work_Hours.htm" />
+  </key>
+</key>
+<key name="Workflow" >
+  <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+</key>
+<key name="Workflows" >
+  <topic name="About Workflows" url="About_Workflows.htm" />
+  <topic name="Applying Workflows" url="Applying_Workflows.htm" />
+  <topic name="Removing Workflows" url="Removing_Workflows.htm" />
+  <key name="About" >
+    <topic name="About Workflows" url="About_Workflows.htm" />
+  </key>
+  <key name="Applying" >
+    <topic name="Applying Workflows" url="Applying_Workflows.htm" />
+  </key>
+  <key name="Removing" >
+    <topic name="Removing Workflows" url="Removing_Workflows.htm" />
+  </key>
+</key>
+<key name="Workgroup" >
+  <topic name="About Portfolio Manager" url="About_Portfolio_Manager.htm" />
+  <topic name="Navigation Menu" url="Navigation_Menu.htm" />
+  <key name="Logging in to" >
+    <topic name="Logging In" url="Logging_In.htm" />
+  </key>
+  <key name="Membership" >
+    <topic name="About Resource Administration" url="admin_About_Resource_Administration.htm" />
+  </key>
+  <key name="Primary" >
+    <topic name="Creating Resources" url="admin_Creating_Resources.htm" />
+  </key>
+  <key name="Resource Costing in" >
+    <topic name="About Resource Costing" url="About_Resource_Costing.htm" />
+  </key>
+  <key name="Resources and" >
+    <topic name="About Resources" url="About_the_Resources_Module.htm" />
+  </key>
+</key>
+<key name="Workgroup Administrator" >
+  <topic name="About Administration" url="admin_About_Administration.htm" />
+</key>
+
+</indexdata>

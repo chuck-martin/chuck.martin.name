@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Deva Navigation System</title>
+<script language="JavaScript">
+var theFlag = 0
+function reloadFrame() {
+	if ( document.layers ) {
+		if (theFlag == 0) {
+			location.reload()
+		}
+	theFlag = 1
+	}
+}
+
+</script>
+<script language="JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</script>
+</head>
+<link rel="stylesheet" href="surfmapjs/bookstyle/bookstyle.css" type="text/css">
+<body onLoad="reloadFrame()">
+<!-- SurfMap JS -->
+<noscript> 
+<h3>JavaScript required for this navigation system.</h3>
+</noscript>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="1500">
+  <tr> 
+    <td valign="top">
+      <script src="surfmapjs/surfmap.js"></script>
+      <script src="surfmapjs/bookstyle/bookstyle.js"></script>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

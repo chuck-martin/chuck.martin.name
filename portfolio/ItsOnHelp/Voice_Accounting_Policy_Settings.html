@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>Voice Accounting Policy Settings</title>
+<link rel="StyleSheet" href="itsonhelptopic.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+/*]]>*/
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+        var strUrl = document.location.href;
+        var bc = 0;
+        var n = strUrl.toLowerCase().indexOf("bc-");
+        if(n != -1)
+        {
+                document.location.href = strUrl.substring(0, n);
+                bc = strUrl.substring(n+3);
+        }
+
+        if (window.addTocInfo)
+        {
+        addTocInfo("Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting\nVoice Accounting Policies\nVoice Accounting Policy Settings");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(0);
+
+        
+        document.write("<p style=\"text-align:left\"> ");
+AddMasterBreadcrumbs("index.htm", "", "&gt;", "Home", "Service_Design_Center_Help.htm");
+document.write("<a href=\"Policies_Service_Entitlement_Data_Session_WiFi_Behavior_and_Voice_Accounting.html\">Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting<\/a> &gt; <a href=\"Voice_Accounting_Policies.html\">Voice Accounting Policies<\/a> &gt; Voice Accounting Policy Settings<\/p>");
+
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+        {
+        setTimeout("setRelStartPage('index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+        }
+}
+
+if (window.addEventListener){  
+        window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+        window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(0);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]>
+</script><script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2">
+</script>
+<h1>Voice Accounting Policy Settings</h1>
+<table style="border-collapse: separate;" cellspacing="1" border="1">
+<tr>
+<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Setting</th>
+<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Description</th>
+</tr>
+<tr>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Call Connection Grace Period</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+<p>The amount of time (in seconds) that occurs between call initiation and when call charging begins. This number must be less than Minimum Charge Duration.</p>
+<p>This setting accommodates CDMA networks where the actual call connection time cannot always be known specifically. The setting thus allows an amount of time between the point where a user initiates the call (when the tap the Call button after dialing the number) and when the real connection has made before call charging begins.</p>
+<p>For policies on GSM networks, this value should be 0 (zero).</p>
+</td>
+</tr>
+<tr>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Accounting Increment</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">The time periods (in seconds) used for charging. This number must be less than or equal to the Minimum Charge Duration.</td>
+</tr>
+<tr>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Minimum Charge Duration</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">
+<p>The minimum amount of time (in seconds) that a call is charged for. This number must be greater than Call Connection Grace Period and greater than or equal to the Accounting Increment.</p>
+<p>This setting allows you to set a minimum charge for calls. A minimum charge is often useful to cover call setup costs for roaming calls, and for some municipalities, it is required for roaming. For example, the European Union passed a law in 2012 that regulates charging for roaming that reads in part:</p>
+<blockquote><em>"Providers of regulated roaming calls at the retail level should therefore be required to bill their customers on a per-second basis for all calls subject to a euro-voice tariff subject only to the possibility to apply a minimum initial charging period of no more than 30 seconds for calls made. This will enable roaming providers to cover any reasonable set-up costs and to provide flexibility to compete by offering shorter minimum charging periods."</em></blockquote>
+</td>
+</tr>
+</table>
+<h2>Voice Accounting Policy Examples</h2>
+<p>This section contains examples of voice accounting policy setting combinations and how calls are charged when those settings are enforced.</p>
+<h3>Example 1</h3>
+<ul>
+<li>Call Connection Grace Period: 30</li>
+<li>Accounting Increment: 15</li>
+<li>Minimum Charge Duration: 60</li>
+<li>Call length: 4:36</li>
+<li>Accounted duration: 4:45</li>
+</ul>
+<h3>Example 2</h3>
+<ul>
+<li>Call Connection Grace Period: 30</li>
+<li>Accounting Increment: 15</li>
+<li>Minimum Charge Duration: 60</li>
+<li>Call length: 0:20</li>
+<li>Accounted duration: 0:00</li>
+</ul>
+<h3>Example 3</h3>
+<ul>
+<li>Call Connection Grace Period: 30</li>
+<li>Accounting Increment: 15</li>
+<li>Minimum Charge Duration: 60</li>
+<li>Call length: 0:40</li>
+<li>Accounted duration: 1:00</li>
+</ul>
+<h3>Example 4</h3>
+<ul>
+<li>Call Connection Grace Period: 0</li>
+<li>Accounting Increment: 15</li>
+<li>Minimum Charge Duration: 15</li>
+<li>Call length: 0:09</li>
+<li>Accounted duration: 0:15</li>
+</ul>
+<h3>Example 5</h3>
+<ul>
+<li>Call Connection Grace Period: 0</li>
+<li>Accounting Increment: 15</li>
+<li>Minimum Charge Duration: 20</li>
+<li>Call length: 0:09</li>
+<li>Accounted duration: 0:20</li>
+</ul>
+<h3>Example 6</h3>
+<ul>
+<li>Call Connection Grace Period: 0</li>
+<li>Accounting Increment: 15</li>
+<li>Minimum Charge Duration: 20</li>
+<li>Call length: 0:21</li>
+<li>Accounted duration: 0:30</li>
+</ul>
+<div class="tip">Usage, including usage shown on <a hqid="232017" href="#">customer support</a> pages and in <a hqid="288857" href="#BehaviorSettingsUsageDisplayProperties">usage display on devices</a>, reflects the accounted duration, not the call length.</div>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]>
+</script>
+</body>
+</html>

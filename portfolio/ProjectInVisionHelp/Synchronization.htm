@@ -1,0 +1,396 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+
+
+<head>
+<title>Synchronization</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHELP by eHelp Corporation - www.ehelp.com">
+<link rel="stylesheet" href="styles_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='styles.css'>");}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Portfolio Manager\nProjects Module\nProject Schedule Files\nSynchronization");
+addAvenueInfo("Main","Checking_Out_Project_Schedule_Files.htm","Project_Scheudle_File_Conventions.htm");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Project_InVision_User_Guide.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<h1>Synchronization</h1>
+
+<p>Each time an associated project schedule file (such as a Microsoft Project 
+  file) is <a href="Checking_In_Project_Schedule_Files.htm">checked in</a> to 
+  a Project, an automatic bi-directional synchronization is performed between 
+  the associated project schedule file and the Project InVision database. This 
+  ensures that the data stored and displayed in Project InVision is accurate and 
+  up-to-date. Following is a discussion of the various functions that occur during 
+  the synchronization process:</p>
+<p>If desired, you can disable the automatic synchronization functions described 
+  below on the <a href="Project_Options.htm">Options</a> page of the <a href="Projects_Detail_Form.htm">Projects 
+  Detail form</a></p>
+<h2>Information Synchronized</h2>
+
+<dl>
+  <dt>Auto-Synchronize of Project Schedule</dt>
+  <dd> 
+    <ul>
+      <li>Project Information (Project number, Title, Manager, etc.) is posted 
+        to the File, Properties area of the project schedule file. The file mapping 
+        is described below in the section<a href="#affectedPIV"> Affected Project 
+        Schedule File Areas</a>.</li>
+      <li>Resources defined as members of the Project Team in Project InVision 
+        are posted to the Resource Sheet in the project schedule file.</li>
+      <li>Detailed Task and Resource Assignment information from the project schedule 
+        file is imported and displayed in the Tasks module and Projects Detail 
+        Form.</li>
+    </ul>
+  </dd>
+  <dt>Auto-Post Time</dt>
+  <dd> 
+    <ul>
+      <li>Actual Work hours and Remaining Work hours submitted in Time Tracking 
+        for Tasks are posted to the appropriate Task records in the project schedule 
+        file.</li>
+      <li>If they have been linked to a Task, Actual Work hours submitted in Time 
+        Tracking for Issues, Defects, Risks, Changes, and Requirements are rolled 
+        up into the appropriate Task records in the project schedule file.</li>
+    </ul>
+  </dd>
+  <dt>Auto-Synchronize of Current Resource Requirements Plan</dt>
+  <dd>The Current Resource Plan is updated to reflect changes to Tasks and Resource 
+    Assignments based on the Project InVision Tasks module.</dd>
+  <dt>Auto-Synchronize of Calendar</dt>
+  <dd>Standard Working Hours and Non-Working Hours identified in Project InVision 
+    that occur in the duration of the Project are posted to the Standard Calendar 
+    in the project schedule file.</dd>
+  <dt>Auto-Synchronize of Cost Rates</dt>
+  <dd>The Internal Cost Rate from the Resource record, or Skill Category, in Project 
+    InVision is synchronized to Rate Table A of the project schedule file, updating 
+    the standard cost rate for the resource in the project schedule file.</dd>
+  <dt>Auto-Synchronize of Billing Rates</dt>
+  <dd> The Billing Rate from the Resource record, or Skill Category, in Project 
+    InVision is synchronized to Rate Table B of the project schedule file, updating 
+    the cost rate table for the resource in the project schedule file.</dd>
+</dl>
+
+<h2><a name="affectedPIV" id="affectedPIV"></a>Affected Project InVision Areas</h2>
+
+<p>Once synchronization has occurred, information from the project schedule file 
+  is stored in the Project InVision database and displayed in various areas throughout 
+  Project InVision. Below is a description of the major areas in Project InVision 
+  that are affected by synchronization:</p>
+<p class="note">For a detailed mapping of all Project InVision fields that are affected by 
+  the synchronization process, see <a href="Appendix_A_Field_Mapping.htm">Appendix 
+  A – Field Mapping</a>. </p>
+<h3>Projects Module Information:</h3>
+
+
+<table cellspacing=0 width=100% border=1>
+
+<tr valign=bottom>
+<td width="150"><span style="font-weight: bold;"><B>Projects 
+ Pages</B></span></td>
+<td><span style="font-weight: bold;"><B>Description</B></span></td></tr>
+
+<tr>
+<td>Information</td>
+<td>Data on the Information page is synchronized 
+        one way only: from Project InVision to the project schedule file, posted 
+        to the corresponding fields in the project schedule file. (See <a href="#affectedFile">Affected 
+        Project Schedule File Areas</a>.)
+      </td></tr>
+
+<tr>
+<td>Comments</td>
+<td>Synchronization of the Comments page data 
+        may be configured to the requirements of each workgroup. The Workgroup 
+        Administrator can determine if Comments are exported from Project InVision 
+        to the project schedule file, imported from the project schedule file 
+        into Project InVision, or maintained separately.
+      </td></tr>
+
+<tr>
+<td>Summary</td>
+    <td>High-level view of the overall Project schedule showing Current, Baseline, 
+      and Actual Start and Finish Dates, Duration, Work, and Variances are imported 
+      from the project schedule file into Project InVision and displayed on the 
+      Summary page.</td>
+  </tr>
+
+<tr>
+<td>Key Deliverables</td>
+<td>Tasks or Milestones from the project schedule 
+        file where the “Marked” field is set to “Yes” will be imported from the 
+        project schedule file into Project InVision and displayed on the Key Deliverables 
+        page</td></tr>
+
+<tr>
+<td>Resources</td>
+    <td>Resources who have been included on the Resource Sheet of the project 
+      schedule file will be imported into Project InVision and displayed on the 
+      Resources page. Resources that do not match resources already in the Project 
+      InVision database will be ignored.</td>
+  </tr>
+</table>
+
+<h3>Tasks Module Information: </h3>
+
+
+<table cellspacing=0 width=100% border=1>
+
+<tr valign=bottom>
+<td width="150"><span style="font-weight: bold;"><B>Tasks 
+ Module</B></span></td>
+<td><span style="font-weight: bold;"><B>Description</B></span></td></tr>
+
+<tr>
+<td>Information</td>
+    <td>Detailed Task information, including Current, Baseline, and Actual Dates, 
+      Duration, Work, and Variances, will be imported from the project schedule 
+      file into the Project InVision Tasks module.</td>
+  </tr>
+
+<tr>
+<td>Comments</td>
+    <td>Task Notes will be imported from the project schedule file into the Project 
+      InVision Tasks module and displayed on the Comments page.</td>
+  </tr>
+
+<tr>
+<td>Resources</td>
+    <td>Detailed Resource assignments will be imported from the project schedule 
+      file into the Project InVision Tasks module and displayed on the Resources 
+      page.</td>
+  </tr>
+</table>
+
+<h3>Resources Module Information: </h3>
+
+
+<table cellspacing=0 width=100% border=1>
+
+<tr valign=bottom>
+<td width="150"><span style="font-weight: bold;"><B>Resources Pages</B></span></td>
+<td><span style="font-weight: bold;"><B>Description</B></span></td></tr>
+
+<tr>
+<td>Assignments</td>
+    <td>Detailed Resource assignments will be imported from the project schedule 
+      file into Project InVision and displayed on the Assignments page.</td>
+  </tr>
+</table>
+
+<h3>Time Tracking Information:</h3>
+
+
+<table cellspacing=0 width=100% border=1>
+
+<tr valign=bottom>
+<td width="150"><span style="font-weight: bold;"><B>Assignment 
+ Hierarchy View</B></span></td>
+<td><span style="font-weight: bold;"><B>Description</B></span></td></tr>
+
+<tr>
+<td>Task Assignments</td>
+    <td>Detailed Resource assignments will be imported from the project schedule 
+      file into the Project InVision Tasks module. These assignments will appear 
+      in the Assignments View of Time Tracking, where they can be selected and 
+      included in a Timesheet.</td>
+  </tr>
+</table>
+
+<h2><a name="affectedFile"></a>Affected Project Schedule File Areas</h2>
+
+<p>Information from Project InVision is also posted to the Project schedule file 
+  when a file is synchronized upon check-in. Below is a summary of major areas 
+  in the project schedule file that are affected by synchronization:</p>
+<p class="note">For a detailed mapping of all Project InVision fields that are 
+  affected by the synchronization process, see <a href="Appendix_A_Field_Mapping.htm">Appendix 
+  A – Field Mapping</a>.</p>
+<h3>Project Properties Summary Tab (File, Properties)</h3>
+<table cellspacing=0 width=100% border=1>
+
+<tr>
+<td width="50%"><span style="font-weight: bold;"><B> Project 
+        Schedule File Field</B></span></td>
+<td width="505"><span style="font-weight: bold;"><B>Project 
+ InVision Fields</B></span></td></tr>
+
+<tr>
+<td>Title</td>
+<td>Project 
+ Number &amp; Project Title</td></tr>
+
+<tr>
+<td>Subject</td>
+<td>Region</td></tr>
+
+<tr>
+<td>Manager</td>
+<td>Manager</td></tr>
+
+<tr>
+<td>Company</td>
+<td>Department</td></tr>
+
+<tr>
+<td>Category</td>
+<td>Project 
+ Type</td></tr>
+
+<tr>
+<td>Keywords</td>
+<td>Project 
+ Status</td></tr>
+
+<tr>
+<td>Comments</td>
+<td>Comments</td></tr>
+</table>
+
+<h3>Task Fields</h3>
+
+
+<table cellspacing=0 width=100% border=1>
+  <tr> 
+    <td width="50%"><span style="font-weight: bold;"><B> Project Schedule File Field</B></span></td>
+    <td width="505"><span style="font-weight: bold;"><B>Project InVision Fields</B></span></td>
+  </tr>
+  <tr>
+    <td>Detailed Task fields</td>
+    <td>Updates to detailed Task information, including Current, Baseline, and 
+      Actual Dates, Duration, Work, and Variances will be posted from Project 
+      InVision to the project schedule file. </td>
+  </tr>
+  <tr> 
+    <td>Marked</td>
+    <td>Key Deliverable (Marked = Yes)</td>
+  </tr>
+  <tr> 
+    <td>Text8</td>
+    <td>Cost Center</td>
+  </tr>
+  <tr> 
+    <td>Text9</td>
+    <td>Billing Code</td>
+  </tr>
+  <tr> 
+    <td>Text10</td>
+    <td>Task Code</td>
+  </tr>
+</table>
+
+<h3>Resource Fields </h3>
+
+
+<table cellspacing=0 width=100% border=1>
+  <tr>
+<td width="50%"><span style="font-weight: bold;"><B> Project 
+        Schedule File Field</B></span></td>
+<td width="50%"><span style="font-weight: bold;"><B>Project 
+ InVision Fields</B></span></td></tr>
+
+<tr>
+    <td>Std Cost Rate Table A</td>
+    <td>Internal Cost Rate</td>
+  </tr>
+
+<tr>
+<td>Cost Rate 
+ Table B</td>
+<td>Billing 
+ Rate</td></tr>
+
+<tr>
+<td>Resource 
+ Name</td>
+    <td>Changes to Resource names or resources added to the project team will 
+      be posted to the Resource Sheet in the project schedule file. The format 
+      of the resource name that is posted depends on a Workgroup Option setting. 
+      (See the Administrator Guide for details.)</td>
+  </tr>
+
+<tr>
+<td>Resource 
+ Initials</td>
+    <td>Changes to Resource Initials or initials of resources added to the project 
+      team will be posted to the Resource Sheet in the project schedule file. 
+      The format of the resource initials that are posted depend on a Workgroup 
+      Option setting. (See the Administrator Guide for details.) </td>
+  </tr>
+
+<tr>
+<td>Number20</td>
+    <td>ResourceID (Internal Resource #). The Number20 field stores the link between 
+      the Project InVision Resources module and the Resource ID in the Project 
+      schedule file. This field <b>must not</b> be altered or the link between 
+      Project InVision and your project management program will be broken, causing 
+      potential problems with synchronization.</td>
+  </tr>
+
+<tr>
+<td>Text10</td>
+<td>Task Code</td></tr>
+</table>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

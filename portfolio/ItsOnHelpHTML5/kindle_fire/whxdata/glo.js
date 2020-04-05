@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><glossary>  <chunkinfo url=\"gdata1.js\" first=\"Android Only\" last=\"SID\" num=\"24\" />  <chunkinfo url=\"gdata2.js\" first=\"SNID\" last=\"tag\" num=\"6\" />  </glossary>";

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>Add a Data Session Policy to a Network Feature</title>
+<link rel="StyleSheet" href="itsonhelptopic.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+/*]]>*/
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+        var strUrl = document.location.href;
+        var bc = 0;
+        var n = strUrl.toLowerCase().indexOf("bc-");
+        if(n != -1)
+        {
+                document.location.href = strUrl.substring(0, n);
+                bc = strUrl.substring(n+3);
+        }
+
+        if (window.addTocInfo)
+        {
+        addTocInfo("Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting\nData Session Policies\nAdd a Data Session Policy to a Network Feature");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(0);
+
+        
+        document.write("<p style=\"text-align:left\"> ");
+AddMasterBreadcrumbs("index.htm", "", "&gt;", "Home", "Service_Design_Center_Help.htm");
+document.write("<a href=\"Policies_Service_Entitlement_Data_Session_WiFi_Behavior_and_Voice_Accounting.html\">Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting<\/a> &gt; <a href=\"Data_Session_Policies.html\">Data Session Policies<\/a> &gt; Add a Data Session Policy to a Network Feature<\/p>");
+
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+        {
+        setTimeout("setRelStartPage('index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+        }
+}
+
+if (window.addEventListener){  
+        window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+        window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(0);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]>
+</script><script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2">
+</script>
+<h1>Add a Data Session Policy to a Network Feature</h1>
+<p>The policy events in a data session policy are evaluated whenever there is a network transition event or when the optionally defined trigger occurs.</p>
+<ol>
+<li>Click&#160;<strong>Add Policy &gt; New Data Session</strong>.</li>
+<li>Click on the policy name to change it from the default name. (Give it a meaningful name.&#160;This will help you find the policy when you are&#160;choosing&#160;from lists of policies.)</li>
+<li>If you want to add exceptions to the blocking rule that would allow data sessions, select one or more as criteria in the Default Policy Event:
+<ul>
+<li>Screen On &amp; Internet App in Foreground</li>
+<li>Screen On</li>
+<li>Streaming Media</li>
+<li>Downloading</li>
+</ul>
+<p>To add any of these to the Default Policy Event, click&#160;<strong>Criteria</strong>, then click the one you want to add. If you did not already change it, the policy event action becomes Allow. If you add multiple criteria, any one must be true when the policy is evaluated to open a data session.</p>
+<div class="message-content">
+<div class="warning"><em>Screen On &amp; Internet App in Foreground</em> and <em>Screen On</em> are mutually exclusive options. If you add one of these to the Default Policy Event, the other is no longer available to be added.</div>
+</div>
+</li>
+<li>Add a Network Group.&#160;
+<p>In Block Network Groups, click&#160;<strong>Add</strong> <strong><img class="confluence-embedded-image confluence-thumbnail" data-image-src="images/import-w5mxyva9zxvf/attachments/8980129/9109775.gif" src="images/import-w5mxyva9zxvf/attachments/8980129/9109775.gif" alt="" width="16" height="15" border="0" />&#160;</strong>, then click&#160;<strong>From Library</strong>&#160;to use an already defined network group (the recommended option) or&#160;<strong>New</strong>&#160;to create a new network group.</p>
+<ul>
+<li>From Library (preferred): In the Network Group list, select a network group, and then click <strong>Add</strong>.</li>
+<li>New: See&#160;<a hqid="232008" href="#">Add a Network Group</a>&#160;for details on creating new network groups. (Too many ad hoc network groups can be difficult to manage. Use existing network groups whenever possible.)</li>
+</ul>
+You cannot add network groups to the <em>In</em> section that are already in the <em>Not In</em> section, and vice versa.</li>
+<li>Optionally select a Trigger in Policy Settings. A trigger is a user-initiated event that causes the policy event to be evaluated. Choose from:
+<ul>
+<li>Screen Turn On (least cost savings): Policy is evaluated when the device screen is turned on.</li>
+<li>Device Unlock: Policy is evaluated when the device is unlocked.</li>
+<li>Internet App Brought to Foreground: Policy is evaluated when any app that can access the Internet is brought to the foreground.</li>
+<li>None (most cost savings): Policy will always be evaluated.</li>
+</ul>
+Note that there is an inverse relationship between cost savings and customer experience, specifically, the availability and readiness of the device's data connection.&#160;</li>
+</ol>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]>
+</script>
+</body>
+</html>

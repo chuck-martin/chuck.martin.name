@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Homework 3, Part 2</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+  var item = new Array(4)
+  var itemVal = new Array(4)
+  var index, commissionTotal = 0;
+  itemVal[0] = 239.99;
+  itemVal[1] = 129.75;
+  itemVal[2] = 99.95;
+  itemVal[3] = 350.89;
+  for (index = 0; index <= 3; index++) {
+    item[index] = parseInt(prompt("How many of Item" + (index +1) + " did you sell last week?"));
+  }
+</script>
+</head>
+
+<body>
+
+<script type="text/javascript">
+document.write("<table border='1'><tr><th width='100'>Item</th><th width='100'>No. Sold</th><th width='150'>Commissoin</th></tr>");
+for  (index = 0; index <= 3; index++) {
+  document.write("<tr><td> Item" + (index + 1) + "</td><td>" + item[index] + "</td><td>" + (item[index] * itemVal[index] *  0.09).toFixed(2) + "</td></tr>");
+  commissionTotal +=  (item[index] * itemVal[index] *  0.09);
+}
+  document.write("<tr><td colspan='2' align='right'>Commission Subtotal</td><td>" + commissionTotal.toFixed(2) + "</td></tr>");
+  document.write("<tr><td colspan='2' align='right'>Total Salary</td><td>" + (commissionTotal + 200).toFixed(2) + "</td></tr>");
+document.write("</table");
+</script>
+
+
+</body>
+</html>

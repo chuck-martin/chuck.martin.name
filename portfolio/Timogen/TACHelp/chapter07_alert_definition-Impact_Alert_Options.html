@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.0.1194" />
+    <meta name="TEMPLATEBASE" content="WebWorks Help 4.0" />
+    <meta name="LASTUPDATED" content="04/16/04 16:36:40" />
+    <title>Impact Alert Options</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+    <blockquote>
+<a name="wp1073796"> </a><h3 style="font-family: Arial Narrow" class="pHeading3">
+Impact Alert Options
+</h3>
+<a name="wp1073803"> </a><p class="pBody">
+You can use these options to change the default values, values that come from information imported into the Timogen Adaptive Controller system.
+</p>
+<a name="wp1073807"> </a><h4 class="pHeading4">
+Horizon End Option
+</h4>
+<a name="wp1073808"> </a><p class="pBody">
+The Plan Horizon is the number of time buckets looks out from the current time. This option allows you to alter this values for this alert:
+</p>
+<a name="wp1073831"> </a><div style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 2pt; margin-left: 18pt; margin-right: 0pt; margin-top: 0pt; text-align: left; text-decoration: none; text-indent: -18pt; text-transform: none">
+·	Use current Plan horizon leaves the values for this alert as imported from the ERP 
+system.
+
+</div>
+<a name="wp1073832"> </a><div style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 2pt; margin-left: 18pt; margin-right: 0pt; margin-top: 0pt; text-align: left; text-decoration: none; text-indent: -18pt; text-transform: none">
+·	Enter is the number of time buckets forward Timogen Adaptive Controller will look 
+to determine whether or not to activate this alert only.
+
+</div>
+<a name="wp1073836"> </a><h4 class="pHeading4">
+Baseline Inventory Level Option
+</h4>
+<a name="wp1073849"> </a><p class="pBody">
+The amount of safety stock is defined by the ERP system and imported into Timogen Adaptive Controller. This option allows you to define the baseline stock level for calculation of overstocks and shortages:
+</p>
+<a name="wp1073850"> </a><div style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 2pt; margin-left: 18pt; margin-right: 0pt; margin-top: 0pt; text-align: left; text-decoration: none; text-indent: -18pt; text-transform: none">
+·	Use safety stock value sets the baseline level used for calculation to the safety stock 
+level.
+
+</div>
+<a name="wp1073851"> </a><div style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 2pt; margin-left: 18pt; margin-right: 0pt; margin-top: 0pt; text-align: left; text-decoration: none; text-indent: -18pt; text-transform: none">
+·	Enter is the number of the selected Items at this Location that will be used for 
+baseline calculations for this alert.
+
+</div>
+<a name="wp1073856"> </a><h4 class="pHeading4">
+Absolute/Temporary Overstock options
+</h4>
+<a name="wp1073869"> </a><p class="pBody">
+When looking for overstocks, you can look at every time bucket up to the horizon end or you can look at just the end time bucket. This options determines which will be used for this alert.
+</p>
+<a name="wp1074473"> </a><div style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 2pt; margin-left: 18pt; margin-right: 0pt; margin-top: 0pt; text-align: left; text-decoration: none; text-indent: -18pt; text-transform: none">
+·	Absolute looks at just the last time bucket at the end of the horizon.
+
+</div>
+<a name="wp1074474"> </a><div style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 2pt; margin-left: 18pt; margin-right: 0pt; margin-top: 0pt; text-align: left; text-decoration: none; text-indent: -18pt; text-transform: none">
+·	Temporary looks at every time bucket up to the horizon end.
+
+</div>
+<a name="wp1074475"> </a><h4 class="pHeading4">
+Absolute/Temporary Shortage option
+</h4>
+<a name="wp1074478"> </a><p class="pBody">
+When looking for shortages, you can look at every time bucket up to the horizon end or you can look at just the end time bucket. This options determines which will be used for this alert.
+</p>
+<a name="wp1074488"> </a><div style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 2pt; margin-left: 18pt; margin-right: 0pt; margin-top: 0pt; text-align: left; text-decoration: none; text-indent: -18pt; text-transform: none">
+·	Absolute looks at just the last time bucket at the end of the horizon.
+
+</div>
+<a name="wp1074489"> </a><div style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 2pt; margin-left: 18pt; margin-right: 0pt; margin-top: 0pt; text-align: left; text-decoration: none; text-indent: -18pt; text-transform: none">
+·	Temporary looks at every time bucket up to the horizon end.
+
+</div>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    </blockquote>
+
+    <hr />
+
+    <table id="SummaryNotReq1" width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr valign="top">
+        <td align="left">
+          <img id="LongDescNotReq1" src="images/timogenlogo.gif" width="68" height="34" alt="Timogen Systems" />
+        </td>
+        <td align="right">
+          <span style="font-size: 12px ; font-weight: bold">
+            Timogen Systems<br />
+          </span>
+          <span style="font-size: 10px">
+            <a href="http://www.timogen.com" target="_blank">Timogen Web Site</a><br />
+            Voice: (650) 903-9888<br />
+            Fax: (650) 903-9327<br />
+            <a href="mailto:info@timogen.com">info@timogen.coms</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

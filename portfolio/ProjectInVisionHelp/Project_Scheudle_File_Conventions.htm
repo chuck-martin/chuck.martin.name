@@ -1,0 +1,195 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=windows-1252">
+<title>Project Schedule File Conventions</title>
+<link rel="stylesheet" href="styles_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='styles.css'>");}
+//-->
+</script>
+ <meta name="generator" content="Dreamweaver MX"><script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Portfolio Manager\nProjects Module\nProject Schedule Files\nProject Schedule File Conventions");
+addAvenueInfo("Main","Synchronization.htm","About_Project_Teams.htm");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Project_InVision_User_Guide.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<h1> Project Schedule File Conventions</h1>
+ 
+<p>A number of conventions must be followed to ensure that the project schedule 
+  file and the Project InVision information stays in sync. Actions performed in 
+  your project management application may break the links with associated records 
+  in Project InVision if these conventions are not followed. Anything that affects 
+  the Unique Task ID in your project management application adversely affects 
+  the corresponding record linked to that ID in Project InVision.</p>
+<h2>Conventions</h2>
+<h3>Checking In a Project Schedule File For the First Time</h3>
+<p>Define the Project team by <a href="Assigning_Resources_to_Projects.htm">assigning 
+  Resources to the Project</a> before the file is checked in. The Resource Sheet 
+  of the Project file is updated once it is checked in.</p>
+<p class=note>If the Resources existing in the Project file do not match the Resources 
+  in the Project InVision Project record, an Unmatched Resources alert is received 
+  and the you must manually reconcile the Resources. You must either update the 
+  Resource name in the Resource Sheet of the project schedule file so it matches 
+  the Resource name in the Project InVision Project record, add the unmatched 
+  Resources to the Project InVision Project record if the Resource does not exist, 
+  or delete the unmatched Resources from the project schedule file.</p>
+<h3>Applying Work Hours to the Project File</h3>
+<p>Apply Actual Work Hours using the <a href="About_Time_Tracking.htm">Time Tracking</a> 
+  module of Project InVision. The hours are then synchronized with the project schedule file. </p>
+<h3>Checking In/Checking Out Project Schedule Files</h3>
+<p>Always <a href="Checking_In_Project_Schedule_Files.htm">check in</a> the same 
+  project schedule file that you checked out.</p>
+<p class="note">Because of the way files are transferred over the Web, spaces 
+  in the filename are replaced with the characters &#8220;%20&#8221; during check 
+  out. If you save the file as-is, those characters will remain in the filename 
+  and you'll have two similarly named files. To resolve this, review the File 
+  name field and replace any instances of %20 with a space by selecting the &#8220;%20&#8221; 
+  characters and pressing the spacebar.</p>
+<p>Create individual Projects as sub-Projects of a parent and track time against 
+  the sub-Projects. Information regarding the roll up of sub-Projects can be processed 
+  using Hierarchies and Group by selections.</p>
+<p>Remove any active custom views or restrictive filters from the project schedule file that have been saved in Gantt chart view before checking the file in.</p>
+<h3>Timing for Checking In Project Schedule Files</h3>
+<p>Wait to check out project schedule files until after timesheets have been 
+  submitted for the previous week. This ensures that the schedules are up to date 
+  with the most current data. </p>
+<h3>Adding a new Task to a Project Schedule File</h3>
+<p>Add the Task to the end of the Project schedule, regardless of which Tasks 
+  may be predecessors or successors. Then, link the Task to its appropriate successors 
+  and predecessors.</p>
+<p>Insert a new Task between other Tasks to generate a new, unique Task ID. Individual 
+  cell data can then be copied to the new Task.</p>
+<p class=note>If you modify an existing Task with new information. Actual Work 
+  Hours may already be posted to the original Task and the schedule may show erroneous 
+  results.</p>
+<h3>Moving an Existing Task in a Project Schedule File</h3>
+<p>Select the whole Task line, click on the Task number (in the gray area), and 
+  drag the Task to the new location. This keeps the original Unique ID associated 
+  with the Task and simply renumbers the Task.</p>
+<h3>Deleting an existing Task from a Project Management Application</h3>
+<p>Ensure that the Task does not contain Resource assignments or Actual Work Hours 
+  posted against it.</p>
+<h3>Using Recurring Tasks in a Project Management Application</h3>
+<p>Create Recurring Tasks as multiple Tasks with individual Unique ID's and Resource 
+  assignments. </p>
+<h3>Marking a Task as Complete, with no Hours Logged </h3>
+<p>Check Out the Schedule, set the Remaining Work to zero for each Resource, then 
+  mark the Task as 100% complete.</p>
+<h3>Marking a Task as Complete, with Actual Work Hours posted, but Remaining Work 
+  greater than zero</h3>
+<p>Check Out the Schedule, set the Remaining Work to zero for each Resource, then 
+  mark the Task as 100% complete.</p>
+<h3>Marking a Task as Complete, with Actual Work Hours posted, and Remaining Work 
+  is zero</h3>
+<p>Check Out the project schedule file and change the % complete to 100%.</p>
+<h3>Deleting Resources from Task Assignments</h3>
+<p>Change the Remaining Work for the Resource to zero, then mark the Task as complete 
+  (if applicable). Do not delete the Resource.</p>
+<h2>Additional Project Management Application Notes</h2>
+<h3>Copying Timesheets</h3>
+<p>The Copy Timesheet feature in Time Tracking should be used with the following 
+  guidelines:</p>
+<ul>
+  <li>Tasks with 0 Remaining Hours are removed from the new week.</li>
+  <li>Fixed-duration Tasks from the previous week may shift in duration if additional 
+    Remaining Hours are logged.</li>
+  <li>Previous week time should be submitted before new week time is submitted.</li>
+  <li>Completed Tasks may have additional Actual Work Hours logged in Time Tracking 
+    if the Assignment Hierarchy filter selection is set to ALL. Users will see 
+    all Tasks, whether complete or not, and can log additional Actual Work Hours 
+    against completed Tasks.</li>
+</ul>
+<h3>Assigning Resources to Tasks</h3>
+<ul>
+  <li>When initially assigning Resources to Fixed Unit Task types in the project 
+    schedule file, project management software assumes the Resource's defined 
+    max unit is 1.</li>
+  <li>When assigning Resources to Tasks, ensure Current Work hours are entered 
+    for each Resource assigned to the Task. This will provide Resource with Remaining 
+    Hours so the Task will appear in the Time Tracking application.</li>
+  <li>Project InVision supports the replacement of Resource assignments between 
+    Resources. When a Resource is replaced at the Project level, the replacement 
+    will carry through to the project schedule file.</li>
+  <li>Do not assign Resources at the Summary Task level. Summary Tasks are rollups 
+    of other Tasks that have assigned Resources, but Summary Tasks should not 
+    have resources assigned directly, even if the project management application 
+    allows it. Such assignments to Summary Tasks cannot be synchronized.</li>
+  <li>If a Resource changes the Remaining Hours in their Timesheet, it will change 
+    the Remaining Work in the project schedule file.</li>
+</ul>
+<h3>Project InVision Resource Planning</h3>
+<ul>
+  <li>Project InVision's Resource Planning feature is defined for an entire Workgroup 
+    based on the Workgroup Option settings for the Workgroup calendar, under-utilized 
+    threshold, or over-allocation threshold.</li>
+  <li>Project InVision's Resource Planning feature uses the Workgroup Calendar 
+    Work Week and the Resource's availability to determine over-allocation or 
+    under-utilization. If the Workgroup Calendar and the project management program's 
+    Standard Calendar do not match, then the Resource Planning feature may not 
+    accurately reflect the Resource's allocation.</li>
+  <li>The Resource Planning feature does not affect the Tasks in the project schedule 
+    file when doing &#8220;What if?&#8221; scenarios for changing Resource allocations. 
+    The project schedule file needs to be updated to reflect any desired changes 
+    based on the &#8220;What if?&#8221; scenarios.</li>
+  <li>The Resource Task assignment unit in the project schedule file updates Resource 
+    requirements in the Resource Planning feature. </li>
+</ul>
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<indexdata>
+<key name="Workgroups" >
+  <topic name="About Workgroups" url="About_Workgroups.htm" />
+  <topic name="Applying Views" url="Applying_Views.htm" />
+  <topic name="Assigning Resources to Workgroups" url="admin_Assigning_Resources_to_Workgroups.htm" />
+  <topic name="Assigning Workgroups to Resources" url="admin_Assigning_Workgroups_to_Resources.htm" />
+  <topic name="Changing Workgroups" url="Changing_Workgroups.htm" />
+  <topic name="Copying Projects Between Workgroups" url="Copying_Projects_Between_Workgroups.htm" />
+  <topic name="Removing Resources from Workgroups" url="admin_Removing_Resources_from_Workgroups.htm" />
+  <topic name="Removing Workgroups from Resources" url="admin_Removing_Workgroups_from_Resources.htm" />
+  <key name="About" >
+    <topic name="About Workgroups" url="About_Workgroups.htm" />
+  </key>
+  <key name="And Reports" >
+    <topic name="About Reports" url="About_Reports.htm" />
+  </key>
+  <key name="Assigning Resources to" >
+    <topic name="Assigning Resources to Workgroups" url="admin_Assigning_Resources_to_Workgroups.htm" />
+  </key>
+  <key name="Assigning to Resources" >
+    <topic name="Assigning Workgroups to Resources" url="admin_Assigning_Workgroups_to_Resources.htm" />
+  </key>
+  <key name="Changing" >
+    <topic name="Changing Workgroups" url="Changing_Workgroups.htm" />
+  </key>
+  <key name="Copying Projects between" >
+    <topic name="Copying Projects Between Workgroups" url="Copying_Projects_Between_Workgroups.htm" />
+  </key>
+  <key name="Removing from Resources" >
+    <topic name="Removing Workgroups from Resources" url="admin_Removing_Workgroups_from_Resources.htm" />
+  </key>
+  <key name="Removing Resources from" >
+    <topic name="Removing Resources from Workgroups" url="admin_Removing_Resources_from_Workgroups.htm" />
+  </key>
+</key>
+
+</indexdata>

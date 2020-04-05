@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-comment" content="" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>SimpleDPAD</title>
+<link rel="StyleSheet" href="itsonhelptopic.css" type="text/css" />
+</head>
+
+<body>
+<div class="warning">
+	<?rh-udv_start name="Product_Name" ?>Service Design Center<?rh-udv_end ?> 
+	 uses a change management process to track and approve all changes 
+	 to any product. All of these changes, including additions, edits, 
+	 and deletions, must go through the <a hqid="288800" href="#">promote</a>-<a 
+	 href="#">approve-deploy</a> process before they become available.
+</div>
+</body>
+</html>

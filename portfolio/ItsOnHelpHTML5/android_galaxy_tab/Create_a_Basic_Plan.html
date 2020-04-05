@@ -1,0 +1,560 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>ItsOn Help Sample</title>
+<link rel="Stylesheet" href="template/Android_Tablet_Layout/mobile.css" type="text/css" />
+ <link rel="StyleSheet" href="itsonhelptopic.css" type="text/css" /><script type="text/javascript" language="JavaScript">//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]></script><style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+<script type="text/javascript" src="template/scripts/constants.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/utils.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhver.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/settings.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadcsh.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/showhidecontrols.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/pageloader.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/searchfield.js" language="JavaScript1.2"></script>
+<script type="text/javascript" language="JavaScript1.2">
+gRootRelPath = ".";
+gCommonRootRelPath = "..";
+</script>
+<script type="text/javascript" language="JavaScript1.2">
+gTopicId = "3.0_1";
+</script>
+</head>
+
+<body>
+<script type="text/javascript" src="ehlpdhtm.js"></script>
+
+
+
+<div class="header">
+	<table class="headertable">
+		<tr>
+			<td class="home"><a href="homepage.htm"><img src="template/Android_Tablet_Layout/btn_home.png" alt="" style=" border:none; width:100%; max-width:44px;" border="0" /></a></td>
+			<td class="title">ItsOn Help Sample</td>
+			<td class="logo">&#160;</td>
+		</tr>
+	</table>
+</div>
+<div class="searchholder">
+	<table class="searchholdertable">
+		<tr>
+			<td><div class="wSearchField">
+				<input id="searchBox" class="wSearchField" type="search" data-placeholder="-Search-" onkeydown="searchHelp(event, 'searchBox')" data-search="true" /><a class="wSearchLink" onclick="searchHelp(null, 'searchBox')" href="#"><img src="template/Android_Tablet_Layout/Search.png" alt="" class="wSearchLink" border="0" style="width:100%; max-width:44px" /></a> 
+				 
+			</div></td>
+		</tr>
+	</table>
+</div>
+<div class="contentholder">
+	<div class="options">
+		  
+		 
+	</div>
+	<div class="wTopic" id="rh_default_topic_placeholder_id">
+
+
+  <h1>Create a Basic Plan</h1>
+  <p>This topic will walk you through the creation of a basic plan.</p>
+  <p>When you are finished, you will have a bare-bones plan that is available 
+ in the store for purchase. The goal of this topic is to get you familiar 
+ with the basic development process and the various parts of Service Design Center.</p>
+  <p>What we will create is a plan that allows voice calling. The plan will 
+ have no restrictions on where voice calls can be made and will allow 100 
+ minutes of voice calling for 1 month.&#160;</p>
+  <h2>Idea and Planning</h2>
+  <p>Before you dig in and start making stuff, you want to know what your 
+ goal is. Mapping out the details of what you want to have at the end is 
+ the first stage of the process.</p>
+  <p>In this scenario, you want to create a basic voice plan. But even the 
+ most basic of plans requires plenty of details to get it right. Among 
+ the questions you want to answer:</p>
+  <ul>
+	<li>Do you want your customers to only make calls, only receive calls, 
+	 or both? For this tutorial, both.</li>
+	<li>On what networks (or on what parts of your networks) do you want 
+	 your customers to be able to make and receive calls? Are there any 
+	 networks on which you want to prevent your customers from making and 
+	 receiving calls? For this tutorial, on any network.</li>
+	<li>How long do you want the voice plan to last? Or more specifically, 
+	 how long is the plan cycle? For this tutorial, 1 month.</li>
+	<li>Is it a one-time plan or one that can be renewed? If the latter, 
+	 how many times? For this tutorial, it will be a one-time plan that 
+	 cannot be renewed. (Note that a plan that doesn't renew can still 
+	 be re-purchased.)</li>
+	<li>How much will you charge for the plan? For this tutorial, $1.00.</li>
+	<li>What will you name the plan? What will you name the policy that 
+	 the plan is based on? For this tutorial, we will use the name <em>Simple 
+	 Voice</em>.</li>
+</ul>
+<p>To keep things simple, we'll make some assumptions:</p>
+<ul>
+	<li>The plan can be used only by the customer who buys it.</li>
+	<li>No notifications will be associated with the plan.</li>
+</ul>
+<p>There are 3 basic steps:</p>
+<ol>
+	<li>Create the policy.</li>
+	<li>Create the plan.</li>
+	<li>Add the plan to a store category.</li>
+</ol>
+<h2>Create the eCommerce Policy</h2>
+<p><a hqid="1789449" href="#">eCommerce policies</a> are what allow plans 
+ to use the cellular network. So before you can create a plan, you have 
+ to <a hqid="232005" href="#">create the eCommerce policy</a> that your 
+ plan will be based upon.</p>
+<ol class="tip">
+	<li>To begin, go to the eCommerce Policies section: <strong>Policy 
+	 &gt; eCommerce Policies</strong>.</li>
+</ol>
+<p><img alt="" class="screencap" src="images/menu_Policy_eCommerce_Policies.png" style=" border-width:1px; border-style:solid; width:100%; max-width:275px;" border="1" /></p>
+<p>There are two types of eCommerce policies: <a hqid="232073" href="#">service 
+ polices</a> and <a hqid="1712746" href="#">entitlement policies</a>, and 
+ there are three types of each: voice, messaging, and data. For a voice 
+ plan that you want to put in the catalog for customers to buy, you want 
+ to create a voice service policy.</p>
+<ol class="tip" start="2">
+	<li>Click the <strong>New</strong> button, then click <strong>Voice</strong>, 
+	 and then click <strong>Service Policy.</strong></li>
+</ol>
+<p>This takes you to the Add Voice Service Policy dialog box.</p>
+<p>This is where your planning begins to pay off. When you create a plan, 
+ you attach a service policy to it. The name you use here is the name you 
+ will have to find when you create the plan. For this scenario, we'll call 
+ the policy &quot;Simple Voice.&quot;</p>
+<ol class="tip" start="3">
+	<li>Enter <em>Simple Voice</em> into the Name field, and then click 
+	 <strong>Save</strong>.</li>
+</ol>
+<p>A new eCommerce policy is like a blank canvas. Like when you create 
+ a new document in a word processing program, you start with nothing and 
+ you fill in the content. The content, in this case, is an eCommerce service 
+ policy.</p>
+<p><img alt="" class="screencap" src="images/ecommerce_policy_simple_voice_blank.png" style=" border-width:1px; border-style:solid; width:100%; max-width:1191px;" border="1" /></p>
+<p>Policies do all the work, and service policies do all the work to define 
+ what service can be used, when, and how. This is a voice service policy, 
+ so we know that it controls voice service. But how?</p>
+<p>Policies contain components. Components contain policy events, and those 
+ are connected to filters. The filter-policy event combination in a policy 
+ component is what does most of the work in a policy. So we want to <a 
+	 hqid="232002" href="#">add a component</a>.</p>
+<ol class="tip" start="4">
+	<li>Click <strong>Add Component</strong>, and then click <strong>New</strong>.</li>
+</ol>
+<p>As with most things, we have to give the component a name.</p>
+<p><img class="screencap" src="images/dialog_Component_Properties_simple_voice.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:423px;" border="1" /></p>
+<p>Keeping things consistent, we'll give it the name &quot;Simple Voice.&quot;</p>
+<ol class="tip" start="5">
+	<li>Enter <em>Simple Voice</em> into the Component Name field, and 
+	 then click <strong>Save</strong>.</li>
+</ol>
+<p>Now that we have a component, the first thing to do is to <a hqid="232006" 
+	 href="#">add a filter</a> to the component. Filters contain criteria, 
+ and normally, you'd have to decide what <a href="#">voice filter criteria</a> 
+ to add. As it turns out, we don't want to add any. Criteria in filters 
+ restrict when the policy event gets evaluated, and there are no restrictions 
+ we want in this voice policy. No filtering means that calling will be 
+ allowed to anywhere.</p>
+<p>However, a component requires a filter.</p>
+<ol class="tip" start="6">
+	<li>Click <strong>Add Filter</strong>, and then click <strong>New</strong>.</li>
+</ol>
+<p>And like with most&#160;new things we add, the filter needs a name. 
+ We'll stay consistent with our naming: &quot;Simple Voice.&quot;</p>
+<ol class="tip" start="7">
+	<li>Enter <em>Simple Voice</em> into the Name field, and then click 
+	 <strong>Save</strong>.</li>
+</ol>
+<p>Next, we <a hqid="232009" href="#">add a policy event</a> to the component.</p>
+<ol class="tip" start="8">
+	<li>Click <strong>Add Policy Event</strong>, and then click <strong>New</strong>.</li>
+</ol>
+<p><img class="screencap" src="images/component_Simple_Voice.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:549px;" border="1" /></p>
+<p>&#160;</p>
+<p>And we're done with the component. Here's why.</p>
+<ul>
+	<li>There are two choices for a policy event action: Allow and Block. 
+	 We want to allow voice service, so we leave the action at its default: 
+	 Allow.</li>
+	<li><a hqid="232059" href="#">Network groups</a> define where devices 
+	 can and cannot connect. Because this is a simple plan—customers will 
+	 be able to make voice calls anywhere they can make a connection to 
+	 a network—we won't add any restrictions here. (This includes both 
+	 your own network and domestic and international roaming networks.)</li>
+	<li>Policy event criteria add further restrictions, so we won't add 
+	 any of those either.</li>
+</ul>
+<p>There are two more steps necessary to make the eCommerce policy complete, 
+ adding voice accounting and adding network enforcement.</p>
+<p><a hqid="298995" href="#">Voice accounting</a> defines how voice calling 
+ is charged. A voice accounting policy includes <a hqid="301589" href="#">settings</a> 
+ for voice call grace period, accounting increment, and minimum charge 
+ duration for any plan that uses the policy. All the increments are measured 
+ in seconds, and common values are 15 seconds for the grace period, 5 seconds 
+ for the accounting increment, and 30 seconds for the minimum charge duration.</p>
+<p>You just have to <a hqid="301568" href="#">add a voice accounting policy</a> 
+ to the eCommerce voice service policy. You can do this in two ways, by 
+ creating a new voice accounting policy or by linking the voice service 
+ policy to an existing voice accounting policy.</p>
+<p>In addition, voice accounting policies can be linked at the voice service 
+ policy level or to a component in the voice service policy. For simplicity, 
+ you will link an existing voice accounting policy to the voice service 
+ policy.</p>
+<ol class="tip" start="9">
+	<li>Click the down arrow next to None next to the Advanced Voice Accounting 
+	 Policy that is outside the component, and then click <strong>From 
+	 Library</strong>.</li>
+</ol>
+<p><img alt="" class="screencap" src="images/ecommerce_policy_simple_voice_VAP.png" style=" border-width:1px; border-style:solid; width:100%; max-width:561px;" border="1" /></p>
+<ol class="tip" start="10">
+	<li>Click the name of a voice accounting policy, and then click <strong>Save</strong>.</li>
+</ol>
+<p><a hqid="317071" href="#">Network enforcement</a> allows policy enforcement 
+ for devices that do not have the embedded ItsOn client software, and for 
+ voice service polices is in the form of bucket IDs. 
+ The bucket ID that you add to a policy should be configured to match the 
+ policy configuration in the policy component(s).</p>
+<ol class="tip" start="11">
+	<li>Click the down arrow next to None next to Bucket ID, and then click 
+	 <strong>From Library</strong>.</li>
+	<li>Click the name of a bucket ID, and then click <strong>Save</strong>.</li>
+</ol>
+<p>Now we're done creating the eCommerce policy that will be used to power 
+ the plan. However, it cannot be attached to a plan until it is <a hqid="232078" 
+	 href="#">tested</a> and <a hqid="232067" href="#">published</a>.</p>
+<h2>Create the Plan</h2>
+<p>The first step to <a hqid="288793" href="#">create</a> <a hqid="288793" 
+															 href="#">a 
+ plan</a> is to go into the eCommerce section of Service Design Center.</p>
+<ol class="tip">
+	<li>Click <strong>eCommerce</strong>, and then click <strong>Catalog 
+	 &amp; Notifications</strong>.</li>
+</ol>
+<p>From there, you go to the Products list.</p>
+<ol class="tip" start="2">
+	<li>Click <strong>Catalog</strong>, and then click <strong>Products</strong>.</li>
+</ol>
+<p>Before you go further, you'll want to understand the concept of sandboxes. 
+ A sandbox is a view of the catalog that combines everything that is deployed 
+ plus all the changes you make in that sandbox. When you're working in 
+ the eCommerce section of Service Design Center, 
+ you're always working within the context of a sandbox. For now, we'll 
+ just work in your default sandbox, so you don't need to change anything 
+ here.</p>
+<ol class="tip" start="3">
+	<li>Click the <strong>Add Product</strong> button, and then in the 
+	 Add Product dialog box, click <strong>Plan</strong>.</li>
+</ol>
+<p>Even for simple plans, there are a number of fields that you have to 
+ fill out. The various fields are all detailed in <a hqid="288857" href="#">Plan 
+ Settings</a>. Before we explain the necessary ones for this simple plan, 
+ let's first attach the voice service policy we just created. To do that, 
+ look in the Service section. One of the settings is Service Policy.</p>
+<ol class="tip" start="4">
+	<li>Click the <strong>Lookup</strong> button. In the Select dialog 
+	 box, click <em>Simple Voice</em>, the service policy we just created.</li>
+</ol>
+<p><img class="screencap" src="images/dialog_Select_Service_Policy_annotated.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:717px;" border="1" /></p>
+<ol class="tip" start="5">
+	<li>Fill in the rest of these settings:</li>
+</ol>
+<table style="border-collapse: separate; border-collapse: separate;" cellspacing="1" 
+		 border="1">
+	<tr>
+		<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Section Name</th>
+		<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Setting Name</th>
+		<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Value</th>
+		<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Notes</th>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Appearance</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Name</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Simple Voice</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Recipient/Sharing/Assigning</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Customer can buy for?</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Customer's account only</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">The plan can be used only by the subscribers 
+		 in the customer's account and cannot be gifted.</td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Allocation</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Exclusive</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">The plan can be used only by the purchaser. 
+		 It cannot be assigned to another subscriber in the account nor 
+		 shared among subscribers in the account. Selecting <em>Exclusive</em> 
+		 means that nothing is available to be selected for Share Method, 
+		 Share Type, or Assignment Method.</td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Service</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Service Policy</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Simple Voice</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Voice Usage</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Limited To 100 Minutes</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Per Call Limit</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">None</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Behavior</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Recurring</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">No</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">This means that nothing is available 
+		 to be selected for Number of Cycles, Aligned to account cycle, 
+		 or Prorated on first cycle.</td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Cycle Duration</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Lasts 1 Month</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Usage Display</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Default</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Display detailed usage data</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Yes</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Terminates when usage allowance runs 
+		 out</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Yes</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Visibility</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Show</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Billing</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Retail Price</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">1.00</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Tax Classification</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Not Applicable</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">&#160;</td>
+	</tr>
+ </table>
+ <ol class="tip" start="6">
+	<li>Click <strong>Save</strong>.</li>
+</ol>
+<p>You have your first plan. But it's not available for purchase yet. In 
+ the eCommerce section, all changes have to be <a hqid="288861" href="#">promoted</a>, 
+ <a hqid="288799" href="#">approved, and deployed</a>. Adding a new plan 
+ is considered a change.&#160;</p>
+<p>All the changes you make are listed on the My Changes page.</p>
+<p><img class="screencap" src="images/menu_Site_Updates_My_Changes.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:212px;" border="1" /></p>
+<p>In this case, there is one change: The plan you added.</p>
+<p><img class="screencap" src="images/page_My_Changes.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:919px;" border="1" /></p>
+<p>The first step is to promote your change.</p>
+<ol class="tip" start="7">
+	<li>Click the change in the table, and then click <strong>Promote</strong>.</li>
+</ol>
+<p><img class="screencap" src="images/dialog_Items_to_Promote.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:335px;" border="1" /></p>
+<p>The Description section helps you track your changes through the promote-approve-deploy 
+ process. It is given a default title that includes the change action, 
+ in this case an add, what is being changed, in this case a product, and 
+ the name of the item being changed.</p>
+<ol class="tip" start="8">
+	<li>We don't really need to change or add anything here, so just click 
+	 <strong>Promote</strong>.</li>
+</ol>
+<p>Changes that have been promoted but have not yet been approved move 
+ to the Pending Approvals table on the My Changes page.</p>
+<p><img class="screencap" src="images/Pending_Approvals(1).png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:915px;" border="1" /></p>
+<p>Approvals are similar to promotions, except on the Approvals page.</p>
+<p><img class="screencap" src="images/menu_Site_Updates_Approvals.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:211px;" border="1" /></p>
+<p>The Items pending action list shows the plan you just promoted.</p>
+<p><img class="screencap" src="images/Items_pending_action.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:889px;" border="1" /></p>
+<ol class="tip" start="9">
+	<li>Like with promoting, when you approve a change, you select it and 
+	 then click Approve.</li>
+</ol>
+<p><img class="screencap" src="images/dialog_Items_to_Approve.png" alt="" style=" border-width:1px; border-style:solid; width:100%; max-width:335px;" border="1" /></p>
+<ol class="tip" start="10">
+	<li>Click <strong>Approve</strong>.</li>
+</ol>
+<p>That's all you need to do to create a plan. The next step is to make 
+ it available to customers in the store.</p>
+<h2>Add the Plan to a Store Category</h2>
+<p>The store experience for your customers is defined by the use of <a 
+	 hqid="288808" href="#">categories</a>. Categories (and sub-categories) 
+ are used to organize all the products you sell. One category is used as 
+ the &quot;root&quot; of the normal store browsing experience. Sub-categories 
+ of that category define the sections of your store. See more about this 
+ in <a hqid="298180" href="#">Categories for Displaying Plans in the Store</a>.</p>
+<p>For this part of the exercise, we're going to assume that your store 
+ categories already exist, that you have a <code>/special</code> root category 
+ and a <code>/special/voice-plans</code> sub-category of the root category 
+ (also known as a parent category).</p>
+<p>The first step to <a hqid="288781" href="#">add a plan to a store category</a> 
+ is to go into the eCommerce section of Service Design Center.</p>
+<ol class="tip">
+	<li>Click <strong>eCommerce</strong>, and then click <strong>Catalog 
+	 &amp; Notifications</strong>.</li>
+</ol>
+<p>From there, you go to the Categories list.</p>
+<ol class="tip" start="2">
+	<li>Click <strong>Catalog</strong>, and then click Categories.</li>
+</ol>
+<p>You should see something similar to this.</p>
+<p><img alt="" src="images/ecommerce_category_list_voice-plans.png" style=" border-width:1px; border-style:solid; width:100%; max-width:661px;" border="1" /></p>
+<p>This is an example of a store experience with 6 sub-categories. Yours 
+ may look different, but the important part is that you are looking for 
+ a category for voice plans that is a sub-category of the SPECIAL category.</p>
+<ol class="tip" start="3">
+	<li>Click <strong>Voice Plans</strong>.</li>
+</ol>
+<p>The plans in a category are listed in the Products tab.</p>
+<ol class="tip" start="4">
+	<li>Click the <strong>Products</strong> tab.</li>
+</ol>
+<p>The Products tab not only lists the products that are displayed in that 
+ section of the store, the Display Order value determines the order in 
+ which those products are displayed. For now, we don't really care about 
+ where this plan will be displayed, so just scroll through the list and 
+ note the largest number.</p>
+<ol class="tip" start="5">
+	<li>Click the <strong>Add</strong> button.</li>
+</ol>
+<p>A dialog box appears that lists all of the published plans. The plan 
+ you just created should be at the bottom of the list. Scroll down in the 
+ dialog box until you find it.</p>
+<ol class="tip" start="6">
+	<li>Click the name of the voice plan you just created, enter a Display 
+	 Order number that's larger than the largest one you saw in the list, 
+	 and then click <strong>Save</strong>. Click <strong>Save</strong> 
+	 again on the category detail page.</li>
+</ol>
+<p>You should see the voice plan in the All Products list. Note that it 
+ is in yellow text with a pencil icon next to it. That's because you've 
+ just made a change, a change in the category.</p>
+<p>In the Create a Plan section, you promoted, approved, and deployed the 
+ plan. You take the exact same steps again, this time for the change you 
+ made to the category.</p>
+<ol class="tip" start="7">
+	<li><a hqid="288860" href="#">Promote</a>, <a hqid="288799" href="#">approve, 
+	 and deploy</a> the change to the category.</li>
+</ol>
+<p>You're done! Your new Simple Voice plan is now available in the store 
+ for your customers to buy.</p>
+</div>
+	
+</div>
+</body>
+</html>

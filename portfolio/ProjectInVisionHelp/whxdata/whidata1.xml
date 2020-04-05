@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<indexdata>
+<key name="Availability" >
+  <topic name="Creating Generic Resources" url="Creating_Generic_Resources.htm" />
+  <topic name="Editing Availability" url="Editing_Availability.htm" />
+  <topic name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+  <key name="Analyzing Resource" >
+    <topic name="Analyzing Resource Availability for Projects" url="Analyzing_Resource_Availability_for_Projects.htm" />
+  </key>
+  <key name="Editing" >
+    <topic name="Editing Availability" url="Editing_Availability.htm" />
+  </key>
+  <key name="Profile" >
+    <topic name="Editing Availability" url="Editing_Availability.htm" />
+  </key>
+  <key name="Profiles" >
+    <topic name="About Resource Plans" url="About_Resource_Plans.htm" />
+  </key>
+  <key name="Resource" >
+    <topic name="About Resource Plans" url="About_Resource_Plans.htm" />
+  </key>
+</key>
+<key name="Baseline Plan" >
+  <topic name="Creating Resource Plans" url="Creating_Resource_Plans.htm" />
+  <topic name="Editing Resource Plans" url="Editing_Resource_Plans.htm" />
+</key>
+<key name="Basic View" >
+  <topic name="Documents Module Views" url="Documents_Module_Views.htm" />
+</key>
+<key name="Billing" >
+  <topic name="Projects Detail Form" url="Projects_Detail_Form.htm" />
+</key>
+<key name="Billing Code" >
+  <topic name="About Tasks" url="About_the_Tasks_Module.htm" />
+  <topic name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+</key>
+<key name="Billing Rate" >
+  <topic name="Managing Project Costs" url="Managing_Project_Costs.htm" />
+  <topic name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+</key>
+<key name="Business case" >
+  <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+  <topic name="Requirements Detail Form" url="Requirements_Detail_Form.htm" />
+</key>
+<key name="Business practices" >
+  <topic name="About Workgroups" url="About_Workgroups.htm" />
+</key>
+<key name="Calculate Task Assignments Based On" >
+  <topic name="Project Options" url="Project_Options.htm" />
+</key>
+<key name="Calculated Fields" >
+  <topic name="About Detail Forms" url="About_Detail_Forms.htm" />
+</key>
+<key name="Cause" >
+  <topic name="Defects Detail Form" url="Defects_Detail_Form.htm" />
+</key>
+<key name="Change #" >
+  <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+</key>
+<key name="Change requests" >
+  <topic name="About Changes" url="About_the_Changes_Module.htm" />
+  <topic name="Creating Changes" url="Creating_Changes.htm" />
+</key>
+<key name="Change Title" >
+  <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+</key>
+<key name="Changes" >
+  <topic name="About Changes" url="About_the_Changes_Module.htm" />
+  <topic name="Creating Changes" url="Creating_Changes.htm" />
+  <topic name="Deleting Changes" url="Deleting_Changes.htm" />
+  <topic name="Editing Changes" url="Editing_Changes.htm" />
+  <key name="About" >
+    <topic name="About Changes" url="About_the_Changes_Module.htm" />
+  </key>
+  <key name="Adding to Timesheets" >
+    <topic name="Adding Assignments to Timesheets" url="Adding_Assignments_to_Timesheets.htm" />
+  </key>
+  <key name="Applying workflows" >
+    <topic name="Applying Workflows" url="Applying_Workflows.htm" />
+  </key>
+  <key name="Copying between Projects" >
+    <topic name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+  </key>
+  <key name="Copying within Projects" >
+    <topic name="Copying Records Within Projects" url="Copying_Records_Within_Projects.htm" />
+  </key>
+  <key name="Creating" >
+    <topic name="Creating Changes" url="Creating_Changes.htm" />
+  </key>
+  <key name="Deleting" >
+    <topic name="Deleting Changes" url="Deleting_Changes.htm" />
+  </key>
+  <key name="Detail Form" >
+    <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+  </key>
+  <key name="Editing" >
+    <topic name="Editing Changes" url="Editing_Changes.htm" />
+  </key>
+  <key name="Moving between Projects" >
+    <topic name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+  </key>
+  <key name="Moving within Projects" >
+    <topic name="Copying Records Within Projects" url="Copying_Records_Within_Projects.htm" />
+  </key>
+  <key name="Viewing assigned" >
+    <topic name="Viewing Assignments" url="Viewing_Assignments.htm" />
+  </key>
+</key>
+<key name="Changing" >
+  <key name="Dashboard layout" >
+    <topic name="Changing Dashboard Layouts" url="Changing_Dashboard_Layouts.htm" />
+  </key>
+  <key name="Dashboards" >
+    <topic name="Changing Dashboards" url="Changing_Dashboards.htm" />
+  </key>
+  <key name="Logins of Resources" >
+    <topic name="Changing Resource Logins and Passwords" url="admin_Changing_Resource_Logins_and_Passwords.htm" />
+  </key>
+  <key name="Passwords" >
+    <topic name="Changing Your Password" url="Changing_Your_Password.htm" />
+  </key>
+  <key name="Passwords of Resources" >
+    <topic name="Changing Resource Logins and Passwords" url="admin_Changing_Resource_Logins_and_Passwords.htm" />
+  </key>
+  <key name="Portal layouts" >
+    <topic name="Changing Portal Layouts" url="Changing_Portal_Layouts.htm" />
+  </key>
+  <key name="Portal view options" >
+    <topic name="Changing Portal View Options" url="Changing_Portal_View_Options.htm" />
+  </key>
+  <key name="Pull-down listitem order" >
+    <topic name="Changing Pull-down List Item Order" url="admin_Changing_Pull-down_List_Item_Order.htm" />
+  </key>
+  <key name="Resource Logins" >
+    <topic name="Changing Resource Logins and Passwords" url="admin_Changing_Resource_Logins_and_Passwords.htm" />
+  </key>
+  <key name="Resource Passwords" >
+    <topic name="Changing Resource Logins and Passwords" url="admin_Changing_Resource_Logins_and_Passwords.htm" />
+  </key>
+  <key name="Template order" >
+    <topic name="Changing Template Order" url="admin_Changing_Template_Order.htm" />
+  </key>
+  <key name="Time increments" >
+    <topic name="Changing Time Increments" url="Changing_Time_Increments.htm" />
+  </key>
+  <key name="Workgroups" >
+    <topic name="Changing Workgroups" url="Changing_Workgroups.htm" />
+  </key>
+</key>
+<key name="Check In" >
+  <key name="Forcing" >
+    <topic name="Forcing Check In" url="admin_Forcing_Check_In.htm" />
+  </key>
+</key>
+<key name="Checking in" >
+  <key name="Document files" >
+    <topic name="Checking In Document Files" url="Checking_In_Document_Files.htm" />
+  </key>
+  <key name="Project schedule files" >
+    <topic name="Checking In Project Schedule Files" url="Checking_In_Project_Schedule_Files.htm" />
+  </key>
+</key>
+<key name="Checking out" >
+  <key name="Document files" >
+    <topic name="Checking Out Document Files" url="Checking_Out_Document_Files.htm" />
+  </key>
+  <key name="Project schedule files" >
+    <topic name="Checking Out Project Schedule Files" url="Checking_Out_Project_Schedule_Files.htm" />
+  </key>
+</key>
+<key name="Clearing" >
+  <key name="Associations" >
+    <topic name="Clearing Associations" url="admin_Clearing_Associations.htm" />
+  </key>
+</key>
+<key name="Collaborations" >
+  <topic name="About Collaborations" url="About_the_Collaborations_Module.htm" />
+  <topic name="Collaborations Detail Form" url="Collaborations_Detail_Form.htm" />
+  <topic name="Creating Collaborations" url="Creating_Collaborations.htm" />
+  <topic name="Deleting Collaborations" url="Deleting_Collaborations.htm" />
+  <key name="About" >
+    <topic name="About Collaborations" url="About_the_Collaborations_Module.htm" />
+  </key>
+  <key name="Creating" >
+    <topic name="Creating Collaborations" url="Creating_Collaborations.htm" />
+  </key>
+  <key name="Deleting" >
+    <topic name="Deleting Collaborations" url="Deleting_Collaborations.htm" />
+  </key>
+  <key name="Detail form" >
+    <topic name="Collaborations Detail Form" url="Collaborations_Detail_Form.htm" />
+  </key>
+</key>
+<key name="Columns" >
+  <key name="Sorting" >
+    <topic name="About Sorting" url="About_Sorting.htm" />
+  </key>
+</key>
+<key name="Comments" >
+  <topic name="About Comments" url="About_Comments.htm" />
+  <topic name="Adding Comments" url="Adding_Comments.htm" />
+  <topic name="Detail Form Common Pages" url="Detail_Form_Common_Pages.htm" />
+  <topic name="Editing Comments" url="Editing_Comments.htm" />
+  <key name="About" >
+    <topic name="About Comments" url="About_Comments.htm" />
+  </key>
+  <key name="Adding" >
+    <topic name="Adding Comments" url="Adding_Comments.htm" />
+  </key>
+  <key name="Editing" >
+    <topic name="Editing Comments" url="Editing_Comments.htm" />
+  </key>
+</key>
+<key name="Completion Date" >
+  <topic name="Defects Detail Form" url="Defects_Detail_Form.htm" />
+</key>
+<key name="Complexity" >
+  <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+</key>
+<key name="Configuring" >
+  <key name="Internet Explorer" >
+    <topic name="Configuring Internet Explorer" url="Configuring_Internet_Explorer.htm" />
+  </key>
+  <key name="Project InVision" >
+    <topic name="Configuring Project InVision" url="Configuring_Project_InVision.htm" />
+  </key>
+  <key name="Project Selection" >
+    <topic name="Configuring Project Selection" url="Configuring_Project_Selection.htm" />
+  </key>
+  <key name="Search settigs" >
+    <topic name="Configuring Search Settings" url="Configuring_Search_Settings.htm" />
+  </key>
+  <key name="Toolbar appearance" >
+    <topic name="Configuring Project InVision" url="Configuring_Project_InVision.htm" />
+  </key>
+</key>
+<key name="Contact Information" >
+  <topic name="Editing Contact Information" url="Editing_Contact_Information.htm" />
+  <key name="Editing" >
+    <topic name="Editing Contact Information" url="Editing_Contact_Information.htm" />
+  </key>
+  <key name="Resource" >
+    <topic name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+  </key>
+</key>
+<key name="Contacting" >
+  <topic name="About Project InVision International" url="About_Project_InVision_International.htm" />
+</key>
+<key name="Contains" >
+  <topic name="Finding Information" url="Finding_Information.htm" />
+  <topic name="Quick Filters" url="Quick_Filters.htm" />
+</key>
+<key name="Conversations" >
+  <topic name="About Discussions" url="About_Discussions.htm" />
+</key>
+<key name="Copying" >
+  <topic name="About Copying and Moving" url="About_Transferring_Records.htm" />
+  <key name="Previous week's timesheets" >
+    <topic name="Copying Previous Week Timesheets" url="Copying_Previous_Week_Timesheets.htm" />
+  </key>
+  <key name="Records" >
+    <topic name="About Transferring Records" url="About_Transferring_Records.htm" />
+    <topic name="Copying Records" url="Copying_Records.htm" />
+  </key>
+</key>
+<key name="Cost Center" >
+  <topic name="About Tasks" url="About_the_Tasks_Module.htm" />
+  <topic name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+</key>
+<key name="Cost Rate Table" >
+  <topic name="Managing Project Costs" url="Managing_Project_Costs.htm" />
+</key>
+<key name="Costing" >
+  <topic name="About Resource Costing" url="About_Resource_Costing.htm" />
+  <topic name="Managing Project Costs" url="Managing_Project_Costs.htm" />
+  <topic name="Projects Detail Form" url="Projects_Detail_Form.htm" />
+  <topic name="Understanding Resource Plans" url="About_Resource_Plans.htm" />
+</key>
+<key name="Costs" >
+  <key name="Managing project" >
+    <topic name="Managing Project Costs" url="Managing_Project_Costs.htm" />
+  </key>
+</key>
+
+</indexdata>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-comment" content="" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>ProductAvailabilitySettings</title>
+<link rel="StyleSheet" href="itsonhelptopic.css" type="text/css" />
+</head>
+
+<body>
+<h3><a id="GeneralTab-AvailabilitySettings" name="GeneralTab-AvailabilitySettings"></a>Availability 
+ Settings</h3>
+<p>These settings are where you define the dates a product (such as a plan, 
+ fee, or bundle) is available.</p>
+<table >
+	<tr>
+		<th>Setting</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<td><strong>Start</strong></td>
+		<td><p>Required. Defines when a product (plan, bundle, eMoney, 
+		 external product, entitlement product), becomes available and 
+		 visible in the store or when a fee can start being assessed.</p>
+		<p>Click the calendar icon (<img class="confluence-embedded-image confluence-thumbnail" 
+										 data-image-src="attachments/12812575/13566297.gif" 
+										 src="https://dzf8vqv24eqhg.cloudfront.net/userfiles/1949/3014/ckfinder/images/iconCalendar.png?dc=201507071852-1" 
+										 alt="" width="16" border="0" />) 
+		 to select a date and enter a time. Click <strong>Now</strong> 
+		 to enter the current date and time.</p></td>
+	</tr>
+	<tr>
+		<td><strong>End</strong></td>
+		<td><p>Defines the date and time a product (plan, bundle, eMoney, 
+		 external product, entitlement product), is removed from and no 
+		 longer visible in the store or when a fee no longer begins being 
+		 assessed, which is different from deleting a <a href="#">plan</a>, 
+		 <a href="#">fee</a>, or <a href="#">bundle</a>.</p>
+		<p>Click the calendar icon (<img class="confluence-embedded-image confluence-thumbnail" 
+										 data-image-src="attachments/12812575/13074508.png" 
+										 src="https://dzf8vqv24eqhg.cloudfront.net/userfiles/1949/3014/ckfinder/images/iconCalendar.png?dc=201507071852-1" 
+										 alt="" width="16" border="0" />) 
+		 to select a date and enter a time. Click <strong>Now</strong> 
+		 to enter the current date and time.</p>
+		<p>Enter a date and time in this field only when you want the product 
+		 suspended from availability. Once the change of an end date is 
+		 approved and deployed, the product will no longer be visible to 
+		 customers on that date and afterward and fees will not be newly 
+		 assessed (but customers who have already been assessed the fee 
+		 will continue to do so until they cancel the service associated 
+		 with the fee).</p>
+		<div class="warning">
+			This affects only a product's visibility in the store. Customers 
+			 who have purchased a product that you make no longer available 
+			 in the store still have that product, and if it is a recurring 
+			 product, they will continue to have it in subsequent billing 
+			 cycles.
+		</div>
+		<p>To make it available again, remove the end date and time. Once 
+		 that change is approved and deployed, the product will again be 
+		 available to customers.</p></td>
+	</tr>
+</table>
+</body>
+</html>

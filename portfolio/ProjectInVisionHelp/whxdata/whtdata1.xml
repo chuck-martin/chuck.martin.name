@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<tocdata>
+<book name="Portfolio Manager Basics" url="Portfolio_Manager_Basics.htm" >
+  <item name="Modules" url="Modules.htm" />
+  <book name="Navigation and Views" url="Navigation_and_Views.htm" >
+    <item name="Navigation Menu" url="Navigation_Menu.htm" />
+    <book name="Workgroups" url="About_Workgroups.htm" >
+      <item name="Changing Workgroups" url="Changing_Workgroups.htm" />
+    </book>
+    <book name="Viewing Information" url="Viewing_Information.htm" >
+      <item name="Indicators" url="Indicators.htm" />
+      <book name="Views" url="About_Views.htm" >
+        <item name="Applying Views" url="Applying_Views.htm" />
+        <item name="View Options" url="View_Options.htm" />
+      </book>
+      <book name="Sorting" url="About_Sorting.htm" >
+        <item name="Quick Sorts" url="Quick_Sorts.htm" />
+      </book>
+      <book name="Filters" url="About_Filters.htm" >
+        <item name="Quick Filters" url="Quick_Filters.htm" />
+        <item name="Advanced Filters" url="Advanced_Filters.htm" />
+      </book>
+      <book name="Grouping" url="About_Grouping.htm" >
+        <item name="Applying Grouping" url="Applying_Grouping.htm" />
+      </book>
+    </book>
+    <item name="Finding Information" url="Finding_Information.htm" />
+    <item name="Editing Information" url="Editing_Information.htm" />
+    <item name="Printing" url="Printing.htm" />
+    <item name="Exporting" url="Exporting.htm" />
+  </book>
+  <book name="Searching" url="About_Searching.htm" >
+    <item name="Configuring Search Settings" url="Configuring_Search_Settings.htm" />
+  </book>
+  <book name="Transferring Records" url="About_Transferring_Records.htm" >
+    <item name="Copying Records" url="Copying_Records.htm" />
+    <item name="Copying Records Within Projects" url="Copying_Records_Within_Projects.htm" />
+    <item name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+    <item name="Copying Projects Between Workgroups" url="Copying_Projects_Between_Workgroups.htm" />
+  </book>
+  <book name="Selector" url="About_the_Selector.htm" >
+    <item name="Selector Basics" url="Selector_Basics.htm" />
+    <item name="Configuring Project Selection" url="Configuring_Project_Selection.htm" />
+    <item name="Viewing the Selector" url="Viewing_the_Selector.htm" />
+    <item name="Project Indicator" url="Project_Indicator.htm" />
+    <item name="Selecting Hierarchies" url="Selecting_Hierarchies.htm" />
+    <item name="Selecting Single Projects" url="Selecting_Single_Projects.htm" />
+    <item name="Selecting Groups of Projects" url="Selecting_Groups_of_Projects.htm" />
+    <item name="Selecting Multiple Projects or Groups" url="Selecting_Multiple_Projects_or_Groups.htm" />
+  </book>
+  <book name="Portals" url="About_Portals.htm" >
+    <item name="Changing Portal Layouts" url="Changing_Portal_Layouts.htm" />
+    <item name="Changing Portal View Options" url="Changing_Portal_View_Options.htm" />
+  </book>
+  <book name="Alerts &amp; Email" url="About_Alerts.htm" >
+    <item name="Sending Alerts" url="Sending_Alerts.htm" />
+    <item name="Viewing Alerts" url="Viewing_Alerts.htm" />
+    <item name="Viewing Alert Senders" url="Viewing_Alert_Senders.htm" />
+    <item name="Deleting Alerts" url="Deleting_Alerts.htm" />
+  </book>
+  <book name="Detail Forms" url="About_Detail_Forms.htm" >
+    <item name="Viewing Detail Forms" url="Viewing_Detail_Forms.htm" />
+    <item name="Detail Form Common Pages" url="Detail_Form_Common_Pages.htm" />
+    <book name="Comments" url="About_Comments.htm" >
+      <item name="Adding Comments" url="Adding_Comments.htm" />
+      <item name="Editing Comments" url="Editing_Comments.htm" />
+    </book>
+    <book name="Links" url="About_Links.htm" >
+      <item name="Adding Links" url="Adding_Links.htm" />
+      <item name="Editing Links" url="Editing_Links.htm" />
+    </book>
+    <book name="Discussions" url="About_Discussions.htm" >
+      <item name="Creating Discussion Messages" url="Creating_Discussion_Messages.htm" />
+      <item name="Replying Publicly to Discussion Messages" url="Replying_Publicly_to_Discussion_Messages.htm" />
+      <item name="Replying Privately to Discussion Messages" url="Replying_Privately_to_Discussion_Messages.htm" />
+    </book>
+  </book>
+  <book name="Workflows" url="About_Workflows.htm" >
+    <item name="Applying Workflows" url="Applying_Workflows.htm" />
+    <item name="Removing Workflows" url="Removing_Workflows.htm" />
+    <item name="Status History" url="Status_History.htm" />
+  </book>
+</book>
+<book name="Projects Module" url="About_the_Projects_Module.htm" >
+  <item name="Projects Detail Form" url="Projects_Detail_Form.htm" />
+  <item name="Project Scorecard" url="Project_Scorecard.htm" />
+  <item name="Project Options" url="Project_Options.htm" />
+  <item name="Selecting Projects" url="Selecting_Projects.htm" />
+  <item name="Creating Projects" url="Creating_Projects.htm" />
+  <item name="Viewing Project Details" url="Viewing_Detail_Forms.htm" />
+  <item name="Editing Projects" url="Editing_Projects.htm" />
+  <item name="Deleting Projects" url="Deleting_Projects.htm" />
+  <item name="Managing Project Costs" url="Managing_Project_Costs.htm" />
+  <book name="Project Teams" url="About_Project_Teams.htm" >
+    <item name="Assigning Resources to Projects" url="Assigning_Resources_to_Projects.htm" />
+    <item name="Analyzing Resource Availability for Projects" url="Analyzing_Resource_Availability_for_Projects.htm" />
+    <item name="Replacing Project Resources" url="Replacing_Project_Resources.htm" />
+    <item name="Removing Resources from Projects" url="Removing_Resources_from_Projects.htm" />
+  </book>
+  <book name="Project Schedule Files" url="About_Project_Schedule_Files.htm" >
+    <item name="Applying Project Templates" url="Applying_Project_Templates.htm" />
+    <item name="Checking In Project Schedule Files" url="Checking_In_Project_Schedule_Files.htm" />
+    <item name="Checking Out Project Schedule Files" url="Checking_Out_Project_Schedule_Files.htm" />
+    <item name="Viewing Project Schedule Files" url="Viewing_Project_Schedule_Files.htm" />
+    <item name="Viewing Project Schedule File Versions" url="Viewing_Project_Schedule_File_Versions.htm" />
+    <item name="Keeping Project Schedule File Versions" url="Keeping_Project_Schedule_File_Versions.htm" />
+    <item name="Synchronization" url="Synchronization.htm" />
+    <item name="Project Schedule File Conventions" url="Project_Scheudle_File_Conventions.htm" />
+  </book>
+</book>
+<book name="Tasks Module" url="About_the_Tasks_Module.htm" >
+  <item name="Tasks Detail Form" url="Tasks_Detail_Form.htm" />
+  <item name="Creating Tasks" url="Creating_Tasks.htm" />
+  <item name="Viewing Task Details" url="Viewing_Detail_Forms.htm" />
+  <item name="Editing Tasks" url="Editing_Tasks.htm" />
+  <item name="Deleting Tasks" url="Deleting_Tasks.htm" />
+  <item name="Marking Tasks as Key Deliverables" url="Marking_Tasks_as_Key_Deliverables.htm" />
+  <item name="Assigning Resources to Tasks" url="Assigning_Resources_to_Tasks.htm" />
+</book>
+<book name="Resources Module" url="About_the_Resources_Module.htm" >
+  <item name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+  <item name="Creating Resources" url="Creating_Resources.htm" />
+  <item name="Creating Generic Resources" url="Creating_Generic_Resources.htm" />
+  <item name="Viewing Resource Details" url="Viewing_Detail_Forms.htm" />
+  <item name="Editing Resources" url="Editing_Resources.htm" />
+  <item name="Editing Contact Information" url="Editing_Contact_Information.htm" />
+  <item name="Editing Skills" url="Editing_Skills.htm" />
+  <item name="Editing Availability" url="Editing_Availability.htm" />
+  <item name="Deleting Resources" url="Deleting_Resources.htm" />
+  <item name="Viewing Resource Assignments" url="Viewing_Resource_Assignments.htm" />
+  <item name="Assigning Projects to Resources" url="Assigning_Projects_to_Resources.htm" />
+  <item name="About Resource Costing" url="About_Resource_Costing.htm" />
+  <book name="Resource Plans" url="About_Resource_Plans.htm" >
+    <item name="Creating Resource Plans" url="Creating_Resource_Plans.htm" />
+    <item name="Editing Resource Plans" url="Editing_Resource_Plans.htm" />
+    <item name="Updating Resource Plans" url="Updating_Resource_Plans.htm" />
+    <item name="Resource Analysis Reports" url="Resource_Analysis_Reports.htm" />
+  </book>
+</book>
+<book name="Documents Module" url="About_the_Documents_Module.htm" >
+  <item name="Documents Detail Form" url="Documents_Detail_Form.htm" />
+  <item name="Creating Document Records" url="Creating_Document_Records.htm" />
+  <item name="Viewing Document Record Details" url="Viewing_Detail_Forms.htm" />
+  <item name="Editing Document Records" url="Editing_Document_Records.htm" />
+  <item name="Deleting Document Records" url="Deleting_Document_Records.htm" />
+  <item name="Approving Document Records" url="Approving_Document_Records.htm" />
+  <item name="Adding Approvers to Documents" url="Adding_Approvers_to_Documents.htm" />
+  <book name="Document Files" url="About_Document_Files.htm" >
+    <item name="Adding Document Files" url="Adding_Document_Files.htm" />
+    <item name="Creating Document Files from Templates" url="Creating_Document_Files_from_Templates.htm" />
+    <item name="Checking In Document Files" url="Checking_In_Document_Files.htm" />
+    <item name="Checking Out Document Files" url="Checking_Out_Document_Files.htm" />
+    <item name="Viewing Document Files" url="Viewing_Document_Files.htm" />
+    <item name="Viewing Document Versions" url="Viewing_Document_Versions.htm" />
+    <item name="Keeping Document Versions" url="Keeping_Document_Versions.htm" />
+  </book>
+</book>
+<book name="Issues Module" url="About_the_Issues_Module.htm" >
+  <item name="Issues Detail Form" url="Issues_Detail_Form.htm" />
+  <item name="Creating Issues" url="Creating_Issues.htm" />
+  <item name="Viewing Issue Details" url="Viewing_Detail_Forms.htm" />
+  <item name="Editing Issues" url="Editing_Issues.htm" />
+  <item name="Deleting Issues" url="Deleting_Issues.htm" />
+</book>
+<book name="Defects Module" url="About_the_Defects_Module.htm" >
+  <item name="Defects Detail Form" url="Defects_Detail_Form.htm" />
+  <item name="Creating Defects" url="Creating_Defects.htm" />
+  <item name="Viewing Defect Details" url="Viewing_Detail_Forms.htm" />
+  <item name="Editing Defects" url="Editing_Defects.htm" />
+  <item name="Deleting Defects" url="Deleting_Defects.htm" />
+</book>
+<book name="Journals Module" url="About_the_Journals_Module.htm" >
+<chunk name="Journals Module" url="About_the_Journals_Module.htm" ref="whtdata2.xml" />
+</book>
+<book name="Risks Module" url="About_the_Risks_Module.htm" >
+<chunk name="Risks Module" url="About_the_Risks_Module.htm" ref="whtdata3.xml" />
+</book>
+<book name="Changes Module" url="About_the_Changes_Module.htm" >
+<chunk name="Changes Module" url="About_the_Changes_Module.htm" ref="whtdata4.xml" />
+</book>
+<book name="Requirements Module" url="About_the_Requirements_Module.htm" >
+<chunk name="Requirements Module" url="About_the_Requirements_Module.htm" ref="whtdata5.xml" />
+</book>
+<book name="Collaborations Module" url="About_the_Collaborations_Module.htm" >
+<chunk name="Collaborations Module" url="About_the_Collaborations_Module.htm" ref="whtdata6.xml" />
+</book>
+<book name="Custom Modules" url="About_Custom_Modules.htm" >
+<chunk name="Custom Modules" url="About_Custom_Modules.htm" ref="whtdata7.xml" />
+</book>
+<book name="Reports" url="About_Reports.htm" >
+<chunk name="Reports" url="About_Reports.htm" ref="whtdata8.xml" />
+</book>
+
+</tocdata>

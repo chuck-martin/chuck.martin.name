@@ -1,0 +1,139 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>ItsOn Help Sample</title>
+<link rel="Stylesheet" href="template/iPhone_Layout/mobile.css" type="text/css" />
+ <link rel="stylesheet" type="text/css" href="style.css" ctype="topic" /><script type="text/javascript" language="JavaScript">//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]></script><style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+p.WebHelpNavBar { text-align:right; }
+-->
+</style>
+<script type="text/javascript" src="template/scripts/constants.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/utils.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhutils.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhlang.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhver.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/settings.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/XmlJsReader.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadscreen.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadcsh.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadparentdata.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/loadprojdata.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/showhidecontrols.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/pageloader.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/mhtopic.js" language="JavaScript1.2"></script>
+<script type="text/javascript" src="template/scripts/searchfield.js" language="JavaScript1.2"></script>
+<script type="text/javascript" language="JavaScript1.2">
+gRootRelPath = ".";
+gCommonRootRelPath = "..";
+</script>
+<script type="text/javascript" language="JavaScript1.2">
+gTopicId = "4.0_2";
+</script>
+</head>
+
+<body>
+<script type="text/javascript" src="ehlpdhtm.js"></script>
+
+
+
+<div class="searchholder">
+	<table class="searchholdertable">
+		<tr>
+			<td class="home"><a href="home.htm"><img src="template/iPhone_Layout/home_default.png" alt="" style=" border:none; width:100%; max-width:59px;" border="0" /></a></td>
+			<td class="searchfield"><div class="wSearchField">
+				<input id="searchBox" class="wSearchField" type="search" data-placeholder="-Search-" onkeydown="searchHelp(event, 'searchBox')" data-search="true" /><a class="wSearchLink" onclick="searchHelp(null, 'searchBox')" href="#"><img src="template/iPhone_Layout/Search.png" alt="" class="wSearchLink" border="0" style="width:100%; max-width:30px" /></a>
+			</div></td>
+		</tr>
+	</table>
+</div>
+<div class="contentholderlight">
+	<div class="optionsholderlight">
+		<table class="optionslight">
+			<tr>
+				<td class="bsback"> 
+				 </td>
+				<td class="home_topic"></td>
+				<td class="bsnext"> 
+				 </td>
+			</tr>
+		</table>
+	</div>
+	<div class="wTopic" id="rh_default_topic_placeholder_id">
+
+
+  <h1>Add a Network Feature</h1>
+  <ol>
+	<li>Go to <strong>Policy &gt; Features</strong>.</li>
+	<li>Add the feature: 
+	<ol>
+		<li>Click&#160;<strong>Create New Feature</strong>, then <strong>Publishable 
+		 Feature</strong>.</li>
+		<li>Enter a&#160;<strong>Feature</strong>&#160;<strong>Name</strong>. 
+		 Names cannot be longer than 32 characters and can contain only 
+		 letters, number, dashes, and underscores.</li>
+		<li>Enter a unique <strong>Feature Code</strong>. Consider carefully 
+		 when creating a feature code. It is used throughout the subscriber 
+		 provisioning system to identify the network feature and cannot 
+		 be changed once you create the feature.</li>
+		<li>Decide whether you want embedded-client device users to have 
+		 the ability to enable and disable the network feature. If you 
+		 select the <strong>Device users can enable/disable this feature</strong> 
+		 check box, select the <strong>Default User State</strong>: 
+		<ul>
+			<li>On: The network feature is enabled when it is pushed to 
+			 the embedded-client device.</li>
+			<li>Off (default): The network feature is disabled when it 
+			 is pushed to the embedded-client device.&#160;</li>
+		</ul></li>
+		<li>If you allow embedded-client device users to enable/disable 
+		 the network feature, select a <strong>UX 
+		 Reference Code</strong>. (See&#160;<a hqid="232050" href="#">Network 
+		 Feature Properties</a> for details about this property.)</li>
+		<li>Optionally, enter a <strong>Description</strong>. A good description 
+		 will explain what the feature is intended to do.</li>
+		<li>Click&#160;<strong>Save</strong>.</li>
+	</ol></li>
+	<li>Add one or more policies to the feature: 
+	<ul>
+		<li>Add a <a hqid="232010" href="#new">new</a> or <a hqid="232010" 
+															 href="#copy">cloned</a> 
+		 service policy.</li>
+		<li>Add a <a hqid="1712747" href="#new">new</a> or <a hqid="1712747" 
+		 href="#copy">cloned</a> entitlement policy.</li>
+		<li><a hqid="232003" href="#">Add a data session policy</a>.</li>
+		<li><a hqid="232013" href="#">Add a WiFi policy</a>.</li>
+	</ul></li>
+	<li>Optionally select a feature <strong><a hqid="232050" href="#FeatureSettings-Priority">Priority</a></strong>.</li>
+</ol>
+<div class="tip">
+	Changes are saved automatically as you make them. However, device behavior 
+	 is not enforced by network features until you <a hqid="232078" href="#">test</a> 
+	 and <a hqid="232067" href="#">publish</a> the network feature.
+</div>
+</div>
+	
+</div>
+</body>
+</html>

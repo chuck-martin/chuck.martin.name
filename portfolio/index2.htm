@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Portfolio</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../main.css" rel="stylesheet" type="text/css">
+
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function openRivioWin() {
+  RivioHelpWindow=window.open("RivioHelp/RivioHelp.htm","RivioHelpSample","toolbat=no,width=750,height=500,status=no,scrollbars=no,resize=no,menubar=no");
+  }
+ 
+function callPIVHelp(helpTopicFilename)
+{
+ var helpPath = "ProjectInVisionHelp/"
+ var windowWidth = 650;
+ var windowHeight = 500;
+ var screenWidth = screen.availWidth;
+ var screenHeight = screen.availHeight;
+ var features = "Top=0,Left=0,width=" +windowWidth + ",height=" + windowHeight +
+  ",Fullscreen=no,Toolbar=no,location=no,directories=no,Status=no," +
+  "menubar=no,scrollbars=yes,resizable=yes";
+ var where = helpPath + helpTopicFilename;
+ var windowPtr = window.open(where,"Help",features,true);
+ /* windowPtr.resizeTo(windowWidth,windowHeight);
+ windowPtr.moveTo(0,0); */
+}
+//-->
+</script>
+
+<script language="javascript" type="text/javascript" src="../bin/jquery-ui-1.8.1.custom.min.js"></script>
+<link href="../bin/jquery-ui-1.8.1.custom.css" rel="stylesheet" type="text/css">
+
+
+$(document).ready(function() {
+  $('#samples').accordion({ 
+    header: 'h4' 
+   });
+</script>
+</head>
+
+<body>
+
+<h1>Chuck Martin's Portfolio Page</h1>
+      <p>From this page you can view several disparate examples of documentation 
+        I've designed and developed, some other work that I've done, and my resume.</p>
+      <h3>Writing Samples</h3>
+<div id="samples">
+      <h4>Rivio</h4>
+      <div>
+      <p>First is a substantial section of an HTML-based help file for a web application. 
+        I've extracted the sections I designed, organized, and wrote. The original 
+        ran within a proprietary XML framework; I've extracted the content and 
+        duplicated the organization with DevaHelp, a Dreamweaver extension that 
+</p>
+      <p><a href="javascript:openRivioWin();">Rivio Help Sample</a></p>
+      <p>The next sample is a link to a PDF file of an administration guide.</p>
+      <p><a href="/portfolio/PDF/Setup_and_Configuration_Guide.pdf" target="_blank">Rivio 
+        Setup and Configuration Guide</a> <font size="1">(210 KB PDF file, opens 
+        in new window)</font></p>
+      <p>These two samples are for users of an internal system. One is a user 
+        guide for a web application; the other is instructions for using a phone-based 
+        application, and it was designed to be printed double-sided on 8.5&quot; x 
+        11&quot; paper (two sheets), then folded to make a 5.5&quot; x 8.5&quot; 
+        booklet.</p>
+        </div>
+      <h4>eVox</h4>
+      <div>
+      <p><a href="/portfolio/PDF/eVox%20Web%20User%20Guide.pdf" target="_blank">eVox 
+</a> <font size="1">(771 KB PDF file, opens in new window)</font></p>
+      <p><a href="/portfolio/PDF/eVox%20Rater%20Guide.pdf" target="_blank">eVox 
+        Rater Guide</a> <font size="1">(185 KB PDF file, opens in new window)</font></p>
+        </div>
+      <h4>Project InVision</h4>
+      <div>
+<p>This sample is an HTML-based help system for a web application. It was 
+        developed in RoboHTML. The content was almost entirely rewritten and reorganized 
+        to make it task-based. The keyword index is completely new. And I designed 
+&quot;skin&quot; to match the look and feel of the application itself.</p>
+      <p><a href=javascript:callPIVHelp('Project_InVision_User_Guide.htm');>Project InVision Help</a></p>
+      </div>
+      </div>
+      <h3>WritersUA Newsletters</h3>
+      <p>I've attended every <a href="http://www.writersua.com/ohc/index.html" title="WritersUA Conference for Software User Assiatance">WritersUA Conference for Software User Assistance</a>. And for more than a dozen yerars, I've produced a daily conference newsletters. Here are some samples of those, all in PDF format.</p>
+      <p>2010: <a href="PDF/2010_Monday_newsletter.pdf">Monday</a> <a href="PDF/2010_Tuesday_newsletter.pdf">Tuesday</a> <a href="PDF/2010_Wednesday_newsletter.pdf">Wednesday</a><br>
+      2009: <a href="PDF/2009_Monday_Newsletter.pdf">Monday</a> <a href="PDF/2009_Tuesday_Newsletter.pdf">Tuesday</a> <a href="PDF/2009_Wednesday_Newsletter.pdf">Wednesday</a><br>
+      2008: <a href="PDF/2008_Monday_newsletter.pdf">Monday</a> <a href="PDF/2008_Tuesday_newsletter.pdf">Tuesday</a><br>
+      2006: <a href="PDF/2006_Monday_newsletter.pdf">Monday</a> <a href="PDF/2006_Tuesday_newsletter.pdf">Tuesday</a> <a href="PDF/2006_Wednesday_newsletter.pdf">Wednesday</a><br>
+      1999: <a href="PDF/Monday_1999.pdf">Monday</a> <a href="PDF/Tuesday_1999.pdf">Tuesday</a> <a href="PDF/Wednesday_1999.pdf">Wednesday</a></p>
+<h3>Resume</h3>
+      <p>Finally, you can view  the <a href="Chuck_Martin_resume.pdf">PDF version of my resume</a>.</p>
+
+</body>
+</html>

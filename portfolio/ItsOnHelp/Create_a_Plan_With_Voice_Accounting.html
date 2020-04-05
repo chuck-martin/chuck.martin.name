@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>Create a Plan With Voice Accounting</title>
+<link rel="stylesheet" type="text/css" href="itsonhelptopic.css" ctype="topic" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+/*]]>*/
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+        var strUrl = document.location.href;
+        var bc = 0;
+        var n = strUrl.toLowerCase().indexOf("bc-");
+        if(n != -1)
+        {
+                document.location.href = strUrl.substring(0, n);
+                bc = strUrl.substring(n+3);
+        }
+
+        if (window.addTocInfo)
+        {
+        addTocInfo("Getting Started With Service Design Center\nCreate a Plan With Voice Accounting");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(0);
+
+        
+        document.write("<p style=\"text-align:left\"> ");
+AddMasterBreadcrumbs("index.htm", "", "&gt;", "Home", "Service_Design_Center_Help.htm");
+document.write("<a href=\"Getting_Started_With_ItsOn_Smart_Services.html\">Getting Started With Service Design Center<\/a> &gt; Create a Plan With Voice Accounting<\/p>");
+
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+        {
+        setTimeout("setRelStartPage('index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+        }
+}
+
+if (window.addEventListener){  
+        window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+        window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(0);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]>
+</script><script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2">
+</script>
+<h1>Create a Plan With Voice Accounting</h1>
+<p>Voice accounting defines how voice calls are charged and are defined with <a hqid="298995" href="#">voice accounting policies</a>. Voice accounting allows you to get value from your cellular network, prevent gaming and other types of system fraud, and adhere to local laws. Voice accounting policies can also allow you to charge differently for calls to different places and for incoming vs. outgoing calls. This topic will walk you through the creation of several voice accounting policies that you can then add to a voice service policy and create a calling plan.</p>
+<p>A voice accounting policy contains 3 settings that define how voice calls are charged: call connection grace period, accounting increment, and minimum charge duration. You can view details about each setting in <a hqid="301589" href="#">Voice Accounting Policy Settings</a>.</p>
+<h2>Idea and Planning</h2>
+<p>You want to create a North America calling plan. North America consists of 3 countries: Canada, U.S.A. and Mexico. There are 9 types of calls to be considered:</p>
+<ul>
+<li>Calls from a phone in Canada to a phone in Canada</li>
+<li>Calls from a phone in Canada to a phone in the U.S.</li>
+<li>Calls from a phone in Canada to a phone in Mexico</li>
+<li>Calls from a phone in the U.S. to a phone in Canada</li>
+<li>Calls from a phone in the U.S. to a phone in the U.S.</li>
+<li>Calls from a phone in the U.S. to a phone in Mexico</li>
+<li>Calls from a phone in Mexico to a phone in Canada</li>
+<li>Calls from a phone in Mexico to a phone in the U.S.</li>
+<li>Calls from a phone in Mexico to a phone in Mexico</li>
+</ul>
+<p>The plan that we will end up with can have just one eCommerce voice service policy attached to it. Yet that policy will have to accommodate all of these cases. We will have to identify the voice accounting needs of each case, and then determine how many voice accounting policies we need. (This may be less than 9. For example, if the voice accounting for U.S. calls to Mexico and U.S. calls to Canada are the same, one voice accounting policy can be used for both cases.)</p>
+<p>Voice accounting policies can be attached to both the voice service policy and any components in a voice service policy. So a good way to approach this might be to have one component for each case. Voice filters in a component can define not only what numbers are allowed, but whether incoming, outgoing, or both types of calls are allowed. To make management easy, we'll use the outgoing calls only choice in our filters.</p>
+<p>In each component, we will be adding filters and policy events. For the filters, we will add <a hqid="1778510" href="#">regular expressions</a>. Creating the regular expressions that we want is out or scope for this exercise, so we will assume that they have already been created for us. We will assume that 3 regular expression exist:</p>
+<ul>
+<li>Canada, matching any callable phone number in Canada</li>
+<li>U.S., matching any callable phone number in the U.S.</li>
+<li>Mexico, matching any callable phone number in Mexico</li>
+</ul>
+<p>For the policy events, we will add network groups. Network group creation is also out of scope for this exercise. Network groups are typically created and maintained by network engineers intimately familiar with your network. We will assume that 6 network groups exist:</p>
+<ul>
+<li>Canada Home, matching all of your cellular network access points within Canada</li>
+<li>Canada Roaming, matching all of the cellular network access points within Canada with which you have roaming agreements</li>
+<li>U.S. Home, matching all of your cellular network access points within the U.S.</li>
+<li>U.S. Roaming, matching all of the cellular network access points within the U.S. with which you have roaming agreements</li>
+<li>Mexico Home, matching all of your cellular network access points within Mexico</li>
+<li>Mexico Roaming, matching all of the cellular network access points within Mexico with which you have roaming agreements</li>
+</ul>
+<h1>Identify the Voice Accounting Setting Values</h1>
+<p>Before we begin to create anything in Service Design Center, it's best to define all of the values we're going to need. Voice accounting policies have 3 settings:</p>
+<ul>
+<li>Call connection grace period</li>
+<li>Accounting increment</li>
+<li>Minimum charge duration</li>
+</ul>
+<p>See&#160;<a hqid="301589" href="#">Voice Accounting Policy Settings</a> for more details about the requirements for the settings, what they do, and why you might want to set them at specific values.</p>
+<table style="border-collapse: separate;" cellspacing="1" border="1">
+<tr>
+<th scope="row" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Call Type</th>
+<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Call Connection Grace Period</th>
+<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Accounting Increment</th>
+<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Minimum Charge Duration</th>
+</tr>
+<tr>
+<th scope="row" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">&#160;</th>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">The amount of time (in seconds) that occurs between call initiation and when call charging begins. This number must be less than Minimum Charge Duration.</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">The time periods (in seconds) used for charging. This number must be less than or equal to the Minimum Charge Duration.</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">The minimum amount of time (in seconds) that a call is charged for. This number must be greater than Call Connection Grace Period and greater than or equal to the Accounting Increment.</td>
+</tr>
+<tr>
+<th scope="row" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada to Canada</th>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">0</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">10</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">30</td>
+</tr>
+<tr>
+<th scope="row" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada to U.S. *</th>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">5</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">10</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">30</td>
+</tr>
+<tr>
+<th scope="row" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada to Mexico</th>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">10</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">10</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">60</td>
+</tr>
+<tr>
+<th scope="row" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S. to Canada *</th>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">5</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">10</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">30</td>
+</tr>
+<tr>
+<th scope="row" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S. to U.S.</th>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">0</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">5</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">15</td>
+</tr>
+<tr>
+<th scope="row" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S. to Mexico</th>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">5</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">15</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">15</td>
+</tr>
+<tr>
+<th scope="row" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico to Canada</th>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">10</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">15</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">30</td>
+</tr>
+<tr>
+<th scope="row" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico to U.S.</th>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">5</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">15</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">30</td>
+</tr>
+<tr>
+<th scope="row" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico to Mexico</th>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">0</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">15</td>
+<td style="text-align: center; padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">30</td>
+</tr>
+</table>
+<p>* The asterisks identify 2 cases that have the same setting values. So we will need to create 8 voice accounting policies, not 9.</p>
+<p>There are 3 basic steps:</p>
+<ol>
+<li>Create the voice accounting policies.</li>
+<li>Create the eCommerce voice policy.</li>
+<li>Create the voice plan.</li>
+</ol>
+<h2>Create the Voice Accounting Policies</h2>
+<ol class="tip">
+<li>Go to <strong>Policy &gt; Advanced Voice Accounting Policy</strong>.</li>
+<li>Click <strong>New</strong>.</li>
+</ol>
+<p><img alt="" src="images/dialog_New_Advanced_Voice_Accounting_Policy.png" style="border-width: 1px; border-style: solid;" border="1" /></p>
+<ol class="tip" start="3">
+<li>
+<div>Enter <em>Canada to Canada</em> in the Name field.</div>
+</li>
+</ol>
+<p>We will use the values in the Call Type column for the names all of the accounting policies we create, except one, the one we will create that encompasses 2 of the above use cases. You want to use meaningful names so when you are creating voice polices and have to select the correct voice accounting policy, you can make sure you select the correct one.</p>
+<ol class="tip" start="4">
+<li>Enter the associated setting values. See the above table for the values to enter.</li>
+<li>Click <strong>Save</strong>.</li>
+<li>Repeat steps 2 through 5 for each row in the above table, with the exception of the asterisked rows. For those 2 rows, create a single voice accounting policy and give it the name <em>Canada to U.S. and U.S. to Canada</em>.</li>
+</ol>
+<p>You should now see your 8 new voice accounting policies in the table.</p>
+<h2>Create the eCommerce Voice Policy</h2>
+<p><a href="#">eCommerce policies</a> are what allow plans to use the cellular network. So before you can create a plan, you have to <a href="#">create the eCommerce policy</a> that your plan will be based upon. the basic steps are similar to policy creation in <a hqid="284774" href="#">Create a Basic Plan</a>.</p>
+<ol class="tip">
+<li>To begin, go to the eCommerce Policies section: <strong>Policy &gt; eCommerce Policies</strong>.</li>
+</ol>
+<p><img alt="" class="screencap" src="images/menu_Policy_eCommerce_Policies.png" style="border-width: 1px; border-style: solid;" border="1" /></p>
+<p>There are two types of eCommerce policies: <a href="#">service polices</a> and <a href="#">entitlement policies</a>, and there are three types of each: voice, messaging, and data. For a voice plan that you want to put in the catalog for customers to buy, you want to create a voice service policy.</p>
+<ol class="tip" start="2">
+<li>Click the <strong>New</strong> button, then click <strong>Voice</strong>, and then click <strong>Service Policy.</strong></li>
+</ol>
+<p>This takes you to the Add Voice Service Policy dialog box.</p>
+<p>This is where your planning begins to pay off. When you create a plan, you attach a service policy to it. The name you use here is the name you will have to find when you create the plan. For this scenario, we'll call the policy "North America Voice."</p>
+<ol class="tip" start="3">
+<li>Enter <em>North America Voice</em> into the Name field, and then click <strong>Save</strong>.</li>
+</ol>
+<p>A new eCommerce policy is like a blank canvas. Like when you create a new document in a word processing program, you start with nothing and you fill in the content. The content, in this case, is an eCommerce service policy.</p>
+<p><img alt="" src="images/ecommerce_policy_north_america_voice_blank.png" style="border-width: 1px; border-style: solid;" border="1" /></p>
+<p>Policies do all the work, and service policies do all the work to define what service can be used, when, and how. This is a voice service policy, so we know that it controls voice service. But how?</p>
+<p>Policies contain components. Components contain policy events, and those are connected to filters. The filter-policy event combination in a policy component is what does most of the work in a policy.</p>
+<p>Components also can have voice accounting policies attached to them. Rather than attach a voice accounting policy at the policy level, as we did in <a hqid="284774" href="#">Create a Basic Plan</a>, we will attach a voice accounting policy to each component we add to this voice service policy.</p>
+<p>So we want to <a href="#">add the first component</a>.</p>
+<ol class="tip" start="4">
+<li>Click <strong>Add Component</strong>, and then click <strong>New</strong>.</li>
+</ol>
+<p>As with most things, we have to give the component a name. We're going to use a naming convention where the component name matches the voice accounting policy in the component. That way, if we have any issues or need to make any changes, it will be easy to find out where we have to do the work. We will be adding several components to the service policy. For this first component, we'll give it the name "Canada to Canada."</p>
+<ol class="tip" start="5">
+<li>Enter <em>Canada to Canada</em> into the Component Name field, and then click <strong>Save</strong>.</li>
+</ol>
+<p>For all the components in this policy, we will be doing three things:</p>
+<ul>
+<li>Attach a voice accounting policy. This will insure that calls that are captured by this component are charged correctly.</li>
+<li>Add and configure a filter. This will define calling destinations.</li>
+<li>Add and configure a policy event. This will define where the calling can originate from.</li>
+</ul>
+<p>We will attach a voice accounting policy to this component first.</p>
+<ol class="tip" start="6">
+<li>Click the down arrow next to None next to the Advanced Voice Accounting Policy that is inside the component, and then click <strong>From Library</strong>.</li>
+</ol>
+<p><img alt="" src="images/component_Canada_to_Canada.png" style="border-width: 1px; border-style: solid;" border="1" /></p>
+<ol class="tip" start="7">
+<li>Click the name of the Canada to Canada voice accounting policy, and then click <strong>Save</strong>.</li>
+</ol>
+<p>The rest of the component contains two parts. The filter defines what you can do and the policy event defines when and where you can do it.</p>
+<p>The next thing we will do is <a href="#">add a filter</a> to the component. Filters contain criteria, and the <a href="#">voice filter criteria</a> in filters restrict when the policy event gets evaluated.</p>
+<ol class="tip" start="8">
+<li>Click <strong>Add Filter</strong>, and then click <strong>New</strong>.</li>
+</ol>
+<p>And like with most&#160;new things we add, the filter needs a name. We'll stay consistent with our naming: "Canada to Canada."</p>
+<ol class="tip" start="8">
+<li>Enter <em>Canada to Canada</em> into the Name field<strong>.</strong>.</li>
+</ol>
+<p>Unlike when we <a hqid="284774" href="#">created a basic plan</a>, this filter requires some criteria to be configured. We will add 2. First, we want to configure the filter to allow only outgoing calls.</p>
+<ol class="tip" start="9">
+<li>Click <strong>Add Criteria &gt; Filter by Direction</strong>.</li>
+<li>In the Direction drop-down list, select <strong>Outbound</strong>.</li>
+</ol>
+<p>Then, we want to configure the filter to allow those outgoing calls only to numbers in Canada.</p>
+<ol class="tip" start="11">
+<li>Click <strong>Add Criteria &gt; Filter by Remote Phone Number</strong>.</li>
+<li>In the phone number field, enter the Canada regular expression.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<p>Next, we add a policy event.</p>
+<ol class="tip" start="14">
+<li>Click <strong>Add Policy Event &gt; New</strong>.</li>
+</ol>
+<p>The default action for a policy event is Allow, so we don't need to change that. We just need to add 2 network groups.</p>
+<ol class="tip" start="15">
+<li>Click the <strong>+</strong> sign in the <em>IN any of these Network Group(s) section</em>, and then click <strong>From Library</strong>.</li>
+</ol>
+<p>We are going to assume that your network engineers have created the network groups as we described at the beginning of the topic.</p>
+<ol class="tip" start="16">
+<li>Click <strong>Canada Home</strong>.</li>
+<li>Click <strong>Save</strong>.</li>
+<li>Repeat steps 15 through 17, except select <strong>Canada Roaming</strong>.</li>
+</ol>
+<p>Policy event criteria add further restrictions, but no additional restrictions are needed, so we won't add any of those.</p>
+<p>That's it for one component. Now you're going to build 8 more. The following table describes how each of the components in this policy should be configured, including the one we just built:</p>
+<table style="border-collapse: separate;" cellspacing="1" border="1">
+<tr>
+<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Component Name</th>
+<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Voice Accounting Policy</th>
+<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Filter Name</th>
+<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Regular Expression</th>
+<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Network Groups</th>
+</tr>
+<tr>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada to Canada</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada to Canada</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada to Canada</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada Home, Canada Roaming</td>
+</tr>
+<tr>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada to U.S.</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada to U.S. and U.S. to Canada</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada to U.S.</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S.</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada Home, Canada Roaming</td>
+</tr>
+<tr>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada to Mexico</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada to Mexico</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada to Mexico</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada Home, Canada Roaming</td>
+</tr>
+<tr>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S to Canada</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada to U.S. and U.S. to Canada</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S to Canada</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S. Home, U.S. Roaming</td>
+</tr>
+<tr>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S. to U.S.</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S. to U.S.</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S. to U.S.</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S.</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S. Home, U.S. Roaming</td>
+</tr>
+<tr>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S. to Mexico</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S. to Mexico</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S. to Mexico</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S. Home, U.S. Roaming</td>
+</tr>
+<tr>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico to Canada</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico to Canada</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico to Canada</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Canada</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico Home, Mexico Roaming</td>
+</tr>
+<tr>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico to U.S.</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico to U.S.</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico to U.S.</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">U.S.</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico Home, Mexico Roaming</td>
+</tr>
+<tr>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico to Mexico</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico to Mexico</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico to Mexico</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico</td>
+<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px;">Mexico Home, Mexico Roaming</td>
+</tr>
+</table>
+<p>Repeat steps 4 through 18 for each row in the table.</p>
+<p>Finally, we have to add network enforcement. <a href="#">Network enforcement</a> allows policy enforcement for devices that do not have the embedded ItsOn client software, and for voice service polices is in the form of bucket IDs. The bucket ID that you add to a policy should be configured to match the configuration of all the policy components.</p>
+<ol class="tip" start="19">
+<li>Click the down arrow next to None next to Bucket ID, and then click <strong>From Library</strong>.</li>
+<li>Click the name of a bucket ID, and then click <strong>Associate</strong>.</li>
+</ol>
+<p>Now we're done creating the eCommerce policy that will be used to power the plan. However, it cannot be attached to a plan until it is <a href="#">tested</a> and <a href="#">published</a>.</p>
+<h2>Create the Plan</h2>
+<p>For this plan, you will follow the exact same steps that are in the Create the Plan section of the <a hqid="284774" href="#">Create a Basic Plan</a> topic, with different values for two settings:</p>
+<ul>
+<li>Name: North America Calling</li>
+<li>Service Policy: Select the service policy that you created above.</li>
+</ul>
+<p>After you promote and deploy the plan, you will add it to a store category, again as you did in the <a hqid="284774" href="#">Create a Basic Plan</a> topic.</p>
+<p>&#160;</p>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]>
+</script>
+</body>
+</html>

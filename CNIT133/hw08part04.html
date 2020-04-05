@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CNIT 133 Homework 8 - Part 4</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+
+function processText()
+{
+  var fieldtext = document.txtform.txtfield.value.toString();
+  if (fieldtext == "")
+  {
+    alert("Enter at least one character.");
+  }
+  else
+  {
+    var textarray = fieldtext.split("&");
+	if ( textarray.length > 1 )
+	{
+	  var newtext = textarray[0];
+	  for ( var x = 1; x < textarray.length; x++ )
+	  {
+	    newtext = newtext + "and" + textarray[x];
+	  }
+	}
+	document.txtform.txtfield.value = newtext;
+  }
+}
+
+function clearFields()
+{
+  document.yxyform.txtfield.value = "";
+}
+
+</script>
+
+</head>
+
+<body onload="clearFields()">
+<form id="txtform" name="txtform" method="post" action="">
+  Enter some text, then click
+  somewhere else on the page
+  (or press the Tab key):<br />
+    <input name="txtfield" type="text" onblur="processText()" value="" size="80" />
+</form>
+</body>
+</html>

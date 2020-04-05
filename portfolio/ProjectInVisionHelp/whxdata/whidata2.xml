@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<indexdata>
+<key name="Creating" >
+  <topic name="Creating Document Files from Templates" url="Creating_Document_Files_from_Templates.htm" />
+  <key name="Advanced Filters" >
+    <topic name="Advanced Filters" url="Advanced_Filters.htm" />
+  </key>
+  <key name="Changes" >
+    <topic name="Creating Changes" url="Creating_Changes.htm" />
+  </key>
+  <key name="Collaborations" >
+    <topic name="Creating Collaborations" url="Creating_Collaborations.htm" />
+  </key>
+  <key name="Custom module records" >
+    <topic name="Creating Custom Module Records" url="Creating_Custom_Module_Records.htm" />
+  </key>
+  <key name="Defects" >
+    <topic name="Creating Defects" url="Creating_Defects.htm" />
+  </key>
+  <key name="Discussion messages" >
+    <topic name="Creating Discussion Messages" url="Creating_Discussion_Messages.htm" />
+  </key>
+  <key name="Document files from templates" >
+    <topic name="Creating Document Files from Templates" url="Creating_Document_Files_from_Templates.htm" />
+  </key>
+  <key name="Document records" >
+    <topic name="Creating Document Records" url="Creating_Document_Records.htm" />
+  </key>
+  <key name="Generic Resources" >
+    <topic name="Creating Generic Resources" url="Creating_Generic_Resources.htm" />
+  </key>
+  <key name="Issues" >
+    <topic name="Creating Issues" url="Creating_Issues.htm" />
+  </key>
+  <key name="Journal entries" >
+    <topic name="Creating Journal Entries" url="Creating_Journal_Entries.htm" />
+  </key>
+  <key name="Logins for Resources" >
+    <topic name="Creating Resource Logins" url="admin_Creating_Resource_Logins.htm" />
+  </key>
+  <key name="Projects" >
+    <topic name="Creating Projects" url="Creating_Projects.htm" />
+  </key>
+  <key name="Requirements" >
+    <topic name="Creating Requirements" url="Creating_Requirements.htm" />
+  </key>
+  <key name="Resource Plans" >
+    <topic name="Creating Resource Plans" url="Creating_Resource_Plans.htm" />
+  </key>
+  <key name="Resources" >
+    <topic name="Creating Resources" url="Creating_Resources.htm" />
+  </key>
+  <key name="Resourec Logins" >
+    <topic name="Creating Resource Logins" url="admin_Creating_Resource_Logins.htm" />
+  </key>
+  <key name="Risks" >
+    <topic name="Creating Risks" url="Creating_Risks.htm" />
+  </key>
+  <key name="Tasks" >
+    <topic name="Creating Tasks" url="Creating_Tasks.htm" />
+  </key>
+  <key name="Templates" >
+    <topic name="Creating Templates" url="admin_Creating_Templates.htm" />
+  </key>
+</key>
+<key name="Crystal Reports" >
+  <topic name="About Views" url="About_Views.htm" />
+</key>
+<key name="CSV" >
+  <topic name="Exporting" url="Exporting.htm" />
+</key>
+<key name="Current Plan" >
+  <topic name="Creating Resource Plans" url="Creating_Resource_Plans.htm" />
+  <topic name="Editing Resource Plans" url="Editing_Resource_Plans.htm" />
+</key>
+<key name="Current Users Logged In report" >
+  <topic name="Administrative Reports" url="Administrative_Reports.htm" />
+</key>
+<key name="CurrentDate" >
+  <topic name="Advanced Filters" url="Advanced_Filters.htm" />
+</key>
+<key name="CurrentUser" >
+  <topic name="Advanced Filters" url="Advanced_Filters.htm" />
+</key>
+<key name="Custom Module records" >
+  <topic name="Creating Custom Module Records" url="Creating_Custom_Module_Records.htm" />
+  <topic name="Editing Custom Module Records" url="Editing_Custom_Module_Records.htm" />
+  <key name="Copying between Projects" >
+    <topic name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+  </key>
+  <key name="Creating" >
+    <topic name="Creating Custom Module Records" url="Creating_Custom_Module_Records.htm" />
+  </key>
+  <key name="Deleting" >
+    <topic name="Deleting Custom Module Records" url="Deleting_Custom_Module_Records.htm" />
+  </key>
+  <key name="Editing" >
+    <topic name="Editing Custom Module Records" url="Editing_Custom_Module_Records.htm" />
+  </key>
+</key>
+<key name="Custom modules" >
+  <topic name="About Custom Modules" url="About_Custom_Modules.htm" />
+  <topic name="Custom Module Detail Form" url="Custom_Module_Detail_Form.htm" />
+  <topic name="Deleting Custom Module Records" url="Deleting_Custom_Module_Records.htm" />
+  <key name="About" >
+    <topic name="About Custom Modules" url="About_Custom_Modules.htm" />
+  </key>
+  <key name="Detail Form" >
+    <topic name="Custom Module Detail Form" url="Custom_Module_Detail_Form.htm" />
+  </key>
+</key>
+<key name="Cutoms Charts" >
+  <topic name="About Views" url="About_Views.htm" />
+</key>
+<key name="Daily View" >
+  <key name="Time Tracking" >
+    <topic name="Showing and Hiding Views" url="Showing_and_Hiding_Views.htm" />
+  </key>
+</key>
+<key name="Dashboard" >
+  <topic name="About Dashboard" url="About_Dashboard.htm" />
+  <topic name="Accessing Dashboard" url="Accessing_Dashboard.htm" />
+  <topic name="Changing Dashboard Layouts" url="Changing_Dashboard_Layouts.htm" />
+  <topic name="Changing Dashboard View Options" url="Changing_Dashboard_View_Options.htm" />
+  <key name="About" >
+    <topic name="About Dashboard" url="About_Dashboard.htm" />
+  </key>
+  <key name="Accessing" >
+    <topic name="Accessing Dashboard" url="Accessing_Dashboard.htm" />
+  </key>
+  <key name="Changing view options" >
+    <topic name="Changing Dashboard View Options" url="Changing_Dashboard_View_Options.htm" />
+  </key>
+  <key name="Compared to Portals" >
+    <topic name="About Portals" url="About_Portals.htm" />
+  </key>
+  <key name="Logging in to" >
+    <topic name="Logging In" url="Logging_In.htm" />
+  </key>
+</key>
+<key name="Dashboard layout" >
+  <key name="Changing" >
+    <topic name="Changing Dashboard Layouts" url="Changing_Dashboard_Layouts.htm" />
+  </key>
+</key>
+<key name="Dashboard Views" >
+  <topic name="Printing Dashboard Views" url="Printing_Dashboard_Views.htm" />
+  <key name="Printing" >
+    <topic name="Printing Dashboard Views" url="Printing_Dashboard_Views.htm" />
+  </key>
+</key>
+<key name="Dashboards" >
+  <topic name="Changing Dashboards" url="Changing_Dashboards.htm" />
+  <key name="Changing" >
+    <topic name="Changing Dashboards" url="Changing_Dashboards.htm" />
+  </key>
+</key>
+<key name="Data entry" >
+  <topic name="About Views" url="About_Views.htm" />
+</key>
+<key name="Date Closed" >
+  <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+</key>
+<key name="Date View" >
+  <topic name="Documents Module Views" url="Documents_Module_Views.htm" />
+</key>
+<key name="Defects" >
+  <topic name="About Defects" url="About_the_Defects_Module.htm" />
+  <topic name="Creating Defects" url="Creating_Defects.htm" />
+  <topic name="Deleting Defects" url="Deleting_Defects.htm" />
+  <topic name="Editing Defects" url="Editing_Defects.htm" />
+  <key name="About" >
+    <topic name="About Defects" url="About_the_Defects_Module.htm" />
+  </key>
+  <key name="Adding to Timesheets" >
+    <topic name="Adding Assignments to Timesheets" url="Adding_Assignments_to_Timesheets.htm" />
+  </key>
+  <key name="Applying workflows" >
+    <topic name="Applying Workflows" url="Applying_Workflows.htm" />
+  </key>
+  <key name="Copying between Projects" >
+    <topic name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+  </key>
+  <key name="Copying within Projects" >
+    <topic name="Copying Records Within Projects" url="Copying_Records_Within_Projects.htm" />
+  </key>
+  <key name="Creating" >
+    <topic name="Creating Defects" url="Creating_Defects.htm" />
+  </key>
+  <key name="Deleting" >
+    <topic name="Deleting Defects" url="Deleting_Defects.htm" />
+  </key>
+  <key name="Detail Form" >
+    <topic name="Defects Detail Form" url="Defects_Detail_Form.htm" />
+  </key>
+  <key name="Editing" >
+    <topic name="Editing Defects" url="Editing_Defects.htm" />
+  </key>
+  <key name="Moving between Projects" >
+    <topic name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+  </key>
+  <key name="Moving within Projects" >
+    <topic name="Copying Records Within Projects" url="Copying_Records_Within_Projects.htm" />
+  </key>
+  <key name="Viewing assigned" >
+    <topic name="Viewing Assignments" url="Viewing_Assignments.htm" />
+  </key>
+</key>
+<key name="Defining" >
+  <key name="Keywords" >
+    <topic name="Detail Form Common Pages" url="Detail_Form_Common_Pages.htm" />
+  </key>
+  <key name="Links" >
+    <topic name="Detail Form Common Pages" url="Detail_Form_Common_Pages.htm" />
+  </key>
+  <key name="Risks" >
+    <topic name="About Risks" url="About_the_Risks_Module.htm" />
+  </key>
+</key>
+<key name="Deleting" >
+  <key name="Alerts" >
+    <topic name="Deleting Alerts" url="Deleting_Alerts.htm" />
+  </key>
+  <key name="Changes" >
+    <topic name="Deleting Changes" url="Deleting_Changes.htm" />
+  </key>
+  <key name="Collaborations" >
+    <topic name="Deleting Collaborations" url="Deleting_Collaborations.htm" />
+  </key>
+  <key name="Custom module records" >
+    <topic name="Deleting Custom Module Records" url="Deleting_Custom_Module_Records.htm" />
+  </key>
+  <key name="Defects" >
+    <topic name="Deleting Defects" url="Deleting_Defects.htm" />
+  </key>
+  <key name="Document records" >
+    <topic name="Deleting Document Records" url="Deleting_Document_Records.htm" />
+  </key>
+  <key name="Issues" >
+    <topic name="Deleting Issues" url="Deleting_Issues.htm" />
+  </key>
+  <key name="Journal entries" >
+    <topic name="Deleting Journal Entries" url="Deleting_Journal_Entries.htm" />
+  </key>
+  <key name="Projects" >
+    <topic name="Deleting Projects" url="Deleting_Projects.htm" />
+  </key>
+  <key name="Pull-down list items" >
+    <topic name="Deleting Pull-down List Items" url="admin_Deleting_Pull-down_List_Items.htm" />
+  </key>
+  <key name="Requirements" >
+    <topic name="Deleting Requirements" url="Deleting_Requirements.htm" />
+  </key>
+  <key name="Resources" >
+    <topic name="Deleting Resources" url="Deleting_Resources.htm" />
+  </key>
+  <key name="Risks" >
+    <topic name="Deleting Risks" url="Deleting_Risks.htm" />
+  </key>
+  <key name="Skills" >
+    <topic name="Editing Skills" url="Editing_Skills.htm" />
+  </key>
+  <key name="Tasks" >
+    <topic name="Deleting Tasks" url="Deleting_Tasks.htm" />
+  </key>
+  <key name="Templates" >
+    <topic name="Deleting Templates" url="admin_Deleting_Templates.htm" />
+  </key>
+</key>
+<key name="Dependencies" >
+  <topic name="About Tasks" url="About_the_Tasks_Module.htm" />
+</key>
+<key name="Description" >
+  <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+</key>
+<key name="Detail Form" >
+  <key name="Changes" >
+    <topic name="Changes Detail Form" url="Changes_Detail_Form.htm" />
+  </key>
+  <key name="Custom module" >
+    <topic name="Custom Module Detail Form" url="Custom_Module_Detail_Form.htm" />
+  </key>
+  <key name="Defect" >
+    <topic name="Defects Detail Form" url="Defects_Detail_Form.htm" />
+  </key>
+  <key name="Document" >
+    <topic name="Documents Detail Form" url="Documents_Detail_Form.htm" />
+  </key>
+  <key name="Issues" >
+    <topic name="Issues Detail Form" url="Issues_Detail_Form.htm" />
+  </key>
+  <key name="Journals" >
+    <topic name="Journal Detail Form" url="Journal_Detail_Form.htm" />
+  </key>
+  <key name="Projects" >
+    <topic name="Projects Detail Form" url="Projects_Detail_Form.htm" />
+  </key>
+  <key name="Requirements" >
+    <topic name="Requirements Detail Form" url="Requirements_Detail_Form.htm" />
+  </key>
+  <key name="Resources" >
+    <topic name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+  </key>
+  <key name="Risks" >
+    <topic name="Risks Detail Form" url="Risks_Detail_Form.htm" />
+  </key>
+  <key name="Task" >
+    <topic name="Tasks Detail Form" url="Tasks_Detail_Form.htm" />
+  </key>
+</key>
+
+</indexdata>

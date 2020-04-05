@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CNIT 133 Homework 5 - Part 3</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+
+<script>
+// This function was found when I did a search for JavaScript functions
+// that test for numeric value--which don't exist.
+function IsNumeric(sText)
+{
+   var ValidChars = "0123456789.";
+   var IsNumber=true;
+   var Char;
+
+   for (i = 0; i < sText.length && IsNumber == true; i++) 
+      { 
+      Char = sText.charAt(i); 
+      if (ValidChars.indexOf(Char) == -1) 
+         {
+         IsNumber = false;
+         }
+      }
+   return IsNumber;
+}
+
+function ProcessInput(x)
+{ 
+  var grade;
+  if ( IsNumeric(x) )
+  {
+    if ( ( x <= 100 ) && ( x >= 0 ) )
+	{
+	  grade = CalculateGrade(x);
+	  window.status = "Grade is " + grade;
+	}
+	else
+	{
+	  alert("The number you entered was not between 0 and 100, inclusiive.");
+	  document.calcGrade.average.value = "";
+	}
+  }
+  else
+  {
+    alert("You did not enter a number.");
+	document.calcGrade.average.value = "";
+  }
+}
+
+function CalculateGrade(testNum)
+{
+  var grade;
+  switch (true)
+  {
+    case ( ( testNum >= 90 ) && ( testNum <= 100 ) ):
+	  grade = 4;
+	  break;
+	case ( ( testNum >= 80 ) && ( testNum < 90 ) ):
+	  grade = 3;
+	  break;
+	case ( ( testNum >= 70 ) && ( testNum < 80 ) ):
+	  grade = 2;
+	  break;
+	case ( ( testNum >= 60 ) && ( testNum < 70 ) ):
+	  grade = 1;
+	  break;
+	case ( testNum <= 60 ):
+	  grade = 0;
+	  break;
+  }
+  return grade;
+}
+
+</script>
+</head>
+
+<body>
+<form id="calcGrade" name="calcGrade">
+  <label>Enter average:
+  <input type="text" name="average" id="average" />
+  </label>
+  <label>
+  <input type="button" name="Submit" value="Calculate Grade" onclick="ProcessInput(document.calcGrade.average.value)" />
+  </label>
+</form>
+</body>
+</html>

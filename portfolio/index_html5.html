@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Chuck Martin's Portfolio</title>
+<script language="JavaScript" type="text/javascript">
+<!--
+function openRivioWin() {
+  RivioHelpWindow=window.open("RivioHelp/RivioHelp.htm","RivioHelpSample","toolbar=no,width=750,height=500,status=no,scrollbars=no,resize=no,menubar=no");
+  }
+  
+function openTimogenWin() {
+  TimogenHelpWindow=window.open("Timogen/TACHelp/index.htm","Timogen Adaptive Controller Help","toolbar=no,width=900,height=600,status=no,scrollbars=no,resize=no,menubar=no");
+  }
+ 
+function callPIVHelp(helpTopicFilename)
+{
+ var helpPath = "ProjectInVisionHelp/"
+ var windowWidth = 650;
+ var windowHeight = 500;
+ var screenWidth = screen.availWidth;
+ var screenHeight = screen.availHeight;
+ var features = "Top=0,Left=0,width=" +windowWidth + ",height=" + windowHeight +
+  ",Fullscreen=no,Toolbar=no,location=no,directories=no,Status=no," +
+  "menubar=no,scrollbars=yes,resizable=yes";
+ var where = helpPath + helpTopicFilename;
+ var windowPtr = window.open(where,"Help",features,true);
+ /* windowPtr.resizeTo(windowWidth,windowHeight);
+ windowPtr.moveTo(0,0); */
+}
+//-->
+</script>
+<link href="../main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h2>Chuck Martin's Portfolio Page</h2>
+<p>From this page you can view several disparate examples of documentation I've designed and developed, some other work that I've done, and my resume.</p>
+<h3>Writing Samples</h3>
+<p>First is a substantial section of an HTML-based help file for a web application. I've extracted the sections I designed, organized, and wrote. The original ran within a proprietary XML framework; I've extracted the content and duplicated the organization with DevaHelp, a Dreamweaver extension that was developed by online help expert Ben Weisner.</p>
+ <p><a href="javascript:openRivioWin();">Rivio Help Sample</a></p>
+<details onclick="this.open='open'">The rest of the story...
+<dd>First is a substantial section of an HTML-based help file for a web application. I've extracted the sections I designed, organized, and wrote. The original ran within a proprietary XML framework; I've extracted the content and duplicated the organization with DevaHelp, a Dreamweaver extension that was developed by online help expert Ben Weisner.</dd>
+</details>
+</body>
+</html>

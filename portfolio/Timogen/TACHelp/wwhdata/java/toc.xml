@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+
+<WebWorksHelpTOC version="4.0">
+ <i t="Timogen Adaptive Controller User Guide" l="1">
+  <i t="Introduction" l="2">
+   <i t="Timogen Adaptive Controller Concepts" l="3">
+    <i t="Alerts" l="4">
+     <i t="Event Alerts" l="5" />
+     <i t="Impact Alerts" l="6" />
+    </i>
+    <i t="Impact Nodes" l="7" />
+    <i t="Sandboxes" l="8" />
+    <i t="Collaboration" l="9" />
+    <i t="Resolution Plans" l="10" />
+    <i t="Resolution Process and Resolution Tasks" l="11" />
+   </i>
+   <i t="Timogen Adaptive Controller Features" l="12">
+    <i t="Real-Time Monitoring" l="13" />
+    <i t="Participant Notification" l="14" />
+    <i t="Problem Resolution Tools" l="15" />
+    <i t="Supply/Demand Matching" l="16" />
+    <i t="Advisory Tools" l="17" />
+   </i>
+   <i t="Timogen Adaptive Controller Functions" l="18">
+    <i t="Visibility" l="19" />
+    <i t="Analytics" l="20" />
+    <i t="Execution" l="21" />
+    <i t="Reports" l="22" />
+    <i t="Personalization" l="23" />
+   </i>
+   <i t="Timogen Adaptive Controller Workflow" l="24" />
+   <i t="Timogen Adaptive Controller Architecture" l="25" />
+   <i t="User Functions" l="26" />
+   <i t="Getting Started" l="27" />
+   <i t="Documentation Conventions" l="28" />
+   <i t="Related Documentation" l="29" />
+   <i t="Technical Support" l="30" />
+  </i>
+ </i>
+ <i t="Part 1  Business User" l="31">
+  <i t="Home Page" l="32">
+   <i t="Filtering Criteria" l="33" />
+   <i t="Viewing All Records" l="34" />
+   <i t="Impact Alerts" l="35" />
+   <i t="Event Alerts" l="36" />
+   <i t="Tasks" l="37" />
+   <i t="Collaboration Requests" l="38" />
+   <i t="Sandboxes" l="39" />
+  </i>
+  <i t="Impact and Event Alerts" l="40">
+   <i t="Impact Alerts" l="41" />
+   <i t="Event Alerts" l="42">
+    <i t="Viewing Lists" l="43" />
+    <i t="Filtering Lists" l="44">
+     <i t="List View Details" l="45" />
+    </i>
+    <i t="Viewing Alerts" l="46" />
+    <i t="Alert Details" l="47">
+     <i t="Alert Detail Page - Top Pane" l="48" />
+     <i t="Alert Detail Page - Middle Pane" l="49" />
+     <i t="Alert Detail Page - Bottom Pane" l="50" />
+    </i>
+    <i t="Archiving Alerts" l="51" />
+    <i t="Unarchiving Alerts" l="52" />
+    <i t="Claiming Alerts" l="53" />
+    <i t="Finding an Impact Alert&#39;s Cause" l="54" />
+    <i t="Forwarding Alerts" l="55" />
+    <i t="Recommending Action for an Alert" l="56" />
+    <i t="Solving Alerts" l="57" />
+    <i t="Pending Alert Close" l="58" />
+    <i t="Closing Alerts" l="59" />
+    <i t="Viewing Supply/Demand Buckets" l="60" />
+    <i t="Changing Buckets for a Supply/Demand View" l="61" />
+    <i t="Viewing Bill of Materials Information" l="62" />
+    <i t="Reading Notes" l="63" />
+    <i t="Adding Notes" l="64" />
+    <i t="Viewing Attachments" l="65" />
+    <i t="Adding Attachments" l="66" />
+    <i t="Deleting Attachments" l="67" />
+    <i t="Viewing Resolvers" l="68" />
+    <i t="Adding Resolvers" l="69" />
+    <i t="Removing resolvers" l="70" />
+    <i t="Viewing Viewer Information" l="71" />
+    <i t="Adding Viewers" l="72" />
+    <i t="Sending Notifications" l="73" />
+   </i>
+   <i t="Manual Alerts" l="74">
+    <i t="Creating Manual Alerts" l="75" />
+    <i t="Updating Alert Information" l="76" />
+   </i>
+  </i>
+  <i t="Impact Nodes and Supply Networks" l="77">
+   <i t="Impact Nodes" l="77#wp1045195">
+    <i t="Viewing Impact Node Lists" l="78" />
+    <i t="Filtering Impact Node Lists" l="79" />
+   </i>
+   <i t="Supply Networks" l="80">
+    <i t="Inventory Item Supply/Demand Information" l="81">
+     <i t="Viewing Inventory Item BOM Supply/Demand Information" l="82" />
+     <i t="Viewing Inventory Item Where Used Supply/Demand Information" l="83" />
+    </i>
+   </i>
+  </i>
+  <i t="Analysis Sandbox" l="84">
+   <i t="Viewing Sandboxes" l="85" />
+   <i t="Creating Sandboxes" l="86" />
+   <i t="Copying Sandboxes" l="87" />
+   <i t="Forwarding Sandboxes" l="88" />
+   <i t="Deleting Sandboxes" l="89" />
+   <i t="Configuring Sandboxes" l="90">
+    <i t="Selecting Problem Configuration Templates" l="91" />
+    <i t="Defining Resolution Plans" l="92">
+     <i t="Adding Tasks" l="93" />
+     <i t="Editing Tasks" l="94" />
+    </i>
+    <i t="Defining Scope" l="95">
+     <i t="Defining Business Goals" l="96" />
+     <i t="Defining Constraints" l="97" />
+    </i>
+   </i>
+   <i t="Comparing Sandboxes" l="98" />
+   <i t="Collaborative Notes" l="99">
+    <i t="Viewing Collaborative Notes" l="100" />
+    <i t="Adding Collaborative Notes" l="101" />
+   </i>
+   <i t="Resolution Plans" l="102">
+    <i t="Generating Resolution Plans" l="103" />
+    <i t="Evaluating Resolution Plans" l="104" />
+    <i t="Executing Resolution Plans" l="105" />
+   </i>
+   <i t="Impact Statements" l="106" />
+   <i t="Supply/Demand Views" l="107" />
+  </i>
+  <i t="Execution" l="108">
+   <i t="Tasks" l="109">
+    <i t="Tasks Page" l="110" />
+    <i t="Claiming Tasks" l="111" />
+    <i t="Approving Tasks" l="112" />
+    <i t="Executing Tasks" l="113" />
+    <i t="Viewing Task Details" l="114" />
+    <i t="Viewing Task Processes" l="115" />
+    <i t="Viewing Task Performers" l="116" />
+    <i t="Viewing Task Notes" l="117" />
+    <i t="Reconciling Tasks" l="118" />
+    <i t="Stopping Tasks" l="119" />
+   </i>
+   <i t="Messages" l="120">
+    <i t="Viewing Messages" l="121" />
+    <i t="Deleting Messages" l="122" />
+   </i>
+   <i t="Resolution Process" l="123">
+    <i t="Viewing Resolution Process Tasks" l="124" />
+   </i>
+  </i>
+  <i t="Reports" l="125">
+   <i t="Scheduled Reports" l="126">
+    <i t="Viewing Scheduled Reports" l="127" />
+   </i>
+   <i t="On-Demand Reports" l="128">
+    <i t="Creating Alert Summary Reports" l="129" />
+    <i t="Creating Inventory Detail Reports" l="130" />
+    <i t="Creating PO vs. Forecast Reports" l="131" />
+    <i t="Creating Related POs Reports" l="132" />
+    <i t="Creating Inventory Summary Reports" l="133" />
+   </i>
+   <i t="Exporting Reports" l="134" />
+  </i>
+  <i t="Personalization" l="135">
+   <i t="Configuring Home Page Sections" l="136" />
+   <i t="Alert Subscriptions" l="137">
+    <i t="Subscribing to Event Alerts" l="138" />
+    <i t="Unsubscribing from Event Alerts" l="139" />
+    <i t="Subscribing to Impact Alerts" l="140" />
+    <i t="Unsubscribing from Impact Alerts" l="141" />
+   </i>
+   <i t="Impact Node Subscriptions" l="142">
+    <i t="Subscribing to Impact Nodes" l="143" />
+    <i t="Unsubscribing from Impact Nodes" l="144" />
+   </i>
+   <i t="Search and Filter List Defaults" l="145" />
+   <i t="Scheduled Report Subscriptions" l="146" />
+   <i t="Profile" l="147" />
+  </i>
+ </i>
+ <i t="Part 2  Business Admin" l="148">
+  <i t="Alert Definition" l="149">
+   <i t="Event Alert Definition" l="150">
+    <i t="Event Alert Categories" l="151">
+     <i t="Supply Alert Categories" l="152" />
+     <i t="Demand Alert Categories" l="153" />
+     <i t="Special Alert Categories" l="154" />
+    </i>
+    <i t="Event Alert Attributes" l="155">
+     <i t="Event Alert Thresholds" l="156" />
+     <i t="Event Alert Resolvers" l="157" />
+     <i t="Event Alert Escalation" l="158" />
+    </i>
+    <i t="Creating Event Alert Definitions" l="159" />
+    <i t="Editing Event Alert Definitions" l="160" />
+    <i t="Deleting Event Alert Definitions" l="161" />
+   </i>
+   <i t="Impact Alert Definition" l="162">
+    <i t="Impact Alert Attributes" l="163">
+     <i t="Impact Alert Thresholds" l="164" />
+     <i t="Impact Alert Resolvers" l="165" />
+     <i t="Impact Alert Options" l="166" />
+     <i t="Impact Alert Escalation" l="167" />
+     <i t="Impact Alert Sandbox Configuration Template" l="168" />
+    </i>
+    <i t="Creating Impact Alert Definitions" l="169" />
+    <i t="Editing Impact Alert Definitions" l="170" />
+    <i t="Deleting Impact Alert Definitions" l="171" />
+   </i>
+  </i>
+  <i t="Defining Privileges and Groups" l="172">
+   <i t="Privileges" l="172#wp1061999">
+    <i t="Creating Privileges" l="173" />
+    <i t="Editing Privileges" l="174" />
+    <i t="Deleting Privileges" l="175" />
+   </i>
+   <i t="Roles" l="176">
+    <i t="Creating Roles" l="177" />
+    <i t="Editing Roles" l="178" />
+    <i t="Deleting Roles" l="179" />
+   </i>
+   <i t="Item Groups" l="180">
+    <i t="Creating Item Groups" l="181" />
+    <i t="Editing Items Groups" l="182" />
+    <i t="Deleting Item Groups" l="183" />
+   </i>
+   <i t="Node Groups" l="184">
+    <i t="Creating Node Groups" l="185" />
+    <i t="Viewing Node Group Nodes" l="186" />
+    <i t="Editing Node Groups" l="187" />
+    <i t="Deleting Node Groups" l="188" />
+   </i>
+  </i>
+  <i t="Resolution Process Definitions" l="189">
+   <i t="Editing Resolution Process Definitions" l="190" />
+  </i>
+  <i t="Problem Configuration Templates" l="191">
+   <i t="Creating Problem Configuration Templates" l="192" />
+   <i t="Editing Problem Configuration Templates" l="193" />
+   <i t="Deleting Problem Configuration Templates" l="194" />
+  </i>
+  <i t="Defining Scheduled Reports" l="195">
+   <i t="Creating Scheduled Reports" l="196" />
+   <i t="Editing Scheduled Reports" l="197" />
+   <i t="Enabling/Disabling Scheduled Reports" l="198" />
+   <i t="Deleting Scheduled Reports" l="199">
+    <i t="Alert Summary Report Details" l="200" />
+    <i t="Inventory Detail Report Details" l="201" />
+    <i t="PO vs. Forecast Report Details" l="202" />
+    <i t="Related POs Report Details" l="203" />
+    <i t="Inventory Summary Report Details" l="204" />
+   </i>
+  </i>
+  <i t="Reconciliation/Consumption" l="205">
+   <i t="Editing Demand Node Consumption Configuration" l="206" />
+  </i>
+ </i>
+ <i t="Part 3  Technical Admin" l="207">
+  <i t="User Management" l="208">
+   <i t="About Users" l="209">
+    <i t="Viewing User Lists" l="210" />
+    <i t="User Details" l="211" />
+    <i t="Creating Users" l="212" />
+    <i t="Editing User Details" l="213" />
+    <i t="Deleting Users" l="214" />
+   </i>
+   <i t="About Functions" l="215">
+    <i t="Viewing Function Lists" l="216" />
+    <i t="Assigning Functions to Users" l="217" />
+    <i t="Removing Functions From Users" l="218" />
+   </i>
+  </i>
+  <i t="Scheduled Cleanup" l="219">
+   <i t="Scheduling Cleanups" l="220" />
+   <i t="Editing Scheduled Cleanups" l="221" />
+   <i t="Stopping Scheduled Cleanups" l="222" />
+   <i t="Deleting Scheduled Cleanups" l="223" />
+  </i>
+  <i t="Messages" l="224">
+   <i t="Deleting Messages" l="225" />
+  </i>
+  <i t="Appendix A  Business Process Maps" l="226">
+   <i t="Resolution Process" l="227" />
+   <i t="Alert Creation" l="228" />
+   <i t="Analytics Process" l="229" />
+   <i t="Advice Generation" l="230" />
+   <i t="Resolution Execution" l="231" />
+  </i>
+  <i t="Glossary" l="232" />
+  <i t="Index" l="233" />
+ </i>
+</WebWorksHelpTOC>

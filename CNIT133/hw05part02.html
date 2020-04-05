@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CNIT 133 Homework 5 - Part 2</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+
+function celsius()
+{
+  document.tempCalc.cel.value = 5 / 9 * (document.tempCalc.far.value - 32);
+}
+
+function farenheit()
+{
+  document.tempCalc.far.value = 9 / 5 * document.tempCalc.cel.value + 32;
+}
+
+
+function CheckCelVal(testVal)
+{
+  if (IsPosNegNumeric(testVal))
+  {
+    document.tempCalc.calcFar.disabled = false;
+  }
+}
+
+function CheckFarVal(testVal)
+{
+  if (IsPosNegNumeric(testVal))
+  {
+    document.tempCalc.calcCel.disabled = false;
+  }
+}
+
+function IsPosNegNumeric(sText)
+{
+   var ValidChars = "0123456789.";
+   var ValidFirstChar = "-";
+   var IsNumber=true;
+   var Char;
+  
+  // First check to see if "-" is anywhere but the first character
+   for (i = 1; i < sText.length && IsNumber == true; i++) 
+      { 
+      Char = sText.charAt(i); 
+      if (ValidFirstChar.indexOf(Char) == -1) 
+         {
+         IsNumber = false;
+		 return IsNumber;
+         }
+      }
+
+  // Then check to see if the rest of the charactes are valid
+  for (i = 0; i < sText.length && IsNumber == true; i++) 
+      { 
+      Char = sText.charAt(i); 
+      if (ValidChars.indexOf(Char) == -1) 
+         {
+         IsNumber = false;
+         }
+      }
+   return IsNumber;
+}
+
+function clearFields()
+{
+  document.tempCalc.cel.value = "";
+  document.tempCalc.far.value = "";
+}
+
+function clearAll()
+{
+  document.tempCalc.cel.value = "";
+  document.tempCalc.far.value = "";
+  document.tempCalc.calcFar.disabled = true;
+  document.tempCalc.calcCel.disabled = true;
+}
+
+
+</script>
+
+</head>
+
+<body onload="clearFields()">
+<form id="tempCalc" name="tempCalc" action="">
+<p>
+  <label>Celsius
+  <input type="text" name="cel" id="cel" onkeypress="CheckCelVal(document.tempCalc.cel.value)" />
+  </label>
+  <label>
+  <input type="button" name="calcCel" id="calcCel" value="&lt;" disabled="true" onClick="celsius()" />
+  </label>
+  <label>
+  <input type="button" name="calcFar" id="CalcFar" value="&gt;" disabled="true" onClick="farenheit()" />
+  </label>
+  <label>
+  <input type="text" name="far" id="far" onkeypress="CheckFarVal(document.tempCalc.far.value)" />
+  Farenheit</label>
+</p>
+<p>
+  <label>
+  <input type="button" name="" id="" value="Clear Fields" onClick="clearAll()" />
+  </label>
+</p>
+</form>
+</body>
+</html>

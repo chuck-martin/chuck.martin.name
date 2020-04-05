@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CNIT 133 Homework 1, Part 3</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+var num1, num2, num3, sum, ave, prod;
+num1 = parseInt(prompt("Enter a number."));
+num2 = parseInt(prompt("Enter another number."));
+num3 = parseInt(prompt("Enter just one more number."));
+
+sum = num1 + num2 + num3;
+prod = num1 * num2 * num3;
+ave = (num1 + num2 + num3) / 3;
+
+document.write("<p>The sum is " + sum + ".</p>");
+document.write("<p>The average is " + ave + ".</p>");
+document.write("<p>The product is  " + prod + ".</p>");
+
+if ( ( num1 == num2) && (num2 == num3 ) ) {
+  document.write("<p>All three numbers you entered are equal.</p>");
+  }
+  else if ( ( num1 == num2 ) && (num2 > num3) ) {
+  document.write("<p>The first two numbers you entered, " + num1 + ", are equal, and both greater than the third, " + num3 + ".</p>");
+  }
+  else if ( ( num1 == num2 ) && (num2 < num3) ) {
+  document.write("<p>The last number you entered, " + num3 + ", is greater than the first two numbers, which are both equal to " + num2 + ".</p>");
+  }
+  else if ( ( num1 == num3 ) && (num2 > num3) ) {
+  document.write("<p>The second number you entered, " + num2 + ", is greater than the first and last numbers, which are both equal to " + num3 + ".</p>");
+  }
+  else if ( ( num1 == num3 ) && (num2 < num3) ) {
+  document.write("<p>The first and last numbers you entered, " + num3 + ", are equal, and both greater than the second, " + num2 + ".</p>");
+  }
+  else if ( ( num2 == num3 ) && (num2 < num1) ) {
+  document.write("<p>The first number you entered, " + num1 + ", is greater than the second and third numbers, which are both equal to " + num3 + ".</p>");
+  }
+  else if ( ( num2 == num3 ) && (num2 > num1) ) {
+  document.write("<p>The second and third numbers you entered, " + num3 + ", are equal, and both greater than the first, " + num1 + ".</p>");
+  }
+  else if ( ( num1 > num2 ) && (num2 > num3 ) ) {
+  document.write("<p>The largest number is " + num1 + " and the smallest number is " + num3 + ".</p>");
+  }
+  else if ( ( num1 > num3 ) && (num3 > num2 ) ) {
+  document.write("<p>The largest number is " + num1 + " and the smallest number is " + num2 + ".</p>");
+  }
+  else if ( ( num2 > num1 ) && (num1 > num3 ) ) {
+  document.write("<p>The largest number is " + num2 + " and the smallest number is " + num3 + ".</p>");
+  }
+  else if ( ( num2 > num3 ) && (num3 > num1 ) ) {
+  document.write("<p>The largest number is " + num2 + " and the smallest number is " + num1 + ".</p>");
+  }
+  else if ( ( num3 > num2 ) && (num2 > num1 ) ) {
+  document.write("<p>The largest number is " + num3 + " and the smallest number is " + num1 + ".</p>");
+  }
+  else if ( ( num3 > num1 ) && (num1 > num2 ) ) {
+  document.write("<p>The largest number is " + num3 + " and the smallest number is " + num2 + ".</p>");
+};
+
+
+</script>
+</head>
+
+<body>
+</body>
+</html>

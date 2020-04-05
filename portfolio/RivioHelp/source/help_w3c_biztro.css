@@ -1,0 +1,186 @@
+/* Global Styles */
+body, th, td {
+	margin : 0;
+	background-color : #FFFFFF;
+	color : #000000;
+	font : 10pt Arial, Helvetica, sans-serif;
+}
+
+a:link, a:visited {
+	color : #000099;
+	background-color : #FFFFFF;
+}
+
+b, strong {
+	font-weight : bold;
+}
+
+i, em {
+	font-style : italic;
+}
+ 
+
+
+/* Supertemplate Styles */
+div.hmTitle {
+	padding-left : 5px;
+	background-color : #000099;
+	color : #FFFFFF;
+	font : bold 15pt Arial, Helvetica, sans-serif;
+	letter-spacing : 0.25em;
+}
+
+/* This is the lowercase for the title */
+div.hmTitle span {
+	font-size : 13pt;
+}
+
+td.hmTop {
+	background-color : #000099;
+	color : #FFFFFF;
+}
+
+
+
+/* TOC Styles */
+div.menulvl1 a span, div.menulvl2 a span, div.menulvl3 a span,
+div.menulvl1active a span, div.menulvl2active a span, div.menulvl3active a span {
+	padding-left : +0.5em;
+}
+
+div.menulvl1 a:link, div.menulvl2 a:link, div.menulvl3 a:link, 
+div.menulvl1 a:visited, div.menulvl2 a:visited, div.menulvl3 a:visited, {
+	color : #000000;
+	background-color : #FFFFFF;
+	text-decoration : none;
+}
+
+div.menulvl1 a:hover, div.menulvl2 a:hover, div.menulvl3 a:hover {
+	color : #000099;
+	background-color : #FFFFFF;
+	text-decoration : underline;
+}
+
+div.menulvl1active, div.menulvl1active a:link, div.menulvl1active a:visited, div.menulvl1active a:active, div.menulvl1active a:hover,
+div.menulvl2active, div.menulvl2active a:link, div.menulvl2active a:visited, div.menulvl2active a:active, div.menulvl2active a:hover,
+div.menulvl3active, div.menulvl3active a:link, div.menulvl3active a:visited, div.menulvl3active a:active, div.menulvl3active a:hover {
+	color : #000000;
+	background-color : #CCCCCC;
+	text-decoration : none;
+}
+
+div.menulvl2, div.menulvl2active {
+	margin-left : +16px;
+}
+
+div.menulvl3, div.menulvl3active {
+	margin-left : +32px;
+}
+
+
+
+/* Previous/Next Topic */
+div.navpage {
+	margin-top : +.5em;
+	padding-top : 0.4em;
+	border-top : 1px solid #CCCCCC;
+	margin-bottom : -1em;
+	color : #CCCCCC;
+	background-color : #FFFFFF;
+	font : bold 13px Arial, Helvetica, sans-serif;
+}
+
+div.navpage a:link, div.navpage a:visited, div.navpage a:active, div.navpage a:hover{
+	color : #000099;
+	background-color : #FFFFFF;
+	text-decoration : none;
+}
+
+
+
+/* Tabs */
+td.helptaboff,  a.helptaboff:link,  a.helptaboff:visited,  a.helptaboff:active,  a.helptaboff:hover {
+	background-color : #EEEEEE;
+	color : #666666;
+	text-decoration : none;
+}
+
+td.helptabon,  a.helptabon:link,  a.helptabon:visited,  a.helptabon:active,  a.helptabon:hover {
+	background-color : #CCCCCC;
+	color : #000000;
+	text-decoration : none;
+}
+
+
+/* Copyright Footer */
+.footer {
+	background-color : #666666;
+	color : #FFFFFF;
+	font : 9pt Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Authoring Styles */
+div.topictitle {
+	border-bottom : 1px solid #CCCCCC;
+	padding-bottom : 0.25em;
+	font : bold 12pt Arial, Helvetica, sans-serif;
+}
+
+h1, h1.category, h2, h2.whatdo, h2.instruct, h2.related, p {
+	margin-bottom : 0;
+}
+
+h1, h1.category {
+	font-size : 11pt;
+	font-weight : bold;
+}
+
+h1.category {
+	background-color : #CCCCCC;
+}
+
+h2 {
+	font-size : 100%;
+	font-weight : bold;
+}
+
+ul {
+	margin-top : 0;
+}
+
+ol {
+	margin-top : 0.5em;
+}
+
+ol li ol {
+	list-style-type : lower-alpha;
+	margin-top : 0em;
+}
+
+th {
+	font-weight : bold;
+	text-align : left;
+	background-color : #CCCCCC;
+}
+
+hr {
+	color : #CCCCCC;
+}
+
+.alerttext {
+	color : #990000;
+}
+
+table {
+	border : none;
+}
+
+th, td {
+	vertical-align: top;
+}
+
+td p {
+	margin-bottom : 0em;
+}

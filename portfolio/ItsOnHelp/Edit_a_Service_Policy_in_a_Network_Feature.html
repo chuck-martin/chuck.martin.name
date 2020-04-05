@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>Edit a Service Policy in a Network Feature</title>
+<link rel="StyleSheet" href="itsonhelptopic.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+/*]]>*/
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+        var strUrl = document.location.href;
+        var bc = 0;
+        var n = strUrl.toLowerCase().indexOf("bc-");
+        if(n != -1)
+        {
+                document.location.href = strUrl.substring(0, n);
+                bc = strUrl.substring(n+3);
+        }
+
+        if (window.addTocInfo)
+        {
+        addTocInfo("Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting\nService Policies\nEdit a Service Policy in a Network Feature");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(0);
+
+        
+        document.write("<p style=\"text-align:left\"> ");
+AddMasterBreadcrumbs("index.htm", "", "&gt;", "Home", "Service_Design_Center_Help.htm");
+document.write("<a href=\"Policies_Service_Entitlement_Data_Session_WiFi_Behavior_and_Voice_Accounting.html\">Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting<\/a> &gt; <a href=\"Service_Policies.html\">Service Policies<\/a> &gt; Edit a Service Policy in a Network Feature<\/p>");
+
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+        {
+        setTimeout("setRelStartPage('index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+        }
+}
+
+if (window.addEventListener){  
+        window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+        window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(0);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]>
+</script><script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2">
+</script>
+<h1>Edit a Service Policy in a Network Feature</h1>
+<div>
+<div class="warning">
+<p>You can make changes to network features and eCommerce policies when they are in Draft mode (not published to the ItsOn server or to any embedded-client devices), in Test mode (when the network feature or eCommerce policy is pushed to embedded-client devices that you're using for testing) and in Published mode (when the network feature is already pushed to the ItsOn server and to the embedded-client devices of your customers or the eCommerce policy is made available to be added to products). Changes to network features are immediate, and are published to the ItsOn server immediately and to embedded-client devices as soon as they "check in" with the network (typically within 24 hours, or when the device is reset), or, when a network feature is moved from Draft to Test status, published to test devices immediately. Changes to eCommerce policies do not affect subscribers that already have subscriptions to products based on those eCommerce policies.</p>
+<p>Exception: Once a bucket ID, rating group, or entitlement code has been added to a network feature or eCommerce policy, it cannot be deleted. It can only be <a hqid="317180" href="#">exchanged</a>, and only until the network feature or eCommerce policy has been published. Once a network feature or eCommerce policy has been published, the bucket ID, rating group, or entitlement code in the network feature or eCommerce policy can no longer be changed.</p>
+</div>
+</div>
+<p>You can:</p>
+<ul>
+<li>Change the filter in a component</li>
+<li>Change a policy event</li>
+<li>Change the <a hqid="317180" href="#">network enforcement used in a service policy</a> or the <a hqid="1716931" href="#">entitlement code used in an entitlement policy</a></li>
+</ul>
+<h3><a name="ChangeFilter" id="ChangeFilter"></a>Change a Filter</h3>
+<ol>
+<li>Go to <strong>Policy &gt; Features</strong>.</li>
+<li>
+<p>Find the feature in the list that contains the component with the filter you want to edit, and then click the corresponding View button&#160;<img src="images/buttonView.png" alt="" width="24" height="18" border="0" /> in the right column.&#160;(The buttons in the right column appear when you hover the mouse pointer over the row.)</p>
+</li>
+<li>
+<p>Click the Lock button&#160;<img src="images/buttonLock.png" alt="" width="24" height="18" border="0" /> (to unlock and enable editing).</p>
+</li>
+<li>Click the name of a filter</li>
+<li>Make any desired changes. You can change the name (up to 32 characters) and the <a hqid="232018" href="#">data filter</a>, <a hqid="232088" href="#">voice filter</a>, or <a hqid="232057" href="#">messaging filter</a>&#160;criteria.</li>
+<li>Click&#160;<strong>Save</strong>.</li>
+</ol>
+<h3><a name="ChangePolicyEvent" id="ChangePolicyEvent"></a>Change a Policy Event</h3>
+<ol>
+<li>Go to <strong>Policy &gt; Features</strong>.</li>
+<li>
+<p>Find the feature in the list that contains the policy event you want to edit, and then click the corresponding View button&#160;<img alt="" src="images/buttonView.png" width="24" height="18" border="0" /> in the right column.&#160;(The buttons in the right column appear when you hover the mouse pointer over the row.)</p>
+</li>
+<li>
+<p>Click the Lock button&#160;<img alt="" src="images/buttonLock.png" width="24" height="18" border="0" /> (to unlock and enable editing).</p>
+</li>
+<li>Make any desired changes. You can:
+<ul>
+<li><a hqid="232007" href="#">Add</a>,&#160;<a hqid="232040" href="#">change</a>, or&#160;<a hqid="232024" href="#">delete</a>&#160;network groups.</li>
+<li><a hqid="232000" href="#">Add</a>,&#160;<a hqid="232031" href="#">change</a>, or&#160;<a hqid="232020" href="#">delete</a>&#160;criteria.&#160;</li>
+</ul>
+</li>
+</ol>
+<p>Changes that you make are saved immediately.</p>
+<div class="warning">If the network group is being used by any published polices, you will be asked if you want to update devices in the field immediately. Because network groups are shared across policies, make sure you know what policies any network group changes will affect.&#160;</div>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]>
+</script>
+</body>
+</html>

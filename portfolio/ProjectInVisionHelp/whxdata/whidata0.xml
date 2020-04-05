@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<indexdata>
+<key name="&lt;" >
+  <topic name="Finding Information" url="Finding_Information.htm" />
+  <topic name="Quick Filters" url="Quick_Filters.htm" />
+</key>
+<key name="&lt;=" >
+  <topic name="Finding Information" url="Finding_Information.htm" />
+  <topic name="Quick Filters" url="Quick_Filters.htm" />
+</key>
+<key name="=" >
+  <topic name="Finding Information" url="Finding_Information.htm" />
+  <topic name="Quick Filters" url="Quick_Filters.htm" />
+</key>
+<key name="&gt;" >
+  <topic name="Finding Information" url="Finding_Information.htm" />
+  <topic name="Quick Filters" url="Quick_Filters.htm" />
+</key>
+<key name="&gt;=" >
+  <topic name="Finding Information" url="Finding_Information.htm" />
+  <topic name="Quick Filters" url="Quick_Filters.htm" />
+</key>
+<key name="About" >
+  <topic name="About Document Files" url="About_Document_Files.htm" />
+  <key name="Administration" >
+    <topic name="About Administration" url="admin_About_Administration.htm" />
+  </key>
+  <key name="Alerts" >
+    <topic name="About Alerts" url="About_Alerts.htm" />
+  </key>
+  <key name="Changes" >
+    <topic name="About Changes" url="About_the_Changes_Module.htm" />
+  </key>
+  <key name="Collaborations" >
+    <topic name="About Collaborations" url="About_the_Collaborations_Module.htm" />
+  </key>
+  <key name="Comments" >
+    <topic name="About Comments" url="About_Comments.htm" />
+  </key>
+  <key name="Custom modules" >
+    <topic name="About Custom Modules" url="About_Custom_Modules.htm" />
+  </key>
+  <key name="Dashboard" >
+    <topic name="About Dashboard" url="About_Dashboard.htm" />
+  </key>
+  <key name="Defects" >
+    <topic name="About Defects" url="About_the_Defects_Module.htm" />
+  </key>
+  <key name="Detail Forms" >
+    <topic name="About Detail Forms" url="About_Detail_Forms.htm" />
+  </key>
+  <key name="Discussions" >
+    <topic name="About Discussions" url="About_Discussions.htm" />
+  </key>
+  <key name="Document files" >
+    <topic name="About Document Files" url="About_Document_Files.htm" />
+  </key>
+  <key name="Documents" >
+    <topic name="About Documents" url="About_the_Documents_Module.htm" />
+  </key>
+  <key name="Filters" >
+    <topic name="About Filters" url="About_Filters.htm" />
+  </key>
+  <key name="Grouping" >
+    <topic name="About Grouping" url="About_Grouping.htm" />
+  </key>
+  <key name="Issues" >
+    <topic name="About Issues" url="About_the_Issues_Module.htm" />
+  </key>
+  <key name="Journals" >
+    <topic name="About Journals" url="About_the_Journals_Module.htm" />
+  </key>
+  <key name="Links" >
+    <topic name="About Links" url="About_Links.htm" />
+  </key>
+  <key name="Portals" >
+    <topic name="About Portals" url="About_Portals.htm" />
+  </key>
+  <key name="Portfolio Manager" >
+    <topic name="About Portfolio Manager" url="About_Portfolio_Manager.htm" />
+  </key>
+  <key name="Project InVision International" >
+    <topic name="About Project InVision International" url="About_Project_InVision_International.htm" />
+  </key>
+  <key name="Project schedule files" >
+    <topic name="About Project Schedule Files" url="About_Project_Schedule_Files.htm" />
+  </key>
+  <key name="Project Teams" >
+    <topic name="About Project Teams" url="About_Project_Teams.htm" />
+  </key>
+  <key name="Projects" >
+    <topic name="About Projects" url="About_the_Projects_Module.htm" />
+  </key>
+  <key name="Pull-down lists" >
+    <topic name="About Pull-down Lists" url="admin_About_Pull-down_Lists.htm" />
+  </key>
+  <key name="Reports" >
+    <topic name="About Reports" url="About_Reports.htm" />
+  </key>
+  <key name="Requirements" >
+    <topic name="About Requirements" url="About_the_Requirements_Module.htm" />
+  </key>
+  <key name="Resource Administration" >
+    <topic name="About Resource Administration" url="admin_About_Resource_Administration.htm" />
+  </key>
+  <key name="Resource Plans" >
+    <topic name="About Resource Plans" url="About_Resource_Plans.htm" />
+  </key>
+  <key name="Resources" >
+    <topic name="About Resources" url="About_the_Resources_Module.htm" />
+  </key>
+  <key name="Risks" >
+    <topic name="About Risks" url="About_the_Risks_Module.htm" />
+  </key>
+  <key name="Searching" >
+    <topic name="About Searching" url="About_Searching.htm" />
+  </key>
+  <key name="Selector" >
+    <topic name="About the Selector" url="About_the_Selector.htm" />
+  </key>
+  <key name="Sorting" >
+    <topic name="About Sorting" url="About_Sorting.htm" />
+  </key>
+  <key name="Tasks" >
+    <topic name="About Tasks" url="About_the_Tasks_Module.htm" />
+  </key>
+  <key name="Templates" >
+    <topic name="About Templates" url="admin_About_Templates.htm" />
+  </key>
+  <key name="Time Tracking" >
+    <topic name="About Time Tracking" url="About_Time_Tracking.htm" />
+  </key>
+  <key name="Transferring Records" >
+    <topic name="About Transferring Records" url="About_Transferring_Records.htm" />
+  </key>
+  <key name="Views" >
+    <topic name="About Views" url="About_Views.htm" />
+  </key>
+  <key name="Workflows" >
+    <topic name="About Workflows" url="About_Workflows.htm" />
+  </key>
+  <key name="Workgroups" >
+    <topic name="About Workgroups" url="About_Workgroups.htm" />
+  </key>
+</key>
+<key name="Accessing" >
+  <key name="Dashboard" >
+    <topic name="Accessing Dashboard" url="Accessing_Dashboard.htm" />
+  </key>
+  <key name="Time Tracking" >
+    <topic name="Accessing Time Tracking" url="Accessing_Time_Tracking.htm" />
+  </key>
+</key>
+<key name="ActiveX" >
+  <topic name="Configuring Internet Explorer" url="Configuring_Internet_Explorer.htm" />
+</key>
+<key name="Activities" >
+  <topic name="About Tasks" url="About_the_Tasks_Module.htm" />
+</key>
+<key name="Actual Work Hours" >
+  <key name="Deleting Tasks and" >
+    <topic name="Deleting Tasks" url="Deleting_Tasks.htm" />
+  </key>
+  <key name="Entering" >
+    <topic name="Entering Actual Work Hours" url="Entering_Actual_Work_Hours.htm" />
+  </key>
+</key>
+<key name="Adding" >
+  <key name="Comments" >
+    <topic name="Adding Comments" url="Adding_Comments.htm" />
+  </key>
+  <key name="Document files" >
+    <topic name="Adding Document Files" url="Adding_Document_Files.htm" />
+  </key>
+  <key name="Items to Pull-down lists" >
+    <topic name="Adding Pull-down List Items" url="admin_Adding_Pull-down_List_Items.htm" />
+  </key>
+  <key name="Links" >
+    <topic name="Adding Links" url="Adding_Links.htm" />
+  </key>
+  <key name="Resources to Projects" >
+    <topic name="Assigning Resources to Projects" url="Assigning_Resources_to_Projects.htm" />
+  </key>
+  <key name="Skills" >
+    <topic name="Editing Skills" url="Editing_Skills.htm" />
+  </key>
+</key>
+<key name="Address" >
+  <topic name="Editing Contact Information" url="Editing_Contact_Information.htm" />
+  <key name="Project InVision International" >
+    <topic name="About Project InVision International" url="About_Project_InVision_International.htm" />
+  </key>
+</key>
+<key name="Administration" >
+  <topic name="About Administration" url="admin_About_Administration.htm" />
+  <key name="About" >
+    <topic name="About Administration" url="admin_About_Administration.htm" />
+  </key>
+</key>
+<key name="Administrative Reports" >
+  <topic name="Administrative Reports" url="Administrative_Reports.htm" />
+</key>
+<key name="Administrator-Defined Alerts" >
+  <topic name="Alerts" url="About_Alerts.htm" />
+</key>
+<key name="Advanced Filters" >
+  <topic name="Advanced Filters" url="Advanced_Filters.htm" />
+  <key name="Creating" >
+    <topic name="Advanced Filters" url="Advanced_Filters.htm" />
+  </key>
+</key>
+<key name="Alerts" >
+  <topic name="Alerts" url="About_Alerts.htm" />
+  <topic name="Deleting Alerts" url="Deleting_Alerts.htm" />
+  <topic name="Sending Alerts" url="Sending_Alerts.htm" />
+  <topic name="Viewing Alert Senders" url="Viewing_Alert_Senders.htm" />
+  <topic name="Viewing Alerts" url="Viewing_Alerts.htm" />
+  <key name="About" >
+    <topic name="About Alerts" url="About_Alerts.htm" />
+  </key>
+  <key name="Administrator-Defined" >
+    <topic name="About Alerts" url="About_Alerts.htm" />
+  </key>
+  <key name="Deleting" >
+    <topic name="Deleting Alerts" url="Deleting_Alerts.htm" />
+  </key>
+  <key name="Marking as Read" >
+    <topic name="Viewing Alerts" url="Viewing_Alerts.htm" />
+  </key>
+  <key name="Marking as Unread" >
+    <topic name="Viewing Alerts" url="Viewing_Alerts.htm" />
+  </key>
+  <key name="Sending" >
+    <topic name="Sending Alerts" url="Sending_Alerts.htm" />
+  </key>
+  <key name="System-generated" >
+    <topic name="About Alerts" url="About_Alerts.htm" />
+  </key>
+  <key name="Viewing" >
+    <topic name="Viewing Alerts" url="Viewing_Alerts.htm" />
+  </key>
+  <key name="Viewing senders of" >
+    <topic name="Viewing Alert Senders" url="Viewing_Alert_Senders.htm" />
+  </key>
+</key>
+<key name="Applying" >
+  <key name="Grouping" >
+    <topic name="Applying Grouping" url="Applying_Grouping.htm" />
+  </key>
+  <key name="Templates" >
+    <topic name="Applying Templates" url="Applying_Project_Templates.htm" />
+  </key>
+  <key name="Views" >
+    <topic name="Applying Views" url="Applying_Views.htm" />
+  </key>
+  <key name="Workflows" >
+    <topic name="Applying Workflows" url="Applying_Workflows.htm" />
+  </key>
+</key>
+<key name="Approval" >
+  <key name="Submitting Timesheets for" >
+    <topic name="Submitting Timesheets for Approval" url="Submitting_Timesheets_for_Approval.htm" />
+  </key>
+</key>
+<key name="Approvers" >
+  <key name="Adding to Documents" >
+    <topic name="Adding Approvers to Documents" url="Adding_Approvers_to_Documents.htm" />
+  </key>
+</key>
+<key name="Approving" >
+  <key name="Document Records" >
+    <topic name="Approving Document Records" url="Approving_Document_Records.htm" />
+  </key>
+  <key name="Timesheets" >
+    <topic name="Approving Timesheets" url="Approving_Timesheets.htm" />
+  </key>
+</key>
+<key name="Assigning" >
+  <key name="Resources to Projects" >
+    <topic name="Assigning Resources to Projects" url="Assigning_Resources_to_Projects.htm" />
+  </key>
+  <key name="Resources to Tasks" >
+    <topic name="Assigning Resources to Tasks" url="Assigning_Resources_to_Tasks.htm" />
+  </key>
+</key>
+<key name="Assignments" >
+  <topic name="Resources Detail Form" url="Resources_Detail_Form.htm" />
+  <topic name="Viewing Assignments" url="Viewing_Assignments.htm" />
+  <key name="Adding to Timesheets" >
+    <topic name="Adding Assignments to Timesheets" url="Adding_Assignments_to_Timesheets.htm" />
+  </key>
+  <key name="Removing from Timesheets" >
+    <topic name="Removing Assignments from Timesheets" url="Removing_Assignments_from_Timesheets.htm" />
+  </key>
+  <key name="Viewing" >
+    <topic name="Viewing Assignments" url="Viewing_Assignments.htm" />
+  </key>
+</key>
+<key name="Assignments page" >
+  <key name="Copying Records and" >
+    <topic name="Copying Records" url="Copying_Records.htm" />
+  </key>
+</key>
+<key name="Assignments view" >
+  <key name="Time Tracking" >
+    <topic name="Showing and Hiding Views" url="Showing_and_Hiding_Views.htm" />
+  </key>
+</key>
+<key name="Associated files" >
+  <key name="Forcing check in of" >
+    <topic name="Forcing Check In" url="admin_Forcing_Check_In.htm" />
+  </key>
+</key>
+<key name="Associations" >
+  <topic name="Clearing Associations" url="admin_Clearing_Associations.htm" />
+  <topic name="Documents Detail Form" url="Documents_Detail_Form.htm" />
+  <key name="Clearing" >
+    <topic name="Clearing Associations" url="admin_Clearing_Associations.htm" />
+  </key>
+</key>
+<key name="Author" >
+  <topic name="Documents Detail Form" url="Documents_Detail_Form.htm" />
+</key>
+<key name="Auto-Post Time" >
+  <topic name="Synchronization" url="Synchronization.htm" />
+</key>
+<key name="Auto-Synchronize of Billing Rates" >
+  <topic name="Synchronization" url="Synchronization.htm" />
+</key>
+<key name="Auto-Synchronize of Calendar" >
+  <topic name="Synchronization" url="Synchronization.htm" />
+</key>
+<key name="Auto-Synchronize of Cost Rates" >
+  <topic name="Synchronization" url="Synchronization.htm" />
+</key>
+<key name="Auto-Synchronize of Current Resource Requirements Plan" >
+  <topic name="Synchronization" url="Synchronization.htm" />
+</key>
+<key name="Auto-synchronize of Project Schedule" >
+  <topic name="Synchronization" url="Synchronization.htm" />
+</key>
+
+</indexdata>

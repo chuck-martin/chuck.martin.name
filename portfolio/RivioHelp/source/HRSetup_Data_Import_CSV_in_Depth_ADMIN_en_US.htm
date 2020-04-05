@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Data Import and CSV Files in Depth</title>
+	<meta name="role" content="ADMIN">
+	<meta name="partner" content="" />
+	<meta name="product" content="" />
+	<meta name="language" content="en" />
+	<meta name="country" content="us" />
+	<meta name="index" content="" />
+	<link rel="stylesheet" type="text/css" href="help_w3c_biztro.css" />
+	
+<script src="body.js"></script>
+</head>
+
+<body style="margin : 3px;">
+<div class="topictitle">Data Import and CSV Files in Depth</div>
+<h2><a name="whatis">What is a CSV File?</a></h2>
+
+<p>A CSV file is a text file with a very specific format, generally with a filename extension of &#34;.csv&#34;. If you use Microsoft Excel or Microsoft Access to create the CSV file, the proper format will be created for you, and you will not need to be concerned about the following details.</p>
+
+<p>Each line in a CSV file is a data record made up of data fields, one record per line, with fields separated by commas.  </p>
+
+<p>If you load a CSV file into a spreadsheet, each line is a row, and each field is a column.  If you load it into a database program, you have a great deal of flexibility in your display.</p>
+
+<p>If a field (column) has a comma within it as text, the entire field between the separating commas must be enclosed within a pair of double-quote characters (&#34;).  These will not show in the spreadsheet display.  If a double quote character is to be included within a field, the entire field must be in quotes and the internal double-quote character is represented by two double-quotes (&#34;&#34;).</p>
+
+<h2><a name="empcsv">What is in an Employee List CSV file?</a></h2>
+
+<p>In an Employee List CSV file, each employee record must be on a line by itself, with no blank lines.  In Excel this means no blank rows before the last row of data.</p>
+
+<p>Within a line, all fields must be in the proper order and each field must be accounted for, even if it is empty.  For an empty field, simply have no text between the separating commas.  Excel and Access do this automatically.</p>
+
+<p>All required fields must have appropriate data. To ensure this, be very careful how you add your data to your Excel or Access file. Use the column headings in the sample file as a guide.</p>
+
+<p>Having the wrong number of fields or having inappropriate data in a field may cause the entire record to be rejected during the data import process.  Be careful that your data matches the sample file and that there is nothing else in the file.</p>
+
+<h2><a name="happens">What Happens when I Import my CSV File?</a></h2>
+
+<p>The lines of the file are processed, one at a time, as if you had entered the data into the Add an Employee form. If the system finds an error, it will attempt to give you some information to help you find and correct the error.  When it has completed processing the file, the system will tell you that it is done and how many records were successfully imported.</p>
+
+<p>You should check your new employee records for accuracy to ensure that your data is in the proper fields.</p>
+
+<h2>Related Topics</h2>
+<a href="HRSetup_What_is_in_CSV_en_US.htm">What is in the sample CSV file?</a><br />
+
+</body>
+</html>

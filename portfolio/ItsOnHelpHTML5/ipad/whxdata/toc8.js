@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version=\"1.0\" encoding=\"utf-8\" ?><data  src=\"toc7.js\"  name=\"eCommerce Policy Properties\" url=\"eCommerce_Policy_Properties.html\"><item name=\"Priority Scenarios\" url=\"Priority_Scenarios.html#bc-1\" /></data>";

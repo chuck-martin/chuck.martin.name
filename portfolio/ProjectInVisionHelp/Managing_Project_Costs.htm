@@ -1,0 +1,228 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+
+
+<head>
+<title>Managing Project Costs</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta name="generator" content="RoboHELP by eHelp Corporation - www.ehelp.com">
+<link rel="stylesheet" href="styles_ns.css"><script type="text/javascript" language="JavaScript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName !="Netscape")
+{   document.write("<link rel='stylesheet' href='styles.css'>");}
+//-->
+</script>
+<script type="text/javascript" language="JavaScript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//-->
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute; left:0px; top:0px; z-index:4; visibility:hidden; }
+-->
+</style><script type="text/javascript" language="javascript1.2" src="whmsg.js"></script>
+<script type="text/javascript" language="javascript" src="whver.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js"></script>
+</head>
+<body><script type="text/javascript" language="javascript1.2">
+<!--
+if (window.gbWhTopic)
+{
+	if (window.addTocInfo)
+	{
+	addTocInfo("Portfolio Manager\nProjects Module\nManaging Project Costs");
+addAvenueInfo("Main","Deleting_Projects.htm","Project_Scorecard.htm");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	if (window.setRelStartPage)
+	{
+	setRelStartPage("Project_InVision_User_Guide.htm");
+
+		autoSync(1);
+		sendSyncInfo();
+		sendAveInfoOut();
+	}
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+//-->
+</script>
+<h1>Managing Project Costs</h1>
+
+<p>You can use Project InVision to track project costing data using the Costing 
+  and Billing Pages of the Project Detail form. The Costing Page tracks the internal 
+  cost of the project, while the Billing Page tracks customer billing or charge 
+  back. </p>
+<p>Both the Costing and Billing pages track three separate categories of costs: 
+  Resource, Material and Expense. Resource costs can be entered manually or they 
+  can be calculated based on the Current, Baseline and Actual work hours of Resource 
+  assignments, multiplied by the hourly rate for Resources. Material and Expense 
+  costs are always entered manually for Projects and rolled up into total project 
+  costs.</p>
+<h2>Project costs when there is an associated project schedule file</h2>
+
+<p>When a project schedule file has been associated with a Project record, Resource 
+  costing information can be calculated by the project management application 
+  (such as Microsoft Project). That information is updated in Project InVision 
+  during the synchronization process. Material and expense costs are entered directly 
+  into Project InVision on the Costing and Billing pages of the Project Detail 
+  form.</p>
+<p class="note">When a project schedule file has been associated with the Project record, you 
+  can still maintain Resource cost information directly in Project InVision, separate 
+  from the associated project schedule file. See <a href="#tasklist">Project costs 
+  when using a Project InVision Task List</a>.</p>
+
+<h3>Resource Costs</h3>
+
+<ul>
+  <li> Resource cost rates (Internal Rate and Billing Rate) can be stored in Project 
+    InVision and transferred to the associated project schedule files. (See <a href="About_Resource_Costing.htm">Resource 
+    Costing</a>.) Your project management applications (such as Microsoft Project) 
+    will calculate the costs for Tasks and Projects by multiplying these rates 
+    times the Resource work assignments.</li>
+  <li> To have the costs calculated by the project management application, enter 
+    them in the Costing page of the <a href="Projects_Detail_Form.htm">Project 
+    Detail form</a>. You should also define the following project options on the 
+    Options page of the Project Detail Form:</li>
+	<ul>
+    <li> <b>Resource Current Cost Source</b> – Select <b>Project Schedule File</b> 
+      to have the Current Cost from the associated project schedule file populated 
+      to the Resource Current Cost field of the Project record.</li>
+    <li> <b>Resource Baseline Cost Source</b> – Select <b>Project Schedule File</b> 
+      to have the Baseline Cost from the associated project schedule file populated 
+      to the Resource Base Cost field of the Project record.</li>
+    <li> <b>Resource Actual Cost Source</b> – Select <b>Project Schedule File</b> 
+      to have the Actual Cost from the associated project schedule file populated 
+      to the Resource Actual Cost field of the Project record.</li>
+</ul>
+</ul>
+
+<h3>Material Costs</h3>
+
+<ul>
+  <li> You can enter and track materials costs directly in Project InVision on 
+    the Costing or Billing pages of the Project Detail form.</li>
+  <li> Project management applications, such as Microsoft Project, have the ability 
+    to define &#8220;Material&#8221; type resources that can be assigned to Tasks. 
+    If Material type resources are used in the project schedule file, the costs 
+    associated with these resources will not synchronize directly with the Materials 
+    costs fields in Project InVision. However, these costs will roll into the 
+    total Task cost and total Project cost calculations in the project schedule 
+    file. The total Task and total Project Cost numbers are synchronized with 
+    Project InVision.</li>
+</ul>
+
+<h3>Expense Costs</h3>
+
+<ul>
+  <li> You can enter and track expense costs directly in Project InVision on the 
+    Costing or Billing pages of the Project Detail form.</li>
+  <li> Project management applications, such as Microsoft Project, have the ability 
+    to track &#8220;Expense&#8221; type costs as Fixed Costs on Tasks. If Fixed 
+    Costs are used in the project schedule file, these costs will not synchronize 
+    directly with the Expense costs fields in Project InVision. However, these 
+    costs will roll into the total Task cost, and total Project cost calculations 
+    in the project schedule file. The total Task and total Project Cost numbers 
+    are synchronized with Project InVision.</li>
+</ul>
+
+<h2><a name="tasklist"></a>Project costs when using a Project InVision Task List</h2>
+
+<p>When the project schedule is maintained within Project InVision and there is 
+  no project schedule file associated with the Project record, Resource costing 
+  information can be calculated or entered into Project InVision in a number of 
+  ways: User-entered, Resource Plan, or Task List Assignments. Material and expense 
+  costs are entered directly into Project InVision on the Costing and Billing 
+  Pages of the Project Detail Form.</p>
+<h3>Resource Costs</h3>
+
+<ul>
+  <li> Resource cost rates (Internal Rate and Billing Rate) can be stored in Project 
+    InVision, which will calculate the costs for Tasks and/or Projects by multiplying 
+    these rates times the Resource work assignments in the Tasks module or Resource 
+    Plan. (See <a href="About_Resource_Costing.htm">Resource Costing</a>.)</li>
+  <li> To have the Resource costs calculated by the project management application 
+    (such as Microsoft Project) populate the Costing page of the Project Detail 
+    Form, define the following project options on the Options page of the Project 
+    Detail form:</li>
+  <ul>
+    <li> <b>Resource Current Cost Source</b> </li>
+    <ul>
+      <li> Select <b>Current Resource Plan</b> to have the Current Resource Cost 
+        calculated based on the data in the Current Resource Plan. See <a href="About_Resource_Plans.htm">Resource 
+        Plans</a>.</li>
+      <li> Select <b>Task List Assignments</b> to have the Current Resource Cost 
+        calculated based on the resource task assignments. See <a href="About_the_Tasks_Module.htm">Tasks 
+        Module</a>.</li>
+      <li> Select <b>User-entered</b> to allow the Current Resource Cost to be 
+        entered directly into the fields on the Billing and Costing pages of the 
+        Project Detail form. </li>
+    </ul>
+    <li> <b>Resource Baseline Cost Source</b> </li>
+    <ul>
+      <li> Select <b>Baseline Resource Plan</b> to have the Baseline Resource 
+        Cost calculated based on the data in the Baseline Resource Plan. See <a href="About_Resource_Plans.htm">Resource 
+        Plans</a>.</li>
+      <li> Select <b>User-entered</b> to allow the Baseline Resource Cost to be 
+        entered directly into the fields on the Billing and Costing pages of the 
+        Project Detail form. </li>
+    </ul>
+    <li> <b>Resource Actual Cost Source</b> </li>
+    <ul>
+      <li> Select <b>Time Tracking Actual Hours</b> to have the Actual Resource 
+        Cost calculated based on the actual hours entered through Timesheets in 
+        the Project InVision Time Tracking application. See <a href="About_Time_Tracking.htm">Time 
+        Tracking</a>.</li>
+      <li> Select <b>User-entered</b> to allow the Actual Resource Cost to be 
+        entered directly into the fields on the Billing and Costing pages of the 
+        Project Detail form. </li>
+    </ul>
+  </ul>
+</ul>
+
+<h3>Material Cost</h3>
+
+<ul>
+  <li> You can enter and track materials costs directly in Project InVision on 
+    the Costing or Billing pages of the Project Detail form.</li>
+</ul>
+
+<h3>Expense Costing</h3>
+
+<ul>
+  <li>You can enter and track expense costs directly in Project InVision on the 
+    Costing or Billing pages of the Project Detail form.</li>
+</ul>
+
+
+
+<script type="text/javascript" language="javascript1.2">
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+//-->
+</script>
+</body>
+</html>

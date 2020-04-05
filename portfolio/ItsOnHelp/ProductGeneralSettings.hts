@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-comment" content="" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>ProductGeneralSettings</title>
+<link rel="StyleSheet" href="itsonhelptopic.css" type="text/css" />
+</head>
+
+<body>
+<h3><a id="GeneralTab-GeneralSettings" name="GeneralTab-GeneralSettings"></a>General 
+ Settings</h3>
+<table style="border-collapse: separate;" cellspacing="1" border="1">
+	<tr>
+		<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Setting</th>
+		<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Description</th>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;"><strong><a id="GeneralTab-GeneralSettings-ProductSKUID" 
+												 name="GeneralTab-GeneralSettings-ProductSKUID"></a>Product 
+		 SKU ID</strong></td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;"><p>This is a unique and immutable identifier 
+		 that is assigned to a product when the product is initially created 
+		 and saved. The Product SKU ID is used to reference a product when 
+		 the {{tag.Product Name - Long}} system interfaces with your carrier 
+		 systems.</p>
+		<p>If your system defines scenarios where customers can receive 
+		 products in conjunction with defined actions, then this identifier 
+		 is what you use to reference the product through the system application 
+		 programming interface (API). For example, you might have a scenario 
+		 where a customer refers another customer, and when the referred 
+		 customer joins, the referring customer receives a complimentary 
+		 plan. Your system can interface directly with the {{tag.Product 
+		 Name - Long}} through APIs and reference the product that the 
+		 customer should receive by using the Product SKU ID. Similarly, 
+		 you might want a customer to receive a product as a part of account 
+		 activation, and an activation API can reference the Product SKU 
+		 ID to tell the {{tag.Product Name - Long}} which product should 
+		 be received under that scenario.</p></td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;"><strong>Default Category</strong></td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;"><p>Products need to be associated with 
+		 a category so that the device client software and the web portal 
+		 can organize and display customers' products. When customers purchase 
+		 a product from the store, the category association is made automatically.</p>
+		<p>However, if this product is given as a benefit or purchased 
+		 from a contextual offer, no such automatic category association 
+		 is available. The selection of a category in this setting allows 
+		 the product to be displayed correctly on customers' devices and 
+		 on their account pages.</p>
+		<div class="warning">
+			If you want a product that you give as a benefit or through 
+			 a contextual offer to appear in the correct section in the 
+			 device client software and on the web portal, then it is highly 
+			 recommended that you select as the product's default category 
+			 the same category that the <a href="#">product has been added 
+			 to</a>.
+		</div>
+		<p>Defining a category in this setting also resolves any ambiguity 
+		 if this product is a member of multiple categories. If the product 
+		 is in more than one category, the category defined in this setting 
+		 will define where the product appears on customers' devices when 
+		 no specific category has been selected on the device.</p></td>
+	</tr>
+</table>
+</body>
+</html>

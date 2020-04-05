@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<indexdata>
+<key name="Projects" >
+  <topic name="About Projects" url="About_the_Projects_Module.htm" />
+  <topic name="Assigning Projects to Resources" url="Assigning_Projects_to_Resources.htm" />
+  <topic name="Assigning Resources to Projects" url="Assigning_Resources_to_Projects.htm" />
+  <topic name="Copying Projects Between Workgroups" url="Copying_Projects_Between_Workgroups.htm" />
+  <topic name="Creating Projects" url="Creating_Projects.htm" />
+  <topic name="Deleting Projects" url="Deleting_Projects.htm" />
+  <topic name="Editing Projects" url="Editing_Projects.htm" />
+  <topic name="Project Indicator" url="Project_Indicator.htm" />
+  <topic name="Project Options" url="Project_Options.htm" />
+  <topic name="Removing Resources from Projects" url="Removing_Resources_from_Projects.htm" />
+  <topic name="Replacing Project Resources" url="Replacing_Project_Resources.htm" />
+  <topic name="Selecting Groups of Projects" url="Selecting_Groups_of_Projects.htm" />
+  <topic name="Selecting Multiple Projects or Groups" url="Selecting_Multiple_Projects_or_Groups.htm" />
+  <topic name="Selecting Projects" url="Selecting_Projects.htm" />
+  <topic name="Selecting Single Projects" url="Selecting_Single_Projects.htm" />
+  <topic name="Synchronization" url="Synchronization.htm" />
+  <key name="About" >
+    <topic name="About Projects" url="About_the_Projects_Module.htm" />
+  </key>
+  <key name="Adding Resources to" >
+    <topic name="Assigning Resources to Projects" url="Assigning_Resources_to_Projects.htm" />
+  </key>
+  <key name="Applying workflows" >
+    <topic name="Applying Workflows" url="Applying_Workflows.htm" />
+  </key>
+  <key name="Assigning Resources to" >
+    <topic name="Assigning Projects to Resources" url="Assigning_Projects_to_Resources.htm" />
+  </key>
+  <key name="Clearing associations with project schedule files" >
+    <topic name="Clearing Associations" url="admin_Clearing_Associations.htm" />
+  </key>
+  <key name="Copying between Workgroups" >
+    <topic name="Copying Projects Between Workgroups" url="Copying_Projects_Between_Workgroups.htm" />
+  </key>
+  <key name="Copying Records between" >
+    <topic name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+  </key>
+  <key name="Creating" >
+    <topic name="Creating Projects" url="Creating_Projects.htm" />
+  </key>
+  <key name="Deleting" >
+    <topic name="Deleting Projects" url="Deleting_Projects.htm" />
+  </key>
+  <key name="Detail Form" >
+    <topic name="Projects Detail Form" url="Projects_Detail_Form.htm" />
+  </key>
+  <key name="Editing" >
+    <topic name="Editing Projects" url="Editing_Projects.htm" />
+  </key>
+  <key name="Maintaining" >
+    <topic name="About Projects" url="About_the_Projects_Module.htm" />
+  </key>
+  <key name="Managing costs" >
+    <topic name="Managing Project Costs" url="Managing_Project_Costs.htm" />
+  </key>
+  <key name="Managing Resources on" >
+    <topic name="About Resource Plans" url="About_Resource_Plans.htm" />
+  </key>
+  <key name="Moving Records between" >
+    <topic name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+  </key>
+  <key name="Options" >
+    <topic name="Project Options" url="Project_Options.htm" />
+  </key>
+  <key name="Reassigning Resources on" >
+    <topic name="Replacing Project Resources" url="Replacing_Project_Resources.htm" />
+  </key>
+  <key name="Removing Resources from" >
+    <topic name="Removing Resources from Projects" url="Removing_Resources_from_Projects.htm" />
+  </key>
+  <key name="Replacing Resources on" >
+    <topic name="Replacing Project Resources" url="Replacing_Project_Resources.htm" />
+  </key>
+  <key name="Requirements" >
+    <topic name="About Requirements" url="About_the_Requirements_Module.htm" />
+  </key>
+  <key name="Scoping" >
+    <topic name="About Requirements" url="About_the_Requirements_Module.htm" />
+  </key>
+  <key name="Scorecard" >
+    <topic name="Project Scorecard" url="Project_Scorecard.htm" />
+  </key>
+  <key name="Selecting" >
+    <topic name="Project Indicator" url="Project_Indicator.htm" />
+    <topic name="Selecting Projects" url="Selecting_Projects.htm" />
+  </key>
+  <key name="Selecting groups of" >
+    <topic name="Selecting Groups of Projects" url="Selecting_Groups_of_Projects.htm" />
+  </key>
+  <key name="Selecting multiple" >
+    <topic name="Selecting Multiple Projects or Groups" url="Selecting_Multiple_Projects_or_Groups.htm" />
+  </key>
+  <key name="Selecting single" >
+    <topic name="Selecting Single Projects" url="Selecting_Single_Projects.htm" />
+  </key>
+  <key name="Synchronization with project schedule files" >
+    <topic name="Synchronization" url="Synchronization.htm" />
+  </key>
+  <key name="Tasks and" >
+    <topic name="Creating Tasks" url="Creating_Tasks.htm" />
+  </key>
+  <key name="Teams for" >
+    <topic name="Assigning Projects to Resources" url="Assigning_Projects_to_Resources.htm" />
+  </key>
+  <key name="Templates and" >
+    <topic name="Creating Templates" url="admin_Creating_Templates.htm" />
+  </key>
+  <key name="With Project Schedule files" >
+    <topic name="About Projects" url="About_the_Projects_Module.htm" />
+  </key>
+  <key name="Workgroup membership and" >
+    <topic name="Assigning Resources to Workgroups" url="admin_Assigning_Resources_to_Workgroups.htm" />
+  </key>
+</key>
+<key name="ProjRollupTo" >
+  <topic name="Advanced Filters" url="Advanced_Filters.htm" />
+</key>
+<key name="Pull-down list items" >
+  <key name="Deleting" >
+    <topic name="Deleting Pull-down List Items" url="admin_Deleting_Pull-down_List_Items.htm" />
+  </key>
+</key>
+<key name="Pull-down lists" >
+  <topic name="About Pull-down Lists" url="admin_About_Pull-down_Lists.htm" />
+  <topic name="Adding Pull-down List Items" url="admin_Adding_Pull-down_List_Items.htm" />
+  <topic name="Changing Pull-down List Item Order" url="admin_Changing_Pull-down_List_Item_Order.htm" />
+  <topic name="Deleting Pull-down List Items" url="admin_Deleting_Pull-down_List_Items.htm" />
+  <topic name="Editing Pull-down List Items" url="admin_Editing_Pull-down_List_Items.htm" />
+  <key name="About" >
+    <topic name="About Pull-down Lists" url="admin_About_Pull-down_Lists.htm" />
+  </key>
+  <key name="Adding items to" >
+    <topic name="Adding Pull-down List Items" url="admin_Adding_Pull-down_List_Items.htm" />
+  </key>
+  <key name="Changing order of items in" >
+    <topic name="Changing Pull-down List Item Order" url="admin_Changing_Pull-down_List_Item_Order.htm" />
+  </key>
+  <key name="Deleting items in" >
+    <topic name="Deleting Pull-down List Items" url="admin_Deleting_Pull-down_List_Items.htm" />
+  </key>
+  <key name="Editing" >
+    <topic name="Editing Pull-down List Items" url="admin_Editing_Pull-down_List_Items.htm" />
+  </key>
+  <key name="Retiring items in" >
+    <topic name="Retiring Pull-down List Items" url="admin_Retiring_Pull-down_List_Items.htm" />
+  </key>
+</key>
+<key name="Quick Filters" >
+  <topic name="Quick Filters" url="Quick_Filters.htm" />
+</key>
+<key name="Quick Sort" >
+  <topic name="About Sorting" url="About_Sorting.htm" />
+  <topic name="Quick Sorts" url="Quick_Sorts.htm" />
+</key>
+<key name="Rates" >
+  <topic name="Managing Project Costs" url="Managing_Project_Costs.htm" />
+</key>
+<key name="Read" >
+  <key name="Marking Alerts as" >
+    <topic name="Viewing Alerts" url="Viewing_Alerts.htm" />
+  </key>
+</key>
+<key name="Read Only" >
+  <topic name="Editing Information" url="Editing_Information.htm" />
+</key>
+<key name="Reassigning" >
+  <key name="Project Resources" >
+    <topic name="Replacing Project Resources" url="Replacing_Project_Resources.htm" />
+  </key>
+</key>
+<key name="Records" >
+  <topic name="Copying Records" url="Copying_Records.htm" />
+  <topic name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+  <topic name="Copying Records Within Projects" url="Copying_Records_Within_Projects.htm" />
+  <key name="Copying" >
+    <topic name="About Transferring Records" url="About_Transferring_Records.htm" />
+    <topic name="Copying Records" url="Copying_Records.htm" />
+  </key>
+  <key name="Copying between Projects" >
+    <topic name="Copying Records Between Projects" url="Copying_Records_Between_Projects.htm" />
+  </key>
+  <key name="Copying within Projects" >
+    <topic name="Copying Records Within Projects" url="Copying_Records_Within_Projects.htm" />
+  </key>
+  <key name="Deleted with Projects" >
+    <topic name="Deleting Projects" url="Deleting_Projects.htm" />
+  </key>
+  <key name="Exporting" >
+    <topic name="Exporting" url="Exporting.htm" />
+  </key>
+  <key name="Modules and" >
+    <topic name="Modules" url="Modules.htm" />
+  </key>
+  <key name="Moving" >
+    <topic name="About Transferring Records" url="About_Transferring_Records.htm" />
+  </key>
+  <key name="Printing" >
+    <topic name="Printing" url="Printing.htm" />
+  </key>
+  <key name="Removing Workflows from" >
+    <topic name="Removing Workflows" url="Removing_Workflows.htm" />
+  </key>
+  <key name="Transferring" >
+    <topic name="About Transferring Records" url="About_Transferring_Records.htm" />
+  </key>
+</key>
+<key name="Rejecting" >
+  <key name="Timesheets" >
+    <topic name="Rejecting Timesheets" url="Rejecting_Timesheets.htm" />
+  </key>
+</key>
+<key name="Removing" >
+  <key name="Assignments from Timesheets" >
+    <topic name="Removing Assignments from Timesheets" url="Removing_Assignments_from_Timesheets.htm" />
+  </key>
+  <key name="Resources from Projects" >
+    <topic name="Removing Resources from Projects" url="Removing_Resources_from_Projects.htm" />
+  </key>
+  <key name="Resources from Workgroups" >
+    <topic name="Removing Resources from Workgroups" url="admin_Removing_Resources_from_Workgroups.htm" />
+  </key>
+  <key name="Workflows" >
+    <topic name="Removing Workflows" url="Removing_Workflows.htm" />
+  </key>
+  <key name="Workgroups from Resources" >
+    <topic name="Removing Workgroups from Resources" url="admin_Removing_Workgroups_from_Resources.htm" />
+  </key>
+</key>
+<key name="Replacing" >
+  <key name="Project Resources" >
+    <topic name="Replacing Project Resources" url="Replacing_Project_Resources.htm" />
+  </key>
+</key>
+<key name="Report" >
+  <key name="Current Users Logged In" >
+    <topic name="Administrative Reports" url="Administrative_Reports.htm" />
+  </key>
+  <key name="Login Status by User" >
+    <topic name="Administrative Reports" url="Administrative_Reports.htm" />
+  </key>
+</key>
+<key name="Reports" >
+  <topic name="About Reports" url="About_Reports.htm" />
+  <topic name="Exporting Reports" url="Exporting_Reports.htm" />
+  <topic name="Printing Reports" url="Printing_Reports.htm" />
+  <topic name="Viewing Reports" url="Viewing_Reports.htm" />
+  <key name="About" >
+    <topic name="About Reports" url="About_Reports.htm" />
+  </key>
+  <key name="Administrative" >
+    <topic name="Administrative Reports" url="Administrative_Reports.htm" />
+  </key>
+  <key name="And Workgroups" >
+    <topic name="About Reports" url="About_Reports.htm" />
+  </key>
+  <key name="Exporting" >
+    <topic name="Exporting Reports" url="Exporting_Reports.htm" />
+  </key>
+  <key name="Field names" >
+    <topic name="About Reports" url="About_Reports.htm" />
+  </key>
+  <key name="Histogram" >
+    <topic name="Analyzing Resource Availability for Projects" url="Analyzing_Resource_Availability_for_Projects.htm" />
+  </key>
+  <key name="Printing" >
+    <topic name="Printing Reports" url="Printing_Reports.htm" />
+  </key>
+  <key name="Resouce Project Calendar" >
+    <topic name="Analyzing Resource Availability for Projects" url="Analyzing_Resource_Availability_for_Projects.htm" />
+  </key>
+  <key name="Viewing" >
+    <topic name="Viewing Reports" url="Viewing_Reports.htm" />
+  </key>
+</key>
+<key name="Required Fields" >
+  <topic name="About Detail Forms" url="About_Detail_Forms.htm" />
+</key>
+
+</indexdata>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-comment" content="" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>SubscriberTaskList</title>
+<link rel="StyleSheet" href="itsonhelptopic.css" type="text/css" />
+</head>
+
+<body>
+<ul>
+	<li><a hqid="1735618" href="#">Add (join) a subscriber to an account</a></li>
+	<li><a hqid="261830" href="#">Remove (unjoin) a subscriber from an 
+	 account</a></li>
+	<li><a hqid="261841" href="#">Suspend a subscriber</a></li>
+	<li><a hqid="263679" href="#">Resume a subscriber</a></li>
+	<li><a hqid="303648" href="#">Set the notification language for a subscriber</a></li>
+	<li><a hqid="277856" href="#">Enable and disable policies and features 
+	 on a subscriber device</a></li>
+	<li><a hqid="295354" href="#">Reset benefit status</a></li>
+	<li><a hqid="303525" href="#">Edit preferred voice numbers</a></li>
+	<li><a hqid="277830" href="#">View subscriber device history</a></li>
+	<li><a hqid="278268" href="#">View subscriber's current subscriptions</a></li>
+	<li><a hqid="278269" href="#">View subscriber's past subscription cycles</a></li>
+	<li><a hqid="346627" href="#">View product cycle details</a></li>
+	<li><a hqid="291366" href="#">View subscriber history</a></li>
+	<li><a hqid="1670062" href="#">View subscriber premium service history</a></li>
+	<li><a hqid="1670049" href="#">View subscriber premium service transaction 
+	 details</a></li>
+</ul>
+</body>
+</html>

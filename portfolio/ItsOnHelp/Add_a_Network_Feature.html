@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>Add a Network Feature</title>
+<link rel="stylesheet" type="text/css" href="style.css" ctype="topic" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+/*]]>*/
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+        var strUrl = document.location.href;
+        var bc = 0;
+        var n = strUrl.toLowerCase().indexOf("bc-");
+        if(n != -1)
+        {
+                document.location.href = strUrl.substring(0, n);
+                bc = strUrl.substring(n+3);
+        }
+
+        if (window.addTocInfo)
+        {
+        addTocInfo("Network Features\nAdd a Network Feature");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(0);
+
+        
+        document.write("<p style=\"text-align:left\"> ");
+AddMasterBreadcrumbs("index.htm", "", "&gt;", "Home", "Service_Design_Center_Help.htm");
+document.write("<a href=\"Network_Features.html\">Network Features<\/a> &gt; Add a Network Feature<\/p>");
+
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+        {
+        setTimeout("setRelStartPage('index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+        }
+}
+
+if (window.addEventListener){  
+        window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+        window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(0);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]>
+</script><script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2">
+</script>
+<h1>Add a Network Feature</h1>
+<ol>
+<li>Go to <strong>Policy &gt; Features</strong>.</li>
+<li>Add the feature:
+<ol>
+<li>Click&#160;<strong>Create New Feature</strong>, then <strong>Publishable Feature</strong>.</li>
+<li>Enter a&#160;<strong>Feature</strong>&#160;<strong>Name</strong>. Names cannot be longer than 32 characters and can contain only letters, number, dashes, and underscores.</li>
+<li>Enter a unique <strong>Feature Code</strong>. Consider carefully when creating a feature code. It is used throughout the subscriber provisioning system to identify the network feature and cannot be changed once you create the feature.</li>
+<li>Decide whether you want embedded-client device users to have the ability to enable and disable the network feature. If you select the <strong>Device users can enable/disable this feature</strong> check box, select the <strong>Default User State</strong>:
+<ul>
+<li>On: The network feature is enabled when it is pushed to the embedded-client device.</li>
+<li>Off (default): The network feature is disabled when it is pushed to the embedded-client device.&#160;</li>
+</ul>
+</li>
+<li>If you allow embedded-client device users to enable/disable the network feature, select a <strong>UX Reference Code</strong>. (See&#160;<a hqid="232050" href="#">Network Feature Properties</a> for details about this property.)</li>
+<li>Optionally, enter a <strong>Description</strong>. A good description will explain what the feature is intended to do.</li>
+<li>Click&#160;<strong>Save</strong>.</li>
+</ol>
+</li>
+<li>Add one or more policies to the feature:
+<ul>
+<li>Add a <a hqid="232010" href="#new">new</a> or <a hqid="232010" href="#copy">cloned</a> service policy.</li>
+<li>Add a <a hqid="1712747" href="#new">new</a> or <a hqid="1712747" href="#copy">cloned</a> entitlement policy.</li>
+<li><a hqid="232003" href="#">Add a data session policy</a>.</li>
+<li><a hqid="232013" href="#">Add a WiFi policy</a>.</li>
+</ul>
+</li>
+<li>Optionally select a feature <strong><a hqid="232050" href="#FeatureSettings-Priority">Priority</a></strong>.</li>
+</ol>
+<div class="tip">Changes are saved automatically as you make them. However, device behavior is not enforced by network features until you <a hqid="232078" href="#">test</a> and <a hqid="232067" href="#">publish</a> the network feature.</div>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]>
+</script>
+</body>
+</html>

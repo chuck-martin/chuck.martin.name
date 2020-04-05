@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Homework 3, Part 4</title>
+
+<script type="text/javascript">
+  var isValid = false;
+  var x = prompt("Enter a 5-digit number that does not start with 0.");
+  x = x.toString();
+  while (isValid == false) {
+    if ( x.length != 5 ) {
+	  x = prompt("The number you entered wsa not 5 digits long. Please enter a 5-digit number that does not start with 0.");
+	} else if ( x.charAt(0) == "0" ) {
+	  x = prompt("The number you entered begins with 0. Please enter a 5-digit number that does not start with a 0.");
+	} else {
+	  isValid = true;
+	}
+  }
+  
+  if ( ( x.charAt(0) == x.charAt(4) ) && ( x.charAt(1) == x.charAt(3) ) ) {
+	  alert("The number you entered, " + x + ", is a palindrome.");
+  } else {
+    alert("The number you entered, " + x + ", is not a palindrome.");
+  }
+
+</script>
+</head>
+
+<body>
+</body>
+</html>

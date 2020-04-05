@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Behavior Policy Settings</title>
+<link rel="stylesheet" type="text/css" href="itsonhelptopic.css" ctype="topic" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+/*]]>*/
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8">
+</script>
+<meta name="generator" content="Adobe RoboHelp 10" />
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+        var strUrl = document.location.href;
+        var bc = 0;
+        var n = strUrl.toLowerCase().indexOf("bc-");
+        if(n != -1)
+        {
+                document.location.href = strUrl.substring(0, n);
+                bc = strUrl.substring(n+3);
+        }
+
+        if (window.addTocInfo)
+        {
+        addTocInfo("Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting\nBehavior Policies\nAdd a Behavior Policy\nBehavior Policy Settings");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(0);
+
+        
+        document.write("<p style=\"text-align:left\"> ");
+AddMasterBreadcrumbs("index.htm", "", "&gt;", "Home", "Service_Design_Center_Help.htm");
+document.write("<a href=\"Policies_Service_Entitlement_Data_Session_WiFi_Behavior_and_Voice_Accounting.html\">Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting<\/a> &gt; <a href=\"Behavior_Policies.html\">Behavior Policies<\/a> &gt; <a href=\"Add_a_Behavior_Policy.html\">Add a Behavior Policy<\/a> &gt; Behavior Policy Settings<\/p>");
+
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+        {
+        setTimeout("setRelStartPage('index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+        }
+}
+
+if (window.addEventListener){  
+        window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+        window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(0);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]>
+</script><script type="text/javascript" src="ehlpdhtm.js">
+</script>
+<h1>Behavior Policy Settings</h1>
+<p>Use this information when you are <a hqid="265680" href="#">adding</a>&#160;or <a hqid="266072" href="#">editing</a> a behavior <a hqid="265680" href="#"></a>policy.</p>
+<table>
+<tbody>
+<tr>
+<th>Setting</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>Allowable Phone Number</td>
+<td>
+<p style="line-height: 19.6000003814697px;">Determines the allowable phone numbers that customers can enter into their favorites slots.</p>
+<p style="line-height: 19.6000003814697px;">Enter one regular expression that defines a pattern for one or more phone numbers.</p>
+<p style="line-height: 19.6000003814697px;">Do not enter the leading and trailing / (slash) characters.</p>
+<p style="line-height: 19.6000003814697px;">Start the regular expression with the ^ (caret) character and end it with the $ (dollar sign) character.</p>
+<p style="line-height: 19.6000003814697px;"><strong>Examples</strong></p>
+<p style="line-height: 19.6000003814697px;">Match only U.S. numbers with a 900 or 976 area code:&#160;<code>^(?:+?1)?(900|976)[0-9]{7}$</code>&#160;</p>
+<ul>
+<li><code>(?:+?1)?</code>&#160;allows for the possibility of 1 or +1, the U.S. country code.</li>
+<li><code>(900|976)</code>&#160;requires matching either 900 or 976.</li>
+<li><code>[0-9]{7}</code>&#160;requires matching the digits 0 through 9 exactly 7 times.</li>
+<li><code>^</code>&#160;ensures no characters come before the number.</li>
+<li><code>$</code>&#160;ensures no characters come after the number.</li>
+</ul>
+<p style="line-height: 19.6000003814697px;">Match exactly 6505551212, with or without the U.S. country code:&#160;<code>^(?:+?1)?(6505551212)$</code></p>
+<p style="line-height: 19.6000003814697px;">Match any legal U.S. phone number:&#160;<code>^(?:+?1)?[2-9][0-9]{2}[2-9][0-9]{6}$</code></p>
+<p style="line-height: 19.6000003814697px;">When a regular expression is entered, it determines what numbers can be added by customers who receive a plan based on the behavior policy. If a customer tries to enter a number in a slot that does not match the regular expression, they will see an error.</p>
+</td>
+</tr>
+<tr>
+<td>Maximum Number of Favs</td>
+<td>
+<p style="line-height: 19.6000003814697px;">Required. Determines the number of favorites slots a customer can have.</p>
+<div class="warning" style="line-height: 19.6000003814697px;">Once a behavior policy has been added to a filter in a policy and that policy is published, you can only increase the number of slots in the behavior policy.</div>
+</td>
+</tr>
+<tr>
+<td>Behavior Allowed</td>
+<td>
+<p>Determines what a customer can do in each favorites slot.&#160;</p>
+<ul>
+<li>Add Number</li>
+<li>Change Existing Number</li>
+<li>Replace Deleted Number</li>
+<li>Delete Number</li>
+</ul>
+<p>These are separately defined behaviors because you may want to charge for them and you may want to charge different amounts for them.&#160;</p>
+<div class="info">Charging a fee for deleting, changing, and replacing numbers in a slot prevents customers from "gaming" the system, from changing a slot from number to different number to different number and gaining access to free calling to more favorite numbers than you want to allow.</div>
+</td>
+</tr>
+</tbody>
+</table>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]>
+</script>
+</body>
+</html>

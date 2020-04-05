@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CNIT 133 Homework 4 - Part 2</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+var P, r, n, A;  //principal, rate, years, and end amount
+
+for ( var i = 5; i <= 10; i++)
+{
+r = i * 0.01  // change whole number representation (index) to rate
+P = 1000;  // initialize principal
+document.write("<table border='1'><tr><th>Year</th><th>Amount on Deposit</th><th>Interest Rate</th></tr>");
+  for ( n = 1; n <= 10; n++)
+  {
+  A = P * Math.pow( (1 + r), n);  // calculate total
+  document.write("<tr><td>" + n + "</td><td>$" + A.toFixed(2) + "</td><td>" + r.toFixed(2) + "</td>");
+  }
+document.write("</table><p></p>");
+}
+
+</script>
+
+</head>
+
+<body>
+</body>
+</html>

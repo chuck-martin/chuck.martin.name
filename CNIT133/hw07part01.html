@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CNIT 133 Homework 7 - Part 1</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+
+function roundToInteger(number)
+{
+  return Math.floor( number * 1 + .5 ) / 1;
+}
+
+function roundToTenths(number)
+{
+  return Math.floor( number * 10 + .5 ) / 10 ;
+}
+
+function roundToHundredths(number)
+{
+  return Math.floor( number * 100 + .5 ) / 100;
+}
+
+function roundToThousandths(number)
+{
+  return Math.floor( number * 1000 + .5 ) / 1000;
+}
+
+function processEntry(x)
+{
+  var resultstring = "";
+  if ( isNaN(x) )
+  {
+    alert("Please enter a number. Use numerals and decimal points only.");
+	document.rounding.inputnumber.value = "";
+  }
+  else
+  {
+    resultstring += x + " rounded to an integer is " + roundToInteger(x) + ".\n";
+	resultstring += x + " rounded to tenths is " + roundToTenths(x) + ".\n";
+	resultstring += x + " rounded to hundredths is " + roundToHundredths(x) + ".\n";
+	resultstring += x + " rounded to thousandths is " + roundToThousandths(x) + ".";
+	document.rounding.results.value = resultstring;
+  }
+}
+
+function clearFields()
+{
+  document.rounding.inputnumber.value = "";
+  document.rounding.results.value = "";
+}
+
+</script>
+
+
+</head>
+
+<body onload="clearFields()">
+<form id="rounding" name="rounding" action="">
+  <p>Enter a number:
+    <input type="text" name="inputnumber" />
+</p>
+  <p>
+    <input type="button" name="calculate" value="Calculate" onclick="processEntry(document.rounding.inputnumber.value)" />
+</p>
+  <p>
+    <textarea name="results" cols="60" rows="4"></textarea>
+  </p>
+</form>
+</body>
+</html>

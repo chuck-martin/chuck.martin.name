@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>Entitlement Policies</title>
+<link rel="stylesheet" type="text/css" href="itsonhelptopic.css" ctype="topic" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+/*]]>*/
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8">
+</script>
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+        var strUrl = document.location.href;
+        var bc = 0;
+        var n = strUrl.toLowerCase().indexOf("bc-");
+        if(n != -1)
+        {
+                document.location.href = strUrl.substring(0, n);
+                bc = strUrl.substring(n+3);
+        }
+
+        if (window.addTocInfo)
+        {
+        addTocInfo("Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting\nEntitlement Policies");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(0);
+
+        
+        document.write("<p style=\"text-align:left\"> ");
+AddMasterBreadcrumbs("index.htm", "", "&gt;", "Home", "Service_Design_Center_Help.htm");
+document.write("<a href=\"Policies_Service_Entitlement_Data_Session_WiFi_Behavior_and_Voice_Accounting.html\">Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting<\/a> &gt; Entitlement Policies<\/p>");
+
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+        {
+        setTimeout("setRelStartPage('index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+        }
+}
+
+if (window.addEventListener){  
+        window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+        window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(0);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]>
+</script><script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2">
+</script>
+<h1>Entitlement Policies</h1>
+<p>Entitlements are a type of product that enables or disables specific functionality for a subscriber. Like with <a hqid="288858" href="#">plans</a>, <a hqid="1723759" href="#">entitlement products</a> require policies, and an entitlement product requires an entitlement policy.</p>
+<p>An entitlement policy requires an entitlement code. An entitlement code defines what network behavior the entitlement policy allows. The entitlement codes that you can add to entitlement policies depend on what your network integration allows, and can include bucket IDs and service offer codes (SOCs). Contact your administrator for more information.</p>
+<div class="warning">Once an entitlement code has been added to an entitlement policy, it cannot be deleted. It can only be <a hqid="1716931" href="#">changed</a>, and only until the policy has been published. Once an entitlement policy that uses an entitlement code has been published, the entitlement code in the entitlement policy can no longer be changed.</div>
+<p>An entitlement policy does not require a component, although one (or more) can be added. However, if you want to send intercept notifications to your subscribers&#160;when they request entitlement services that are not enabled, and if your network does not send entitlement codes to the ItsOn Service Design Center system, then you must add a component to the entitlement policy. The filters in the component should match the entitlement code in the entitlement policy. The filters identify when subscribers request entitlement services that are not enabled, which can trigger intercept notifications. Those notifications can encourage the purchase of entitlement products that enable the requested services.</p>
+<p>Unlike service policies and service eCommerce policies, entitlement policies do not require components before they can be tested and published. Also, components in entitlement policies do not contain policy events. (Policy events define the "where" and "when" of service policies, and neither of those are required for entitlement policies because entitlement policies only enable or disable functionality.)</p>
+<p>You can:</p>
+<ul>
+<li><a hqid="1712747" href="#">Add an Entitlement Policy to a Feature</a></li>
+<li><a hqid="1716931" href="#">Edit an Entitlement Policy</a></li>
+<li><a hqid="1725630" href="#">Delete an Entitlement Policy</a></li>
+</ul>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]>
+</script>
+</body>
+</html>

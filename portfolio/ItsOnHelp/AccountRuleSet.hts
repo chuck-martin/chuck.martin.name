@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-comment" content="" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>AccountRuleSet</title>
+<link rel="StyleSheet" href="itsonhelptopic.css" type="text/css" />
+</head>
+
+<body>
+<table style="border-collapse: separate;" cellspacing="1" border="1">
+	<tr>
+		<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Account Attribute</th>
+		<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Comparison Operator</th>
+		<th scope="col" style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;">Comparison Value(s)</th>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;"><ul>
+			<li>Account - Amount of last point-of-sale top-up</li>
+			<li>Account - Balance</li>
+			<li>Account - Client Major Version</li>
+			<li>Account - Client Minor Version</li>
+			<li>Account - Client Revision Version</li>
+			<li>Account - Cycle number</li>
+			<li>Account - Days since activation</li>
+			<li>Account - Days since last automatic top-up at renewal</li>
+			<li>Account - Days since last automatic top-up at user check 
+			 out</li>
+			<li>Account - Days since last external top-up</li>
+			<li>Account - Days since last manual in-app top-up</li>
+			<li>Account - Days since last purchase</li>
+			<li>Account - Last point-of-sale top-up amount</li>
+			<li>Account - Monthly aligned recurring cost</li>
+			<li>Account - Number of subscribers</li>
+		</ul></td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;"><ul>
+			<li>is equal to (default)</li>
+			<li>is not equal to</li>
+			<li>is greater than</li>
+			<li>is greater than or equal to</li>
+			<li>is less than</li>
+			<li>is less than or equal to</li>
+			<li>is between</li>
+			<li>is between (inclusive)</li>
+		</ul></td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;"><p>These rules look to match any of 
+		 the numeric account attributes. Enter a number (or two numbers 
+		 for the <em>is between</em> comparison operators) for the rule 
+		 to match.</p>
+		<p>Notes:</p>
+		<ul>
+			<li>Numbers for client versions, cycle number, number of subscribers, 
+			 and days since activation, last external/internal/point-of-sale/manual 
+			 in-app top-up, and last purchase must be a positive integer.</li>
+			<li>Numbers for balance, monthly aligned recurring cost, and 
+			 top-up amounts must be greater than or equal to zero.</li>
+			<li>The monthly aligned recurring cost is the total amount 
+			 of all recurring plans that are aligned to the account cycle.</li>
+			<li>A &quot;purchase&quot; in <em>Account - Days since last 
+			 purchase</em> includes purchase transactions made when subscriptions 
+			 cycle, purchases where the amount charged is zero, and product 
+			 exchanges.</li>
+			<li>If this rule and the <em>Account - Balance</em> option 
+			 is used in combination with the <strong>Should this offer 
+			 target specific orders?</strong> qualifier when it uses the 
+			 <em>Order - Checkout type</em> rule with the <em>External 
+			 top up</em> option. the balance is evaluated after the top 
+			 up is completed.</li>
+			<li>Client major/minor/revision version numbers refer to the 
+			 3-part version number of the self-service app on a specific 
+			 subscriber device (even for multi-subscriber accounts), which 
+			 is formatted as <var>[major]</var>.<var>[minor]</var>.<var>[revision]</var>. 
+			 For example, the version number could be 3.17.8, where 3 is 
+			 the major version, 17 is the minor version, and 8 is the revision 
+			 version. In the ItsOn self-service software on a device, version 
+			 information is found on the <a class="hq-tip" href="id=version">About 
+			 screen</a>.</li>
+			<li>See the <a hqid="1679949" href="#OffersCycles">Offers and 
+			 Cycles</a> section in&#160;<a hqid="1679949" href="#">Offers: 
+			 Discounts, Rewards, Benefits, and More</a> for more information 
+			 about cycles.</li>
+		</ul></td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;"><ul>
+			<li>Account - Email Address</li>
+			<li>Account - First Name</li>
+			<li>Account - Last Name</li>
+			<li>Account - Province</li>
+			<li>Account - State Abbreviation</li>
+			<li>Account - State Name</li>
+		</ul></td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;"><ul>
+			<li>is blank</li>
+			<li>is equal to</li>
+			<li>is equal to (ignore case)</li>
+			<li>is not equal to</li>
+			<li>is not equal to (ignore case)</li>
+			<li>contains</li>
+			<li>does not contain</li>
+			<li>starts with</li>
+			<li>does not start with</li>
+			<li>ends with</li>
+			<li>does not end with</li>
+		</ul></td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;"><p>These rules look to match all or 
+		 part of the textual account attributes For all comparison operators, 
+		 enter one or more characters for the rule to match.</p>
+		<p>Notes:</p>
+		<ul>
+			<li>Use <em>Account - Province</em> only if you are in a jurisdiction 
+			 that has provinces as political boundaries.</li>
+			<li>Use <em>Account - State Abbreviation</em> and <em>Account 
+			 - State Name</em> only if you are in a jurisdiction that has 
+			 states as political boundaries.</li>
+			<li>The <em>Account - Email Address</em> rule when used with 
+			 any of the <em>is blank</em>, <em>is not equal to</em>, <em>is 
+			 not equal to (ignore case)</em>, <em>does not contain</em>, 
+			 <em>does not start with</em>, or <em>does not end with</em> 
+			 comparison operators will also match any account that does 
+			 not have a registered email address.</li>
+			<li>Textual rule matching is language sensitive. See&#160;<a 
+			 hqid="1726910" href="#textrules">Language Support in Service 
+			 Design Center</a> for more information.</li>
+		</ul></td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;"><ul>
+			<li>Account - Autopay credit card on file</li>
+			<li>Account - Credit card on file</li>
+			<li>Account - Is unregistered</li>
+		</ul></td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;"><em>is equal to</em> is the only choice.</td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;"><p>These rules looks to match whether 
+		 or not either an autopay credit card or any credit card is on 
+		 file with the account. Select from:</p>
+		<ul>
+			<li>True</li>
+			<li>False (default)</li>
+		</ul>
+		<p>Notes:</p>
+		<ul>
+			<li>Is unregistered means before an account is created. This 
+			 allows you to, for example, define a catalog experience for 
+			 potential customers who have not yet created accounts.</li>
+		</ul></td>
+	</tr>
+	<tr>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;"><ul>
+			<li>Account - Current Device Type</li>
+			<li>Account - Has only one active subscription from category</li>
+			<li>Account - Has <a class="hq-tip" href="id=gl-subscribable-product">subscribable 
+			 product</a> - Name</li>
+			<li>Account - Lacks <a class="hq-tip" href="id=gl-subscribable-product">subscribable 
+			 product</a> in Category - Name</li>
+			<li>Account - Has Tag</li>
+		</ul></td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;"><ul>
+			<li>is equal to</li>
+			<li>is not equal to</li>
+		</ul></td>
+		<td style="padding-left: 1px; padding-top: 1px; padding-right: 1px; 
+			 padding-bottom: 1px;"><p>These rules look to match a single 
+		 item from a defined list. Select a single item from the drop-down 
+		 list, which contains all of the items that exist in the system 
+		 in alphabetical order.</p>
+		<p>Notes:</p>
+		<ul>
+			<li>The&#160;&#160;<em>Account - Current Device</em> <em>Type</em> 
+			 attribute evaluates against a device attribute per device 
+			 (even for multi-subscriber accounts). You can choose from 
+			 the following items that are extracted from a device's user 
+			 agent information: 
+			<ul>
+				<li>iOS: Identifies an iOS device using the self-service 
+				 app.</li>
+				<li>Android: Identifies an Android device using the self-service 
+				 app.</li>
+				<li>My Account: Identifies any device using a web browser.</li>
+				<li>Other: Identifies user agent information that does 
+				 not match any of the above.</li>
+				<li>Not Sent: Identifies that no user agent information 
+				 was available.</li>
+			</ul>
+			<div class="tip">
+				This attribute is useful for <a hqid="1832710" href="#">value-added 
+				 services</a> that are available on just a single platform.
+			</div></li>
+			<li>For <em>Account - Lacks subscribable product in Category 
+			 - Name</em> and <em>Account - has only one active subscription 
+			 from category</em>, when a category name match is found, all 
+			 of the products in the category are considered to match.</li>
+			<li>A <a class="hq-tip" href="id=gl-tag">tag</a> is an identifier 
+			 you use to describe a defined <a hqid="1696585" href="#">segment</a> 
+			 of subscribers or accounts</li>
+		</ul></td>
+	</tr>
+</table>
+</body>
+</html>

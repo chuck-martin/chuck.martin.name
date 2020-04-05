@@ -1,0 +1,303 @@
+/*
+Theme Name: Clasikue
+Theme URI: http://www.tripthelightfantastic.de
+Description: "Clasikue" - the first public tripthelightfantastic theme
+Version: 1.0
+Author: freak
+Author URI: http://www.tripthelightfantastic.de
+
+Please feel free to tweak this theme and make it your own. :)
+*/
+
+a {
+	color: #039;
+}
+
+a:visited {
+	color: #039;
+}
+
+a:hover {
+	color: #333333;
+}
+
+acronym, abbr {
+	border-bottom: 1px dashed #333;
+}
+
+acronym, abbr, span.caps {
+	font-size: 90%;
+	letter-spacing: .07em;
+}
+
+acronym, abbr {
+	cursor: help;
+}
+
+blockquote {
+	border-left: 3px solid #333333;
+	margin-left: 1.5em;
+	padding-left: 5px;
+}
+
+body {
+	background: #fff;
+	color: #000000;
+	font-family: verdana, sans-serif;
+	margin: 20px;
+	padding: 20px;
+}
+
+cite {
+	font-size: 90%;
+	font-style: normal;
+}
+
+h2 {
+	font: 90% verdana, sans-serif;
+	color: #000000;
+	margin: 15px 0 2px 0;
+	padding-bottom: 2px;
+}
+
+h3 {
+  background: #FFFFFF;
+	border-bottom: solid 1px #333333;
+	font-family: verdana, sans-serif;
+	font-style: normal;
+	margin-top: 0;
+}
+
+ol#comments li p {
+	font-size: 80%;
+}
+
+p, li, .feedback {
+	font: 90%/175% verdana, sans-serif;
+}
+
+/* classes used by the_meta() */
+ul.post-meta {
+	list-style: none;
+}
+
+ul.post-meta span.post-meta-key {
+	font-weight: bold;
+}
+
+.credit {
+	background: #EDF2F2;
+	border-bottom: solid 1px #333333;
+	color: #222222;
+	font-size: 11px;
+	margin: 10px 0 0 0;
+	padding: 3px;
+	text-align: center;
+	letter-spacing: 0.2em;
+}
+
+.credit a:link, .credit a:hover {
+	color: #333333;
+}
+
+.feedback {
+	color: #333333;
+	text-align: right;
+	clear: both;
+	font-size: 11px;
+}
+
+.meta {
+	font-size: .70em;
+}
+
+.meta li, ul.post-meta li {
+	display: inline;
+}
+
+.meta ul {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.meta, .meta a {
+	color: #666666;
+	font-weight: normal;
+}
+
+.storytitle {
+	margin: 0;
+}
+
+.storytitle a {
+	text-decoration: none;
+}
+
+#commentform #author, #commentform #email, #commentform #url, #commentform textarea {
+	background: #fff;
+	border: 1px solid #333;
+	padding: .2em;
+}
+
+#commentform textarea {
+	width: 100%;
+}
+
+#commentlist li ul {
+	border-left: 1px solid #333333;
+	font-size: 100%;
+	list-style-type: none;
+}
+
+#content {
+	font: normal normal 100% verdana, sans-serif;
+	margin: 30px 13em 0px 0;
+	padding-right: 30px;
+  letter-spacing: 0;
+}
+
+#header {
+	background: #EDF2F2;
+	border-top: solid 1px #333333;
+	font: normal normal 230% verdana, sans-serif;
+	letter-spacing: 0.2em;
+	margin: 0;
+	padding: 0px 10px 5px 30px;
+}
+
+#header a {
+	color: #333333;
+	text-decoration: none;
+}
+
+#header a:hover {
+	text-decoration: none;
+	border-left: 2px solid #EDF2F2;
+}
+
+#menu {
+	background: #fff;
+	padding: 10px 0 10px 10px;
+	position: absolute;
+	right: 40px;
+	top: 110px;
+	width: 11em;
+}
+
+#menu form {
+	margin: 0 0 0 13px;
+}
+
+#menu input#s {
+	width: 80%;
+	background: #fff;
+	border: 1px solid #333333;
+	color: #000;
+}
+
+#menu ul {
+	color: #333333;
+	font-weight: bold;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 3px;
+	text-transform: lowercase;
+	
+}
+
+#menu ul li {
+	font: normal normal 90% verdana, sans-serif;
+	margin-top: 10px;
+	padding: 4px; /*border-bottom: dotted 1px #333333;*/
+	background: #EDF2F2;}
+
+#menu ul ul {
+	font-weight: bold;
+	line-height: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+#menu ul ul li {
+	border: 0;
+	font-weight: bold;
+	letter-spacing: 0;
+	margin-top: 0;
+	padding: 0;
+	padding-left: 12px;
+}
+
+#menu ul ul li a {
+	color: #039;
+	text-decoration: none;
+}
+
+#menu ul ul li a:hover {
+  color: #333333;
+	border-left: 2px solid #EDF2F2;
+}
+
+#menu ul ul ul.children {
+	font-size: 142%;
+	padding-left: 4px;
+}
+
+#wp-calendar {
+	empty-cells: show;
+	font-size: 14px;
+	margin: 0;
+	width: 90%;
+}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+}
+
+#wp-calendar a {
+	display: block;
+	text-decoration: none;
+	font style: bold;
+}
+
+#wp-calendar a:hover {
+	background: #e0e6e0;
+	color: #333;
+}
+
+#wp-calendar caption {
+	color: #999;
+	font-size: 16px;
+	text-align: left;
+}
+
+#wp-calendar td {
+	color: #333;
+	font: normal 12px verdana, sans-serif;
+	letter-spacing: normal;
+	padding: 2px 0;
+	text-align: center;
+}
+
+#wp-calendar td.pad:hover {
+	background: #fff;
+}
+
+#wp-calendar td:hover, #wp-calendar #today {
+	background: #eee;
+	color: #bbb;
+}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+}

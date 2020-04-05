@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-comment" content="" />
+<meta name="generator" content="Adobe RoboHelp 10" />
+<title>AccountTaskList</title>
+<link rel="StyleSheet" href="itsonhelptopic.css" type="text/css" />
+</head>
+
+<body>
+<ul>
+	<li><a hqid="1786163" href="#">Add</a> or <a hqid="260545" href="#">edit</a> 
+	 account holder information</li>
+	<li><a hqid="310263" href="#">Set the account notification language</a></li>
+	<li><a hqid="263683" href="#">Reset the account password</a> (available 
+	 only after customer has established initial password)</li>
+	<li><a href="#">Adjust the account balance</a></li>
+	<li><a hqid="1619069" href="#">Refund a transaction</a></li>
+	<li><a hqid="1812583" href="#">Purchase a product on behalf of a customer</a></li>
+	<li><a hqid="1812613" href="#">Redeem a voucher on behalf of a customer</a></li>
+	<li><a hqid="277735" href="#">Suspend</a> or <a hqid="277736" href="#">resume</a> 
+	 (unsuspend) the account</li>
+	<li><a hqid="1686167" href="#">Add or remove account suspension reasons</a></li>
+	<li><a hqid="278262" href="#">Terminate the account</a></li>
+	<li><a hqid="277289" href="#">View the subscribers in the account</a></li>
+	<li><a hqid="1735618" href="#">Add (join) a subscriber to the account</a> 
+	 (available only when you allow multiple subscribers per account and 
+	 available only after email address, password, and security question 
+	 (when required) have been established)</li>
+	<li><a hqid="261830" href="#">Remove (unjoin) a subscriber from the 
+	 Account</a></li>
+	<li>View <a hqid="263680" href="#">billing history</a> and <a hqid="278076" 
+	 href="#">billing transaction details</a></li>
+	<li><a hqid="263681" href="#">View account change history</a></li>
+	<li><a hqid="277613" href="#">View current subscriptions</a></li>
+	<li><a hqid="277686" href="#">View past subscription cycles</a></li>
+	<li><a hqid="346627" href="#">View product cycle details</a></li>
+	<li><a hqid="263681" href="#">View all changes made to&#160;the account</a></li>
+	<li><a hqid="685176" href="#">View a note</a></li>
+	<li><a hqid="365954" href="#">Add a note</a></li>
+</ul>
+</body>
+</html>

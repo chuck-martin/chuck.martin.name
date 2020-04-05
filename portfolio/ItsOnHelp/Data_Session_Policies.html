@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Data Session Policies</title>
+<link rel="stylesheet" type="text/css" href="itsonhelptopic.css" ctype="topic" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+        origWidth = innerWidth;
+        origHeight = innerHeight;
+        onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+/*]]>*/
+</style>
+
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8">
+</script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8">
+</script>
+<meta name="generator" content="Adobe RoboHelp 10" />
+</head>
+<body>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+        var strUrl = document.location.href;
+        var bc = 0;
+        var n = strUrl.toLowerCase().indexOf("bc-");
+        if(n != -1)
+        {
+                document.location.href = strUrl.substring(0, n);
+                bc = strUrl.substring(n+3);
+        }
+
+        if (window.addTocInfo)
+        {
+        addTocInfo("Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting\nData Session Policies");
+
+        }
+        if (window.writeBtnStyle)
+                writeBtnStyle();
+
+        if (window.writeIntopicBar)
+                writeIntopicBar(0);
+
+        
+        document.write("<p style=\"text-align:left\"> ");
+AddMasterBreadcrumbs("index.htm", "", "&gt;", "Home", "Service_Design_Center_Help.htm");
+document.write("<a href=\"Policies_Service_Entitlement_Data_Session_WiFi_Behavior_and_Voice_Accounting.html\">Policies: Service, Entitlement, Data Session, WiFi, Behavior, and Voice Accounting<\/a> &gt; Data Session Policies<\/p>");
+
+}
+else
+        if (window.gbIE4)
+                document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+        {
+        setTimeout("setRelStartPage('index.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+        }
+}
+
+if (window.addEventListener){  
+        window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+        window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(0);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]>
+</script><script type="text/javascript" src="ehlpdhtm.js">
+</script>
+<h1>Data Session Policies</h1>
+<p>Smartphones and tablets require constant data connectivity, even when on networks where roaming agreements aren't favorable.&#160;Data session policies determine when ItsOn-powered devices can establish data sessions.&#160;</p>
+<p>The basic purpose for a data session policy is to block a data session from occurring and define exceptions to that blocking. It is to&#160;avoid superfluous connections while a device is not being used, but allow the connections when it is in use to not degrade the user experience. For example, y<span>ou can create a data session policy that blocks data sessions when the device is not in the home network and is not in use, as determined by the screen being off, no media being streamed and the download manager being idle.</span></p>
+<h2 id="DataSessionPolicies-HowDataSessionPoliciesWork">How Data Session Policies Work</h2>
+<p>Data session policies are evaluated when a network transition event or a user-initiated event occurs with an ItsOn-powered device. Examples of network transition events include moving from WiFi to cellular, moving from 3G to 4G, or moving from the home network to a roaming network. User-initiated events include an Internet app being brought to the foreground, the device being unlocked, or the device screen being turned on.</p>
+<p>The Default Policy Event lists up to 3 blocking exceptions: Downloading, Screen On, and Streaming Media.</p>
+<p>When a network transition event or a defined user trigger occurs, data session policies are evaluated in 2 steps:</p>
+<ul>
+<li>The policy checks to see if any criteria are defined in the Default Policy Event, and if any are true, the data session is allowed.&#160;</li>
+<li>If no criteria are defined in the Default Policy Event or if any are and none are true, the policy checks to see if the device is in or not in any defined network groups. If it is, the data session is blocked.</li>
+</ul>
+<h2 id="DataSessionPolicies-DataSessionPolicyExamples">Data Session Policy Examples</h2>
+<p>A common scenario is what is called ZULU, or zero use, low use. It occurs when a device isn't actively being used, but it is transitioning between networks, often within short periods of time, and the device wants to start or maintain data sessions even when they are not necessary. A good example is when a device is in an area where a roaming network is stronger than a home network, and the device moves briefly into an area where the home network is lost and the roaming network is used, such as when a device user goes into an elevator or garage. If there's nothing actively being done by the user, there's no reason to allow a data session. You can create a data session policy that blocks data sessions when the device is not in the home network and is not streaming data or downloading.&#160;</p>
+<p>Similarly, a device's user might be listening to music from a streaming app. When that's happening, you don't want to degrade the user experience by blocking data sessions during these micro network changes. You might refine the above data session policy to make an exception to data session blocking when the device is streaming media.&#160;</p>
+<script type="text/javascript" language="javascript1.2">
+//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+        writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]>
+</script>
+</body>
+</html>

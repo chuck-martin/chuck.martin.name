@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CNIT 133 Homework 4 - Part 4</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+var stars = new Array(5)
+
+for ( var i = 0; i <= 4; i++)
+{
+  stars[i] = parseInt(prompt("Enter the number of *s for row " + (i+1) + " (1-20)."));
+  while ( ( stars[i] < 1 ) || ( stars[i] > 20 ) )
+  {
+    stars[i] = parseInt(prompt("You did not enter a number between 1 and 20.\nEnter the number of *s for row " + (i+1) + " (1-20)."));
+  }
+}
+
+for ( var i = 0; i <= 4; i++ )
+{
+  document.write("<p>");
+  for ( var j = 1; j <= stars[i]; j++ )
+  {
+    document.write("*");
+  }
+  document.write("</p>");
+}
+
+</script>
+</head>
+
+<body>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CNIT 133 Homework 6 - Part 4</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+
+var nums = new Array(10);
+var attempts = 0;
+
+function processNum(formName)
+{
+  var testnum = parseInt(formName.num.value);
+  // first test for validity
+  if ( ( testnum < 10 ) || ( testnum > 100 ) )
+  {
+	alert(testnum + " is not greater than 10 or less than 100.");
+	formName.num.value = "";
+	attempts++;
+	if ( attempts == 10 )
+    {
+      formName.num.disabled = true;
+    }
+	return;
+  }
+  // next see if it's a duplicate
+  for ( i = 0; i < nums.length; i++ )
+  {
+    if ( testnum == nums[i] )
+	{
+	  alert(testnum + " is a duplicate of a number you already entered.");
+	  formName.num.value = "";
+	  attempts++;
+	  if ( attempts == 10 )
+      {
+        formName.num.disabled = true;
+      }
+	  return;
+	}
+  }
+  // it's valid and not a duplicate, append
+  nums[attempts] = testnum;
+  formName.OKnumbers.value = formName.OKnumbers.value + " " + testnum.toString();
+  formName.num.value = "";
+  attempts++
+  if ( attempts == 10 )
+  {
+    formName.num.disabled = true;
+  }
+}
+
+function clearFields()
+{
+  document.numbers.num.value = "";
+  document.numbers.num.disabled = false;
+  document.numbers.OKnumbers.value = "";
+}
+
+</script>
+
+</head>
+
+<body onload="clearFields()">
+<form id="numbers" name="numbers" method="post" action="">
+  <p>Enter 10 numbers between 10 and 100, inclusinve:
+    <input name="num" id="num" type="text" size="6" />
+    <input type="button" name="Button" value="Add" onClick="processNum(this.form)" />
+  </p>
+  <p>Here are the  numbers you entered, minus duplicates: <input id="OKnumbers" type="text" size="40"></input></p>
+</form>
+</body>
+</html>

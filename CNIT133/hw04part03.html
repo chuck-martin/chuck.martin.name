@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CNIT 133 Homework 4 - Part 3</title>
+<link href="cnit133.css" rel="stylesheet" type="text/css" />
+</head>
+
+<script type="text/javascript">
+
+var productSold = new Array(0, 0, 0 ,0 ,0)
+var productPrice = new Array(2.98, 4.50, 9.98, 4.49, 6.87)
+var total = 0;
+
+var product = parseInt(prompt("Enter a product number from 1 to 5.\nEnter 0 (zero) or a number greater than 5 when finished."));
+
+while ( ( product > 0 ) && ( product < 6 ) )
+{
+  switch(product)
+  {
+    case 1:
+	productSold[0] = parseInt(prompt("How many did you sell of Product 1 last week?"));
+	break;
+	case 2:
+	productSold[1] = parseInt(prompt("How many did you sell of Product 2 last week?"));
+	break;
+    case 3:
+	productSold[2] = parseInt(prompt("How many did you sell of Product 3 last week?"));
+	break;
+    case 4:
+	productSold[3] = parseInt(prompt("How many did you sell of Product 4 last week?"));
+	break;
+    case 5:
+	productSold[4] = parseInt(prompt("How many did you sell of Product 5 last week?"));
+	break;
+    default:
+	
+  }
+  product = parseInt(prompt("Enter a product number from 1 to 5.\nEnter 0 (zero) or a number greater than 5 when finished."));
+   // productSold[i-1] = parseInt(prompt("How many did you sell of Product " + (product) + " last week?"));
+}
+
+/* for ( i = 0; i < 5; i++ )
+{
+  productSold[i] = parseInt(prompt("How many did you sell of Product " + (i + 1) + " last week?"));
+} */
+
+document.write("<table border='1'><tr><th>Item</th><th>Qty</th><th>Price</th><th>Amount</th></tr>");
+for ( i = 0; i < 5; i++ )
+{
+  document.write("<tr><td>Product " + (i+1) + "</td><td>" + productSold[i] + "</td><td>$" + productPrice[i].toFixed(2) + "</td><td>$" + ( productSold[i] * productPrice[i] ).toFixed(2) + "</td></tr>");
+  total += ( productSold[i] * productPrice[i] )
+}
+document.write("<tr><td colspan='3'><b>Total Amount Sold</b></td><td>$" + total.toFixed(2) + "</td></tr></table>");
+
+</script>
+
+<body>
+</body>
+</html>

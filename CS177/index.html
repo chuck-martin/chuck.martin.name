@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>CS177: Software Engineering</title>
+<link href="cs177.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>CS177: Software Engineering</h1>
+<p>This page contains links to homework and other projects for my CS177 Software Engineering class for spring, 2011, semester at CCSF.</p>
+<table width="100%" border="1" cellpadding="4">
+  <tr>
+    <th width="25%">Assignment</th>
+    <th>Notes &amp; Processes</th>
+  </tr>
+  <tr>
+    <td><a href="hw1_ipaddresses.html">Homework 1</a>: Generate 20,000 IP addresses, print first &amp; last 20</td>
+    <td><p>Although the class instructor will be teaching some of yet another new programming language (Ruby) this semester, and despite the fact that it was he who taught the Java class I took back in 1998, I decided to do this assignment in the language I know best, the one I've actually used at some work: JavaScript.</p>
+    <p>I tackled the assignment in stages. The most challenging issue would be sorting if I stored the initial random results (in the form of [##]#.[##]#.[##]#.[##]#) as a string, which would be the case if I had to include the . (period) delimiters. The sort would be &quot;alphabetical,&quot; for example, 1.x.x.x followed by 100.x.x.x followed by 2.x.x.x, and so on. So I decided to store the data in a two-dimensional array.</p>
+    <p>First I created a small function to generate a single random number between 1 and 255. As I was developing, I used alert() statements to test and verify I was getting the results I wanted. The statement Math.floor(Math.random() * 256) does the trick. To create a full IP address, I needed 4 of those numbers. So I wrote a little loop to generate 4 random numbers and store them in an array.</p>
+    <p>It's relatively trivial, then, to create an array with 20,000 members and then populate it, yet another loop. The challenge then was sorting. It turns out that JavaScript has a sort() method for arrays. Unfortunately, the default method for sorting is alphanumeric. Fortunately, I found after some research that you can pass a function into the sort() method that will define how sorting works. Basically, that function should take two parameters, return -1 if the first parameter is smaller, 1 if the first parameter is larger, and 0 if the two parameters are equal.</p>
+    <p>After some experimentation, I decided on a brute-force method. I used several nested if-then statements to compare each successive component of two IP addresses. It did work, but I'm sure than someone more skilled than I could write more efficient code. I'm thinking this was a good case to use some form of recursion, but once I got this way to work, I didn't want to mess with success.</p>
+    <p>The final part was printing the results to a web page. Again, we're back to the relatively trivial. I know how large the array is, and traversing the first and last 20 elements, extracting the elements of each sub-array, and putting periods in-between the elements. Again, loops with lots of document.write() functions are doing the trick here. </p></td>
+  </tr>
+  <tr>
+    <td><a href="hw2_unique_ipaddresses.php">Homework 2</a>: Generate 20,000 unique IP addresses, print first and last 20</td>
+    <td><p>This assignment dovetails from the first by virtue of one word: &quot;unique.&quot; Yes, there is a brute-force way to do this, but we learned a more elegant way, suing hash, or associative arrays. The main JavaScript book I've been using has virtually nothing about hash or associative arrays, so it's off to Google to see if it's possible. I understand the concept, so the question is if the language has the capability.</p>
+    <p>After some fruitless searching, I decided to give this a try in PHP. PHO, at least, has associative arrays. Whether or not the default array sort function can handle sorting when an array is the value isn't something I've been able to discover yet, but at least I can get farther in PHP than I have been able to in JavaScript.</p>
+    <p>I reused a little bit of my JavaScript logic, but discarded some other stuff. I replaced a function with a simple while loop that kept going until the array of addresses hit 20,000. (In associative arrays, if a key is the same as the previous key, it simply replaces the existing element and doesn't increase the size of the array.)</p>
+    <p>They, I stumbled across a page that documented the various array sort functions. And as it turns out, when the values are array of numbers, the asoft function still sorts them numerically, starting with the first element in each array.</p>
+    <p>Once that discovery was made, slicing off the first and last 20 and printing them to the page was trivial.</p></td>
+  </tr>
+  <tr>
+    <td><p><a href="hw3_source_file_information.php">Homework 3</a>: Write a program that will</p>
+      <ul>
+        <li>Display its own size (the total # of characters in the source file)</li>
+        <li>Display how many lines are in the source file</li>
+        <li>Display the # of words (any # of characters separated by whitespace) in the source file</li>
+        <li>Count and display the number of unique characters used in the source file</li>
+        <li>List the number of characters used for all characters &gt; 0 from least to most</li>
+    </ul>    </td>
+    <td><p>My first inclination is to see if I can do this in PHP. IN researching my PHP books, the language does have file operations I should be able to use, can extract the lines in a file into elements of an array, and has a function that returns the size of a file.</p>
+    <p>My first step is to simply create a new file and see if I can open it and determine its size. I can use the filesize function for this.</p>
+    <p>PHP makes the next step easy, and should make the rest of the steps easy as well. the file() function reads the contents of a file line-by-line and stores each line into an element of an array. So to do the next step, I simply have to use the count() function to find the size of that array.</p>
+    <p>PHP has a str_word_count() function that &quot;returns the number of words in a given string(using spaces as a delimiter),&quot; according to the book &quot;PHP for the World Wide Web.&quot; If this works correctly, if it treats any amount of whitespace in a string as a word delimiter, I should be able to iterate through the array of strings, for each string find the number of words, and add that number to a running total.</p>
+    <p>The final two tasks should be best done with an associative array, as used in the last assignment. The idea should be to iterate through each character in each line. The associative array would have the character as its key, and as each additional similar character is found, increment the value by one. Finally, sort the resulting associative array by the values in its elements, then loop through the array printing both the key and value in a table. A challenging trick for this will be to replace the non-printing characters with a printed representation.</p>
+    <p>I have accomplished all 5 items, but with a couple of issues. First, I have to figure out how to indicate the non-printing characters. I found 3. 2 are obvious: the largest is spaces, the second largest, one less than the number of lines in the file, is linefeeds. But there's a third, and it puzzles me. Then, the file loops twice through the array of lines. I can see no reason to not combine everything I do with each line and run the loop only once. I hope this doesn't break anything.</p>
+    <p>I'm going to have to dig in to some PHP documentation to figure out how to know what the non-printing characters are. I found a page in the online PHP documentation that defined character entities, and once I looked up the &quot;switch&quot; syntax, I was able to identify the non-printing characters in this particular source file (and this file only; this solution isn't universal) and substitute an appropriate string in the array keys. Finally, I successfully did everything in the last few items in one loop.</p></td>
+  </tr>
+  <tr>
+    <td><p>Homework 4: Write a program that will monitor the hills system at CCSF and list the username and IP address of every log on and log off.</p>
+    <p><a href="hw4_monitor.php">Local version</a></p>
+    <p><a href="http://hills.ccsf.edu/~cmarti64/hw4_monitor.php">Hills version</a></p></td>
+    <td><p>This program contains several challenges. First, the homework definition says that it has to be done on the hills server. We were given a couple of cues about how to get the information. For example, the UNIX last command lists information about the last users to log in. It was also suggested that one way to approach the problem was to run the command every second or two, put the last x logins into an array, then compare the most recent with the previous.</p>
+    <p>From a &quot;software engineering&quot; standpoint, one thing I have to figure out is what language to use. I'm leaning toward trying PHP. It has array compare functions. What I don't know (yet) is if it can run commands on a server. If PHP can run shell commands, I should be able to direct the output of the command into a file, then have PHO read the file, parse it, and put the content I need into an array. </p>
+    <p>Then the question is if I can simply keep prining an ever-increasing list to a web page. </p>
+    <p>PHP does have the exec() function, which apparently not only will execute a command on the server, but also can put the output of the cammand into an array.</p>
+    <p>My initial approach will be to test doing these two things.</p>
+    <p>But I ran into a bit of an issue. The CCSF hills server has an additional program (called CGIwrap) that prevents rogue programs and scripts from running wild or doing damage. Unfortunately, (a) it's been a few years since I had the class that explained how to set this up and use it, and (b) no documentation exists in the computer lab.</p>
+    <p>However I found that the last command works on my own ISP, so I'm able to do some testing. The first thing was to find out exactly what I get back using the last command. Turns out its a string. The first token in the string is the username. The third token is the IP address. But I needed to add the -i switch to get the results looking like a typical IP address.</p>
+    <p>Then I broke up each string into an array separated by spaces. It turns out that there are a bunch of extra spaces in the returned string, in part because it looks like 8 spaces are allocated for the username. I am able to break up the string into an array by slicing it at a space. I then found a regex that matches the pattern of an IP address. I took the first member of the array (the username), then looked for the member that matched the IP address regex. Bingo! I have the two things I need. (I probably could have sliced the array by whitespace, but it's probably a bit mroe complex.)</p>
+    <p>The next step is to put the usernames and the IP addresses in an associative array. Then I'm looking at two things. First is to use the sleep funciton to wait. Then do it all over again, get the array of users, and use the array_diff funciton to compare the two arrays. The theory goes that any new items in the newer array are logins, and any missing from the new array are logouts. I should be able to use the array_diff funciton twice, passing the arrays in in opposite order, to get these two bits af data.</p>
+    <p>Then, I htink I can just keep using print statements to add lines to the webpage.</p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
