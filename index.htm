@@ -1,11 +1,29 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title></title>
-<meta http-equiv="Refresh" content="0;URL=index.php" />
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Home of Chuck Martin's personal site: chuck.martin.name</title>
+    <script src="quotes.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function obfuscate(usr, addr){
+            if(!addr)addr='martin.name'
+            addr=(usr + '@' + addr)
+            document.write('<A href="mailto:' + addr + '">' + addr + '</a>')
+        }
+
+    </script>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!-- <meta http-equiv="Refresh" content="0;URL=index.php" /> -->
 </head>
 
 <body>
+        <p>From here, you can view my <a href="portfolio/index.htm">professional portfolio page</a> and go directly to my <a href="https://www.linkedin.com/in/twriter/">LinkedIn page</a>.</p>
+        <p>Here's a <a href="my_new_place.htm">page that contains photos of where I used to live</a>, in the last place I lived in SF, before I moved to the peninsula. </p>
+        <p>Send email to  
+          <script type="text/javascript"> obfuscate('chuck','')</script>
+        </p>
 </body>
 </html>
